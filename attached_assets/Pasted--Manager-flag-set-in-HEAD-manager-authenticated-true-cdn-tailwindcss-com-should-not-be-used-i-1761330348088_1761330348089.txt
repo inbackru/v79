@@ -1,0 +1,157 @@
+ ✅ Manager flag set in HEAD - manager_authenticated: true
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+ Header: openApplicationModal function defined
+ 🚀 Defining critical functions FIRST...
+ ✅ loadDashboardData function defined
+ ✅ loadClients function defined at top: function
+ ✅ loadRecommendations function defined at top: function
+ ✅ loadManagerSavedSearches function defined at top: function
+ ✅ Saved searches functions defined
+ 🔑 Manager session flag set: true
+ ✅ Manager Favorites functionality initialized
+ ✅ Deals modal functions defined
+ DOM Helper initialized - safe DOM operations available
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔄 Loading clients...
+ Manager dashboard DOMContentLoaded - initializing...
+ 🎯 showSection called with: dashboard
+ 🔍 Available sections: Array(12)
+ 🔍 Target section found:  for ID: dashboard
+ ✅ Section activated: dashboard
+ 🎯 Dashboard overview selected - data already loaded by loadDashboardData
+ 🔢 updateFavoritesCounts called
+ 🔍 Count elements check: Object
+ 📊 Local counts - properties: 0 complexes: 0
+ ✅ Updated properties nav count to: 0
+ ✅ Updated complexes nav count to: 0
+ 🌐 Making API call to /api/manager/favorites/count for sync
+ 🌐 Making API call to /api/manager/comparison/count for comparison sync
+ 🌐 Making API call to /api/manager/deals for deals count sync
+ 🌐 Making API call to /api/manager/saved-searches for saved searches count sync
+ ✅ Dashboard initialization started
+ 🔢 Loading dashboard card counts...
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 0 search inputs
+ Initializing smart search...
+ 🔧 Skipping FavoritesManager initialization on manager page
+ Form validation initialized
+ 📊 Page Load Time: 2165ms
+ 📊 Performance metrics: Object
+ Scroll force restored
+ Manager detected: Skipping localStorage, will load from API
+ 🔥 loadFavoritesFromAPI called for manager
+ 🔍 DEBUG: window.manager_authenticated = true
+ 🔍 DEBUG: window.isManager = true
+ 🔍 DEBUG: this.isManager() = true
+ 🔍 DEBUG: Using endpoint: /api/manager/favorites/list
+ Global favorites system initialized
+ Cache SW failed: 
+ 📡 Response status: 200
+ 📊 Clients data received: Object
+ ✅ Success! Displaying 3 clients
+ 📝 Displaying clients: Array(3)
+ 🚀 Starting OPTIMIZED dashboard load...
+ 🚀 Loading ALL dashboard data from single API call...
+ 📊 Comparison API response: Object
+ 🔄 Synced comparison count to: 7
+ 🎯 showSection called with: presentations
+ 🔍 Available sections: Array(12)
+ 🔍 Target section found:  for ID: presentations
+ ✅ Section activated: presentations
+ 🎯 Presentations section selected - calling loadPresentations
+ 📊 Deals API response: Object
+ 🔄 Synced deals count to: 0
+ 📦 Count API response: Object
+dashboard:8099 🔄 Synced properties count to: 5
+dashboard:8103 🔄 Synced complexes count to: 3
+dashboard:8110 🔄 Synced total favorites count to: 8
+dashboard:8168 📊 Saved searches API response: Object
+dashboard:8181 🔄 Synced saved searches count to: 0
+dashboard:8717 📋 Updated properties card: 5
+dashboard:8721 📋 Updated complexes card: 3
+dashboard:8730 🔗 Updated horizontal properties tab: 5
+dashboard:8734 🔗 Updated horizontal complexes tab: 3
+dashboard:8737 ✅ Dashboard cards updated successfully!
+favorites.js:439 🔥 Favorites API response: Object
+favorites.js:444 🔥 Loaded favorites from API: Array(5)
+/api/manager/dashboard/all:1  Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+dashboard:3272 ❌ Error loading dashboard data: Error: HTTP 500: Internal Server Error
+    at dashboard:3104:23
+(анонимная) @ dashboard:3272
+dashboard:3273 ❌ Error message: HTTP 500: Internal Server Error
+(анонимная) @ dashboard:3273
+dashboard:3274 ❌ Error stack: Error: HTTP 500: Internal Server Error
+    at https://83385323-81fc-463b-94c9-9a0bbb11141c-00-1ie3yi6z0t99z.riker.replit.dev/manager/dashboard:3104:23
+(анонимная) @ dashboard:3274
+dashboard:3275 Failed after 947ms
+(анонимная) @ dashboard:3275
+dashboard:3278 ⚠️ Falling back to individual API calls due to error
+(анонимная) @ dashboard:3278
+dashboard:4678 🔄 Loading clients...
+dashboard:5750 🌟 Loading adaptive welcome message...
+dashboard:5811 🔄 Loading manager activity feed...
+dashboard:6582 Response status: 200
+dashboard:6586 Raw response: {"presentations":[{"client_name":"\u0414\u043c\u0438\u0442\u0440\u0438\u0439","client_phone":null,"collection_type":"presentation","created_at":"2025-10-24T07:50:20.798141","description":null,"id":12,"is_public":false,"last_viewed_at":"2025-10-24T10:01:24.783708","property_count":4,"status":"\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430","title":"Flex","unique_url":"flex-002-kq28j1","view_count":26}],"success":true}
+
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+favorites.js:453 🔥 Complex favorites API response: Object
+favorites.js:458 🔥 Loaded complex favorites from API: Array(3)
+favorites.js:659 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(3)
+favorites.js:464 🔥 UI update called after API load
+favorites.js:659 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(3)
+dashboard:7043 🎯 NEW DEBUG v2.0 - Showing presentation in dashboard: 12
+dashboard:7049 🔍 DOM elements check: Object
+dashboard:7055 ✅ Both elements found, hiding list and showing viewer
+dashboard:7059 📞 About to call loadPresentationContent with ID: 12
+dashboard:7067 ✅ loadPresentationContent function exists, calling it...
+dashboard:7101 📥 Loading presentation content: 12
+dashboard:7072 📞 loadPresentationContent call completed successfully
+dashboard:4690 📡 Response status: 200
+dashboard:4694 📊 Clients data received: Object
+dashboard:4696 ✅ Success! Displaying 3 clients
+dashboard:4719 📝 Displaying clients: Array(3)
+dashboard:5753 📡 Welcome message response status: 200
+dashboard:5757 📊 Welcome message data received: Object
+dashboard:5800 ✅ Welcome message loaded successfully
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+dashboard:5814 📡 Activity feed response status: 200
+dashboard:5818 📊 Activity feed data received: Object
+dashboard:5860 ✅ Manager activity feed loaded successfully
+favorites.js:334 Real favorites count from API - Total: 8 (Properties: 5, Complexes: 3)
+dashboard:7118 🎯 API response data: Object
+dashboard:7121 ✅ Presentation data: Object
+dashboard:7122 🏠 Properties count: 4
+dashboard:7126 🏗️ Generated HTML length: 26611
+dashboard:7127 📝 Generated HTML preview: 
+        <div class="mb-8">
+            <div class="bg-gray-50 rounded-xl p-6">
+                <h1 class="text-3xl font-bold text-gray-900 mb-2">Flex</h1>
+                
+                
+          
+dashboard:7130 📋 Content container after update: <div id=​"presentation-content" style=​"display:​ block;​ visibility:​ visible;​ opacity:​ 1;​">​…​</div>​
+dashboard:7131 📋 Container visible: 
+dashboard:7132 📋 Container HTML length: 25067
+dashboard:7163 ✅ Presentation loaded successfully in dashboard style
+super_search.js:410 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+dashboard:7421 🗑️ removePropertyFromPresentation called: Object
+dashboard:7423 ✅ User confirmed deletion
+delete:1  Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+dashboard:1100 Scroll force restored
+dashboard:7421 🗑️ removePropertyFromPresentation called: {presentationId: '12', propertyId: '2055669344'}
+dashboard:7423 ✅ User confirmed deletion
+dashboard:7424  DELETE https://83385323-81fc-463b-94c9-9a0bbb11141c-00-1ie3yi6z0t99z.riker.replit.dev/api/manager/presentation/12/property/2055669344/delete 500 (Internal Server Error)
+removePropertyFromPresentation @ dashboard:7424
+onclick @ dashboard:1

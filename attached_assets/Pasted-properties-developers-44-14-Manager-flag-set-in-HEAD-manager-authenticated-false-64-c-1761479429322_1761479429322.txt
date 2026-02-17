@@ -1,0 +1,105 @@
+properties?developers=44:14 ✅ Manager flag set in HEAD - manager_authenticated: false
+(индекс):64 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+(анонимная) @ (индекс):64
+2.1/?apikey=&lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+(анонимная) @ 2.1/?apikey=&lang=ru_RU:1
+properties?developers=44:1530 Header: openApplicationModal function defined
+properties?developers=44:3248 Uncaught SyntaxError: Unexpected token ';' (at properties?developers=44:3248:19)
+presentation.js?v=1147:6 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+presentation.js?v=1147:362 ✅ Presentation functions loaded: {openPresentationModal: 'function', closePresentationModal: 'function', addPropertyToPresentation: 'function'}
+dom-helper.js:57 DOM Helper initialized - safe DOM operations available
+properties?developers=44:10071 ✅ Filter variables initialized (before property-filters.js): {serverSidePagination: true, totalProperties: 0, totalPages: 0, page: 1, developersCount: 8}
+property-filters.js?v=1521:2 🔥 property-filters.js загружается...
+property-filters.js?v=1521:6 ✅ Server-side pagination mode enabled in property-filters.js
+property-filters.js?v=1521:260 ✅ property-filters.js loaded successfully
+property-filters.js?v=1521:261 ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function'}
+property-filters.js?v=1521:544 ✅ Active filters display functions loaded
+properties-comparison-fix.js:2 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+properties-comparison-fix.js:752 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+properties-comparison-fix.js:985 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+properties_mini_map.js:2 🗺️ properties_mini_map.js загружен
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:25 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+performance-lite.js:54 Performance optimizations initialized
+turbo-loader.js:32 CSS optimization: Found 4 stylesheets
+turbo-loader.js:46 Turbo loader initialized
+cache-optimizer.js:42 Cache optimizer initialized
+image-compressor.js:65 Image compressor initialized - WebP support: true
+property-filters.js?v=1521:10 🔧 Initializing advanced filters button...
+property-filters.js?v=1521:40 ✅ "Еще" button handler registered successfully
+property-filters.js?v=1521:46 🏷️ Initializing active filters display...
+VM969 favorites.js:428 🔥 loadFavoritesFromAPI called for user
+VM969 favorites.js:429 🔍 DEBUG: window.manager_authenticated = false
+VM969 favorites.js:430 🔍 DEBUG: window.isManager = false
+VM969 favorites.js:431 🔍 DEBUG: this.isManager() = false
+VM969 favorites.js:438 🔍 DEBUG: Using endpoint: /api/favorites/list
+VM969 favorites.js:742 🔧 FavoritesManager initialized from favorites.js
+properties-comparison-fix.js:766 🔧 Инициализируем кнопки сравнения...
+properties-comparison-fix.js:26 🔍 Manager status check (FIXED): {manager_authenticated: false, result: false}
+properties-comparison-fix.js:151 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+properties-comparison-fix.js:18 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+properties-comparison-fix.js:772 ⏳ Ожидаем загрузку данных из базы данных...
+properties-comparison-fix.js:71 🔍 Загружаем сравнение из PostgreSQL...
+properties-comparison-fix.js:74 📡 Endpoint: /api/user/comparison/load isManager: false
+properties_mini_map.js:102 🗺️ Properties mini map - DOMContentLoaded
+saved_searches.js:715 ✅ SavedSearchesManager initialized
+properties?developers=44:10090 ✅ SavedSearchesManager initialized
+performance_optimizer.js:30 🚀 Performance Optimizer v2.0 - Starting...
+performance_optimizer.js:110 🖼️ Lazy loading initialized for 0 images
+performance_optimizer.js:54 ✅ Performance Optimizer initialized
+super_search.js:48 🚀 SuperSearch v2.0 - Initializing...
+super_search.js:86 Found 1 search inputs
+header_search.js:453 Initializing smart search...
+form-validation-lite.js:49 Form validation initialized
+performance_optimizer.js:64 📊 Page Load Time: 2243ms
+performance_optimizer.js:285 📊 Performance metrics: {type: 'page_load', duration: 2243, url: '/properties'}
+properties?developers=44:1768 Scroll force restored
+property-filters.js?v=1521:439 🏗️ Developer IDs from URL: 44
+property-filters.js?v=1521:440 🗺️ Available developersMap: {43: 'ООО СЗ &#34;СТРОЙИНЖИНИРИНГ&#34;', 44: 'ГК Неометрия', 45: 'ЦЕНТРАЛЬНАЯ ИНВЕСТИЦИОННАЯ КОМПАНИЯ', 46: 'СЗ КАСКАД', 47: 'ТОЧНО', 49: 'AVA', 51: 'ГрадРиэлт', 53: 'СПЕЦИАЛИЗИРОВАННЫЙ ЗАСТРОЙЩИК КОРОНА'}
+property-filters.js?v=1521:446 🔍 Developer ID=44 → Name="ГК Неометрия"
+property-filters.js?v=1521:515 ✅ Displayed 1 active filters
+property-filters.js?v=1521:50 ✅ Active filters displayed on page load
+VM969 favorites.js:444 🔥 Favorites API response: {favorites: Array(0), success: true}
+VM969 favorites.js:449 🔥 Loaded favorites from API: []
+The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+properties_mini_map.js:92 ✅ Yandex mini map initialized for properties
+cache-optimizer.js:14 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://e37c0614-83e1-461d-b776-9f119f31cef5-00-zq489yq8b4qs.worf.replit.dev/') with script ('https://e37c0614-83e1-461d-b776-9f119f31cef5-00-zq489yq8b4qs.worf.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+properties-comparison-fix.js:78 📦 API Response: {complexes: Array(0), complexes_count: 0, properties: Array(0), properties_count: 0, success: true}
+properties-comparison-fix.js:85 ✅ Загружено из API - квартиры: 0 ЖК: 0
+properties-comparison-fix.js:86 📋 Property IDs: []
+properties-comparison-fix.js:87 📋 Complex IDs: []
+properties-comparison-fix.js:136 ✅ localStorage и API данные синхронизированы
+properties-comparison-fix.js:730 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+properties-comparison-fix.js:952 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:953 📋 Comparison IDs: []
+properties-comparison-fix.js:954 📋 Complex IDs: []
+properties-comparison-fix.js:958 🔍 Found 0 property comparison buttons on page
+properties-comparison-fix.js:971 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:982 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+properties-comparison-fix.js:774 ✅ Данные из БД загружены, инициализируем кнопки...
+properties-comparison-fix.js:805 🏠 Инициализируем 0 кнопок сравнения квартир
+properties-comparison-fix.js:835 🏢 Инициализируем 0 кнопок сравнения ЖК
+properties-comparison-fix.js:952 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:953 📋 Comparison IDs: []
+properties-comparison-fix.js:954 📋 Complex IDs: []
+properties-comparison-fix.js:958 🔍 Found 0 property comparison buttons on page
+properties-comparison-fix.js:971 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:982 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+properties-comparison-fix.js:784 ✅ Система сравнения полностью готова к работе
+VM969 favorites.js:458 🔥 Complex favorites API response: {complexes: Array(0), success: true}
+VM969 favorites.js:463 🔥 Loaded complex favorites from API: []
+VM969 favorites.js:307 🔄 updateFavoritesUI: Found 0 property hearts, favorites: []
+VM969 favorites.js:664 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: []
+VM969 favorites.js:469 🔥 UI update called after API load
+VM969 favorites.js:307 🔄 updateFavoritesUI: Found 0 property hearts, favorites: []
+VM969 favorites.js:664 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: []
+properties_mini_map.js:66 ✅ Loaded 354 property coordinates
+properties_mini_map.js:85 ✅ Created 10 clusters on Yandex mini map
+VM969 favorites.js:339 Real favorites count from API - Total: 0 (Properties: 0, Complexes: 0)
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js

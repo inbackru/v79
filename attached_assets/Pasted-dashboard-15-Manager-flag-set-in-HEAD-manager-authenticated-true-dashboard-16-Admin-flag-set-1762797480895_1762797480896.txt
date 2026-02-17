@@ -1,0 +1,59 @@
+dashboard:15 ✅ Manager flag set in HEAD - manager_authenticated: true
+dashboard:16 ✅ Admin flag set in HEAD - admin_authenticated: false
+(индекс):64 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+dashboard:1013 Header: openApplicationModal function defined
+dom-helper.js:57 DOM Helper initialized - safe DOM operations available
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:25 InBack form validation initialized
+performance-lite.js:54 Performance optimizations initialized
+turbo-loader.js:32 CSS optimization: Found 4 stylesheets
+turbo-loader.js:46 Turbo loader initialized
+cache-optimizer.js:42 Cache optimizer initialized
+image-compressor.js:65 Image compressor initialized - WebP support: true
+dashboard:939 Loading cities dropdown...
+performance_optimizer.js:30 🚀 Performance Optimizer v2.0 - Starting...
+performance_optimizer.js:110 🖼️ Lazy loading initialized for 0 images
+performance_optimizer.js:54 ✅ Performance Optimizer initialized
+super_search.js:48 🚀 SuperSearch v2.0 - Initializing...
+super_search.js:69 🔍 findSearchElements: Searching for inputs...
+super_search.js:75 🔍 Elements found: Object
+super_search.js:91 Found 0 search inputs
+header_search.js:453 Initializing smart search...
+favorites.js:761 🔧 Skipping FavoritesManager initialization on manager page
+form-validation-lite.js:49 Form validation initialized
+performance_optimizer.js:64 📊 Page Load Time: 27971ms
+performance_optimizer.js:285 📊 Performance metrics: Object
+dashboard:1261 Scroll force restored
+favorites.js:18 Manager detected: Skipping localStorage, will load from API
+favorites.js:428 🔥 loadFavoritesFromAPI called for manager
+favorites.js:429 🔍 DEBUG: window.manager_authenticated = true
+favorites.js:430 🔍 DEBUG: window.isManager = true
+favorites.js:431 🔍 DEBUG: this.isManager() = true
+favorites.js:438 🔍 DEBUG: Using endpoint: /api/manager/favorites/list
+dashboard:2513 Global favorites system initialized
+cache-optimizer.js:14 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://8ad56651-210e-4d7c-b66e-fcefcdcedfe0-00-20rk5po2766h9.worf.replit.dev/') with script ('https://8ad56651-210e-4d7c-b66e-fcefcdcedfe0-00-20rk5po2766h9.worf.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+dashboard:943 Cities API response status: 200
+dashboard:950 Cities data received: Object
+dashboard:958 Populating dropdowns with 8 cities
+dashboard:979 Desktop dropdown populated successfully
+dashboard:985 Mobile city list element not found!
+(анонимная) @ dashboard:985
+favorites.js:454 🔥 Favorites API response: {favorites: Array(5), success: true}
+favorites.js:459 🔥 Loaded favorites from API: (5) ['712', '437', '364', '363', '365']
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+performance-lite.js:35 Memory usage: {used: '11 MB', total: '17 MB', limit: '4096 MB'}
+favorites.js:476 🔥 Complex favorites API response: {complexes: Array(4), favorite_complexes: Array(4), favorites: Array(4), success: true}
+favorites.js:481 🔥 Loaded complex favorites from API: (4) ['32', '24', '23', '30']
+favorites.js:307 🔄 updateFavoritesUI: Found 0 property hearts, favorites: (5) ['712', '437', '364', '363', '365']
+favorites.js:690 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: (4) ['32', '24', '23', '30']
+favorites.js:487 🔥 UI update called after API load
+favorites.js:307 🔄 updateFavoritesUI: Found 0 property hearts, favorites: (5) ['712', '437', '364', '363', '365']
+favorites.js:690 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: (4) ['32', '24', '23', '30']
+favorites.js:339 Real favorites count from API - Total: 9 (Properties: 5, Complexes: 4)
+super_search.js:452 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+performance-lite.js:35 Memory usage: {used: '12 MB', total: '18 MB', limit: '4096 MB'}

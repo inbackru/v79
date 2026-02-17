@@ -1,0 +1,289 @@
+{% extends "base.html" %}
+
+{% block title %}Профиль менеджера - InBack.ru{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gray-50 py-8">
+    <div class="container mx-auto px-4 max-w-4xl">
+        <!-- Breadcrumbs -->
+        <nav class="mb-6 text-sm">
+            <ol class="flex items-center space-x-2 text-gray-500">
+                <li><a href="{{ url_for('index') }}" class="hover:text-[#0088CC]">Главная</a></li>
+                <li><span class="mx-2">/</span></li>
+                <li><a href="{{ url_for('manager_dashboard') }}" class="hover:text-[#0088CC]">Панель менеджера</a></li>
+                <li><span class="mx-2">/</span></li>
+                <li class="text-gray-900 font-medium">Профиль</li>
+            </ol>
+        </nav>
+
+        <!-- Profile Header -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-6">
+            <div class="bg-gradient-to-r from-[#0088CC] to-[#006699] px-6 py-8">
+                <div class="flex items-center">
+                    <div class="relative">
+                        <img id="profile-avatar" 
+                             src="{{ manager.profile_image }}" 
+                             alt="Аватар"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22%3E%3Crect fill=%22%230088CC%22 width=%22100%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2240%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.3em%22%3E{{ manager.full_name[0].upper() if manager.full_name else 'М' }}%3C/text%3E%3C/svg%3E';"
+                             class="w-24 h-24 rounded-full object-cover border-4 border-white/30">
+                        <label for="avatar-upload" class="absolute bottom-0 right-0 bg-white rounded-full p-2 cursor-pointer hover:bg-gray-100 transition-colors shadow-lg">
+                            <svg class="w-5 h-5 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </label>
+                        <input type="file" id="avatar-upload" accept="image/*" class="hidden" onchange="uploadAvatar(this)">
+                    </div>
+                    <div class="ml-6 text-white">
+                        <h1 class="text-2xl font-bold">{{ manager.full_name }}</h1>
+                        <p class="text-white/80 mt-1">ID: {{ manager.manager_id }}</p>
+                        <p class="text-white/80">{{ manager.position or 'Менеджер' }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Main Profile Form -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-xl shadow-sm p-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-6">Личные данные</h2>
+                    
+                    <form method="POST" action="{{ url_for('manager_profile') }}" class="space-y-6">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        <!-- Full Name -->
+                        <div>
+                            <label for="full_name" class="block text-sm font-medium text-gray-700 mb-2">
+                                ФИО
+                            </label>
+                            <input type="text" 
+                                   id="full_name" 
+                                   name="full_name" 
+                                   value="{{ manager.full_name }}"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent"
+                                   required>
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                                Email
+                            </label>
+                            <input type="email" 
+                                   id="email" 
+                                   name="email" 
+                                   value="{{ manager.email }}"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent"
+                                   required>
+                        </div>
+
+                        <!-- Phone -->
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">
+                                Номер телефона
+                            </label>
+                            <input type="tel" 
+                                   id="phone" 
+                                   name="phone" 
+                                   value="{{ manager.phone or '' }}"
+                                   placeholder="+7 (___) ___-__-__"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent">
+                        </div>
+
+                        <!-- Years of Experience -->
+                        <div>
+                            <label for="years_of_experience" class="block text-sm font-medium text-gray-700 mb-2">
+                                Опыт работы (лет)
+                            </label>
+                            <input type="number" 
+                                   id="years_of_experience" 
+                                   name="years_of_experience" 
+                                   value="{{ manager.years_of_experience or 1 }}"
+                                   min="0"
+                                   max="50"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent">
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="border-t border-gray-200 pt-6">
+                            <h3 class="text-lg font-semibold text-gray-900 mb-4">Смена пароля</h3>
+                            <p class="text-sm text-gray-600 mb-4">Оставьте поля пустыми, если не хотите менять пароль</p>
+                        </div>
+
+                        <!-- New Password -->
+                        <div>
+                            <label for="new_password" class="block text-sm font-medium text-gray-700 mb-2">
+                                Новый пароль
+                            </label>
+                            <input type="password" 
+                                   id="new_password" 
+                                   name="new_password" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent"
+                                   minlength="6">
+                        </div>
+
+                        <!-- Confirm Password -->
+                        <div>
+                            <label for="confirm_password" class="block text-sm font-medium text-gray-700 mb-2">
+                                Подтвердите новый пароль
+                            </label>
+                            <input type="password" 
+                                   id="confirm_password" 
+                                   name="confirm_password" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent"
+                                   minlength="6">
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="flex items-center justify-between pt-4">
+                            <a href="{{ url_for('manager_dashboard') }}" class="text-gray-600 hover:text-gray-900 font-medium">
+                                ← Назад к панели менеджера
+                            </a>
+                            <button type="submit" 
+                                    class="px-6 py-3 bg-[#0088CC] hover:bg-[#006699] text-white rounded-lg font-medium hover:shadow-lg transition-all duration-300">
+                                Сохранить изменения
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="space-y-6">
+                <!-- Stats -->
+                <div class="bg-white rounded-xl shadow-sm p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Статистика</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-600">Всего клиентов</span>
+                            <span class="text-2xl font-bold text-[#0088CC]">{{ manager.get_client_count() }}</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-600">Активных сделок</span>
+                            <span class="text-2xl font-bold text-green-600">{{ manager.get_active_deals_count() }}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Account Info -->
+                <div class="bg-white rounded-xl shadow-sm p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Информация об аккаунте</h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Дата создания:</span>
+                            <span class="font-medium text-gray-900">{{ manager.created_at.strftime('%d.%m.%Y') if manager.created_at else 'Не указано' }}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Статус:</span>
+                            <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                {% if manager.is_active %}Активен{% else %}Неактивен{% endif %}
+                            </span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Должность:</span>
+                            <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-[#0088CC]">
+                                {{ manager.position or 'Менеджер' }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="bg-white rounded-xl shadow-sm p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Быстрые действия</h3>
+                    <div class="space-y-2">
+                        <a href="{{ url_for('manager_dashboard') }}" class="block w-full px-4 py-2 text-center bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition-colors">
+                            Панель управления
+                        </a>
+                        <a href="{{ url_for('manager_clients') }}" class="block w-full px-4 py-2 text-center bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition-colors">
+                            Мои клиенты
+                        </a>
+                        <a href="{{ url_for('manager_logout') }}" class="block w-full px-4 py-2 text-center bg-red-100 hover:bg-red-200 text-red-700 rounded-lg transition-colors">
+                            Выйти из системы
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Phone formatting
+document.getElementById('phone').addEventListener('input', function (e) {
+    let x = e.target.value.replace(/\D/g, '').match(/(\d{0,1})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+    e.target.value = !x[2] ? x[1] : '+' + x[1] + ' (' + x[2] + ') ' + x[3] + (x[4] ? '-' + x[4] : '') + (x[5] ? '-' + x[5] : '');
+});
+
+// Password confirmation validation
+document.querySelector('form').addEventListener('submit', function(e) {
+    const newPassword = document.getElementById('new_password').value;
+    const confirmPassword = document.getElementById('confirm_password').value;
+    
+    if (newPassword && newPassword !== confirmPassword) {
+        e.preventDefault();
+        alert('Пароли не совпадают');
+        return false;
+    }
+});
+
+// Avatar upload function
+function uploadAvatar(input) {
+    if (!input.files || !input.files[0]) {
+        return;
+    }
+    
+    const file = input.files[0];
+    
+    // Validate file type
+    const allowedTypes = ['image/png', 'image/jpeg', 'image/jpg', 'image/gif', 'image/webp'];
+    if (!allowedTypes.includes(file.type)) {
+        alert('Недопустимый формат файла. Разрешены: PNG, JPG, JPEG, GIF, WEBP');
+        input.value = '';
+        return;
+    }
+    
+    // Validate file size (5MB)
+    if (file.size > 5 * 1024 * 1024) {
+        alert('Размер файла превышает 5MB');
+        input.value = '';
+        return;
+    }
+    
+    // Show loading state
+    const avatar = document.getElementById('profile-avatar');
+    const originalSrc = avatar.src;
+    
+    // Create FormData and upload
+    const formData = new FormData();
+    formData.append('avatar', file);
+    
+    fetch('{{ url_for("upload_manager_avatar") }}', {
+        method: 'POST',
+        headers: {
+            'X-CSRFToken': '{{ csrf_token() }}'
+        },
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Update avatar image
+            avatar.src = data.avatar_url + '?t=' + new Date().getTime();
+            alert('Аватар успешно обновлен!');
+        } else {
+            alert('Ошибка: ' + data.error);
+            avatar.src = originalSrc;
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Произошла ошибка при загрузке файла');
+        avatar.src = originalSrc;
+    })
+    .finally(() => {
+        input.value = '';
+    });
+}
+</script>
+{% endblock %}

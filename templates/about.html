@@ -1,0 +1,462 @@
+{% extends "base.html" %}
+
+{% block title %}О нас | InBack{% endblock %}
+{% block description %}О сервисе InBack - честный кешбек до 5% за покупку квартир в новостройках {{ current_city.name_genitive if current_city else 'Краснодара' }}. Узнайте, как мы помогаем сэкономить при покупке недвижимости{% endblock %}
+
+{% block head %}
+<!-- Robots meta -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ url_for('about', _external=True) }}">
+<meta property="og:title" content="О нас | InBack - кешбек за покупку новостроек в {{ current_city.name_prepositional if current_city else 'Краснодаре' }}">
+<meta property="og:description" content="О сервисе InBack - честный кешбек до 5% за покупку квартир в новостройках {{ current_city.name_genitive if current_city else 'Краснодара' }}. Узнайте, как мы помогаем сэкономить при покупке недвижимости">
+<meta property="og:image" content="{{ url_for('static', filename='images/about-og.jpg', _external=True) }}">
+<meta property="og:site_name" content="InBack">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ url_for('about', _external=True) }}">
+<meta name="twitter:title" content="О нас | InBack - кешбек за покупку новостроек">
+<meta name="twitter:description" content="О сервисе InBack - честный кешбек до 5% за покупку квартир в новостройках {{ current_city.name_genitive if current_city else 'Краснодара' }}">
+<meta name="twitter:image" content="{{ url_for('static', filename='images/about-og.jpg', _external=True) }}">
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ url_for('about', _external=True) }}" />
+
+<!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Inback",
+      "image": "https://inback.ru/logo.jpg",
+      "description": "Официальный сервис возврата кэшбека при покупке недвижимости в {{ current_city.name_prepositional if current_city else 'Краснодаре' }} и других городах России",
+      "priceRange": "$",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "{{ current_city.name if current_city else 'Краснодар' }} и {{ current_city.region if current_city else 'Краснодарский край' }}"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Красная, 176",
+        "addressLocality": "{{ current_city.name if current_city else 'Краснодар' }}",
+        "addressRegion": "{{ current_city.region if current_city else 'Краснодарский край' }}" 
+      },
+      "telephone": "+78001234567",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    }
+    </script>
+{% endblock %}
+
+{% block content %}
+<!-- Breadcrumbs -->
+<div class="container mx-auto px-4 py-3 text-sm">
+    <nav aria-label="Breadcrumb" class="flex">
+        <ol class="inline-flex items-center space-x-1 md:space-x-3">
+            <li class="inline-flex items-center">
+                <a class="text-[#0088CC] hover:underline inline-flex items-center" href="{{ url_for('index') }}">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                    Главная
+                </a>
+            </li>
+            <li aria-current="page">
+                <div class="flex items-center">
+                    <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" fill-rule="evenodd"></path></svg>
+                    <span class="text-gray-500 ml-1 md:ml-2">О сервисе Inback</span>
+                </div>
+            </li>
+        </ol>
+    </nav>
+</div>
+
+<!-- Hero Section with 3D Element -->
+<section class="py-20 md:py-32 bg-gradient-to-b from-white to-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Content -->
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Покупайте новостройки выгодно, вместе с InBack</h1>
+                <p class="text-xl mb-8 text-gray-600">Оформите сделку с новостройкой как обычно, а кешбек получите дополнительно — всё максимально прозрачно и удобно для вас.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button onclick="openApplicationModal()" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#0088CC] to-[#006699] text-white rounded-lg hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02] shadow-md font-medium text-center">
+                        Получить кешбек
+                    </button>
+                    <a class="inline-flex items-center px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-all duration-200 transform hover:scale-[1.02] font-medium text-center" href="#how-it-works">Узнать больше</a>
+                </div>
+            </div>
+            
+            <!-- Right 3D Element -->
+            <div class="flex justify-center lg:justify-end">
+                <div class="relative">
+                    <!-- Main 3D Coins -->
+                    <div class="relative w-64 h-64">
+                        <!-- Large Coin -->
+                        <div class="absolute top-8 right-8 w-32 h-32 bg-gradient-to-br from-[#E8F4FD] to-[#B8E0FF] rounded-full shadow-2xl transform rotate-12 hover:rotate-6 transition-transform duration-500">
+                            <div class="w-full h-full border-4 border-white rounded-full flex items-center justify-center">
+                                <div class="w-16 h-16 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                    ₽
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Medium Coin -->
+                        <div class="absolute top-4 left-4 w-20 h-20 bg-gradient-to-br from-[#F0F7FF] to-[#D0E8FF] rounded-full shadow-xl transform -rotate-12 hover:-rotate-6 transition-transform duration-500">
+                            <div class="w-full h-full border-3 border-white rounded-full flex items-center justify-center">
+                                <div class="w-10 h-10 bg-gradient-to-br from-[#4F8EF7] to-[#74A9F4] rounded-full flex items-center justify-center text-white font-bold text-sm">
+                                    %
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Small Coin -->
+                        <div class="absolute bottom-8 left-8 w-16 h-16 bg-gradient-to-br from-[#F8FBFF] to-[#E0F2FF] rounded-full shadow-lg transform rotate-45 hover:rotate-30 transition-transform duration-500">
+                            <div class="w-full h-full border-2 border-white rounded-full flex items-center justify-center">
+                                <div class="w-8 h-8 bg-gradient-to-br from-[#6C5CE7] to-[#A29BF0] rounded-full flex items-center justify-center text-white font-bold text-xs">
+                                    +
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Elements -->
+                        <div class="absolute top-0 right-0 w-6 h-6 bg-[#0088CC] rounded-full opacity-20 animate-pulse"></div>
+                        <div class="absolute bottom-0 right-12 w-4 h-4 bg-[#4F8EF7] rounded-full opacity-30 animate-pulse" style="animation-delay: 1s"></div>
+                        <div class="absolute top-16 left-0 w-3 h-3 bg-[#6C5CE7] rounded-full opacity-25 animate-pulse" style="animation-delay: 2s"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- How It Works Section -->
+<section class="py-20 bg-gradient-to-b from-white to-gray-50" id="how-it-works">
+    <div class="max-w-7xl mx-auto px-4">
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <div class="inline-flex px-5 py-2 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-full mb-6 border border-blue-100">
+                <span class="text-sm font-semibold uppercase text-[#0088CC] tracking-wider">Как мы работаем</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Простой путь к кешбеку</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">Четыре шага отделяют вас от возврата до 5% стоимости квартиры</p>
+        </div>
+
+        <!-- Modern Step Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+            <!-- Step 1 -->
+            <div class="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-blue-200 hover:-translate-y-2">
+                <div class="absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    1
+                </div>
+                <div class="mb-6 mt-4">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Поиск квартиры</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Найдите идеальный вариант в нашем каталоге. Более 5000 предложений от проверенных застройщиков
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-blue-200 hover:-translate-y-2">
+                <div class="absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    2
+                </div>
+                <div class="mb-6 mt-4">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Консультация эксперта</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Персональный менеджер проконсультирует, проверит документы и рассчитает ваш кешбек
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-blue-200 hover:-translate-y-2">
+                <div class="absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    3
+                </div>
+                <div class="mb-6 mt-4">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Оформление сделки</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Заключаете договор с застройщиком по специальной цене. Все документы готовим мы
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="group relative bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 border-2 border-blue-300 hover:-translate-y-2">
+                <div class="absolute -top-4 -left-4 w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-[#0088CC] font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    4
+                </div>
+                <div class="mb-6 mt-4">
+                    <div class="w-16 h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="18" font-weight="bold">₽</text>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Получение кешбека</h3>
+                    <p class="text-blue-50 leading-relaxed">
+                        Кешбек до 5% поступает на вашу карту в течение 30 дней. До 2 млн рублей возврата!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="text-center mt-16">
+            <div class="bg-gradient-to-r from-gray-50 to-blue-50 rounded-3xl shadow-xl p-10 max-w-3xl mx-auto border border-blue-100">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Готовы получить свой кешбек?</h3>
+                <p class="text-lg text-gray-600 mb-8">Оставьте заявку, и наш эксперт свяжется с вами в течение 15 минут</p>
+                <button onclick="openApplicationModal()" 
+                        class="inline-flex items-center gap-3 bg-gradient-to-r from-[#0088CC] to-[#006699] text-white py-4 px-10 rounded-xl font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                    <span>Получить консультацию</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Results Section with Photos -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <div class="inline-flex px-5 py-2 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-full mb-6 border border-blue-100">
+                <span class="text-sm font-semibold uppercase text-[#0088CC] tracking-wider">Результаты</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Наши достижения в цифрах</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">Реальные результаты работы с довольными клиентами и застройщиками</p>
+        </div>
+
+        <!-- Stats Grid with Images -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <!-- Stat 1 -->
+            <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 text-center border-2 border-blue-100 hover:border-blue-300 transition-all duration-300 hover:shadow-xl">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    </svg>
+                </div>
+                <div class="text-5xl font-bold text-[#0088CC] mb-2">500+</div>
+                <p class="text-gray-700 font-medium">Довольных семей</p>
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 text-center border-2 border-blue-100 hover:border-blue-300 transition-all duration-300 hover:shadow-xl">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <div class="text-5xl font-bold text-[#0088CC] mb-2">10+М₽</div>
+                <p class="text-gray-700 font-medium">Возвращено кешбека</p>
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 text-center border-2 border-blue-100 hover:border-blue-300 transition-all duration-300 hover:shadow-xl">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                    </svg>
+                </div>
+                <div class="text-5xl font-bold text-[#0088CC] mb-2">50+</div>
+                <p class="text-gray-700 font-medium">Застройщиков-партнёров</p>
+            </div>
+
+            <!-- Stat 4 -->
+            <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 text-center border-2 border-blue-100 hover:border-blue-300 transition-all duration-300 hover:shadow-xl">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                    </svg>
+                </div>
+                <div class="text-5xl font-bold text-[#0088CC] mb-2">2 года</div>
+                <p class="text-gray-700 font-medium">Успешной работы</p>
+            </div>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Happy Clients Photo Card -->
+            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                <div class="aspect-[4/3] relative overflow-hidden">
+                    <img src="{{ url_for('static', filename='images/result-clients-1.jpg') }}" 
+                         alt="Довольные клиенты получают ключи от новой квартиры" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                    <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-3">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <span class="text-sm font-semibold">Истории успеха</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Счастливые новоселы</h3>
+                    <p class="text-white/90">Наши клиенты получили ключи от новых квартир и кешбек на карту</p>
+                </div>
+            </div>
+
+            <!-- Buildings Photo Card -->
+            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                <div class="aspect-[4/3] relative overflow-hidden">
+                    <img src="{{ url_for('static', filename='images/result-building-1.jpg') }}" 
+                         alt="Современные новостройки от застройщиков-партнёров" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                    <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-3">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-sm font-semibold">Наши объекты</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Проверенные новостройки</h3>
+                    <p class="text-white/90">Работаем только с надёжными застройщиками премиум-класса</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section -->
+<section class="py-16 bg-white" id="about-section">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                <span class="text-sm font-medium uppercase">Миссия</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">Наша миссия</h2>
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="space-y-6">
+                    <p class="text-lg md:text-xl text-gray-600 leading-relaxed">Мы создали сервис, который возвращает часть средств покупателям квартир в новостройках. Наша цель - сделать рынок недвижимости более справедливым и прозрачным.</p>
+                    <div class="p-6 bg-gray-50 rounded-xl border border-gray-200">
+                        <p class="text-lg md:text-xl text-gray-600 font-medium">Помогли <span class="text-[#0088CC] font-bold">более 500 семей</span> сэкономить на покупке жилья, вернув им в общей сложности <span class="text-[#0088CC] font-bold">свыше 70 миллионов рублей</span>.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-8 flex items-center justify-center shadow-inner border border-gray-200">
+                    <div class="text-center">
+                        <div class="text-5xl md:text-6xl font-bold text-[#0088CC] mb-2 leading-none">2.5%+</div>
+                        <div class="text-lg text-[#0088CC] font-medium">Средний кешбек</div>
+                        <div class="mt-4 text-sm text-gray-500">От стоимости квартиры</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Честность -->
+                <div class="group relative bg-gradient-to-br from-white to-blue-50 rounded-3xl p-8 border-2 border-blue-100 hover:border-blue-300 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
+                    <div class="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-md">
+                            <svg class="w-10 h-10 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">Полная прозрачность</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">Все условия кешбека понятны и зафиксированы. Без скрытых комиссий и неожиданных платежей</p>
+                        <div class="inline-flex items-center gap-2 text-[#0088CC] font-semibold text-sm group-hover:gap-3 transition-all">
+                            <span>Узнать условия</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Надежность -->
+                <div class="group relative bg-gradient-to-br from-white to-blue-50 rounded-3xl p-8 border-2 border-blue-100 hover:border-blue-300 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
+                    <div class="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-md">
+                            <svg class="w-10 h-10 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">Проверенные партнёры</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">Сотрудничаем только с застройщиками с безупречной репутацией. Каждый объект проходит тщательную проверку</p>
+                        <div class="inline-flex items-center gap-2 text-[#0088CC] font-semibold text-sm group-hover:gap-3 transition-all">
+                            <span>Наши партнёры</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Поддержка -->
+                <div class="group relative bg-gradient-to-br from-white to-blue-50 rounded-3xl p-8 border-2 border-blue-100 hover:border-blue-300 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
+                    <div class="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-2xl flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-md">
+                            <svg class="w-10 h-10 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">24/7 сопровождение</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">Персональный менеджер на каждом этапе. От выбора квартиры до получения кешбека и даже после</p>
+                        <div class="inline-flex items-center gap-2 text-[#0088CC] font-semibold text-sm group-hover:gap-3 transition-all">
+                            <span>Связаться с нами</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

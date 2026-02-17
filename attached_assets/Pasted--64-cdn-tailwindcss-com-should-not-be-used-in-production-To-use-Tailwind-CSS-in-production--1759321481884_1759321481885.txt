@@ -1,0 +1,54 @@
+(индекс):64 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+(анонимная) @ (индекс):64
+favorites:793 Header: openApplicationModal function defined
+dom-helper.js:57 DOM Helper initialized - safe DOM operations available
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:25 InBack form validation initialized
+performance-lite.js:54 Performance optimizations initialized
+turbo-loader.js:46 Turbo loader initialized
+cache-optimizer.js:42 Cache optimizer initialized
+image-compressor.js:65 Image compressor initialized - WebP support: true
+cashback-popup.js:53 🎮 Cashback Popup System инициализирован
+performance_optimizer.js:30 🚀 Performance Optimizer v2.0 - Starting...
+performance_optimizer.js:110 🖼️ Lazy loading initialized for 0 images
+performance_optimizer.js:54 ✅ Performance Optimizer initialized
+super_search.js:48 🚀 SuperSearch v2.0 - Initializing...
+super_search.js:84 Found 0 search inputs
+header_search.js:453 Initializing smart search...
+favorites.js:403 🔥 loadFavoritesFromAPI called for user
+favorites.js:665 🔧 FavoritesManager initialized from favorites.js
+form-validation-lite.js:49 Form validation initialized
+The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+cache-optimizer.js:14 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://a05cdaa0-e06b-4f4e-a252-bdea230e8a8f-00-6fd0n23awzl9.picard.replit.dev/') with script ('https://a05cdaa0-e06b-4f4e-a252-bdea230e8a8f-00-6fd0n23awzl9.picard.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+favorites.js:411  GET https://a05cdaa0-e06b-4f4e-a252-bdea230e8a8f-00-6fd0n23awzl9.picard.replit.dev/api/favorites/list 401 (Unauthorized)
+loadFavoritesFromAPI @ favorites.js:411
+init @ favorites.js:46
+FavoritesManager @ favorites.js:15
+(анонимная) @ favorites.js:664
+favorites.js:414 🔥 Favorites API response: {error: 'Не авторизован', success: false}
+favorites.js:423  GET https://a05cdaa0-e06b-4f4e-a252-bdea230e8a8f-00-6fd0n23awzl9.picard.replit.dev/api/complexes/favorites/list 401 (Unauthorized)
+loadFavoritesFromAPI @ favorites.js:423
+await in loadFavoritesFromAPI
+init @ favorites.js:46
+FavoritesManager @ favorites.js:15
+(анонимная) @ favorites.js:664
+favorites.js:428 🔥 Complex favorites API response: {error: 'Не авторизован', success: false}
+favorites.js:439 🔥 UI update called after API load
+favorites:3015  GET https://a05cdaa0-e06b-4f4e-a252-bdea230e8a8f-00-6fd0n23awzl9.picard.replit.dev/static/images/no-photo.jpg 404 (Not Found)
+favorites.js:309  GET https://a05cdaa0-e06b-4f4e-a252-bdea230e8a8f-00-6fd0n23awzl9.picard.replit.dev/api/favorites/count 401 (Unauthorized)
+updateFavoritesCounter @ favorites.js:309
+init @ favorites.js:50
+await in init
+FavoritesManager @ favorites.js:15
+(анонимная) @ favorites.js:664
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+super_search.js:410 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+performance-lite.js:35 Memory usage: {used: '45 MB', total: '101 MB', limit: '4096 MB'}
+performance_optimizer.js:64 📊 Page Load Time: 16538ms
+performance_optimizer.js:285 📊 Performance metrics: {type: 'page_load', duration: 16537.600000023842, url: '/manager/favorites'}
+performance-lite.js:35 Memory usage: {used: '44 MB', total: '100 MB', limit: '4096 MB'}

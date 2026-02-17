@@ -1,0 +1,907 @@
+ [Coframe] Replit Enterprise watcher loaded
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_monitoring/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/session_result/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+/~:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+/~:1 The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+/~:1 The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+ 
+      /////////////////////
+   ///////////////////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////        Curious and driven?
+  ///////////////@@@@@@@///////        Work with us!
+  ///////////////@@@@@@@///////
+  ///////////////@@@@@@@///////        https://join.replit.com/hack.with.us
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@#//////////////
+   ///////////////////////////
+      /////////////////////
+      
+ Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821819121&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821819121&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821819271&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=4&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ [LaunchDarkly] LaunchDarkly client initialized
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821819656&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821819800&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=4&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821819812&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/diagnostic/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/diagnostic/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821821682&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821821803&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=4&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821821814&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821826221&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821826221&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821826315&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=4&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://prodregistryv2.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821826315&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=4&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821826326&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821826326&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821832943&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=6&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821833453&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=6&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821834947&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=92cd69bd-9910-4f0c-b6a5-a2b4ba462414:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=7d213c5b-4672-497a-aa53-2c1ba0223bef:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=802afa7d-325e-42f7-b7ea-a3fc9f808406:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=f1911571-c82f-4a89-b688-c5827a4e570e:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821835455&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=6&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/session_result/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821835491&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=4c599998-f5ca-4e8b-b90c-b1aa7eb02397:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=c7015e60-8b5d-4276-b55e-2b742ee4f278:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=9f76061f-dc27-485a-9018-93d34c4af6c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=028bfab4-7400-4476-8c18-56dd057bd640:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821837493&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+attached_assets/image_1765655450328.png:1  Failed to load resource: the server responded with a status of 404 ()
+attached_assets/image_1765654690337.png:1  Failed to load resource: the server responded with a status of 404 ()
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821838972&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821839476&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821839960&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=6&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821839960&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=6&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821841484&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=4d28c670-1b77-4891-8625-289a08aef1cc:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821842059&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821842059&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=c4b9c69a-57f8-4219-b9a2-151d3230452d:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'ambient-light-sensor'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'battery'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'execution-while-not-rendered'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'execution-while-out-of-viewport'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'layout-animations'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'legacy-image-formats'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'navigation-override'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'oversized-images'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'publickey-credentials'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'speaker-selection'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'unoptimized-images'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'unsized-media'.
+z @ ed1e693c96a75807.js:2
+ Unrecognized feature: 'pointer-lock'.
+z @ ed1e693c96a75807.js:2
+ Allow attribute will take precedence over 'allowfullscreen'.
+z @ ed1e693c96a75807.js:2
+ Allow attribute will take precedence over 'allowpaymentrequest'.
+z @ ed1e693c96a75807.js:2
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821845988&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821845988&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=2&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+dotdevproxy.riker.replit.dev/__reachability:1  Failed to load resource: net::ERR_NETWORK_CHANGED
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=0aa5b632-dc84-4731-9e3a-94de3004d00c:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=9877e056-af0f-4fbf-9894-deff013a1c9a:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821864065&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=16&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821864571&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=16&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821866583&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=16&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821871089&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=16&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821871089&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=16&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=2c2ab912-f9f2-4a6e-bde0-170ed5382393:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=d393ced4-9448-4790-ae9b-49dd02f64229:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=9549a328-8978-484d-8385-ddf2482b4052:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=ac351e93-e8ee-48d3-bc88-49f34aafa622:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821883030&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=32&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821883684&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=32&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821885691&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=32&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+dotdevproxy.archer.replit.dev/__reachability:1  Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821890197&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=32&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821890197&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=32&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821907278&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=64&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=74446035-93de-4d54-9d29-7cd9a0e6aa86:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=d5bbd312-901e-49ca-98d6-6c77e3043b40:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821907799&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=64&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821909804&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=64&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821914308&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=64&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821914308&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=64&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821918974&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821919483&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821921486&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821925992&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+  ERROR  [Statsig] A networking error occurred during POST request to https://beyondwickedmapping.org/v1/rgstr?k=client-Bp7m7pNB6H0fnSGjVtxN5BeWQw4BSAat4OFsXa3VcTF&st=javascript-client&sv=3.26.0&t=1765821925992&sid=7c75fb24-293c-44da-b4e3-cee9459aa372&ec=1&gz=1. TypeError: Failed to fetch 
+(anonymous) @ 611663b4f8c1c198.js:2
+   WARN  [Statsig] Failed to flush events.
+(anonymous) @ 611663b4f8c1c198.js:2
+dotdevproxy.archer.replit.dev/__reachability:1  Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=d7118b95-cdbd-4032-af2c-81501495c185:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=d8c81db7-100b-4739-9b54-8dbef5e829fb:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+dotdevproxy.archer.replit.dev/__reachability:1  Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=04860939-6412-4ecc-b11e-987d15e848b8:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=40245fd8-4c10-4b45-83d3-fae5b35a4f41:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+dotdevproxy.archer.repl.co/__reachability:1  Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=c1d6a81b-53cf-4528-ab5a-0ef435070674:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=a64aa0b4-c8f2-4e27-b6dc-015feba96a6e:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+z @ ed1e693c96a75807.js:2
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'ambient-light-sensor'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'battery'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'execution-while-not-rendered'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'execution-while-out-of-viewport'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'layout-animations'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'legacy-image-formats'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'navigation-override'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'oversized-images'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'publickey-credentials'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'speaker-selection'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'unoptimized-images'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Unrecognized feature: 'unsized-media'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Allow attribute will take precedence over 'allowfullscreen'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:32 Allow attribute will take precedence over 'allowpaymentrequest'.
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ ✅ Admin flag set in HEAD - admin_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(anonymous) @ injected.js:37
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(anonymous) @ injected.js:37
+mc.yandex.ru/metrika/tag.js?id=104270300:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ Header: openApplicationModal function defined
+ Hero search fully disabled - SuperSearch handles everything
+ Hero search handlers removed - SuperSearch manages everything
+ DOM Helper initialized - safe DOM operations available
+ Fixing find button...
+ Found buttons: 0
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔍 hero-autocomplete.js загружается...
+ ✅ hero-search найден, инициализация автокомплита...
+ ✅ Hero autocomplete инициализирован
+ ✅ hero-autocomplete.js загружен
+ 🔍 index-search.js loading...
+ Loading cities dropdown...
+ 🎯 Header heart update (AUTH): properties = 0 , complexes = 0 , total = 0
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ 🔍 findSearchElements: Searching for inputs...
+ 🔍 Elements found: [object Object]
+ ✅ Initialized search input: hero-search
+ Found 1 search inputs
+ Initializing smart search...
+ Hero search initialized
+ 🔥 loadFavoritesFromAPI called for user
+ 🔍 DEBUG: window.manager_authenticated = false
+ 🔍 DEBUG: window.isManager = false
+ 🔍 DEBUG: this.isManager() = false
+ 🔍 DEBUG: Using endpoint: /api/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ Form validation initialized
+ ✅ Hero search handlers initialized
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/managers/f40bc65392884d3bbd292986acd0677c.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/managers/fca24b8b037445bf8fa11e32a0628ce6.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-1.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Cache SW failed: [object DOMException]
+ 💰 UPDATING BALANCE TO: 10 000 ₽
+ ✅ Updated span with 0 ₽: 10 000 ₽
+ Cities API response status: 200
+ Cities data received: [object Object]
+ Populating dropdowns with 4 cities
+ Desktop dropdown populated successfully
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-3.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-4.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-5.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/managers/f40bc65392884d3bbd292986acd0677c.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/managers/fca24b8b037445bf8fa11e32a0628ce6.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-1.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 🔥 Favorites API response: [object Object]
+ 🔥 Loaded favorites from API: 448,441,444
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-2.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-3.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-4.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-5.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 🔥 Complex favorites API response: [object Object]
+ 🔥 Loaded complex favorites from API: 29,21,24
+ 🔄 updateFavoritesUI: Found 0 property hearts, favorites: 448,441,444
+ 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: 29,21,24
+ 🔥 UI update called after API load
+ 🔄 updateFavoritesUI: Found 0 property hearts, favorites: 448,441,444
+ 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: 29,21,24
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/images/success/success-2.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ ✅ Real favorites count from API - Total: 6 (Properties: 3, Complexes: 3)
+ 🎯 Header heart update (AUTH): properties = 3 , complexes = 3 , total = 6
+ Preloaded 5 popular queries
+ ✅ SuperSearch initialized successfully
+ 📦 Preloaded: /static/css/styles.css
+ 📦 Preloaded: /static/js/super_search.js
+ 📦 Preloaded: /static/js/main.js
+ Memory usage: [object Object]
+ Memory usage: [object Object]
+ Memory usage: [object Object]
+dotdevproxy.archer.repl.co/__reachability:1  Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+ Memory usage: [object Object]
+ 📊 Performance metrics: [object Object]
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ ✅ Admin flag set in HEAD - admin_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(anonymous) @ injected.js:37
+ Header: openApplicationModal function defined
+mc.yandex.ru/metrika/tag.js?id=104270300:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=9333f0b1-441f-4c31-96bb-8b975baa2c5d:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=0993484a-ec49-4f0a-bbe6-487243de7595:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ Initializing comparison system...
+ Current comparison IDs: Array(3)
+ ✅ Sub-tab counters updated: Announcements=0, Searches=0, Comparison=0
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ DOM Helper initialized - safe DOM operations available
+ Phone formatting setup for: phone
+ Phone formatting setup for: profile_phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+ Performance optimizations initialized
+ 🔥 Dashboard: Updated complex favorites counter: 3
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ Loading cities dropdown...
+ 🎯 Header heart update (AUTH): properties = 0 , complexes = 0 , total = 0
+ Initializing dashboard tabs...
+ Found tab buttons: 9
+ Found content sections: 7
+ Dashboard tabs initialized successfully
+ Hash detected: favorites
+ Clicking tab button for: favorites
+ Tab clicked: favorites
+ 🔄 Обновляем счетчики сравнения для пользователя из API...
+ Activated section: favorites
+ Loading favorites list...
+ ✅ SavedSearchesManager initialized
+ 🔔 Initializing Alert Settings Manager...
+ Avatar fallback module initialized
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): Object
+ 📦 Загружено из localStorage - квартиры: 3 ЖК: 3
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+ ⏳ Comparison: Waiting for bootstrap on dashboard...
+ 🔄 Sidebar tab switching initialized
+ 🔍 Found sidebar links: 6
+ 📌 Active tab: favorites (query: null , hash: favorites )
+ 🔄 Switching to page: favorites
+ ✅ Activated section: favorites
+ 🔥 Loading favorites content...
+ ⚡ loadFavoritesList: НАЧАЛО (1 запрос)
+ 💰 Balance data loading on page initialization for sidebar update
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ 🔍 findSearchElements: Searching for inputs...
+ 🔍 Elements found: Object
+ Found 0 search inputs
+ Initializing smart search...
+ ⏳ Favorites: Waiting for bootstrap on dashboard...
+ 🔧 FavoritesManager initialized from favorites.js
+ Form validation initialized
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/dashboard#favorites:1 [DOM] Found 2 elements with non-unique id #email: (More info: https://goo.gl/9p2vKq)  
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/dashboard#favorites:1 [DOM] Found 2 elements with non-unique id #full_name: (More info: https://goo.gl/9p2vKq)  
+ Initializing dashboard...
+ ✅ Sub-tab counters updated: Announcements=0, Searches=0, Comparison=0
+ 🔥 Dashboard: loadFavoritesContent() готова (загрузка по клику на таб)
+ 🔄 Initializing all counters on page load...
+ 🔄 Обновляем счетчики сравнения для пользователя из API...
+ 💰 UPDATING BALANCE TO: 10 000 ₽
+ ✅ Updated span with 0 ₽: 10 000 ₽
+ ✅ Updated span with 0 ₽: 10 000 ₽
+ ✅ Updated element: <div class="text-3xl font-bold">10&nbsp;000 ₽</div>
+ ✅ Updated element: <div class="text-3xl font-bold" id="deals-cashback-total">10&nbsp;000 ₽</div>
+ ✅ Updated element: <div class="text-3xl font-bold" id="available-amount">10&nbsp;000 ₽</div>
+ ✅ Updated element: <div class="text-3xl font-bold" id="pending-amount">10&nbsp;000 ₽</div>
+ ✅ Updated element: <div class="text-3xl font-bold" id="total-earned">10&nbsp;000 ₽</div>
+ ✅ Updated element: <div class="text-3xl font-bold" id="total-withdrawn">10&nbsp;000 ₽</div>
+ ⏸️ loadFavoritesList уже выполняется, пропуск...
+ ⚡ updateFavoritesCounters: НАЧАЛО (1 запрос)
+ 📊 Pre-loading comparison data...
+ 📊 Loading dashboard comparison data...
+ 📊 Loading properties comparison...
+ Found 3 properties in comparison
+ 🔍 Building properties comparison for: Array(3)
+ 🚀 Dashboard Bootstrap: Loading all data in single request...
+ Cache SW failed: 
+ Cities API response status: 200
+ Cities data received: Object
+ Populating dropdowns with 4 cities
+ Desktop dropdown populated successfully
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/user_25_d249a41b.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 📊 Page Load Time: 3154ms
+ 📊 Performance metrics: Object
+ Scroll force restored
+/public/js/beacon.js:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+ 🏠 Обновлен счетчик избранного в меню: 6 ( 3 квартир + 3 ЖК)
+ 🏠 Квартир в сравнении из API: 3
+ 🏢 ЖК в сравнении из API: 3
+ 🔥 Dashboard: Updated complex favorites counter: 3
+ 💰 Balance loaded: Object
+ ✅ Dashboard Bootstrap complete in 854ms
+    📦 Favorites: 3 properties, 3 complexes
+    🔄 Comparisons: 3 properties, 3 complexes
+    💰 Balance: 10000.00₽
+    🏙️ Cities: 4
+    📋 Recommendations: 0
+    📁 Collections: 0
+ 💰 Balance updated from bootstrap
+ 🏙️ Cities updated from bootstrap: 4
+ 🔢 Счетчик обновлен: 6 (квартиры: 3 ЖК: 3 )
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: Array(3)
+ 📋 Complex IDs: Array(3)
+ 🔍 Found 0 property comparison buttons on page
+ 🔍 Found 0 complex comparison buttons on page
+ ✅ UI кнопок обновлено: 3 квартир + 3 ЖК
+VM13 injected.js:37 🔄 Comparisons updated from bootstrap
+VM13 injected.js:37 🔄 updateFavoritesUI: Found 0 property hearts, favorites: Array(3)
+VM13 injected.js:37 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(0)
+VM13 injected.js:37 ❤️ Favorites updated from bootstrap
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/user_25_d249a41b.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/user_25_d249a41b.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/user_25_d249a41b.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/uploads/avatars/user_25_d249a41b.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+VM13 injected.js:37 ⚡ Загружено за 1 запрос - квартиры: 3 ЖК: 3
+VM13 injected.js:37 ✅ Sub-tab counters updated: Announcements=6, Searches=0, Comparison=0
+VM13 injected.js:37 ✅ Избранное загружено за 1 запрос: 6
+VM13 injected.js:37 ✅ Дашборд: Загружено из PostgreSQL - квартиры: 3 ЖК: 3
+VM13 injected.js:37 Loading comparison content - properties: 3 complexes: 3
+VM13 injected.js:37 ⚡ Loading 3 properties via batch API...
+VM13 injected.js:37 ✅ Обновлены счетчики сравнения - квартиры: 3 ЖК: 3
+VM13 injected.js:37 ✅ Loaded savedSearchesCount: 3
+VM13 injected.js:37 Balance load error: TypeError: amount.toFixed is not a function
+    at updateHeaderBalance (VM242 dashboard:28:36)
+    at VM242 dashboard:14:21
+(anonymous) @ VM13 injected.js:37
+VM13 injected.js:37 📦 Preloaded: /static/css/styles.css
+VM13 injected.js:37 📦 Preloaded: /static/js/super_search.js
+VM13 injected.js:37 📦 Preloaded: /static/js/main.js
+VM13 injected.js:37 Dashboard already initialized, skipping...
+VM13 injected.js:37 ✅ Real favorites count from API - Total: 6 (Properties: 3, Complexes: 3)
+VM13 injected.js:37   🔝 Updated #top-favorites-count (sidebar): 6
+VM13 injected.js:37 🎯 Header heart update (AUTH): properties = 3 , complexes = 3 , total = 6
+VM13 injected.js:37 🔄 Switching to sub-tab: searches
+VM13 injected.js:37 ✅ Switched to sub-tab: searches
+VM13 injected.js:37 🔍 Loading saved searches...
+VM13 injected.js:37 Loading saved searches with alerts...
+VM13 injected.js:37 🏠 Обновлен счетчик избранного в меню: 6 ( 3 квартир + 3 ЖК)
+VM13 injected.js:37 🏠 Квартир в сравнении из API: 3
+VM13 injected.js:37 🏢 ЖК в сравнении из API: 3
+VM13 injected.js:37 ✅ Batch API returned 3 properties
+VM13 injected.js:37 Loaded valid properties for comparison: 3 of 3
+VM13 injected.js:37 📊 Loading complexes comparison...
+VM13 injected.js:37 Found 3 complexes in comparison
+VM13 injected.js:37 🔍 Building complexes comparison for: Array(3)
+VM13 injected.js:37 🔍 Total complexes to load: 3
+VM13 injected.js:37 🔄 Fetching complex 21...
+VM13 injected.js:37 Loaded 3 saved searches
+VM13 injected.js:37 ✅ Set savedSearchesCount: 3
+VM13 injected.js:37 ✅ Sub-tab counters updated: Announcements=6, Searches=3, Comparison=0
+VM13 injected.js:37 ⚡ Загружено за 1 запрос - квартиры: 3 ЖК: 3
+VM13 injected.js:37 ⚡ Обновлен счетчик избранного в sidebar: 6
+VM13 injected.js:37 ✅ Счетчики обновлены за 1 запрос!
+VM13 injected.js:37 ✅ Loaded comparison counts: properties= 3 , complexes= 3
+VM13 injected.js:37 ✅ Sub-tab counters updated: Announcements=6, Searches=3, Comparison=6
+no-image.jpg:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+VM13 injected.js:37 ✅ Loaded complex 21: ЖК Отражение
+VM13 injected.js:37 🔄 Fetching complex 24...
+VM13 injected.js:37 Preloaded 5 popular queries
+VM13 injected.js:37 ✅ SuperSearch initialized successfully
+VM13 injected.js:37 ✅ Loaded complex 24: ЖК Гостиничный комплекс "Гранд Каскад"
+VM13 injected.js:37 🔄 Fetching complex 29...
+VM13 injected.js:37 ✅ Loaded complex 29: ЖК Тюльпановка
+VM13 injected.js:37 ✅ Fetched 3 out of 3 complexes
+VM13 injected.js:37 📊 Complexes in comparison: 3 Array(3)
+VM13 injected.js:37 ✅ Set comparisonPropertiesCount: 3
+VM13 injected.js:37 ✅ Set comparisonComplexesCount: 3
+VM13 injected.js:37 ✅ Sub-tab counters updated: Announcements=6, Searches=3, Comparison=6
+VM13 injected.js:37 Memory usage: Object
+VM13 injected.js:37 Memory usage: {used: '12 MB', total: '50 MB', limit: '4096 MB'}
+611663b4f8c1c198.js:2  POST https://logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=0df41a40-8681-4025-a13c-44b908b92352 net::ERR_BLOCKED_BY_CLIENT
+(anonymous) @ 611663b4f8c1c198.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+a @ e01d03ac5d555828.js:2
+o @ e01d03ac5d555828.js:2
+rr @ e01d03ac5d555828.js:2
+rt @ e01d03ac5d555828.js:2
+send @ e01d03ac5d555828.js:2
+e.flush @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.notify @ e01d03ac5d555828.js:2
+l @ e01d03ac5d555828.js:2
+notifyBeforeAddMessage @ e01d03ac5d555828.js:2
+e.push @ e01d03ac5d555828.js:2
+e.addOrUpdate @ e01d03ac5d555828.js:2
+e.add @ e01d03ac5d555828.js:2
+add @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.notify @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.notify @ e01d03ac5d555828.js:2
+handleLog @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.log @ e01d03ac5d555828.js:2
+U @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+L.n.value @ e01d03ac5d555828.js:2
+e.info @ e01d03ac5d555828.js:2
+info @ e01d03ac5d555828.js:2
+w @ 8c1e9835022b5ea0.js:2
+value @ ba48bd5af88dd690.js:2
+(anonymous) @ ba48bd5af88dd690.js:2
+(anonymous) @ ba48bd5af88dd690.js:2
+(anonymous) @ ba48bd5af88dd690.js:2
+apply @ ba48bd5af88dd690.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ b7b37283fe653194.js:2
+t @ 6cdb9d5511d72374.js:2
+s @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ b7b37283fe653194.js:2
+t @ 6cdb9d5511d72374.js:2
+s @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+wait @ 259da9f2aaa4b2ba.js:2
+u @ 8e88696883e64ef1.js:2
+(anonymous) @ 8e88696883e64ef1.js:2
+o @ 611663b4f8c1c198.js:2
+setTimeout
+(anonymous) @ 611663b4f8c1c198.js:2
+Object.assign.isScheduled @ 8e88696883e64ef1.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+t @ 259da9f2aaa4b2ba.js:2
+o @ 611663b4f8c1c198.js:2
+611663b4f8c1c198.js:2  POST https://logs.browser-intake-us5-datadoghq.com/api/v2/logs?ddsource=browser&ddtags=sdk_version%3A4.46.0%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Awebsite%2Cversion%3Abac2a49a&dd-api-key=pub31a5047a3a4692afb84a423db984dc57&dd-evp-origin-version=4.46.0&dd-evp-origin=browser&dd-request-id=181173f6-5fd3-42a5-abfa-d9925b5708a6 net::ERR_BLOCKED_BY_CLIENT
+(anonymous) @ 611663b4f8c1c198.js:2
+(anonymous) @ 611663b4f8c1c198.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+a @ e01d03ac5d555828.js:2
+rs @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+U @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+Promise.then
+o @ e01d03ac5d555828.js:2
+rr @ e01d03ac5d555828.js:2
+rt @ e01d03ac5d555828.js:2
+send @ e01d03ac5d555828.js:2
+e.flush @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.notify @ e01d03ac5d555828.js:2
+l @ e01d03ac5d555828.js:2
+notifyBeforeAddMessage @ e01d03ac5d555828.js:2
+e.push @ e01d03ac5d555828.js:2
+e.addOrUpdate @ e01d03ac5d555828.js:2
+e.add @ e01d03ac5d555828.js:2
+add @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.notify @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.notify @ e01d03ac5d555828.js:2
+handleLog @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+e.log @ e01d03ac5d555828.js:2
+U @ e01d03ac5d555828.js:2
+(anonymous) @ e01d03ac5d555828.js:2
+L.n.value @ e01d03ac5d555828.js:2
+e.info @ e01d03ac5d555828.js:2
+info @ e01d03ac5d555828.js:2
+w @ 8c1e9835022b5ea0.js:2
+value @ ba48bd5af88dd690.js:2
+(anonymous) @ ba48bd5af88dd690.js:2
+(anonymous) @ ba48bd5af88dd690.js:2
+(anonymous) @ ba48bd5af88dd690.js:2
+apply @ ba48bd5af88dd690.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ b7b37283fe653194.js:2
+t @ 6cdb9d5511d72374.js:2
+s @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ b7b37283fe653194.js:2
+t @ 6cdb9d5511d72374.js:2
+s @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+(anonymous) @ 6cdb9d5511d72374.js:2
+wait @ 259da9f2aaa4b2ba.js:2
+u @ 8e88696883e64ef1.js:2
+(anonymous) @ 8e88696883e64ef1.js:2
+o @ 611663b4f8c1c198.js:2
+setTimeout
+(anonymous) @ 611663b4f8c1c198.js:2
+Object.assign.isScheduled @ 8e88696883e64ef1.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+(anonymous) @ 259da9f2aaa4b2ba.js:2
+t @ 259da9f2aaa4b2ba.js:2
+o @ 611663b4f8c1c198.js:2
+VM13 injected.js:37 Memory usage: {used: '11 MB', total: '12 MB', limit: '4096 MB'}
+VM13 injected.js:37 Applying saved search: 12 {additional_filters: '{"rooms": ["4"], "price_max": "44"}', alert_channels: Array(1), alert_count: 0, alert_enabled: true, alert_frequency: 'weekly', …}
+VM13 injected.js:37 Saved search filters: {"rooms": ["4"], "price_max": "44"}
+VM13 injected.js:37 Applying search, redirecting to: /sochi/properties
+VM13 injected.js:37 📊 Performance metrics: {type: 'session_end', metrics: {…}, duration: 19662.900000000023}
+injected.js:37 ✅ Manager flag set in HEAD - manager_authenticated: false
+injected.js:37 ✅ Admin flag set in HEAD - admin_authenticated: false
+injected.js:37 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(anonymous) @ injected.js:37
+(anonymous) @ (index):64
+(anonymous) @ (index):64
+injected.js:37 ✅ GLOBAL CITY SET: name=Сочи, center=[43.5855, 39.7231]
+injected.js:37 (Yandex Maps JS API): Invalid API key
+(anonymous) @ injected.js:37
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+(anonymous) @ 2.1/?apikey=&lang=ru_RU:1
+injected.js:37 ⚡ Early filter functions initializing...
+injected.js:37 ✅ Early filter functions defined and ready
+injected.js:37 Header: openApplicationModal function defined
+properties:2028  GET https://mc.yandex.ru/metrika/tag.js?id=104270300 net::ERR_BLOCKED_BY_CLIENT
+(anonymous) @ properties:2028
+(anonymous) @ properties:2029
+properties:6070 Uncaught SyntaxError: Unexpected token ';' (at properties:6070:19)
+injected.js:37 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+injected.js:37 ✅ Presentation functions loaded: {openPresentationModal: 'function', closePresentationModal: 'function', addPropertyToPresentation: 'function'}
+injected.js:37 DOM Helper initialized - safe DOM operations available
+injected.js:37 🏙️ Current city ID: 2
+injected.js:37 ✅ Filter variables initialized (before property-filters.js): {serverSidePagination: true, totalProperties: 308, totalPages: 16, page: 1, currentCityId: 2, …}
+injected.js:37 ✅ View switching functions loaded
+injected.js:37 🔥 НОВАЯ ВЕРСИЯ HTML ЗАГРУЖЕНА - v1761859100
+injected.js:37 📱 Mobile Search Redirect loaded
+injected.js:37 ✅ performSearchFromModal() function registered globally
+injected.js:37 🔥🔥🔥 PROPERTIES-SORTING.JS LOADED - AJAX VERSION 🔥🔥🔥
+injected.js:37 ✅ properties-sorting.js AJAX initialization complete
+injected.js:37 📋 PROPERTIES-LIST-UPDATER.JS LOADED
+injected.js:37 ✅ properties-list-updater.js loaded
+injected.js:37 ♾️ INFINITE-SCROLL.JS LOADED
+injected.js:37 ✅ infinite-scroll.js initialization complete
+injected.js:37 🔥 property-filters.js загружается - AJAX MODE...
+injected.js:37 🎯 IMMEDIATE: Calling updateFilteredCount() NOW!
+injected.js:37 ⏳ Search button set to "Загрузка..." immediately
+injected.js:37 ✅ IMMEDIATE: updateFilteredCount() CALLED!
+injected.js:37 📊 CHECKING DOCUMENT STATE: loading
+injected.js:37 ⏳ DOM not ready yet, waiting for DOMContentLoaded...
+injected.js:37 ✅ property-filters.js loaded successfully
+injected.js:37 ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function'}
+injected.js:37 ✅ Active filters display functions loaded
+injected.js:37 ✅ Filters modal functions loaded
+injected.js:37 🚀🚀🚀 PROPERTY-FILTERS.JS - AJAX MODE ACTIVATED 🚀🚀🚀
+injected.js:37 ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function', removeFilter: 'function', …}
+injected.js:37 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+injected.js:37 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+injected.js:37 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+injected.js:37 🗺️ properties_mini_map.js загружен
+injected.js:37 ✅ LOADED: city-lat=43.5855, city-lon=39.7231
+injected.js:37 ✅ Map filters module loaded
+injected.js:37 🔧 Property card click handler loading...
+injected.js:37 ✅ Property card click handler installed
+injected.js:37 ✅ Mobile bottom sheet handlers initialized
+properties:11891 Uncaught SyntaxError: Unexpected token '}' (at properties:11891:1)
+ 🚀 Debounce timeout complete, fetching count...
+injected.js:37 🔢 Fetching count: /api/properties/count?city_id=2
+injected.js:37 Phone formatting setup for: phone
+injected.js:37 Phone formatting setup for: phone
+injected.js:37 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+injected.js:37 Performance optimizations initialized
+injected.js:37 CSS optimization: Found 4 stylesheets
+injected.js:37 Turbo loader initialized
+injected.js:37 Cache optimizer initialized
+injected.js:37 Image compressor initialized - WebP support: true
+injected.js:37 Loading cities dropdown...
+injected.js:37 🎯 Header heart update (AUTH): properties = 0 , complexes = 0 , total = 0
+injected.js:37 🔧 Initializing properties page view...
+injected.js:37 📋 Current view mode: list
+injected.js:37 🔄 Syncing map filters before switching to list view...
+injected.js:37 🔍 Syncing ALL map filters to URL: {rooms: Array(0), price_min: '', price_max: '', area_min: '', area_max: '', …}
+injected.js:37 ℹ️ No map filters to sync - mapFilters state: {rooms: Array(0), price_min: '', price_max: '', area_min: '', area_max: '', …}
+injected.js:37 ✅ Switched to list view
+injected.js:37 📌 DOMContentLoaded - attaching AJAX sort listener
+injected.js:37 ✅ AJAX sortProperties event listener attached to #sort-select
+injected.js:37 🚀 Initializing Infinite Scroll...
+injected.js:37 📄 Initial state: {currentPage: 1, totalPages: 16, hasMorePages: true}
+injected.js:37 ✅ Sentinel created
+injected.js:37 ✅ Observer attached
+injected.js:37 ✅ Infinite Scroll initialized
+injected.js:37 🏙️ Loading districts for city: 2
+injected.js:37 🔍 loadDevelopers called with city_id: 2
+injected.js:37 ✅ Districts and Developers initialization complete for city: 2
+injected.js:37 🔧 DOM is ready! Initializing advanced filters button...
+injected.js:37 ❌ Advanced filter elements not found: {advancedButton: null, advancedPanel: div#advancedFiltersPanel.hidden.mt-6.bg-white.rounded-xl.shadow-lg.border.border-gray-100.overflow-…, advancedArrow: null}
+(anonymous) @ injected.js:37
+(anonymous) @ property-filters.js?v=8573:1003
+injected.js:37 🏷️ Initializing active filters display...
+injected.js:37 🔢 Initializing search button text...
+injected.js:37 ✅ Expandable search initialized
+injected.js:37 🔥 loadFavoritesFromAPI called for user
+injected.js:37 🔍 DEBUG: window.manager_authenticated = false
+injected.js:37 🔍 DEBUG: window.isManager = false
+injected.js:37 🔍 DEBUG: this.isManager() = false
+injected.js:37 🔍 DEBUG: Using endpoint: /api/favorites/list
+injected.js:37 🔧 FavoritesManager initialized from favorites.js
+injected.js:37 🔧 Инициализируем кнопки сравнения...
+injected.js:37 🔍 Manager status check (FIXED): {manager_authenticated: false, result: false}
+injected.js:37 📦 Загружено из localStorage - квартиры: 3 ЖК: 3
+injected.js:37 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+injected.js:37 ⏳ Ожидаем загрузку данных из базы данных...
+injected.js:37 🔍 Загружаем сравнение из PostgreSQL...
+injected.js:37 📡 Endpoint: /api/user/comparison/load isManager: false
+injected.js:37 🗺️ Properties mini map - DOMContentLoaded
+injected.js:37 ✅ SavedSearchesManager initialized
+properties:11065 Uncaught ReferenceError: initializePropertiesSmartSearch is not defined
+    at HTMLDocument.<anonymous> (properties:11065:9)
+(anonymous) @ properties:11065
+injected.js:37 ✅ SavedSearchesManager initialized
+injected.js:37 🔧 Initializing live filter count update handlers...
+injected.js:37 ✅ Added listeners to 43 filter checkboxes
+injected.js:37 ✅ Added listeners to 10 filter inputs
+injected.js:37 ✅ Apply advanced filters button handler registered
+injected.js:37 ✅ Live filter count update initialized
+injected.js:37 ✅ Mobile (property-search) and desktop (property-search-desktop) search synchronized
+injected.js:37 🚀 Performance Optimizer v2.0 - Starting...
+injected.js:37 🖼️ Lazy loading initialized for 0 images
+injected.js:37 ✅ Performance Optimizer initialized
+injected.js:37 🚀 SuperSearch v2.0 - Initializing...
+injected.js:37 🔍 findSearchElements: Searching for inputs...
+injected.js:37 🔍 Elements found: {hero: false, property: true, modal: true, custom: false}
+injected.js:37 ✅ Initialized search input: property-search
+injected.js:37 ✅ Initialized search input: modal-search-input
+injected.js:37 Found 2 search inputs
+injected.js:37 Initializing smart search...
+injected.js:37 Property search initialized with smart search
+injected.js:37 Initializing search input: property-search
+injected.js:37 Initializing search input: property-search
+injected.js:37 Old property search disabled, smart search enabled
+injected.js:37 Form validation initialized
+injected.js:37 📊 Page Load Time: 3477ms
+injected.js:37 📊 Performance metrics: {type: 'page_load', duration: 3476.8000000000466, url: '/sochi/properties'}
+injected.js:37 Scroll force restored
+injected.js:37 👁️ Sentinel visible - loading next page
+injected.js:37 📥 Loading page 2
+injected.js:37 📡 Fetching: /api/properties/list?page=2
+injected.js:37 ℹ️ No active filters to display
+injected.js:37 ✅ Active filters displayed on page load
+workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:142  GET https://replit.com/public/js/beacon.js net::ERR_BLOCKED_BY_CLIENT
+onIframeLoad @ workspace_iframe.html?initialPath=%2F&id=%3Ar60%3A:142
+injected.js:37 💰 UPDATING BALANCE TO: 10 000 ₽
+injected.js:37 ✅ Updated span with 0 ₽: 10 000 ₽
+injected.js:37 ⏳ Search button set to "Загрузка..." immediately
+injected.js:37 ✅ Search button text initialized
+injected.js:37 ✅ Count received: 308
+injected.js:37 ✅ Search button text updated: "Найти 308 квартир"
+The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+injected.js:37 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/') with script ('https://b5d748ec-d349-4f91-bc57-21f49a45f263-00-so751y5ok8wz.janeway.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+injected.js:37 Cities API response status: 200
+injected.js:37 Cities data received: {cities: Array(4)}
+injected.js:37 Populating dropdowns with 4 cities
+injected.js:37 Desktop dropdown populated successfully
+injected.js:37 🔄 FALLBACK: Initializing count after 1 second...
+injected.js:37 🔢 Calling updateFilteredCount() - FALLBACK
+injected.js:37 ⏳ Search button set to "Загрузка..." immediately
+injected.js:37 ✅ Districts loaded: {count: 0, districts: Array(0), success: true}
+injected.js:37 Current selected districts: []
+injected.js:37 📦 Loading initial properties on page load...
+injected.js:37 ⚠️ allProperties not available yet
+(anonymous) @ injected.js:37
+(anonymous) @ properties:11030
+setTimeout
+(anonymous) @ properties:11020
+injected.js:37 🔄 applyFiltersFromUrl: Processing URL params: 
+injected.js:37 ⏳ Search button set to "Загрузка..." immediately
+injected.js:37 ✅ Yandex mini map initialized for properties
+injected.js:37 ✅ API returned developers: (8) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+injected.js:37 ✅ Updated window.developersMap with fresh data: {43: 'ООО СЗ "СТРОЙИНЖИНИРИНГ"', 44: 'ГК Неометрия', 45: 'ЦЕНТРАЛЬНАЯ ИНВЕСТИЦИОННАЯ КОМПАНИЯ', 46: 'СЗ КАСКАД', 47: 'ТОЧНО', 49: 'AVA', 51: 'ГрадРиэлт', 53: 'СПЕЦИАЛИЗИРОВАННЫЙ ЗАСТРОЙЩИК КОРОНА'}
+injected.js:37 Current selected developers: []
+injected.js:37 ✅ Populated #developers-dropdown-menu with 8 developers (XSS-safe)
+injected.js:37 ✅ Populated #developers-advanced-filters with 8 developers (XSS-safe)
+injected.js:37 ✅ Populated #developers-modal-panel with 8 developers (XSS-safe)
+injected.js:37 ✅ Populated #mapDevelopersList with 8 developers (XSS-safe)
+injected.js:37 ✅ Populated #developers-mobile-modal with 8 developers (XSS-safe)
+injected.js:37 🔥 Favorites API response: {favorites: Array(3), success: true}
+injected.js:37 🔥 Loaded favorites from API: (3) ['448', '441', '444']
+injected.js:37 📦 API Response: {complexes: Array(3), complexes_count: 3, properties: Array(3), properties_count: 3, success: true}
+injected.js:37 ✅ Загружено из API - квартиры: 3 ЖК: 3
+injected.js:37 📋 Property IDs: (3) ['444', '441', '448']
+injected.js:37 📋 Complex IDs: (3) ['24', '21', '29']
+injected.js:37 ✅ localStorage и API данные синхронизированы
+injected.js:37 🔢 Счетчик обновлен: 6 (квартиры: 3 ЖК: 3 )
+injected.js:37 🔄 Обновляем UI кнопок сравнения...
+injected.js:37 📋 Comparison IDs: (3) ['441', '444', '448']
+injected.js:37 📋 Complex IDs: (3) ['21', '24', '29']
+injected.js:37 🔍 Found 0 property comparison buttons on page
+injected.js:37 🔍 Found 0 complex comparison buttons on page
+injected.js:37 ✅ UI кнопок обновлено: 3 квартир + 3 ЖК
+injected.js:37 ✅ Данные из БД загружены, инициализируем кнопки...
+injected.js:37 🏠 Инициализируем 0 кнопок сравнения квартир
+injected.js:37 🏢 Инициализируем 0 кнопок сравнения ЖК
+injected.js:37 🔄 Обновляем UI кнопок сравнения...
+injected.js:37 📋 Comparison IDs: (3) ['441', '444', '448']
+injected.js:37 📋 Complex IDs: (3) ['21', '24', '29']
+injected.js:37 🔍 Found 0 property comparison buttons on page
+injected.js:37 🔍 Found 0 complex comparison buttons on page
+injected.js:37 ✅ UI кнопок обновлено: 3 квартир + 3 ЖК
+injected.js:37 ✅ Система сравнения полностью готова к работе
+injected.js:37 🚀 Debounce timeout complete, fetching count...
+injected.js:37 🔢 Fetching count: /api/properties/count?city_id=2
+injected.js:37 ✅ Loaded page data: {filters: {…}, pagination: {…}, properties: Array(20), sort: 'price-asc', success: true}
+injected.js:37 🔄 Appending 20 properties
+injected.js:37 🔄 Syncing map filters before switching to list view...
+injected.js:37 🔍 Syncing ALL map filters to URL: {rooms: Array(0), price_min: '', price_max: '', area_min: '', area_max: '', …}
+injected.js:37 ℹ️ No map filters to sync - mapFilters state: {rooms: Array(0), price_min: '', price_max: '', area_min: '', area_max: '', …}
+injected.js:37 ✅ Switched to list view
+injected.js:37 ✅ Properties appended
+injected.js:37 ✅ Appended 20 properties. Page 2
+injected.js:37 ✅ Loaded 308 property coordinates
+injected.js:37 ✅ Created 9 clusters on Yandex mini map
+injected.js:37 🎯 Auto-centered map: [43.4629, 39.4604] - [43.7983, 39.9122]
+injected.js:37 🔥 Complex favorites API response: {complexes: Array(3), success: true}
+injected.js:37 🔥 Loaded complex favorites from API: (3) ['29', '21', '24']
+injected.js:37 🔄 updateFavoritesUI: Found 20 property hearts, favorites: (3) ['448', '441', '444']
+injected.js:37   Heart 1: ID=444, isFavorited=true
+injected.js:37   Heart 2: ID=441, isFavorited=true
+injected.js:37   Heart 3: ID=448, isFavorited=true
+injected.js:37   Heart 4: ID=436, isFavorited=false
+injected.js:37   Heart 5: ID=607, isFavorited=false
+injected.js:37   Heart 6: ID=455, isFavorited=false
+injected.js:37   Heart 7: ID=473, isFavorited=false
+injected.js:37   Heart 8: ID=461, isFavorited=false
+injected.js:37   Heart 9: ID=694, isFavorited=false
+injected.js:37   Heart 10: ID=463, isFavorited=false
+injected.js:37   Heart 11: ID=693, isFavorited=false
+injected.js:37   Heart 12: ID=440, isFavorited=false
+injected.js:37   Heart 13: ID=599, isFavorited=false
+injected.js:37   Heart 14: ID=592, isFavorited=false
+injected.js:37   Heart 15: ID=367, isFavorited=false
+injected.js:37   Heart 16: ID=603, isFavorited=false
+injected.js:37   Heart 17: ID=600, isFavorited=false
+injected.js:37   Heart 18: ID=602, isFavorited=false
+injected.js:37   Heart 19: ID=368, isFavorited=false
+injected.js:37   Heart 20: ID=443, isFavorited=false
+injected.js:37 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: (3) ['29', '21', '24']
+injected.js:37 🔥 UI update called after API load
+injected.js:37 🔄 updateFavoritesUI: Found 20 property hearts, favorites: (3) ['448', '441', '444']
+injected.js:37   Heart 1: ID=444, isFavorited=true
+injected.js:37   Heart 2: ID=441, isFavorited=true
+injected.js:37   Heart 3: ID=448, isFavorited=true
+injected.js:37   Heart 4: ID=436, isFavorited=false
+injected.js:37   Heart 5: ID=607, isFavorited=false
+injected.js:37   Heart 6: ID=455, isFavorited=false
+injected.js:37   Heart 7: ID=473, isFavorited=false
+injected.js:37   Heart 8: ID=461, isFavorited=false
+injected.js:37   Heart 9: ID=694, isFavorited=false
+injected.js:37   Heart 10: ID=463, isFavorited=false
+injected.js:37   Heart 11: ID=693, isFavorited=false
+injected.js:37   Heart 12: ID=440, isFavorited=false
+injected.js:37   Heart 13: ID=599, isFavorited=false
+injected.js:37   Heart 14: ID=592, isFavorited=false
+injected.js:37   Heart 15: ID=367, isFavorited=false
+injected.js:37   Heart 16: ID=603, isFavorited=false
+injected.js:37   Heart 17: ID=600, isFavorited=false
+injected.js:37   Heart 18: ID=602, isFavorited=false
+injected.js:37   Heart 19: ID=368, isFavorited=false
+injected.js:37   Heart 20: ID=443, isFavorited=false
+injected.js:37 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: (3) ['29', '21', '24']
+injected.js:37 ✅ Count received: 308
+injected.js:37 ✅ Search button text updated: "Найти 308 квартир"
+injected.js:37 📦 Preloaded: /static/css/styles.css
+injected.js:37 📦 Preloaded: /static/js/super_search.js
+injected.js:37 📦 Preloaded: /static/js/main.js
+injected.js:37 ✅ Real favorites count from API - Total: 6 (Properties: 3, Complexes: 3)
+injected.js:37 🎯 Header heart update (AUTH): properties = 3 , complexes = 3 , total = 6
+injected.js:37 Preloaded 5 popular queries
+injected.js:37 ✅ SuperSearch initialized successfully
+injected.js:37 Memory usage: {used: '43 MB', total: '78 MB', limit: '4096 MB'}

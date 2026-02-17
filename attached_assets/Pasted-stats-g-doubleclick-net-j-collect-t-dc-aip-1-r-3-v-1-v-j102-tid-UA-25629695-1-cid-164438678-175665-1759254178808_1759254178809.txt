@@ -1,0 +1,1191 @@
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=437730547&gjid=1119865003&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=1253954348:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'battery'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'layout-animations'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'navigation-override'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'oversized-images'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'publickey-credentials'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'speaker-selection'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'unoptimized-images'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'unsized-media'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Unrecognized feature: 'pointer-lock'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-02278b062964ab62.js:1
+(anonymous) @ framework-02278b062964ab62.js:1
+uD @ framework-02278b062964ab62.js:1
+uI @ framework-02278b062964ab62.js:1
+uM @ framework-02278b062964ab62.js:1
+uS @ framework-02278b062964ab62.js:1
+C @ framework-02278b062964ab62.js:1
+z @ framework-02278b062964ab62.js:1
+ The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+e @ framework-02278b062964ab62.js:1
+e @ framework-02278b062964ab62.js:1
+e @ framework-02278b062964ab62.js:1
+oK @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+ The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+e @ framework-02278b062964ab62.js:1
+e @ framework-02278b062964ab62.js:1
+e @ framework-02278b062964ab62.js:1
+oK @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+ The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+e @ framework-02278b062964ab62.js:1
+e @ framework-02278b062964ab62.js:1
+e @ framework-02278b062964ab62.js:1
+oK @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+oQ @ framework-02278b062964ab62.js:1
+oq @ framework-02278b062964ab62.js:1
+workspace_iframe.html:32 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.
+workspace_iframe.html:32 Unrecognized feature: 'battery'.
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ eruda.js:2
+(anonymous) @ cdn.tailwindcss.com/:64
+(anonymous) @ cdn.tailwindcss.com/:64
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ eruda.js:2
+(anonymous) @ cdn.tailwindcss.com/:64
+(anonymous) @ cdn.tailwindcss.com/:64
+ Header: openApplicationModal function defined
+ Hero search fully disabled - SuperSearch handles everything
+ Hero search handlers removed - SuperSearch manages everything
+ DOM Helper initialized - safe DOM operations available
+ Fixing find button...
+ Found buttons: 0
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+ Performance optimizations initialized
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🚫 Cashback popup: Пользователь уже закрывал в этой сессии
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Hero search initialized
+ 🔥 loadFavoritesFromAPI called for user
+ 🔧 FavoritesManager initialized from favorites.js
+ Form validation initialized
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Cache SW failed: [object DOMException]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 📊 Page Load Time: 10313ms
+ 📊 Performance metrics: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ 🔥 Favorites API response: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Error loading featured properties: TypeError: Cannot set properties of null (setting 'innerHTML')
+Mt.forEach.n.<computed> @ eruda.js:2
+(anonymous) @ 83f57477-1e7a-434e-8…ay.replit.dev/:3917
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ 🔥 Complex favorites API response: [object Object]
+ 🔥 UI update called after API load
+ 📦 Preloaded: /static/css/styles.css
+ 📦 Preloaded: /static/js/super_search.js
+ 📦 Preloaded: /static/js/main.js
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ Preloaded 5 popular queries
+ ✅ SuperSearch initialized successfully
+ Memory usage: [object Object]
+ 📊 Performance metrics: [object Object]
+ Memory usage: [object Object]
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ eruda.js:2
+(anonymous) @ cdn.tailwindcss.com/:64
+(anonymous) @ cdn.tailwindcss.com/:64
+ Header: openApplicationModal function defined
+ 🚨 ЭКСТРЕННЫЙ SCRIPT ЗАПУЩЕН!
+ ✅ Функция TOTAL_RESET готова для использования
+ Authentication status: [object Object]
+ Properties page script loaded with smart search integration
+ ✅ Диагностический код отключен для предотвращения циклов
+ ✅ Manager Favorites Manager initialized
+ DOM Helper initialized - safe DOM operations available
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🚫 Cashback popup: Пользователь уже закрывал в этой сессии
+ 🔧 Инициализация кнопки "Очистить все"...
+ ✅ Кнопка clearAllFilters найдена, добавляем обработчик
+ ✅ Обработчик кнопки clearAllFilters установлен
+ Found filter dropdowns: 0 [object NodeList]
+ Dropdown filters initialized, including 0 new filter dropdowns
+ 🔧 Properties page loaded - FavoritesManager handles initialization automatically
+ Initializing dropdown filters...
+ 🔄 DOM готов - повторная попытка инициализации...
+ 🔥 loadFavoritesFromAPI called for user
+ 🔧 FavoritesManager initialized from favorites.js
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): [object Object]
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+ 🔍 Загружаем сравнение из PostgreSQL...
+ Saved Searches Manager initialized safely
+ ✅ SavedSearchesManager initialized
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Form validation initialized
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Cache SW failed: [object DOMException]
+ All buttons initialized: favorites, comparison, PDF
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ Initial page setup complete with favorites and comparison
+ 🏠 Инициализируем 20 кнопок сравнения квартир
+ ✅ Кнопка квартиры 1 готова: 1999611557
+ ✅ Кнопка квартиры 2 готова: 1999611558
+ ✅ Кнопка квартиры 3 готова: 1999611566
+ ✅ Кнопка квартиры 4 готова: 2060712788
+ ✅ Кнопка квартиры 5 готова: 2058093385
+ ✅ Кнопка квартиры 6 готова: 2060496484
+ ✅ Кнопка квартиры 7 готова: 2055669531
+ ✅ Кнопка квартиры 8 готова: 2055669541
+ ✅ Кнопка квартиры 9 готова: 2055669895
+ ✅ Кнопка квартиры 10 готова: 1892750314
+ ✅ Кнопка квартиры 11 готова: 1892750295
+ ✅ Кнопка квартиры 12 готова: 2055669647
+ ✅ Кнопка квартиры 13 готова: 2055669665
+ ✅ Кнопка квартиры 14 готова: 2055669746
+ ✅ Кнопка квартиры 15 готова: 1892750327
+ ✅ Кнопка квартиры 16 готова: 2055669147
+ ✅ Кнопка квартиры 17 готова: 2055669160
+ ✅ Кнопка квартиры 18 готова: 2055669344
+ ✅ Кнопка квартиры 19 готова: 1892750313
+ ✅ Кнопка квартиры 20 готова: 1892750549
+ 🏢 Инициализируем 0 кнопок сравнения ЖК
+ ✅ Система сравнения полностью готова к работе
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/comparison/load:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ 📊 Page Load Time: 6711ms
+ 📊 Performance metrics: [object Object]
+ Error loading saved searches: Error: HTTP error! status: 401
+Mt.forEach.n.<computed> @ eruda.js:2
+loadSavedSearches @ saved_searches.js:399
+ 🔥 Favorites API response: [object Object]
+ ℹ️ БД недоступна, используем localStorage fallback
+ 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+ 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+ 🔄 Обновляем UI кнопок сравнения...
+ ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+ Скрываем неподдерживаемые фильтры...
+ ✅ Кнопка переинициализирована через DOM
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ Error loading saved searches: Error: HTTP error! status: 401
+Mt.forEach.n.<computed> @ eruda.js:2
+loadSavedSearches @ saved_searches.js:399
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ 🔥 Complex favorites API response: [object Object]
+ 🔥 UI update called after API load
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ ✅ Modern Advanced Filters initialized
+ 🔍 Активный фильтр ЖК не найден [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ 📦 Preloaded: /static/css/styles.css
+ 📦 Preloaded: /static/js/super_search.js
+ 📦 Preloaded: /static/js/main.js
+ Preloaded 5 popular queries
+ ✅ SuperSearch initialized successfully
+ === FAVORITES DEBUG START ===
+ favoritesManager instance: object
+ Heart elements: 20
+ Is manager: true
+ Favorites array: 
+ Favorites length: 0
+ === FAVORITES DEBUG END ===
+ Memory usage: [object Object]
+ Memory usage: [object Object]
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=822046403&gjid=1343937043&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=976744751:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Memory usage: [object Object]
+ Dropdown opened
+ Dropdown closed
+ Dropdown opened
+ Price filter:  to 20
+ Filtering with: [object Object]
+ Sample property for debugging: [object Object]
+ 🎯 FILTERING RESULT: 20 properties from 20 total
+ 🔄 Calling updateResultsCount with: 20
+ 🌐 Using server-side count: 250
+ ✅ Обновлен H3 с "Найдено": 250 объектов
+ 📄 Пагинация: страница 1/1, показываем 20 объектов (1-20 из 20)
+ 📊 Рендерим 20 объектов для страницы 1
+ 🔄 Рендеринг: режим список, страница 1, объектов: 20
+ 🔍 Активный фильтр ЖК не найден [object Object]
+ 🔍 Активный фильтр ЖК не найден [object Object]
+ All buttons initialized: favorites, comparison, PDF
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔍 Checking manager status: false
+ 🔍 Property cards found: 20
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ Property list updated, buttons initialized
+ All buttons initialized: favorites, comparison, PDF
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ Buttons reinitialized after filtering
+ 🔄 Переинициализация после пагинации
+ 🏠 Инициализируем 20 кнопок сравнения квартир
+ ✅ Кнопка квартиры 1 готова: 1999611557
+ ✅ Кнопка квартиры 2 готова: 1999611558
+ ✅ Кнопка квартиры 3 готова: 1999611566
+ ✅ Кнопка квартиры 4 готова: 2060712788
+ ✅ Кнопка квартиры 5 готова: 2058093385
+ ✅ Кнопка квартиры 6 готова: 2060496484
+ ✅ Кнопка квартиры 7 готова: 2055669531
+ ✅ Кнопка квартиры 8 готова: 2055669541
+ ✅ Кнопка квартиры 9 готова: 2055669895
+ ✅ Кнопка квартиры 10 готова: 1892750314
+ ✅ Кнопка квартиры 11 готова: 1892750295
+ ✅ Кнопка квартиры 12 готова: 2055669647
+ ✅ Кнопка квартиры 13 готова: 2055669665
+ ✅ Кнопка квартиры 14 готова: 2055669746
+ ✅ Кнопка квартиры 15 готова: 1892750327
+ ✅ Кнопка квартиры 16 готова: 2055669147
+ ✅ Кнопка квартиры 17 готова: 2055669160
+ ✅ Кнопка квартиры 18 готова: 2055669344
+ ✅ Кнопка квартиры 19 готова: 1892750313
+ ✅ Кнопка квартиры 20 готова: 1892750549
+ 🏢 Инициализируем 0 кнопок сравнения ЖК
+ Memory usage: [object Object]
+ 🔥 applyFilters() CALLED!
+ 🌐 Using server-side filtering - building URL parameters
+ 📤 Sending filters to server: price_max=20
+ 📊 Performance metrics: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/$%7Bimage%7D:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ eruda.js:2
+ Header: openApplicationModal function defined
+ 🚨 ЭКСТРЕННЫЙ SCRIPT ЗАПУЩЕН!
+ ✅ Функция TOTAL_RESET готова для использования
+ Authentication status: Object
+ Properties page script loaded with smart search integration
+ ✅ Диагностический код отключен для предотвращения циклов
+ ✅ Manager Favorites Manager initialized
+ DOM Helper initialized - safe DOM operations available
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+Console.js:61 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+Console.js:61 Performance optimizations initialized
+Console.js:61 CSS optimization: Found 4 stylesheets
+Console.js:61 Turbo loader initialized
+Console.js:61 Cache optimizer initialized
+Console.js:61 Image compressor initialized - WebP support: true
+Console.js:61 🚫 Cashback popup: Пользователь уже закрывал в этой сессии
+Console.js:61 🔧 Инициализация кнопки "Очистить все"...
+Console.js:61 ✅ Кнопка clearAllFilters найдена, добавляем обработчик
+Console.js:61 ✅ Обработчик кнопки clearAllFilters установлен
+Console.js:61 Found filter dropdowns: 0 NodeList(0)
+Console.js:61 Dropdown filters initialized, including 0 new filter dropdowns
+Console.js:61 Applying filters from URL: price_max=20
+Console.js:61 Applied URL filters: Object
+Console.js:61 Filtering with: Object
+Console.js:61 Sample property for debugging: Object
+Console.js:61 🎯 FILTERING RESULT: 0 properties from 20 total
+Console.js:61 🔄 Calling updateResultsCount with: 0
+Console.js:61 🌐 Using server-side count: 181
+Console.js:61 ✅ Обновлен H3 с "Найдено": 181 объект
+Console.js:61 📄 Пагинация: страница 1/0, показываем 0 объектов (1-0 из 0)
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+Console.js:61 Updating active filters display: Object
+Console.js:61 Updated filters with URL params: Object
+Console.js:61 🔧 Properties page loaded - FavoritesManager handles initialization automatically
+Console.js:61 Initializing dropdown filters...
+Console.js:61 🔄 DOM готов - повторная попытка инициализации...
+Console.js:61 🔥 loadFavoritesFromAPI called for user
+Console.js:61 🔧 FavoritesManager initialized from favorites.js
+Console.js:61 🔧 Инициализируем кнопки сравнения...
+Console.js:61 🔍 Manager status check (FIXED): Object
+Console.js:61 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+Console.js:61 🔍 Загружаем сравнение из PostgreSQL...
+Console.js:61 Saved Searches Manager initialized safely
+Console.js:61 ✅ SavedSearchesManager initialized
+Console.js:61 🚀 Performance Optimizer v2.0 - Starting...
+Console.js:61 🖼️ Lazy loading initialized for 0 images
+Console.js:61 ✅ Performance Optimizer initialized
+Console.js:61 🚀 SuperSearch v2.0 - Initializing...
+Console.js:61 Found 1 search inputs
+Console.js:61 Initializing smart search...
+Console.js:61 Form validation initialized
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/') with script ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Buttons reinitialized after filtering
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Initial page setup complete with favorites and comparison
+Console.js:61 🏠 Инициализируем 0 кнопок сравнения квартир
+Console.js:61 🏢 Инициализируем 0 кнопок сравнения ЖК
+Console.js:61 ✅ Система сравнения полностью готова к работе
+Console.js:61 📊 Page Load Time: 4200ms
+Console.js:61 📊 Performance metrics: Object
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 🔥 Favorites API response: Object
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/comparison/load:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 ℹ️ БД недоступна, используем localStorage fallback
+Console.js:61 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+Console.js:61 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+Console.js:61 🔄 Обновляем UI кнопок сравнения...
+Console.js:61 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:388:23)
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 Скрываем неподдерживаемые фильтры...
+Console.js:61 ✅ Кнопка переинициализирована через DOM
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:388:23)
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 🔥 Complex favorites API response: Object
+Console.js:61 🔥 UI update called after API load
+Console.js:61 ✅ Modern Advanced Filters initialized
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Filtering with: Object
+Console.js:61 Sample property for debugging: Object
+Console.js:61 🎯 FILTERING RESULT: 0 properties from 20 total
+Console.js:61 🔄 Calling updateResultsCount with: 0
+Console.js:61 🌐 Using server-side count: 181
+Console.js:61 ✅ Обновлен H3 с "Найдено": 181 объект
+Console.js:61 📄 Пагинация: страница 1/0, показываем 0 объектов (1-0 из 0)
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Buttons reinitialized after filtering
+Console.js:61 📦 Preloaded: /static/css/styles.css
+Console.js:61 📦 Preloaded: /static/js/super_search.js
+Console.js:61 📦 Preloaded: /static/js/main.js
+Console.js:61 Preloaded 5 popular queries
+Console.js:61 ✅ SuperSearch initialized successfully
+Console.js:61 === FAVORITES DEBUG START ===
+Console.js:61 favoritesManager instance: object
+Console.js:61 Heart elements: 0
+Console.js:61 Is manager: true
+Console.js:61 Favorites array: Array(0)
+Console.js:61 Favorites length: 0
+Console.js:61 === FAVORITES DEBUG END ===
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}

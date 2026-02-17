@@ -1,0 +1,508 @@
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+about:blank:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+stripe.js:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+value @ stripe.js:1
+js?id=AW-11411994397:137 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+Nc @ js?id=AW-11411994397:137
+js?id=AW-11411994397:137 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+Nc @ js?id=AW-11411994397:137
+js?id=AW-11411994397:507 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+q @ js?id=AW-11411994397:507
+recaptcha__ru.js:649 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+(anonymous) @ recaptcha__ru.js:649
+recaptcha__ru.js:726 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+(anonymous) @ recaptcha__ru.js:726
+recaptcha__ru.js:726 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+(anonymous) @ recaptcha__ru.js:726
+stripe.js:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+value @ stripe.js:1
+framework-02278b062964ab62.js:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+e @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+e @ framework-02278b062964ab62.js:1
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+/~:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+/~:1 The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+/~:1 The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+_app-e1c373d49f767c42.js:34 
+      /////////////////////
+   ///////////////////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////        Curious and driven?
+  ///////////////@@@@@@@///////        Work with us!
+  ///////////////@@@@@@@///////
+  ///////////////@@@@@@@///////        https://join.replit.com/hack.with.us
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@#//////////////
+   ///////////////////////////
+      /////////////////////
+      
+_app-e1c373d49f767c42.js:34 [LaunchDarkly] LaunchDarkly client initialized
+attached_assets/image_1759244958454.png:1  Failed to load resource: the server responded with a status of 404 ()
+framework-02278b062964ab62.js:1 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'battery'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'layout-animations'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'navigation-override'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'oversized-images'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'publickey-credentials'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'speaker-selection'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'unoptimized-images'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'unsized-media'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Unrecognized feature: 'pointer-lock'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-02278b062964ab62.js:1
+framework-02278b062964ab62.js:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-02278b062964ab62.js:1
+googleads.g.doubleclick.net/pagead/viewthroughconversion/11411994397/?random=1759253237959&cv=11&fst=1759253237959&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be59t0h1v9171242957za200zd9171242957xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115834636~115834638&u_w=2560&u_h=1440&url=https%3A%2F%2Freplit.com%2F~&ref=https%3A%2F%2Freplit.com%2Flogin&frm=0&tiba=Home%20-%20Replit&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1634515278.1756659904&data=event%3Dgtag.config&rfmt=3&fmt=4:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=1085389041&gjid=1395723016&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=647694698:1  Failed to load resource: net::ERR_CONNECTION_RESET
+googleads.g.doubleclick.net/pagead/viewthroughconversion/11411994397/?random=1759253240467&cv=11&fst=1759253240467&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be59t0h1v9171242957za200zd9171242957xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115834636~115834638&u_w=2560&u_h=1440&url=https%3A%2F%2Freplit.com%2F%40meetkalariya1%2Fv35&ref=https%3A%2F%2Freplit.com%2F~&frm=0&tiba=v35%20-%20Replit&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1634515278.1756659904&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.824%7CYaBrowser%3B25.8.3.824%7CYowser%3B2.5&uamb=0&uam=&uap=Windows&uapv=14.0.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=1426847620&gjid=115431982&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=711643040:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=817629112&gjid=47892681&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=1284453357:1  Failed to load resource: net::ERR_CONNECTION_RESET
+framework-02278b062964ab62.js:1 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+_ @ framework-02278b062964ab62.js:1
+workspace_iframe.html:32 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.
+workspace_iframe.html:32 Unrecognized feature: 'battery'.
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.
+Console.js:61 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 Header: openApplicationModal function defined
+Console.js:61 Hero search fully disabled - SuperSearch handles everything
+Console.js:61 Hero search handlers removed - SuperSearch manages everything
+Console.js:61 Fixing find button...
+Console.js:61 Found buttons: 0
+Console.js:61 DOM Helper initialized - safe DOM operations available
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 InBack form validation initialized
+Console.js:61 Performance optimizations initialized
+Console.js:61 Turbo loader initialized
+Console.js:61 Cache optimizer initialized
+Console.js:61 Image compressor initialized - WebP support: true
+Console.js:61 🎮 Cashback Popup System инициализирован
+Console.js:61 🚀 Performance Optimizer v2.0 - Starting...
+Console.js:61 🖼️ Lazy loading initialized for 0 images
+Console.js:61 ✅ Performance Optimizer initialized
+Console.js:61 🚀 SuperSearch v2.0 - Initializing...
+Console.js:61 Found 1 search inputs
+Console.js:61 Initializing smart search...
+Console.js:61 Hero search initialized
+Console.js:61 🔥 loadFavoritesFromAPI called for user
+Console.js:61 🔧 FavoritesManager initialized from favorites.js
+Console.js:61 Form validation initialized
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 Cache SW failed: [object DOMException]
+Console.js:61 📊 Page Load Time: 12642ms
+Console.js:61 📊 Performance metrics: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 🔥 Favorites API response: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 Error loading featured properties: TypeError: Cannot set properties of null (setting 'innerHTML')
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 📦 Preloaded: /static/css/styles.css
+Console.js:61 📦 Preloaded: /static/js/super_search.js
+Console.js:61 📦 Preloaded: /static/js/main.js
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 🔥 Complex favorites API response: [object Object]
+Console.js:61 🔥 UI update called after API load
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Preloaded 5 popular queries
+Console.js:61 ✅ SuperSearch initialized successfully
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 💰 Показываем Cashback Popup
+Console.js:61 📊 Cashback Popup Event: popup_shown
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 🫥 Скрываем Cashback Popup (автоматически)
+Console.js:61 📊 Cashback Popup Event: popup_auto_hidden
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=370603910&gjid=520589903&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=492843200:1  Failed to load resource: net::ERR_CONNECTION_RESET
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 💰 Показываем Cashback Popup
+Console.js:61 📊 Cashback Popup Event: popup_shown
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 🫥 Скрываем Cashback Popup (автоматически)
+Console.js:61 📊 Cashback Popup Event: popup_auto_hidden
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 📊 Performance metrics: [object Object]
+Console.js:61 Memory usage: [object Object]
+Console.js:61 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 Header: openApplicationModal function defined
+Console.js:61 🚨 ЭКСТРЕННЫЙ SCRIPT ЗАПУЩЕН!
+Console.js:61 ✅ Функция TOTAL_RESET готова для использования
+Console.js:61 Authentication status: [object Object]
+Console.js:61 Properties page script loaded with smart search integration
+Console.js:61 ✅ Диагностический код отключен для предотвращения циклов
+Console.js:61 ✅ Manager Favorites Manager initialized
+Console.js:61 DOM Helper initialized - safe DOM operations available
+Console.js:61 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+Console.js:61 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+Console.js:61 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared
+Console.js:61 Performance optimizations initialized
+Console.js:61 CSS optimization: Found 4 stylesheets
+Console.js:61 Turbo loader initialized
+Console.js:61 Cache optimizer initialized
+Console.js:61 Image compressor initialized - WebP support: true
+Console.js:61 🎮 Cashback Popup System инициализирован
+Console.js:61 🔧 Инициализация кнопки "Очистить все"...
+Console.js:61 ✅ Кнопка clearAllFilters найдена, добавляем обработчик
+Console.js:61 ✅ Обработчик кнопки clearAllFilters установлен
+Console.js:61 Found filter dropdowns: 0 [object NodeList]
+Console.js:61 Dropdown filters initialized, including 0 new filter dropdowns
+Console.js:61 🔧 Properties page loaded - FavoritesManager handles initialization automatically
+Console.js:61 Initializing dropdown filters...
+Console.js:61 🔄 DOM готов - повторная попытка инициализации...
+Console.js:61 🔥 loadFavoritesFromAPI called for user
+Console.js:61 🔧 FavoritesManager initialized from favorites.js
+Console.js:61 🔧 Инициализируем кнопки сравнения...
+Console.js:61 🔍 Manager status check (FIXED): [object Object]
+Console.js:61 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+Console.js:61 🔍 Загружаем сравнение из PostgreSQL...
+Console.js:61 Saved Searches Manager initialized safely
+Console.js:61 ✅ SavedSearchesManager initialized
+Console.js:61 🚀 Performance Optimizer v2.0 - Starting...
+Console.js:61 🖼️ Lazy loading initialized for 0 images
+Console.js:61 ✅ Performance Optimizer initialized
+Console.js:61 🚀 SuperSearch v2.0 - Initializing...
+Console.js:61 Found 1 search inputs
+Console.js:61 Initializing smart search...
+Console.js:61 Form validation initialized
+Console.js:61 Cache SW failed: [object DOMException]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 📊 Page Load Time: 12272ms
+Console.js:61 📊 Performance metrics: [object Object]
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 Initial page setup complete with favorites and comparison
+Console.js:61 🏠 Инициализируем 20 кнопок сравнения квартир
+Console.js:61 ✅ Кнопка квартиры 1 готова: 1999611557
+Console.js:61 ✅ Кнопка квартиры 2 готова: 1999611558
+Console.js:61 ✅ Кнопка квартиры 3 готова: 1999611566
+Console.js:61 ✅ Кнопка квартиры 4 готова: 2060712788
+Console.js:61 ✅ Кнопка квартиры 5 готова: 2058093385
+Console.js:61 ✅ Кнопка квартиры 6 готова: 2060496484
+Console.js:61 ✅ Кнопка квартиры 7 готова: 2055669531
+Console.js:61 ✅ Кнопка квартиры 8 готова: 2055669541
+Console.js:61 ✅ Кнопка квартиры 9 готова: 2055669895
+Console.js:61 ✅ Кнопка квартиры 10 готова: 1892750314
+Console.js:61 ✅ Кнопка квартиры 11 готова: 1892750295
+Console.js:61 ✅ Кнопка квартиры 12 готова: 2055669647
+Console.js:61 ✅ Кнопка квартиры 13 готова: 2055669665
+Console.js:61 ✅ Кнопка квартиры 14 готова: 2055669746
+Console.js:61 ✅ Кнопка квартиры 15 готова: 1892750327
+Console.js:61 ✅ Кнопка квартиры 16 готова: 2055669147
+Console.js:61 ✅ Кнопка квартиры 17 готова: 2055669160
+Console.js:61 ✅ Кнопка квартиры 18 готова: 2055669344
+Console.js:61 ✅ Кнопка квартиры 19 готова: 1892750313
+Console.js:61 ✅ Кнопка квартиры 20 готова: 1892750549
+Console.js:61 🏢 Инициализируем 0 кнопок сравнения ЖК
+Console.js:61 ✅ Система сравнения полностью готова к работе
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/comparison/load:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 ℹ️ БД недоступна, используем localStorage fallback
+Console.js:61 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+Console.js:61 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+Console.js:61 🔄 Обновляем UI кнопок сравнения...
+Console.js:61 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 🔥 Favorites API response: [object Object]
+Console.js:61 Скрываем неподдерживаемые фильтры...
+Console.js:61 ✅ Кнопка переинициализирована через DOM
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+Mt.forEach.n.<computed> @ Console.js:61
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 🔥 Complex favorites API response: [object Object]
+Console.js:61 🔥 UI update called after API load
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 ✅ Modern Advanced Filters initialized
+Console.js:61 🔍 Активный фильтр ЖК не найден [object Object]
+Console.js:61 Dropdown opened
+Console.js:61 Dropdown closed
+Console.js:61 Dropdown opened
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 📦 Preloaded: /static/css/styles.css
+Console.js:61 📦 Preloaded: /static/js/super_search.js
+Console.js:61 📦 Preloaded: /static/js/main.js
+Console.js:61 Room filters changed: 2
+Console.js:61 Filtering with: [object Object]
+Console.js:61 Sample property for debugging: [object Object]
+Console.js:61 🎯 FILTERING RESULT: 0 properties from 20 total
+Console.js:61 🔄 Calling updateResultsCount with: 0
+Console.js:61 🌐 Using server-side count: 250
+Console.js:61 ✅ Обновлен H3 с "Найдено": 250 объектов
+Console.js:61 📄 Пагинация: страница 1/0, показываем 0 объектов (1-0 из 0)
+Console.js:61 🔍 Активный фильтр ЖК не найден [object Object]
+Console.js:61 🔍 Активный фильтр ЖК не найден [object Object]
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Buttons reinitialized after filtering
+Console.js:61 Preloaded 5 popular queries
+Console.js:61 ✅ SuperSearch initialized successfully
+Console.js:61 === FAVORITES DEBUG START ===
+Console.js:61 favoritesManager instance: object
+Console.js:61 Heart elements: 0
+Console.js:61 Is manager: true
+Console.js:61 Favorites array: 
+Console.js:61 Favorites length: 0
+Console.js:61 === FAVORITES DEBUG END ===
+Console.js:61 🔥 applyFilters() CALLED!
+Console.js:61 🌐 Using server-side filtering - building URL parameters
+Console.js:61 📤 Sending filters to server: 
+Console.js:61 📊 Performance metrics: [object Object]
+Console.js:61 Memory usage: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/$%7Bimage%7D:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 Header: openApplicationModal function defined
+Console.js:61 🚨 ЭКСТРЕННЫЙ SCRIPT ЗАПУЩЕН!
+Console.js:61 ✅ Функция TOTAL_RESET готова для использования
+Console.js:61 Authentication status: Object
+Console.js:61 Properties page script loaded with smart search integration
+Console.js:61 ✅ Диагностический код отключен для предотвращения циклов
+Console.js:61 ✅ Manager Favorites Manager initialized
+Console.js:61 DOM Helper initialized - safe DOM operations available
+Console.js:61 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+Console.js:61 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+Console.js:61 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+Console.js:61 Performance optimizations initialized
+Console.js:61 CSS optimization: Found 4 stylesheets
+Console.js:61 Turbo loader initialized
+Console.js:61 Cache optimizer initialized
+Console.js:61 Image compressor initialized - WebP support: true
+Console.js:61 🎮 Cashback Popup System инициализирован
+Console.js:61 🔧 Инициализация кнопки "Очистить все"...
+Console.js:61 ✅ Кнопка clearAllFilters найдена, добавляем обработчик
+Console.js:61 ✅ Обработчик кнопки clearAllFilters установлен
+Console.js:61 Found filter dropdowns: 0 NodeList(0)
+Console.js:61 Dropdown filters initialized, including 0 new filter dropdowns
+Console.js:61 🔧 Properties page loaded - FavoritesManager handles initialization automatically
+Console.js:61 Initializing dropdown filters...
+Console.js:61 🔄 DOM готов - повторная попытка инициализации...
+Console.js:61 🔥 loadFavoritesFromAPI called for user
+Console.js:61 🔧 FavoritesManager initialized from favorites.js
+Console.js:61 🔧 Инициализируем кнопки сравнения...
+Console.js:61 🔍 Manager status check (FIXED): Object
+Console.js:61 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+Console.js:61 🔍 Загружаем сравнение из PostgreSQL...
+Console.js:61 Saved Searches Manager initialized safely
+Console.js:61 ✅ SavedSearchesManager initialized
+Console.js:61 🚀 Performance Optimizer v2.0 - Starting...
+Console.js:61 🖼️ Lazy loading initialized for 0 images
+Console.js:61 ✅ Performance Optimizer initialized
+Console.js:61 🚀 SuperSearch v2.0 - Initializing...
+Console.js:61 Found 1 search inputs
+Console.js:61 Initializing smart search...
+Console.js:61 Form validation initialized
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/') with script ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+Console.js:61 Initial page setup complete with favorites and comparison
+Console.js:61 🏠 Инициализируем 20 кнопок сравнения квартир
+Console.js:61 ✅ Кнопка квартиры 1 готова: 1999611557
+Console.js:61 ✅ Кнопка квартиры 2 готова: 1999611558
+Console.js:61 ✅ Кнопка квартиры 3 готова: 1999611566
+Console.js:61 ✅ Кнопка квартиры 4 готова: 2060712788
+Console.js:61 ✅ Кнопка квартиры 5 готова: 2058093385
+Console.js:61 ✅ Кнопка квартиры 6 готова: 2060496484
+Console.js:61 ✅ Кнопка квартиры 7 готова: 2055669531
+Console.js:61 ✅ Кнопка квартиры 8 готова: 2055669541
+Console.js:61 ✅ Кнопка квартиры 9 готова: 2055669895
+Console.js:61 ✅ Кнопка квартиры 10 готова: 1892750314
+Console.js:61 ✅ Кнопка квартиры 11 готова: 1892750295
+Console.js:61 ✅ Кнопка квартиры 12 готова: 2055669647
+Console.js:61 ✅ Кнопка квартиры 13 готова: 2055669665
+Console.js:61 ✅ Кнопка квартиры 14 готова: 2055669746
+Console.js:61 ✅ Кнопка квартиры 15 готова: 1892750327
+Console.js:61 ✅ Кнопка квартиры 16 готова: 2055669147
+Console.js:61 ✅ Кнопка квартиры 17 готова: 2055669160
+Console.js:61 ✅ Кнопка квартиры 18 готова: 2055669344
+Console.js:61 ✅ Кнопка квартиры 19 готова: 1892750313
+Console.js:61 ✅ Кнопка квартиры 20 готова: 1892750549
+Console.js:61 🏢 Инициализируем 0 кнопок сравнения ЖК
+Console.js:61 ✅ Система сравнения полностью готова к работе
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/comparison/load:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 📊 Page Load Time: 4426ms
+Console.js:61 📊 Performance metrics: Object
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:388:23)
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 🔥 Favorites API response: Object
+Console.js:61 ℹ️ БД недоступна, используем localStorage fallback
+Console.js:61 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+Console.js:61 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+Console.js:61 🔄 Обновляем UI кнопок сравнения...
+Console.js:61 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+Console.js:61 Скрываем неподдерживаемые фильтры...
+Console.js:61 ✅ Кнопка переинициализирована через DOM
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:388:23)
+Mt.forEach.n.<computed> @ Console.js:61
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 🔥 Complex favorites API response: Object
+Console.js:61 🔥 UI update called after API load
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 ✅ Modern Advanced Filters initialized
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 📦 Preloaded: /static/css/styles.css
+Console.js:61 📦 Preloaded: /static/js/super_search.js
+Console.js:61 📦 Preloaded: /static/js/main.js
+Console.js:61 Preloaded 5 popular queries
+Console.js:61 ✅ SuperSearch initialized successfully
+Console.js:61 === FAVORITES DEBUG START ===
+Console.js:61 favoritesManager instance: object
+Console.js:61 Heart elements: 20
+Console.js:61 Is manager: true
+Console.js:61 Favorites array: []
+Console.js:61 Favorites length: 0
+Console.js:61 === FAVORITES DEBUG END ===
+Console.js:61 Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}
+Console.js:61 Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}
+ Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}
+ 💰 Показываем Cashback Popup
+ 📊 Cashback Popup Event: popup_shown
+ Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}
+ Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}
+ 🫥 Скрываем Cashback Popup (автоматически)
+ 📊 Cashback Popup Event: popup_auto_hidden
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=164438678.1756659903&jid=902009548&gjid=226696550&_gid=1370381248.1759167255&_u=SCCAgEAjQAAAAGgCIAD~&z=1017463580:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}

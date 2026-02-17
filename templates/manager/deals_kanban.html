@@ -1,0 +1,1350 @@
+{% extends "base.html" %}
+
+{% block title %}Канбан сделок | InBack{% endblock %}
+
+{% block head %}
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<style>
+header { display: none !important; }
+body { padding-top: 0 !important; }
+:root { --brand: #0088CC; --brand-dark: #006699; --green: #059669; }
+
+.kanban-container {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 0 0 16px;
+    min-height: calc(100vh - 260px);
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+}
+.kanban-container::-webkit-scrollbar { height: 6px; }
+.kanban-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+
+.kanban-column {
+    min-width: 280px;
+    max-width: 300px;
+    flex-shrink: 0;
+    background: #f8fafc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 260px);
+}
+.kanban-header {
+    padding: 12px 14px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.kanban-cards {
+    padding: 8px;
+    overflow-y: auto;
+    flex: 1;
+    scrollbar-width: thin;
+    min-height: 60px;
+    transition: background 0.2s;
+}
+.kanban-cards.drag-over {
+    background: rgba(0, 136, 204, 0.06);
+    border-radius: 0 0 12px 12px;
+}
+
+.kanban-card {
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: all 0.2s;
+    border-left: 4px solid transparent;
+    user-select: none;
+}
+.kanban-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transform: translateY(-1px);
+}
+.kanban-card.dragging {
+    opacity: 0.5;
+    transform: rotate(2deg);
+}
+
+.deal-number { font-size: 11px; font-family: monospace; color: #6b7280; }
+.deal-client { font-size: 13px; font-weight: 600; color: #1f2937; margin: 4px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.deal-price { font-size: 12px; color: #059669; font-weight: 600; }
+.deal-cashback { font-size: 11px; color: #0088CC; }
+.deal-complex { font-size: 11px; color: #6b7280; margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.deal-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; padding-top: 8px; border-top: 1px solid #f3f4f6; }
+.deal-date { font-size: 10px; color: #9ca3af; }
+.deal-tasks-badge { font-size: 10px; padding: 2px 6px; border-radius: 9999px; }
+.empty-column { text-align: center; padding: 24px 16px; color: #9ca3af; font-size: 13px; }
+
+.tab-bar a {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6b7280;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: inline-block;
+}
+.tab-bar a:hover { color: #0088CC; }
+.tab-bar a.active { color: #0088CC; border-bottom-color: #0088CC; }
+
+#listContainer table thead th { position: sticky; top: 0; background: #f9fafb; z-index: 2; }
+#listContainer table tbody tr:last-child { border-bottom: none; }
+.list-deal-row:hover td { background: rgba(0, 136, 204, 0.03); }
+
+.col-add-btn {
+    width: 24px; height: 24px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 12px;
+    border: none;
+    background: rgba(255,255,255,0.6);
+    color: inherit;
+}
+.col-add-btn:hover { background: rgba(255,255,255,0.9); transform: scale(1.1); }
+
+.slide-panel {
+    position: fixed; top: 0; right: 0; height: 100vh;
+    width: 500px; max-width: 100vw;
+    background: white; z-index: 90;
+    box-shadow: -8px 0 30px rgba(0,0,0,0.15);
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; flex-direction: column;
+}
+.slide-panel.open { transform: translateX(0); }
+.slide-panel.fullscreen { width: 100vw; }
+.slide-panel-header {
+    padding: 12px 16px; border-bottom: 1px solid #e5e7eb;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-shrink: 0; background: #f8fafc;
+}
+.slide-panel iframe { flex: 1; border: none; width: 100%; }
+.slide-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.3);
+    z-index: 89; display: none; backdrop-filter: blur(1px);
+}
+.slide-overlay.active { display: block; }
+#createSlidePanel { z-index: 100; }
+#createSlideOverlay { z-index: 99; }
+
+.form-input {
+    width: 100%; padding: 10px 14px; border: 1px solid #e5e7eb; border-radius: 10px;
+    font-size: 14px; transition: all 0.2s; outline: none; background: #fafafa;
+}
+.form-input:focus { border-color: #0088CC; box-shadow: 0 0 0 3px rgba(0,136,204,0.1); background: white; }
+.form-label { font-size: 13px; font-weight: 600; color: #374151; margin-bottom: 6px; display: block; }
+
+@media (max-width: 768px) {
+    .kanban-column { min-width: 260px; }
+    .slide-panel { width: 100vw; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+{% if sidebar_links is defined and sidebar_links %}
+{% include 'components/sidebar.html' %}
+{% endif %}
+
+<div class="{% if sidebar_links is defined and sidebar_links %}md:ml-[70px]{% endif %} transition-all duration-300">
+
+<div class="bg-white border-b border-gray-200 shadow-sm">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-3">
+            <div class="flex items-center gap-3">
+                <div class="hidden md:flex w-8 h-8 bg-gradient-to-r from-[#0088CC] to-[#006699] rounded-lg items-center justify-center text-white font-bold text-sm">
+                    In
+                </div>
+                <span class="hidden md:inline font-bold text-gray-900 text-lg">InBack</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="{{ url_for('manager_dashboard') }}" class="flex items-center gap-2 bg-blue-50 hover:bg-blue-100 text-gray-700 px-4 py-2 rounded-full border border-blue-200 transition-colors">
+                    <svg class="w-4 h-4 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
+                    </svg>
+                    <span class="text-sm font-medium">Дашборд</span>
+                </a>
+                {% if user_profile %}
+                <div class="relative" id="headerAvatarWrapper">
+                    <button onclick="toggleHeaderCheckinDropdown(event)" class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+                        <div class="relative">
+                            <div class="w-8 h-8 rounded-full overflow-hidden">
+                                {% if user_profile.avatar %}
+                                <img src="{{ user_profile.avatar }}" alt="{{ user_profile.name }}" class="w-full h-full object-cover">
+                                {% else %}
+                                <div class="w-full h-full bg-gradient-to-r from-[#0088CC] to-[#006699] flex items-center justify-center text-white font-bold text-sm">
+                                    {{ user_profile.initials }}
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div id="headerCheckinIndicator" class="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full border-2 border-white bg-gray-300"></div>
+                        </div>
+                    </button>
+                    <div id="headerCheckinDropdown" class="hidden absolute right-0 top-full mt-2 w-60 bg-white rounded-xl shadow-xl border border-gray-200 z-50 overflow-hidden">
+                        <div class="px-4 py-3 border-b border-gray-100">
+                            <p class="text-sm font-semibold text-gray-900">{{ user_profile.name }}</p>
+                            <p class="text-xs text-gray-400" id="headerCheckinStatus">Не на работе</p>
+                        </div>
+                        <div class="p-2">
+                            <button id="headerCheckinBtn" onclick="doHeaderCheckin()" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all hover:bg-green-50 text-green-700">
+                                <i class="fas fa-sign-in-alt"></i>
+                                <span id="headerCheckinBtnText">На работе</span>
+                            </button>
+                            <a href="{{ url_for('manager_dashboard') }}" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-gray-600 hover:bg-gray-50 transition-all">
+                                <i class="fas fa-user"></i>
+                                <span>Профиль</span>
+                            </a>
+                            <a href="{{ url_for('logout') }}" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-red-600 hover:bg-red-50 transition-all">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span>Выйти</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white border-b border-gray-200">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="tab-bar flex">
+            <a href="javascript:void(0)" class="active" id="tabKanban" onclick="switchView('kanban')">
+                <svg class="w-4 h-4 inline-block mr-1.5 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7"/></svg>
+                Канбан
+            </a>
+            <a href="javascript:void(0)" id="tabList" onclick="switchView('list')">
+                <svg class="w-4 h-4 inline-block mr-1.5 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+                Список
+            </a>
+            <a href="javascript:void(0)" id="tabTasks" onclick="switchView('tasks')">
+                <svg class="w-4 h-4 inline-block mr-1.5 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+                Дела
+            </a>
+            <a href="{{ url_for('manager_tasks_calendar') }}">
+                <svg class="w-4 h-4 inline-block mr-1.5 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                Календарь
+            </a>
+            <a href="{{ url_for('manager_deals_archive') }}">
+                <svg class="w-4 h-4 inline-block mr-1.5 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/></svg>
+                Архив
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
+        <div class="flex items-center gap-3">
+            <h1 class="text-xl font-bold text-gray-900">Сделки</h1>
+            <button onclick="openCreateModal()" class="flex items-center gap-2 bg-[#0088CC] hover:bg-[#006699] text-white pl-3 pr-4 py-2 rounded-lg font-semibold text-sm transition-all shadow-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+                Создать
+            </button>
+        </div>
+        <div class="flex items-center gap-2 flex-1 max-w-xl ml-4 bg-white border border-gray-300 rounded-lg px-3 py-1.5 shadow-sm hover:border-[#0088CC] focus-within:border-[#0088CC] focus-within:ring-2 focus-within:ring-[#0088CC]/20 transition-all">
+            <i class="fas fa-search text-gray-400 text-xs"></i>
+            <div class="flex items-center gap-1 flex-wrap" id="searchTags"></div>
+            <div class="relative flex-1">
+                <input type="text" id="kanbanSearch" placeholder="Поиск сделок..." 
+                       class="w-full bg-transparent border-none outline-none text-sm text-gray-700 placeholder-gray-400 py-1"
+                       oninput="filterKanbanCards()" onfocus="showSearchDropdown()" autocomplete="off">
+                <div id="searchDropdown" class="hidden absolute left-0 top-full mt-1 bg-white rounded-xl shadow-xl border border-gray-200 z-50 overflow-hidden" style="width: 560px; max-width: 90vw;">
+                    <div class="flex">
+                        <div class="w-48 border-r border-gray-100 p-2 flex-shrink-0">
+                            <button onclick="setSearchCategory(this, 'stage')" class="search-cat-btn active w-full text-left px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-50 text-[#0088CC] transition-colors">
+                                Группа стадий
+                            </button>
+                            <button onclick="setSearchCategory(this, 'quick')" class="search-cat-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-50 text-gray-600 transition-colors">
+                                Быстрые фильтры
+                            </button>
+                        </div>
+                        <div class="flex-1 p-3">
+                            <div id="searchCatStage">
+                                <div class="text-xs font-semibold text-gray-400 uppercase px-1 pb-2 tracking-wider">Группа стадий</div>
+                                <div class="space-y-0.5 max-h-64 overflow-y-auto">
+                                    {% for stage in stages %}
+                                    <button onclick="addSearchTag('stage', '{{ stage.key }}', '{{ stage.label }}', '{{ stage.color }}')" 
+                                            class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover:bg-gray-50 text-left transition-colors">
+                                        <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background: {{ stage.color }};"></span>
+                                        {{ stage.label }}
+                                    </button>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div id="searchCatQuick" class="hidden">
+                                <div class="text-xs font-semibold text-gray-400 uppercase px-1 pb-2 tracking-wider">Быстрые фильтры</div>
+                                <div class="space-y-0.5">
+                                    <button onclick="addSearchTag('stage', 'in_progress', 'Сделки в работе', '#0088CC')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover:bg-gray-50 text-left transition-colors">
+                                        <i class="fas fa-briefcase text-[#0088CC] text-xs w-3"></i> Сделки в работе
+                                    </button>
+                                    <button onclick="addSearchTag('stage', 'completed', 'Завершённые', '#10b981')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover:bg-gray-50 text-left transition-colors">
+                                        <i class="fas fa-check-circle text-green-500 text-xs w-3"></i> Завершённые
+                                    </button>
+                                    <button onclick="addSearchTag('stage', 'rejected', 'Отклонённые', '#ef4444')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover:bg-gray-50 text-left transition-colors">
+                                        <i class="fas fa-times-circle text-red-500 text-xs w-3"></i> Отклонённые
+                                    </button>
+                                    <button onclick="addSearchTag('stage', 'postponed', 'Отложенные', '#f59e0b')" class="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover:bg-gray-50 text-left transition-colors">
+                                        <i class="fas fa-pause-circle text-amber-500 text-xs w-3"></i> Отложенные
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-3 pt-3 border-t border-gray-100 flex justify-end gap-2">
+                                <button onclick="clearAllSearch()" class="px-3 py-1.5 text-xs text-gray-500 hover:text-gray-700 font-medium transition-colors">Сбросить</button>
+                                <button onclick="hideSearchDropdown()" class="px-4 py-1.5 bg-[#0088CC] text-white text-xs font-semibold rounded-lg hover:bg-[#006699] transition-colors flex items-center gap-1">
+                                    <i class="fas fa-search text-[10px]"></i> Найти
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="clearAllSearch()" id="searchClearBtn" class="hidden text-gray-400 hover:text-gray-600 transition-colors p-1">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+        </div>
+        {% if viewable_managers|length > 0 %}
+        <div class="flex items-center gap-2 flex-shrink-0">
+            <select id="managerFilter" onchange="filterByManager(this.value)" 
+                    class="border border-gray-300 rounded-lg px-3 py-1.5 text-sm bg-white shadow-sm hover:border-[#0088CC] focus:border-[#0088CC] focus:ring-2 focus:ring-[#0088CC]/20 transition-all">
+                <option value="">Все менеджеры</option>
+                {% for vm in viewable_managers %}
+                <option value="{{ vm.id }}" {% if request.args.get('manager_id')|int == vm.id %}selected{% endif %}>
+                    {{ vm.full_name or vm.email }}
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="kanban-container" id="kanbanContainer">
+        {% for stage in stages %}
+        <div class="kanban-column" data-stage="{{ stage.key }}">
+            <div class="kanban-header" style="background: {{ stage.color }}15; border-bottom: 2px solid {{ stage.color }};">
+                <div class="flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full" style="background: {{ stage.color }};"></span>
+                    <span class="text-sm font-semibold" style="color: {{ stage.color }};">{{ stage.label }}</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="text-xs font-bold px-2 py-0.5 rounded-full" style="background: {{ stage.color }}20; color: {{ stage.color }};">
+                        {{ deals_by_stage.get(stage.key, [])|length }}
+                    </span>
+                    <button class="col-add-btn" style="color: {{ stage.color }};" onclick="openCreateModal('{{ stage.key }}')" title="Добавить сделку">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="kanban-cards" data-stage="{{ stage.key }}"
+                 ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" ondrop="handleDrop(event)">
+                {% set stage_deals = deals_by_stage.get(stage.key, []) %}
+                {% if stage_deals %}
+                    {% for deal in stage_deals %}
+                    {% set deal_active_tasks = deal.tasks.filter_by(is_completed=False).all() %}
+                    {% set deal_overdue_count = deal_active_tasks|selectattr('is_overdue')|list|length %}
+                    <div class="kanban-card {% if deal_overdue_count > 0 %}ring-2 ring-red-400 bg-red-50/40{% endif %}" style="border-left-color: {% if deal_overdue_count > 0 %}#ef4444{% else %}{{ stage.color }}{% endif %};"
+                         draggable="true"
+                         data-deal-id="{{ deal.id }}"
+                         data-deal-status="{{ deal.status }}"
+                         ondragstart="handleDragStart(event)"
+                         ondragend="handleDragEnd(event)"
+                         onclick="openSlidePanel({{ deal.id }})">
+                        <div class="flex items-center justify-between">
+                            <span class="deal-number">{{ deal.deal_number }}</span>
+                            {% if deal.is_locked %}
+                            <span class="text-xs px-1.5 py-0.5 rounded bg-gray-100 text-gray-500"><i class="fas fa-lock text-[10px]"></i></span>
+                            {% endif %}
+                        </div>
+                        <div class="deal-client">{{ deal.client.full_name or deal.client.email or 'Клиент' }}</div>
+                        {% if viewable_managers|length > 0 and deal.manager_id != current_manager.id %}
+                        <div class="text-[10px] text-gray-400 mt-0.5"><i class="fas fa-user-tie mr-1"></i>{{ deal.manager.full_name if deal.manager else '' }}</div>
+                        {% endif %}
+                        {% if deal.residential_complex_name %}
+                        <div class="deal-complex"><i class="fas fa-building mr-1"></i>{{ deal.residential_complex_name }}</div>
+                        {% endif %}
+                        <div class="flex items-center gap-3 mt-2">
+                            <span class="deal-price">{{ '{:,.0f}'.format(deal.property_price|float).replace(',', ' ') }} ₽</span>
+                            <span class="deal-cashback">кб {{ '{:,.0f}'.format(deal.cashback_amount|float).replace(',', ' ') }} ₽</span>
+                        </div>
+                        <div class="deal-meta">
+                            <span class="deal-date">{{ deal.created_at.strftime('%d.%m.%Y') }}</span>
+                            {% set active_tasks_all = deal.tasks.filter_by(is_completed=False).all() %}
+                            {% set overdue_count = active_tasks_all|selectattr('is_overdue')|list|length %}
+                            {% if active_tasks_all|length > 0 %}
+                                {% if overdue_count > 0 %}
+                                <span class="deal-tasks-badge bg-red-100 text-red-600 font-semibold">
+                                    <i class="fas fa-exclamation-circle mr-1"></i>{{ overdue_count }} просроч.
+                                </span>
+                                {% endif %}
+                                {% if active_tasks_all|length - overdue_count > 0 %}
+                                <span class="deal-tasks-badge bg-amber-100 text-amber-700">
+                                    <i class="fas fa-tasks mr-1"></i>{{ active_tasks_all|length - overdue_count }}
+                                </span>
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="empty-column">
+                        <i class="fas fa-inbox text-2xl mb-2 block text-gray-300"></i>
+                        <span>Нет сделок</span>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div id="listContainer" class="hidden">
+        <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-200">
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap">Сделка</th>
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap">Стадия сделки</th>
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap">Дела</th>
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap">Клиент</th>
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap">Сумма</th>
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap">Ответственный</th>
+                            <th class="text-left px-4 py-3 font-semibold text-gray-600 text-xs uppercase tracking-wider whitespace-nowrap cursor-pointer select-none" onclick="sortListTable('date')" id="sortDateHeader">
+                                Дата создания
+                                <svg class="w-3 h-3 inline-block ml-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="listTableBody">
+                        {% set all_deals = [] %}
+                        {% for stage in stages %}
+                            {% for deal in deals_by_stage.get(stage.key, []) %}
+                        <tr class="border-b border-gray-100 hover:bg-blue-50/40 cursor-pointer transition-colors list-deal-row"
+                            data-deal-id="{{ deal.id }}"
+                            data-deal-status="{{ deal.status }}"
+                            data-deal-date="{{ deal.created_at.strftime('%Y-%m-%d %H:%M') }}"
+                            onclick="openSlidePanel({{ deal.id }})">
+                            <td class="px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-file-alt text-gray-400 text-xs"></i>
+                                    </div>
+                                    <div>
+                                        <a href="/manager/deals/{{ deal.id }}" onclick="event.stopPropagation(); openSlidePanel({{ deal.id }}); return false;" class="text-[#0088CC] font-semibold text-sm hover:underline">{{ deal.client.full_name or deal.client.email or 'Клиент' }}</a>
+                                        <div class="text-xs text-gray-400">{{ deal.property_description or 'Продажа' }}</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-4 py-3" onclick="event.stopPropagation()">
+                                {% set stage_color = stage.color if stage else '#6b7280' %}
+                                <select class="stage-select text-xs font-medium px-2.5 py-1.5 rounded-lg border cursor-pointer focus:ring-2 focus:ring-[#0088CC]/20 focus:border-[#0088CC] transition-all bg-white"
+                                        data-deal-id="{{ deal.id }}"
+                                        onchange="changeStageInline(this)"
+                                        style="border-color: {{ stage_color }}; color: {{ stage_color }};">
+                                    {% for s in stages %}
+                                    <option value="{{ s.key }}" {% if s.key == deal.status %}selected{% endif %} data-color="{{ s.color }}">{{ s.label }}</option>
+                                    {% endfor %}
+                                </select>
+                            </td>
+                            <td class="px-4 py-3">
+                                {% set active_tasks_list = deal.tasks.filter_by(is_completed=False).all() %}
+                                {% set next_task = active_tasks_list[0] if active_tasks_list else None %}
+                                {% if next_task %}
+                                <div class="text-xs">
+                                    <div class="{% if next_task.is_overdue %}text-red-600 font-semibold{% else %}text-gray-700{% endif %} font-medium">
+                                        {% if next_task.is_overdue %}<i class="fas fa-exclamation-circle mr-1"></i>{% endif %}
+                                        {{ next_task.due_date.strftime('%d.%m.%Y') if next_task.due_date else '' }}
+                                    </div>
+                                    <div class="{% if next_task.is_overdue %}text-red-500{% else %}text-gray-500{% endif %} truncate max-w-[140px]">{{ next_task.title }}</div>
+                                </div>
+                                {% else %}
+                                <span class="text-xs text-gray-300">Дела отсутствуют</span>
+                                {% endif %}
+                            </td>
+                            <td class="px-4 py-3">
+                                <span class="text-sm text-gray-900">{{ deal.client.full_name or deal.client.email or 'Клиент' }}</span>
+                            </td>
+                            <td class="px-4 py-3">
+                                <span class="text-sm font-medium text-gray-900">{{ '{:,.0f}'.format(deal.property_price|float).replace(',', ' ') }} ₽</span>
+                            </td>
+                            <td class="px-4 py-3">
+                                <div class="flex items-center gap-2">
+                                    {% if deal.manager and deal.manager.profile_image %}
+                                    <img src="{{ deal.manager.profile_image }}" alt="" class="w-6 h-6 rounded-full object-cover flex-shrink-0">
+                                    {% else %}
+                                    <div class="w-6 h-6 rounded-full bg-[#0088CC] flex items-center justify-center text-white text-[10px] font-bold flex-shrink-0">
+                                        {{ (deal.manager.first_name[0] if deal.manager and deal.manager.first_name else 'М') }}{{ (deal.manager.last_name[0] if deal.manager and deal.manager.last_name else '') }}
+                                    </div>
+                                    {% endif %}
+                                    <span class="text-sm text-gray-700">{{ deal.manager.full_name if deal.manager else 'Не назначен' }}</span>
+                                </div>
+                            </td>
+                            <td class="px-4 py-3">
+                                <span class="text-sm text-gray-600">{{ deal.created_at.strftime('%d.%m.%Y') }}</span>
+                            </td>
+                        </tr>
+                            {% endfor %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% if total_deals == 0 %}
+            <div class="text-center py-12 text-gray-400">
+                <i class="fas fa-inbox text-4xl mb-3 block"></i>
+                <p class="text-sm">Нет сделок для отображения</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div id="tasksContainer" class="hidden">
+        {% set ns = namespace(overdue_deals=[], today_deals=[], this_week_deals=[], next_week_deals=[], no_tasks_deals=[]) %}
+        {% for stage in stages %}
+            {% for deal in deals_by_stage.get(stage.key, []) %}
+                {% set active_tasks = deal.tasks.filter_by(is_completed=False).all() %}
+                {% if active_tasks|length == 0 %}
+                    {% set _ = ns.no_tasks_deals.append(deal) %}
+                {% else %}
+                    {% set has_overdue = active_tasks|selectattr('is_overdue')|list|length > 0 %}
+                    {% set earliest_task = active_tasks|sort(attribute='due_date')|first %}
+                    {% if has_overdue %}
+                        {% set _ = ns.overdue_deals.append(deal) %}
+                    {% elif earliest_task and earliest_task.due_date %}
+                        {% set task_date = earliest_task.due_date.strftime('%Y-%m-%d') %}
+                        {% set today_str = now_moscow.strftime('%Y-%m-%d') %}
+                        {% set week_end_str = week_end_moscow.strftime('%Y-%m-%d') %}
+                        {% set next_week_end_str = next_week_end_moscow.strftime('%Y-%m-%d') %}
+                        {% if task_date == today_str %}
+                            {% set _ = ns.today_deals.append(deal) %}
+                        {% elif task_date <= week_end_str %}
+                            {% set _ = ns.this_week_deals.append(deal) %}
+                        {% elif task_date <= next_week_end_str %}
+                            {% set _ = ns.next_week_deals.append(deal) %}
+                        {% else %}
+                            {% set _ = ns.no_tasks_deals.append(deal) %}
+                        {% endif %}
+                    {% else %}
+                        {% set _ = ns.no_tasks_deals.append(deal) %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        {% set task_columns = [
+            ('Просроченные', '#ef4444', ns.overdue_deals),
+            ('На сегодня', '#059669', ns.today_deals),
+            ('На этой неделе', '#0088CC', ns.this_week_deals),
+            ('На следующей неделе', '#f59e0b', ns.next_week_deals),
+            ('Без дел', '#6b7280', ns.no_tasks_deals)
+        ] %}
+
+        <div class="kanban-container">
+            {% for col_name, col_color, col_deals in task_columns %}
+            <div class="kanban-column" style="min-width: 260px;">
+                <div class="kanban-header" style="background: {{ col_color }}; border-bottom: 2px solid {{ col_color }};">
+                    <div class="flex items-center gap-2">
+                        <span class="text-white text-sm font-bold">{{ col_name }}</span>
+                        <span class="text-white/80 text-xs bg-white/20 px-1.5 py-0.5 rounded-full">{{ col_deals|length }}</span>
+                    </div>
+                    <button class="text-white/70 hover:text-white" onclick="openCreateModal()" title="Добавить сделку">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/></svg>
+                    </button>
+                </div>
+                <div class="kanban-cards">
+                    {% for deal in col_deals %}
+                    {% set deal_tasks = deal.tasks.filter_by(is_completed=False).all()|sort(attribute='due_date') %}
+                    {% set next_task = deal_tasks[0] if deal_tasks else None %}
+                    {% set days_since = ((now_moscow - deal.created_at).days) if deal.created_at else 0 %}
+                    <div class="kanban-card {% if col_name == 'Просроченные' %}ring-2 ring-red-400 bg-red-50/40{% endif %}"
+                         style="border-left-color: {{ col_color }};"
+                         onclick="openSlidePanel({{ deal.id }})">
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-sm font-semibold text-gray-900">{{ deal.client.full_name or deal.client.email or 'Клиент' }}</span>
+                            <div class="flex items-center gap-1">
+                                {% if next_task and next_task.is_overdue %}
+                                <span class="w-2.5 h-2.5 bg-red-500 rounded-full" title="Просрочена"></span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="text-xs font-medium text-gray-900 mb-1">{{ '{:,.0f}'.format(deal.property_price|float).replace(',', ' ') }} ₽</div>
+                        <div class="text-xs text-[#0088CC] font-medium mb-1">{{ deal.client.full_name or deal.client.email or 'Клиент' }}</div>
+                        <div class="text-[10px] text-gray-400 mb-1">{{ deal.created_at.strftime('%d %B') if deal.created_at else '' }}</div>
+                        <div class="text-[10px] text-gray-500 mb-0.5">Источник: {{ deal.client.registration_source or 'Агент' }}</div>
+                        {% if next_task and next_task.due_date %}
+                        <div class="text-[10px] text-gray-500 mb-0.5">Срок фиксации</div>
+                        <div class="text-[10px] {% if next_task.is_overdue %}text-red-600 font-bold{% else %}text-gray-700{% endif %}">{{ next_task.due_date.strftime('%d.%m.%Y %H:%M:%S') }}</div>
+                        <div class="text-[10px] text-gray-500">Статус фиксации</div>
+                        <div class="text-[10px] {% if next_task.is_overdue %}text-red-600{% else %}text-green-600{% endif %} font-medium">{{ 'Просрочена' if next_task.is_overdue else 'Активна' }}</div>
+                        {% endif %}
+                        <div class="flex items-center justify-between mt-2 pt-2 border-t border-gray-100">
+                            <span class="text-[10px] text-[#0088CC] font-medium cursor-pointer hover:underline" onclick="event.stopPropagation(); openSlidePanel({{ deal.id }})">+ Дело</span>
+                            <div class="flex items-center gap-2">
+                                {% if next_task %}
+                                <span class="text-[10px] {% if next_task.is_overdue %}text-red-500{% else %}text-gray-400{% endif %}">{{ next_task.due_date.strftime('%H:%M') if next_task.due_date else '' }}</span>
+                                {% endif %}
+                                <span class="text-[10px] text-gray-400">{{ days_since }} дн.</span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% if col_deals|length == 0 %}
+                    <div class="text-center py-8 text-gray-400 text-xs">
+                        <i class="fas fa-inbox text-2xl mb-2 block"></i>
+                        <span>Нет сделок</span>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="slide-overlay" id="createSlideOverlay" onclick="closeCreateModal()"></div>
+<div class="slide-panel" id="createSlidePanel">
+    <div class="slide-panel-header">
+        <div class="flex items-center gap-3">
+            <button onclick="closeCreateModal()" class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-gray-200 text-gray-500 transition-colors" title="Закрыть">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+            <div class="flex items-center gap-2">
+                <span class="text-xs font-medium text-[#0088CC]">● CRM</span>
+                <span class="text-xs text-gray-400">›</span>
+                <span class="text-sm font-semibold text-gray-700">Новая сделка</span>
+            </div>
+        </div>
+        <div class="flex items-center gap-2">
+            <button onclick="toggleCreateFullscreen()" id="createFullscreenBtn" class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-gray-200 text-gray-500 transition-colors" title="На весь экран">
+                <svg class="w-4 h-4" id="createExpandIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                <svg class="w-4 h-4 hidden" id="createCollapseIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 9V4H4m11 0v5h5M9 20v-5H4m11 0v5h5"/></svg>
+            </button>
+        </div>
+    </div>
+    <div class="flex-1 overflow-y-auto">
+        <div class="p-5">
+            <div class="mb-5">
+                <div class="flex flex-wrap gap-2 mb-5" id="stageSelector">
+                    {% for stage in stages %}
+                    <button type="button" onclick="selectStage('{{ stage.key }}')" 
+                            class="stage-select-btn px-3 py-1.5 rounded-full text-xs font-medium border-2 transition-all"
+                            data-stage="{{ stage.key }}"
+                            style="border-color: {{ stage.color }}30; color: {{ stage.color }}; background: {{ stage.color }}08;"
+                            data-color="{{ stage.color }}">
+                        <span class="w-2 h-2 rounded-full inline-block mr-1.5" style="background: {{ stage.color }};"></span>
+                        {{ stage.label }}
+                    </button>
+                    {% endfor %}
+                </div>
+                <input type="hidden" id="createDealStatus" value="new">
+            </div>
+
+            <div class="bg-white rounded-xl border border-gray-200 shadow-sm mb-4">
+                <div class="px-4 py-3 border-b border-gray-100 flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-user text-[#0088CC]"></i>
+                        <span class="text-sm font-bold text-gray-800">Клиент</span>
+                    </div>
+                    <button type="button" onclick="toggleNewClientForm()" id="toggleClientBtn" class="text-xs text-[#0088CC] hover:text-[#006699] font-medium">
+                        <i class="fas fa-plus mr-1"></i>Новый клиент
+                    </button>
+                </div>
+                <div class="p-4">
+                    <div id="existingClientSection">
+                        <div class="relative">
+                            <input type="text" id="clientSearchInput" placeholder="Поиск клиента по имени, телефону, email..."
+                                   class="form-input pr-10" oninput="searchClients(this.value)" onfocus="showClientDropdown()" autocomplete="off">
+                            <div class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+                                <i class="fas fa-search text-sm"></i>
+                            </div>
+                        </div>
+                        <div id="clientDropdown" class="hidden mt-1 max-h-40 overflow-y-auto bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+                            {% for client in assigned_clients %}
+                            <button type="button" onclick="selectClient({{ client.id }}, '{{ (client.full_name or client.email)|e }}')" 
+                                    class="client-option w-full flex items-center gap-3 px-3 py-2.5 hover:bg-gray-50 text-left transition-colors border-b border-gray-50 last:border-0"
+                                    data-name="{{ (client.full_name or '')|lower }}" data-email="{{ (client.email or '')|lower }}" data-phone="{{ (client.phone or '')|lower }}">
+                                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-user text-gray-400 text-xs"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-medium text-gray-900">{{ client.full_name or 'Без имени' }}</p>
+                                    <p class="text-xs text-gray-400">{{ client.phone or client.email or '' }}</p>
+                                </div>
+                            </button>
+                            {% endfor %}
+                        </div>
+                        <input type="hidden" id="createDealClient" value="">
+                        <div id="selectedClientBadge" class="hidden mt-2 inline-flex items-center gap-2 bg-blue-50 text-[#0088CC] px-3 py-1.5 rounded-lg text-sm font-medium">
+                            <i class="fas fa-user-check"></i>
+                            <span id="selectedClientName"></span>
+                            <button onclick="clearSelectedClient()" class="ml-1 hover:text-red-500">&times;</button>
+                        </div>
+                    </div>
+                    <div id="newClientSection" class="hidden">
+                        <div class="bg-blue-50 border border-blue-100 rounded-xl p-4 space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-semibold text-[#0088CC]"><i class="fas fa-user-plus mr-1"></i>Создание нового клиента</span>
+                                <button type="button" onclick="toggleNewClientForm()" class="text-xs text-gray-400 hover:text-gray-600">Отмена</button>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs text-gray-500 mb-1">Имя <span class="text-red-500">*</span></label>
+                                    <input type="text" id="newClientName" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-[#0088CC] focus:border-[#0088CC] bg-white" placeholder="Иван Иванов">
+                                </div>
+                                <div>
+                                    <label class="block text-xs text-gray-500 mb-1">Телефон</label>
+                                    <input type="tel" id="newClientPhone" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-[#0088CC] focus:border-[#0088CC] bg-white" placeholder="+7 (999) 123-45-67">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 mb-1">Email <span class="text-red-500">*</span></label>
+                                <input type="email" id="newClientEmail" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-[#0088CC] focus:border-[#0088CC] bg-white" placeholder="email@example.com">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 mb-1">Запрос клиента</label>
+                                <input type="text" id="newClientRequest" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:ring-1 focus:ring-[#0088CC] focus:border-[#0088CC] bg-white" placeholder="Например: 2-комн., Сочи, до 10 млн">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl border border-gray-200 shadow-sm mb-4">
+                <div class="px-4 py-3 border-b border-gray-100">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-info-circle text-[#0088CC]"></i>
+                        <span class="text-sm font-bold text-gray-800">О сделке</span>
+                    </div>
+                </div>
+                <div class="p-4 space-y-3">
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Жилой комплекс</label>
+                        <select id="createDealComplex" class="form-input" onchange="handleComplexSelect(this)">
+                            <option value="">Выберите ЖК</option>
+                            {% for rc in residential_complexes %}
+                            <option value="{{ rc.name }}">{{ rc.name }}</option>
+                            {% endfor %}
+                            <option value="__custom__">Ввести вручную...</option>
+                        </select>
+                        <input type="text" id="createDealComplexCustom" class="form-input mt-2" placeholder="Название ЖК" style="display:none;">
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-xs text-gray-500 mb-1">Стоимость, ₽</label>
+                            <input type="text" id="createDealPrice" class="form-input" placeholder="10 000 000" oninput="formatPriceInput(this)">
+                        </div>
+                        <div>
+                            <label class="block text-xs text-gray-500 mb-1">Кэшбэк, ₽</label>
+                            <input type="text" id="createDealCashback" class="form-input" placeholder="300 000" oninput="formatPriceInput(this)">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1 uppercase text-[10px] font-semibold text-red-400 tracking-wider">Описание объекта</label>
+                        <textarea id="createDealDescription" class="form-input" rows="3" placeholder="Студия 28м², 5 этаж, вид на море..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sticky bottom-0 bg-white border-t border-gray-200 px-5 py-3 flex justify-end gap-3">
+            <button onclick="closeCreateModal()" class="px-5 py-2.5 text-sm font-medium text-gray-600 hover:text-gray-800 transition-colors">Отмена</button>
+            <button onclick="submitCreateDeal()" id="createDealSubmitBtn" class="px-6 py-2.5 text-sm font-bold text-white bg-[#059669] hover:bg-[#047857] rounded-xl transition-all shadow-md">
+                <i class="fas fa-check mr-2"></i>Создать сделку
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="slide-overlay" id="slideOverlay" onclick="closeSlidePanel()"></div>
+<div class="slide-panel" id="slidePanel">
+    <div class="slide-panel-header">
+        <div class="flex items-center gap-3">
+            <button onclick="closeSlidePanel()" class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-gray-200 text-gray-500 transition-colors" title="Закрыть">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+            <span class="text-sm font-semibold text-gray-700" id="slidePanelTitle">Сделка</span>
+        </div>
+        <div class="flex items-center gap-2">
+            <button onclick="toggleFullscreen()" id="fullscreenBtn" class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-gray-200 text-gray-500 transition-colors" title="Полный экран">
+                <svg class="w-4 h-4" id="expandIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                <svg class="w-4 h-4 hidden" id="collapseIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 9V4H4m11 0v5h5M9 20v-5H4m11 0v5h5"/></svg>
+            </button>
+            <a href="#" id="slidePanelOpenFull" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-gray-200 text-gray-500 transition-colors" title="Открыть в новой вкладке">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+        </div>
+    </div>
+    <iframe id="slidePanelIframe" src="about:blank"></iframe>
+</div>
+
+<script>
+function switchView(view) {
+    const kanban = document.getElementById('kanbanContainer');
+    const list = document.getElementById('listContainer');
+    const tasks = document.getElementById('tasksContainer');
+    const tabK = document.getElementById('tabKanban');
+    const tabL = document.getElementById('tabList');
+    const tabT = document.getElementById('tabTasks');
+
+    [kanban, list, tasks].forEach(el => el && el.classList.add('hidden'));
+    [tabK, tabL, tabT].forEach(el => el && el.classList.remove('active'));
+
+    if (view === 'list') {
+        list.classList.remove('hidden');
+        tabL.classList.add('active');
+        filterListRows();
+    } else if (view === 'tasks') {
+        tasks.classList.remove('hidden');
+        tabT.classList.add('active');
+    } else {
+        kanban.classList.remove('hidden');
+        tabK.classList.add('active');
+    }
+    localStorage.setItem('dealsView', view);
+}
+
+async function changeStageInline(selectEl) {
+    const dealId = selectEl.dataset.dealId;
+    const newStage = selectEl.value;
+    try {
+        const resp = await fetch(`/api/deals/${dealId}/stage`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({stage: newStage})
+        });
+        const data = await resp.json();
+        if (data.success) {
+            const opt = selectEl.options[selectEl.selectedIndex];
+            const color = opt.dataset.color || '#6b7280';
+            selectEl.style.borderColor = color;
+            selectEl.style.color = color;
+        } else {
+            alert(data.error || 'Ошибка смены этапа');
+            location.reload();
+        }
+    } catch(e) {
+        alert('Ошибка сети');
+        location.reload();
+    }
+}
+
+let listSortDir = 'desc';
+function sortListTable(col) {
+    if (col === 'date') {
+        listSortDir = listSortDir === 'desc' ? 'asc' : 'desc';
+        const tbody = document.getElementById('listTableBody');
+        const rows = Array.from(tbody.querySelectorAll('.list-deal-row'));
+        rows.sort((a, b) => {
+            const da = a.dataset.dealDate || '';
+            const db = b.dataset.dealDate || '';
+            return listSortDir === 'asc' ? da.localeCompare(db) : db.localeCompare(da);
+        });
+        rows.forEach(r => tbody.appendChild(r));
+    }
+}
+
+function filterListRows() {
+    const query = document.getElementById('kanbanSearch').value.toLowerCase().trim();
+    const stageFilters = (typeof activeSearchTags !== 'undefined' ? activeSearchTags : []).filter(t => t.type === 'stage').map(t => t.value);
+    document.querySelectorAll('.list-deal-row').forEach(row => {
+        const status = row.dataset.dealStatus;
+        const text = row.textContent.toLowerCase();
+        let visible = true;
+        if (stageFilters.length > 0 && !stageFilters.includes(status)) visible = false;
+        if (query && !text.includes(query)) visible = false;
+        row.style.display = visible ? '' : 'none';
+    });
+}
+
+const savedView = localStorage.getItem('dealsView');
+if (savedView === 'list' || savedView === 'tasks') {
+    requestAnimationFrame(() => switchView(savedView));
+}
+
+function filterByManager(managerId) {
+    const url = new URL(window.location.href);
+    if (managerId) {
+        url.searchParams.set('manager_id', managerId);
+    } else {
+        url.searchParams.delete('manager_id');
+    }
+    window.location.href = url.toString();
+}
+
+(function() {
+    const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+
+    let draggedCard = null;
+
+    window.handleDragStart = function(e) {
+        draggedCard = e.currentTarget;
+        draggedCard.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', draggedCard.dataset.dealId);
+    };
+
+    window.handleDragEnd = function(e) {
+        if (draggedCard) draggedCard.classList.remove('dragging');
+        draggedCard = null;
+        document.querySelectorAll('.kanban-cards.drag-over').forEach(el => el.classList.remove('drag-over'));
+    };
+
+    window.handleDragOver = function(e) {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+        e.currentTarget.classList.add('drag-over');
+    };
+
+    window.handleDragLeave = function(e) {
+        e.currentTarget.classList.remove('drag-over');
+    };
+
+    window.handleDrop = function(e) {
+        e.preventDefault();
+        e.currentTarget.classList.remove('drag-over');
+        const dealId = e.dataTransfer.getData('text/plain');
+        const newStage = e.currentTarget.dataset.stage;
+        if (!dealId || !newStage) return;
+        const card = document.querySelector('[data-deal-id="' + dealId + '"]');
+        if (card && card.dataset.dealStatus === newStage) return;
+
+        fetch('/api/deals/' + dealId, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json', 'X-CSRFToken': csrfToken },
+            body: JSON.stringify({ status: newStage })
+        }).then(r => {
+            if (r.ok) { window.location.reload(); }
+            else { r.json().then(d => alert(d.error || 'Ошибка обновления статуса')).catch(() => alert('Ошибка обновления статуса')); }
+        }).catch(() => alert('Ошибка сети'));
+    };
+
+    let isNewClientMode = false;
+
+    window.toggleNewClientForm = function() {
+        isNewClientMode = !isNewClientMode;
+        document.getElementById('existingClientSection').classList.toggle('hidden', isNewClientMode);
+        document.getElementById('newClientSection').classList.toggle('hidden', !isNewClientMode);
+        const btn = document.getElementById('toggleClientBtn');
+        btn.innerHTML = isNewClientMode ? '<i class="fas fa-users mr-1"></i>Выбрать из списка' : '<i class="fas fa-plus mr-1"></i>Новый клиент';
+        if (!isNewClientMode) {
+            document.getElementById('newClientName').value = '';
+            document.getElementById('newClientPhone').value = '';
+            document.getElementById('newClientEmail').value = '';
+            document.getElementById('newClientRequest').value = '';
+        }
+    };
+
+    window.searchClients = function(query) {
+        const q = query.toLowerCase().trim();
+        document.querySelectorAll('.client-option').forEach(el => {
+            if (!q) { el.style.display = ''; return; }
+            const name = el.dataset.name || '';
+            const email = el.dataset.email || '';
+            const phone = el.dataset.phone || '';
+            el.style.display = (name.includes(q) || email.includes(q) || phone.includes(q)) ? '' : 'none';
+        });
+        showClientDropdown();
+    };
+
+    window.showClientDropdown = function() {
+        document.getElementById('clientDropdown').classList.remove('hidden');
+    };
+
+    window.selectClient = function(id, name) {
+        document.getElementById('createDealClient').value = id;
+        document.getElementById('selectedClientName').textContent = name;
+        document.getElementById('selectedClientBadge').classList.remove('hidden');
+        document.getElementById('clientDropdown').classList.add('hidden');
+        document.getElementById('clientSearchInput').value = '';
+    };
+
+    window.clearSelectedClient = function() {
+        document.getElementById('createDealClient').value = '';
+        document.getElementById('selectedClientBadge').classList.add('hidden');
+    };
+
+    window.selectStage = function(key) {
+        document.getElementById('createDealStatus').value = key;
+        document.querySelectorAll('.stage-select-btn').forEach(btn => {
+            const c = btn.dataset.color;
+            if (btn.dataset.stage === key) {
+                btn.style.background = c;
+                btn.style.color = '#fff';
+                btn.style.borderColor = c;
+            } else {
+                btn.style.background = c + '08';
+                btn.style.color = c;
+                btn.style.borderColor = c + '30';
+            }
+        });
+    };
+
+    window.formatPriceInput = function(input) {
+        let v = input.value.replace(/[^\d]/g, '');
+        if (v) input.value = parseInt(v).toLocaleString('ru-RU');
+        else input.value = '';
+    };
+
+    function parsePriceValue(str) {
+        return parseFloat((str || '').replace(/[^\d]/g, '')) || 0;
+    }
+
+    window.openCreateModal = function(stage) {
+        document.getElementById('createDealStatus').value = stage || 'new';
+        document.getElementById('createDealClient').value = '';
+        document.getElementById('clientSearchInput').value = '';
+        document.getElementById('selectedClientBadge').classList.add('hidden');
+        document.getElementById('createDealComplex').value = '';
+        document.getElementById('createDealComplexCustom').style.display = 'none';
+        document.getElementById('createDealComplexCustom').value = '';
+        document.getElementById('createDealPrice').value = '';
+        document.getElementById('createDealCashback').value = '';
+        document.getElementById('createDealDescription').value = '';
+        document.getElementById('clientDropdown').classList.add('hidden');
+        if (isNewClientMode) toggleNewClientForm();
+        if (stage) selectStage(stage); else {
+            document.querySelectorAll('.stage-select-btn').forEach(btn => {
+                const c = btn.dataset.color;
+                if (btn.dataset.stage === 'new') {
+                    btn.style.background = c;
+                    btn.style.color = '#fff';
+                    btn.style.borderColor = c;
+                } else {
+                    btn.style.background = c + '08';
+                    btn.style.color = c;
+                    btn.style.borderColor = c + '30';
+                }
+            });
+        }
+        document.getElementById('createSlidePanel').classList.add('open');
+        document.getElementById('createSlideOverlay').classList.add('active');
+    };
+
+    window.closeCreateModal = function() {
+        document.getElementById('createSlidePanel').classList.remove('open', 'fullscreen');
+        document.getElementById('createSlideOverlay').classList.remove('active');
+        document.getElementById('createExpandIcon').classList.remove('hidden');
+        document.getElementById('createCollapseIcon').classList.add('hidden');
+    };
+
+    window.toggleCreateFullscreen = function() {
+        const panel = document.getElementById('createSlidePanel');
+        panel.classList.toggle('fullscreen');
+        document.getElementById('createExpandIcon').classList.toggle('hidden');
+        document.getElementById('createCollapseIcon').classList.toggle('hidden');
+    };
+
+    window.handleComplexSelect = function(sel) {
+        const customInput = document.getElementById('createDealComplexCustom');
+        if (sel.value === '__custom__') {
+            customInput.style.display = '';
+            customInput.focus();
+        } else {
+            customInput.style.display = 'none';
+            customInput.value = '';
+        }
+    };
+
+    function formatPhoneForServer(phone) {
+        const digits = phone.replace(/[^\d]/g, '');
+        if (digits.length === 11 && digits[0] === '7') {
+            return '+7-' + digits.slice(1,4) + '-' + digits.slice(4,7) + '-' + digits.slice(7,9) + '-' + digits.slice(9,11);
+        }
+        if (digits.length === 10) {
+            return '+7-' + digits.slice(0,3) + '-' + digits.slice(3,6) + '-' + digits.slice(6,8) + '-' + digits.slice(8,10);
+        }
+        return phone;
+    }
+
+    async function createNewClient() {
+        const name = document.getElementById('newClientName').value.trim();
+        let phone = document.getElementById('newClientPhone').value.trim();
+        const email = document.getElementById('newClientEmail').value.trim();
+        const clientRequest = document.getElementById('newClientRequest').value.trim();
+        if (!name) {
+            alert('Укажите имя клиента');
+            return null;
+        }
+        if (!email) {
+            alert('Укажите email клиента');
+            return null;
+        }
+        if (phone) {
+            phone = formatPhoneForServer(phone);
+        }
+        try {
+            const body = { full_name: name, email: email };
+            if (phone) body.phone = phone;
+            if (clientRequest) body.client_request = clientRequest;
+            const res = await fetch('/api/manager/add-client', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'X-CSRFToken': csrfToken },
+                body: JSON.stringify(body)
+            });
+            const data = await res.json();
+            if (res.ok && data.success) return data.client_id;
+            alert(data.error || 'Ошибка создания клиента');
+            return null;
+        } catch(e) {
+            alert('Ошибка сети при создании клиента');
+            return null;
+        }
+    }
+
+    window.submitCreateDeal = async function() {
+        const btn = document.getElementById('createDealSubmitBtn');
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Создаём...';
+
+        let clientId;
+        if (isNewClientMode) {
+            clientId = await createNewClient();
+            if (!clientId) { btn.disabled = false; btn.innerHTML = '<i class="fas fa-check mr-2"></i>Создать сделку'; return; }
+        } else {
+            clientId = document.getElementById('createDealClient').value;
+            if (!clientId) { alert('Выберите клиента'); btn.disabled = false; btn.innerHTML = '<i class="fas fa-check mr-2"></i>Создать сделку'; return; }
+        }
+
+        const complexSel = document.getElementById('createDealComplex').value;
+        const complexCustom = document.getElementById('createDealComplexCustom').value.trim();
+        const complexName = complexSel === '__custom__' ? complexCustom : complexSel;
+        const price = parsePriceValue(document.getElementById('createDealPrice').value);
+        const cashback = parsePriceValue(document.getElementById('createDealCashback').value);
+        const description = document.getElementById('createDealDescription').value.trim();
+        const status = document.getElementById('createDealStatus').value || 'new';
+
+        fetch('/api/deals', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'X-CSRFToken': csrfToken },
+            body: JSON.stringify({
+                client_id: parseInt(clientId),
+                residential_complex_name: complexName,
+                property_price: price,
+                cashback_amount: cashback,
+                property_description: description,
+                status: status
+            })
+        }).then(r => r.json().then(d => ({ ok: r.ok, data: d })))
+        .then(({ ok, data }) => {
+            if (ok) { window.location.reload(); }
+            else { alert(data.error || 'Ошибка создания сделки'); btn.disabled = false; btn.innerHTML = '<i class="fas fa-check mr-2"></i>Создать сделку'; }
+        }).catch(() => { alert('Ошибка сети'); btn.disabled = false; btn.innerHTML = '<i class="fas fa-check mr-2"></i>Создать сделку'; });
+    };
+
+    window.openSlidePanel = function(dealId) {
+        const panel = document.getElementById('slidePanel');
+        const overlay = document.getElementById('slideOverlay');
+        const iframe = document.getElementById('slidePanelIframe');
+        const openFull = document.getElementById('slidePanelOpenFull');
+        const dealUrl = '/manager/deals/' + dealId;
+
+        iframe.src = dealUrl + '?partial=1';
+        openFull.href = dealUrl;
+        document.getElementById('slidePanelTitle').textContent = 'Загрузка...';
+
+        iframe.onload = function() {
+            try {
+                const title = iframe.contentDocument?.title;
+                if (title) document.getElementById('slidePanelTitle').textContent = title.split('|')[0].trim();
+            } catch(e) {
+                document.getElementById('slidePanelTitle').textContent = 'Сделка';
+            }
+        };
+
+        overlay.classList.add('active');
+        requestAnimationFrame(() => panel.classList.add('open'));
+        document.body.style.overflow = 'hidden';
+    };
+
+    window.closeSlidePanel = function() {
+        const panel = document.getElementById('slidePanel');
+        const overlay = document.getElementById('slideOverlay');
+        panel.classList.remove('open', 'fullscreen');
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+        document.getElementById('expandIcon').classList.remove('hidden');
+        document.getElementById('collapseIcon').classList.add('hidden');
+        setTimeout(() => { document.getElementById('slidePanelIframe').src = 'about:blank'; }, 300);
+    };
+
+    window.toggleFullscreen = function() {
+        const panel = document.getElementById('slidePanel');
+        const expand = document.getElementById('expandIcon');
+        const collapse = document.getElementById('collapseIcon');
+        panel.classList.toggle('fullscreen');
+        expand.classList.toggle('hidden');
+        collapse.classList.toggle('hidden');
+    };
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            if (document.getElementById('slidePanel').classList.contains('open')) { closeSlidePanel(); }
+            else if (document.getElementById('createSlidePanel').classList.contains('open')) { closeCreateModal(); }
+            hideSearchDropdown();
+        }
+    });
+
+    let activeSearchTags = [];
+
+    window.showSearchDropdown = function() {
+        document.getElementById('searchDropdown').classList.remove('hidden');
+    };
+
+    window.hideSearchDropdown = function() {
+        document.getElementById('searchDropdown').classList.add('hidden');
+    };
+
+    window.setSearchCategory = function(el, cat) {
+        document.querySelectorAll('.search-cat-btn').forEach(btn => {
+            btn.classList.remove('active', 'text-[#0088CC]');
+            btn.classList.add('text-gray-600');
+        });
+        el.classList.add('active', 'text-[#0088CC]');
+        el.classList.remove('text-gray-600');
+        document.getElementById('searchCatStage').classList.toggle('hidden', cat !== 'stage');
+        document.getElementById('searchCatQuick').classList.toggle('hidden', cat !== 'quick');
+    };
+
+    window.addSearchTag = function(type, value, label, color) {
+        if (activeSearchTags.find(t => t.type === type && t.value === value)) return;
+        activeSearchTags.push({ type, value, label, color });
+        renderSearchTags();
+        filterKanbanCards();
+        hideSearchDropdown();
+    };
+
+    window.removeSearchTag = function(idx) {
+        activeSearchTags.splice(idx, 1);
+        renderSearchTags();
+        filterKanbanCards();
+    };
+
+    window.clearAllSearch = function() {
+        activeSearchTags = [];
+        document.getElementById('kanbanSearch').value = '';
+        renderSearchTags();
+        filterKanbanCards();
+    };
+
+    function renderSearchTags() {
+        const container = document.getElementById('searchTags');
+        const clearBtn = document.getElementById('searchClearBtn');
+        container.innerHTML = '';
+        activeSearchTags.forEach((tag, idx) => {
+            const el = document.createElement('span');
+            el.className = 'inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium text-white cursor-default';
+            el.style.background = tag.color || '#0088CC';
+            el.innerHTML = tag.label + '<button onclick="removeSearchTag(' + idx + ')" class="ml-1 hover:opacity-70">&times;</button>';
+            container.appendChild(el);
+        });
+        clearBtn.classList.toggle('hidden', activeSearchTags.length === 0 && !document.getElementById('kanbanSearch').value);
+    }
+
+    window.filterKanbanCards = function() {
+        const query = document.getElementById('kanbanSearch').value.toLowerCase().trim();
+        const clearBtn = document.getElementById('searchClearBtn');
+        clearBtn.classList.toggle('hidden', activeSearchTags.length === 0 && !query);
+        const stageFilters = activeSearchTags.filter(t => t.type === 'stage').map(t => t.value);
+
+        document.querySelectorAll('.kanban-column').forEach(col => {
+            const stageKey = col.dataset.stage;
+
+            if (stageFilters.length > 0 && !stageFilters.includes(stageKey)) {
+                col.style.display = 'none';
+                return;
+            }
+            col.style.display = '';
+
+            const cards = col.querySelectorAll('.kanban-card');
+            let visibleCount = 0;
+            cards.forEach(card => {
+                if (!query) { card.style.display = ''; visibleCount++; return; }
+                const text = card.textContent.toLowerCase();
+                if (text.includes(query)) { card.style.display = ''; visibleCount++; }
+                else { card.style.display = 'none'; }
+            });
+
+            const emptyMsg = col.querySelector('.empty-column');
+            if (emptyMsg) emptyMsg.style.display = visibleCount === 0 && query ? '' : (cards.length === 0 ? '' : 'none');
+        });
+
+        filterListRows();
+    };
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('#kanbanSearch') && !e.target.closest('#searchDropdown')) {
+            hideSearchDropdown();
+        }
+        if (!e.target.closest('#headerAvatarWrapper')) {
+            document.getElementById('headerCheckinDropdown')?.classList.add('hidden');
+        }
+        if (!e.target.closest('#clientSearchInput') && !e.target.closest('#clientDropdown')) {
+            document.getElementById('clientDropdown')?.classList.add('hidden');
+        }
+    });
+
+    window.toggleHeaderCheckinDropdown = function(e) {
+        e.stopPropagation();
+        document.getElementById('headerCheckinDropdown').classList.toggle('hidden');
+    };
+
+    function updateHeaderCheckinUI(isCheckedIn, since, duration) {
+        const indicator = document.getElementById('headerCheckinIndicator');
+        const statusText = document.getElementById('headerCheckinStatus');
+        const btnText = document.getElementById('headerCheckinBtnText');
+        const btn = document.getElementById('headerCheckinBtn');
+        if (!indicator) return;
+        if (isCheckedIn) {
+            indicator.className = 'absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full border-2 border-white bg-green-500';
+            statusText.textContent = 'На работе с ' + since + (duration ? ' (' + duration + ')' : '');
+            statusText.className = 'text-xs text-green-600';
+            btnText.textContent = 'Уйти с работы';
+            btn.className = 'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all hover:bg-red-50 text-red-600';
+        } else {
+            indicator.className = 'absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full border-2 border-white bg-gray-300';
+            statusText.textContent = 'Не на работе';
+            statusText.className = 'text-xs text-gray-400';
+            btnText.textContent = 'На работе';
+            btn.className = 'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all hover:bg-green-50 text-green-700';
+        }
+    }
+
+    async function loadHeaderCheckinStatus() {
+        try {
+            const res = await fetch('/api/manager/checkin/status');
+            const data = await res.json();
+            if (data.success) updateHeaderCheckinUI(data.is_checked_in, data.since || '', data.duration || '');
+        } catch(e) {}
+    }
+
+    window.doHeaderCheckin = async function() {
+        try {
+            const res = await fetch('/api/manager/checkin', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'X-CSRFToken': csrfToken }
+            });
+            const data = await res.json();
+            if (data.success) {
+                if (data.status === 'checked_in') updateHeaderCheckinUI(true, data.time, '0м');
+                else updateHeaderCheckinUI(false, '', '');
+            }
+        } catch(e) { console.error('Checkin error:', e); }
+    };
+
+    loadHeaderCheckinStatus();
+})();
+</script>
+{% endblock %}

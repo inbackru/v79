@@ -1,0 +1,146 @@
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+ (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+ Header: openApplicationModal function defined
+properties:6760 Uncaught 
+ DOM Helper initialized - safe DOM operations available
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+favorites.js:1 Uncaught 
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔥 loadFavoritesFromAPI called for user
+ 🔍 DEBUG: window.manager_authenticated = undefined
+ 🔍 DEBUG: window.isManager = undefined
+ 🔍 DEBUG: this.isManager() = false
+ 🔍 DEBUG: Using endpoint: /api/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): Object
+ 📦 Загружено из localStorage - квартиры: 4 ЖК: 4
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+ ⏳ Ожидаем загрузку данных из базы данных...
+ 🔍 Загружаем сравнение из PostgreSQL...
+ 📡 Endpoint: /api/user/comparison/load isManager: false
+ ✅ SavedSearchesManager initialized
+ ✅ SavedSearchesManager initialized
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Form validation initialized
+ Cache SW failed: 
+static/uploads/avatars/manager_1_cecc61b0.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 📊 Page Load Time: 3104ms
+ 📊 Performance metrics: Object
+ Scroll force restored
+ 🔥 Favorites API response: Object
+ 🔥 Loaded favorites from API: Array(13)
+ 📦 API Response: Object
+ ✅ Загружено из API - квартиры: 4 ЖК: 4
+ 📋 Property IDs: Array(4)
+ 📋 Complex IDs: Array(4)
+ ✅ localStorage и API данные синхронизированы
+ 🔢 Счетчик обновлен: 8 (квартиры: 4 ЖК: 4 )
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: Array(4)
+ 📋 Complex IDs: Array(4)
+ 🔍 Found 20 property comparison buttons on page
+   Button 1: ID=1999611557, inComparison=false
+properties-comparison-fix.js:964   Button 2: ID=1999611558, inComparison=true
+properties-comparison-fix.js:964   Button 3: ID=1999611566, inComparison=true
+properties-comparison-fix.js:964   Button 4: ID=2060712788, inComparison=true
+properties-comparison-fix.js:964   Button 5: ID=2058093385, inComparison=true
+properties-comparison-fix.js:964   Button 6: ID=2060496484, inComparison=false
+properties-comparison-fix.js:964   Button 7: ID=2055669531, inComparison=false
+properties-comparison-fix.js:964   Button 8: ID=2055669541, inComparison=false
+properties-comparison-fix.js:964   Button 9: ID=2055669895, inComparison=false
+properties-comparison-fix.js:964   Button 10: ID=1892750314, inComparison=false
+properties-comparison-fix.js:964   Button 11: ID=1892750295, inComparison=false
+properties-comparison-fix.js:964   Button 12: ID=2055669647, inComparison=false
+properties-comparison-fix.js:964   Button 13: ID=2055669665, inComparison=false
+properties-comparison-fix.js:964   Button 14: ID=2055669746, inComparison=false
+properties-comparison-fix.js:964   Button 15: ID=1892750327, inComparison=false
+properties-comparison-fix.js:964   Button 16: ID=2055669147, inComparison=false
+properties-comparison-fix.js:964   Button 17: ID=2055669160, inComparison=false
+properties-comparison-fix.js:964   Button 18: ID=2055669344, inComparison=false
+properties-comparison-fix.js:964   Button 19: ID=1892750313, inComparison=false
+properties-comparison-fix.js:964   Button 20: ID=1892750549, inComparison=false
+properties-comparison-fix.js:971 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:982 ✅ UI кнопок обновлено: 4 квартир + 4 ЖК
+properties-comparison-fix.js:774 ✅ Данные из БД загружены, инициализируем кнопки...
+properties-comparison-fix.js:805 🏠 Инициализируем 20 кнопок сравнения квартир
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 1 готова: 1999611557
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 2 готова: 1999611558
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 3 готова: 1999611566
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 4 готова: 2060712788
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 5 готова: 2058093385
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 6 готова: 2060496484
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 7 готова: 2055669531
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 8 готова: 2055669541
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 9 готова: 2055669895
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 10 готова: 1892750314
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 11 готова: 1892750295
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 12 готова: 2055669647
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 13 готова: 2055669665
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 14 готова: 2055669746
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 15 готова: 1892750327
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 16 готова: 2055669147
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 17 готова: 2055669160
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 18 готова: 2055669344
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 19 готова: 1892750313
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 20 готова: 1892750549
+properties-comparison-fix.js:835 🏢 Инициализируем 0 кнопок сравнения ЖК
+properties-comparison-fix.js:952 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:953 📋 Comparison IDs: Array(4)
+properties-comparison-fix.js:954 📋 Complex IDs: Array(4)
+properties-comparison-fix.js:958 🔍 Found 20 property comparison buttons on page
+properties-comparison-fix.js:964   Button 1: ID=1999611557, inComparison=false
+properties-comparison-fix.js:964   Button 2: ID=1999611558, inComparison=true
+properties-comparison-fix.js:964   Button 3: ID=1999611566, inComparison=true
+properties-comparison-fix.js:964   Button 4: ID=2060712788, inComparison=true
+properties-comparison-fix.js:964   Button 5: ID=2058093385, inComparison=true
+properties-comparison-fix.js:964   Button 6: ID=2060496484, inComparison=false
+properties-comparison-fix.js:964   Button 7: ID=2055669531, inComparison=false
+properties-comparison-fix.js:964   Button 8: ID=2055669541, inComparison=false
+properties-comparison-fix.js:964   Button 9: ID=2055669895, inComparison=false
+properties-comparison-fix.js:964   Button 10: ID=1892750314, inComparison=false
+properties-comparison-fix.js:964   Button 11: ID=1892750295, inComparison=false
+properties-comparison-fix.js:964   Button 12: ID=2055669647, inComparison=false
+properties-comparison-fix.js:964   Button 13: ID=2055669665, inComparison=false
+properties-comparison-fix.js:964   Button 14: ID=2055669746, inComparison=false
+properties-comparison-fix.js:964   Button 15: ID=1892750327, inComparison=false
+properties-comparison-fix.js:964   Button 16: ID=2055669147, inComparison=false
+properties-comparison-fix.js:964   Button 17: ID=2055669160, inComparison=false
+properties-comparison-fix.js:964   Button 18: ID=2055669344, inComparison=false
+properties-comparison-fix.js:964   Button 19: ID=1892750313, inComparison=false
+properties-comparison-fix.js:964   Button 20: ID=1892750549, inComparison=false
+properties-comparison-fix.js:971 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:982 ✅ UI кнопок обновлено: 4 квартир + 4 ЖК
+properties-comparison-fix.js:784 ✅ Система сравнения полностью готова к работе
+static/uploads/avatars/manager_1_cecc61b0.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+static/uploads/avatars/manager_1_cecc61b0.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+static/uploads/avatars/manager_1_cecc61b0.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+favorites.js:453 🔥 Complex favorites API response: Object
+favorites.js:458 🔥 Loaded complex favorites from API: Array(7)
+favorites.js:659 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(7)
+favorites.js:464 🔥 UI update called after API load
+favorites.js:659 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(7)
+favorites.js:334 Real favorites count from API - Total: 20 (Properties: 13, Complexes: 7)
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+super_search.js:410 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+performance-lite.js:35 Memory usage: {used: '51 MB', total: '108 MB', limit: '4096 MB'}
+performance-lite.js:35 Memory usage: {used: '22 MB', total: '28 MB', limit: '4096 MB'}

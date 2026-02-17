@@ -1,0 +1,65 @@
+modules = ["php-8.2", "web", "python-3.11", "nodejs-20", "postgresql-16"]
+run = "python main.py"
+
+[nix]
+channel = "stable-25_05"
+packages = ["cacert", "chromedriver", "chromium", "coreutils", "fontconfig", "freetype", "geckodriver", "ghostscript", "gitFull", "glib", "glibcLocales", "harfbuzz", "lcms2", "libarchive", "libev", "libffi", "libimagequant", "libjpeg", "libtiff", "libwebp", "libxcrypt", "openjpeg", "openssl", "pango", "php", "pkg-config", "playwright-driver", "postgresql", "tcl", "tk", "unrar", "xcodebuild", "zlib"]
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["gunicorn", "--bind", "0.0.0.0:5000", "main:app"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Telegram Bot"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gunicorn --bind 0.0.0.0:5000 --reuse-port --reload --timeout 120 --workers 2 --threads 2 main:app"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Telegram Bot"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd /home/runner/workspace && python -c \"from scripts.telegram_bot import main; main()\""
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[agent]
+integrations = ["web_scraper:1.0.0", "python_database:1.0.0", "python_sendgrid:1.0.0"]
+expertMode = true
+
+[userenv]
+
+[userenv.shared]
+RED_SMS_LOGIN = "bithome"
+RED_SMS_API_KEY = "LlDWOooJPrKJIfqwLTTZqPjf"
+TEST_SMS_MODE = "false"
+ENABLE_SCHEDULER = "true"

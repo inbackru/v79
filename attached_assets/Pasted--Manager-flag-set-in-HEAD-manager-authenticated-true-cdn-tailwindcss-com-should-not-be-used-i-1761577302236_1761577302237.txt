@@ -1,0 +1,332 @@
+ ✅ Manager flag set in HEAD - manager_authenticated: true
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+(анонимная) @ (индекс):64
+ (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+(анонимная) @ 2.1/?apikey=&lang=ru_RU:1
+ Header: openApplicationModal function defined
+properties:7022 Uncaught 
+ 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+ ✅ Presentation functions loaded: {openPresentationModal: 'function', closePresentationModal: 'function', addPropertyToPresentation: 'function'}
+ DOM Helper initialized - safe DOM operations available
+ ✅ Filter variables initialized (before property-filters.js): {serverSidePagination: true, totalProperties: 357, totalPages: 18, page: 1, developersCount: 9}
+ ✅ View switching functions loaded
+ 🔥🔥🔥 PROPERTIES-SORTING.JS LOADED - AJAX VERSION 🔥🔥🔥
+ ✅ properties-sorting.js AJAX initialization complete
+ 📋 PROPERTIES-LIST-UPDATER.JS LOADED
+ ✅ properties-list-updater.js loaded
+ ♾️ INFINITE-SCROLL.JS LOADED
+ ✅ infinite-scroll.js initialization complete
+ 🔥 property-filters.js загружается - AJAX MODE...
+ ✅ property-filters.js loaded successfully
+ ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function'}
+ ✅ Active filters display functions loaded
+ 🚀🚀🚀 PROPERTY-FILTERS.JS - AJAX MODE ACTIVATED 🚀🚀🚀
+ ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function', removeFilter: 'function', …}
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ 🗺️ properties_mini_map.js загружен
+ 🔧 Property card click handler loading...
+ ✅ Property card click handler installed
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+favorites.js:1 Uncaught 
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔧 Initializing properties page view...
+ 📋 Current view mode: list
+ ✅ Switched to list view
+ 📌 DOMContentLoaded - attaching AJAX sort listener
+ ✅ AJAX sortProperties event listener attached to #sort-select
+ 🚀 Initializing Infinite Scroll...
+ 📄 Initial state: {currentPage: 1, totalPages: 18, hasMorePages: true}
+ ✅ Sentinel created
+ ✅ Observer attached
+ ✅ Infinite Scroll initialized
+ 🔧 Initializing advanced filters button...
+ ✅ "Еще" button handler registered successfully
+ 🏷️ Initializing active filters display...
+ Manager detected: Skipping localStorage, will load from API
+ 🔥 loadFavoritesFromAPI called for manager
+ 🔍 DEBUG: window.manager_authenticated = true
+ 🔍 DEBUG: window.isManager = true
+ 🔍 DEBUG: this.isManager() = true
+ 🔍 DEBUG: Using endpoint: /api/manager/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): {manager_authenticated: true, result: true}
+ Manager detected: Skipping localStorage, will load from API
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: true
+ ⏳ Ожидаем загрузку данных из базы данных...
+ 🔍 Загружаем сравнение из PostgreSQL...
+ 📡 Endpoint: /api/manager/comparison/load isManager: true
+ 🗺️ Properties mini map - DOMContentLoaded
+ ✅ Save search button event listener attached
+ ✅ SavedSearchesManager initialized
+properties:11038 Uncaught 
+(анонимная) @ properties:11038
+ ✅ SavedSearchesManager initialized
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Form validation initialized
+The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+ ℹ️ No active filters to display
+ ✅ Active filters displayed on page load
+ Cache SW failed: 
+manager_1_32307983.webp:1  GET https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp 404 (Not Found)
+Image
+(анонимная) @ image-compressor.js:28
+optimizeImages @ image-compressor.js:15
+(анонимная) @ image-compressor.js:63
+(анонимная) @ image-compressor.js:70
+ 📊 Page Load Time: 3585ms
+ 📊 Performance metrics: {type: 'page_load', duration: 3585, url: '/properties'}
+ Scroll force restored
+ 📦 API Response: {complexes: Array(3), complexes_count: 3, properties: Array(4), properties_count: 4, success: true}
+ ✅ Загружено из API - квартиры: 4 ЖК: 3
+ 📋 Property IDs: (4) ['437', '364', '363', '365']
+ 📋 Complex IDs: (3) ['30', '23', '24']
+ ✅ localStorage и API данные синхронизированы
+ 🔢 Счетчик обновлен: 7 (квартиры: 4 ЖК: 3 )
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: (4) ['363', '364', '365', '437']
+ 📋 Complex IDs: (3) ['23', '24', '30']
+ 🔍 Found 20 property comparison buttons on page
+   Button 1: ID=711, inComparison=false
+   Button 2: ID=365, inComparison=true
+   Button 3: ID=363, inComparison=true
+   Button 4: ID=364, inComparison=true
+   Button 5: ID=437, inComparison=true
+   Button 6: ID=595, inComparison=false
+   Button 7: ID=608, inComparison=false
+   Button 8: ID=458, inComparison=false
+   Button 9: ID=442, inComparison=false
+   Button 10: ID=432, inComparison=false
+   Button 11: ID=452, inComparison=false
+   Button 12: ID=472, inComparison=false
+   Button 13: ID=439, inComparison=false
+   Button 14: ID=453, inComparison=false
+   Button 15: ID=462, inComparison=false
+   Button 16: ID=470, inComparison=false
+   Button 17: ID=449, inComparison=false
+   Button 18: ID=464, inComparison=false
+   Button 19: ID=438, inComparison=false
+   Button 20: ID=471, inComparison=false
+ 🔍 Found 0 complex comparison buttons on page
+ ✅ UI кнопок обновлено: 4 квартир + 3 ЖК
+ ✅ Данные из БД загружены, инициализируем кнопки...
+properties:3661  GET https://via.placeholder.com/400x300 net::ERR_NAME_NOT_RESOLVED
+ 🏠 Инициализируем 20 кнопок сравнения квартир
+ ✅ Кнопка квартиры 1 готова: 711
+ ✅ Кнопка квартиры 2 готова: 365
+ ✅ Кнопка квартиры 3 готова: 363
+ ✅ Кнопка квартиры 4 готова: 364
+ ✅ Кнопка квартиры 5 готова: 437
+ ✅ Кнопка квартиры 6 готова: 595
+ ✅ Кнопка квартиры 7 готова: 608
+ ✅ Кнопка квартиры 8 готова: 458
+ ✅ Кнопка квартиры 9 готова: 442
+ ✅ Кнопка квартиры 10 готова: 432
+ ✅ Кнопка квартиры 11 готова: 452
+ ✅ Кнопка квартиры 12 готова: 472
+ ✅ Кнопка квартиры 13 готова: 439
+ ✅ Кнопка квартиры 14 готова: 453
+ ✅ Кнопка квартиры 15 готова: 462
+ ✅ Кнопка квартиры 16 готова: 470
+ ✅ Кнопка квартиры 17 готова: 449
+ ✅ Кнопка квартиры 18 готова: 464
+ ✅ Кнопка квартиры 19 готова: 438
+ ✅ Кнопка квартиры 20 готова: 471
+ 🏢 Инициализируем 0 кнопок сравнения ЖК
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: (4) ['363', '364', '365', '437']
+ 📋 Complex IDs: (3) ['23', '24', '30']
+ 🔍 Found 20 property comparison buttons on page
+   Button 1: ID=711, inComparison=false
+   Button 2: ID=365, inComparison=true
+   Button 3: ID=363, inComparison=true
+   Button 4: ID=364, inComparison=true
+   Button 5: ID=437, inComparison=true
+   Button 6: ID=595, inComparison=false
+   Button 7: ID=608, inComparison=false
+   Button 8: ID=458, inComparison=false
+   Button 9: ID=442, inComparison=false
+   Button 10: ID=432, inComparison=false
+   Button 11: ID=452, inComparison=false
+   Button 12: ID=472, inComparison=false
+   Button 13: ID=439, inComparison=false
+   Button 14: ID=453, inComparison=false
+   Button 15: ID=462, inComparison=false
+   Button 16: ID=470, inComparison=false
+   Button 17: ID=449, inComparison=false
+   Button 18: ID=464, inComparison=false
+   Button 19: ID=438, inComparison=false
+   Button 20: ID=471, inComparison=false
+ 🔍 Found 0 complex comparison buttons on page
+ ✅ UI кнопок обновлено: 4 квартир + 3 ЖК
+ ✅ Система сравнения полностью готова к работе
+ 🔥 Favorites API response: {favorites: Array(4), success: true}
+ 🔥 Loaded favorites from API: (4) ['437', '364', '363', '365']
+  HEAD https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp net::ERR_ABORTED 404 (Not Found)
+checkImageExists @ performance_optimizer.js:216
+(анонимная) @ performance_optimizer.js:185
+optimizeImages @ performance_optimizer.js:180
+init @ performance_optimizer.js:43
+PerformanceOptimizer @ performance_optimizer.js:26
+(анонимная) @ performance_optimizer.js:325
+  HEAD https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp net::ERR_ABORTED 404 (Not Found)
+checkImageExists @ performance_optimizer.js:216
+(анонимная) @ performance_optimizer.js:185
+optimizeImages @ performance_optimizer.js:180
+init @ performance_optimizer.js:43
+PerformanceOptimizer @ performance_optimizer.js:26
+(анонимная) @ performance_optimizer.js:325
+  HEAD https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp net::ERR_ABORTED 404 (Not Found)
+checkImageExists @ performance_optimizer.js:216
+(анонимная) @ performance_optimizer.js:185
+optimizeImages @ performance_optimizer.js:180
+init @ performance_optimizer.js:43
+PerformanceOptimizer @ performance_optimizer.js:26
+(анонимная) @ performance_optimizer.js:325
+ ✅ Yandex mini map initialized for properties
+ 🔥 Complex favorites API response: {complexes: Array(3), favorite_complexes: Array(3), favorites: Array(3), success: true}
+ 🔥 Loaded complex favorites from API: (3) ['24', '23', '30']
+ 🔄 updateFavoritesUI: Found 20 property hearts, favorites: (4) ['437', '364', '363', '365']
+   Heart 1: ID=711, isFavorited=false
+   Heart 2: ID=365, isFavorited=true
+   Heart 3: ID=363, isFavorited=true
+   Heart 4: ID=364, isFavorited=true
+   Heart 5: ID=437, isFavorited=true
+   Heart 6: ID=595, isFavorited=false
+   Heart 7: ID=608, isFavorited=false
+   Heart 8: ID=458, isFavorited=false
+   Heart 9: ID=442, isFavorited=false
+   Heart 10: ID=432, isFavorited=false
+   Heart 11: ID=452, isFavorited=false
+   Heart 12: ID=472, isFavorited=false
+   Heart 13: ID=439, isFavorited=false
+   Heart 14: ID=453, isFavorited=false
+   Heart 15: ID=462, isFavorited=false
+   Heart 16: ID=470, isFavorited=false
+   Heart 17: ID=449, isFavorited=false
+VM385 favorites.js:312   Heart 18: ID=464, isFavorited=false
+VM385 favorites.js:312   Heart 19: ID=438, isFavorited=false
+VM385 favorites.js:312   Heart 20: ID=471, isFavorited=false
+VM385 favorites.js:682 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: (3) ['24', '23', '30']
+VM385 favorites.js:487 🔥 UI update called after API load
+VM385 favorites.js:307 🔄 updateFavoritesUI: Found 20 property hearts, favorites: (4) ['437', '364', '363', '365']
+VM385 favorites.js:312   Heart 1: ID=711, isFavorited=false
+VM385 favorites.js:312   Heart 2: ID=365, isFavorited=true
+VM385 favorites.js:312   Heart 3: ID=363, isFavorited=true
+VM385 favorites.js:312   Heart 4: ID=364, isFavorited=true
+VM385 favorites.js:312   Heart 5: ID=437, isFavorited=true
+VM385 favorites.js:312   Heart 6: ID=595, isFavorited=false
+VM385 favorites.js:312   Heart 7: ID=608, isFavorited=false
+VM385 favorites.js:312   Heart 8: ID=458, isFavorited=false
+VM385 favorites.js:312   Heart 9: ID=442, isFavorited=false
+VM385 favorites.js:312   Heart 10: ID=432, isFavorited=false
+VM385 favorites.js:312   Heart 11: ID=452, isFavorited=false
+VM385 favorites.js:312   Heart 12: ID=472, isFavorited=false
+VM385 favorites.js:312   Heart 13: ID=439, isFavorited=false
+VM385 favorites.js:312   Heart 14: ID=453, isFavorited=false
+VM385 favorites.js:312   Heart 15: ID=462, isFavorited=false
+VM385 favorites.js:312   Heart 16: ID=470, isFavorited=false
+VM385 favorites.js:312   Heart 17: ID=449, isFavorited=false
+VM385 favorites.js:312   Heart 18: ID=464, isFavorited=false
+VM385 favorites.js:312   Heart 19: ID=438, isFavorited=false
+VM385 favorites.js:312   Heart 20: ID=471, isFavorited=false
+VM385 favorites.js:682 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: (3) ['24', '23', '30']
+properties_mini_map.js:67 ✅ Loaded 357 property coordinates
+properties_mini_map.js:87 ✅ Created 11 clusters on Yandex mini map
+properties_mini_map.js:108 🎯 Auto-centered map: [43.4629, 38.9753] - [45.0355, 39.9122]
+property-filters.js?v=9017:126 Room filters changed: ['3']
+property-filters.js?v=9017:155 🚀 applyFilters() CALLED - AJAX MODE
+property-filters.js?v=9017:178 📦 Rooms collected from checkboxes: ['3']
+property-filters.js?v=9017:289 📡 AJAX Fetching: /api/properties/list?rooms=3&page=1&v=1761577279456
+VM385 favorites.js:339 Real favorites count from API - Total: 7 (Properties: 4, Complexes: 3)
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+property-filters.js?v=9017:300 ✅ API Response: {filters: {…}, pagination: {…}, properties: Array(20), sort: 'price-asc', success: true}
+properties-list-updater.js?v=1761509300:6 🔄 updatePropertiesList called with 20 properties
+properties-list-updater.js?v=1761509300:39 ⚠️ window.initializeImageCarousels not found
+window.updatePropertiesList @ properties-list-updater.js?v=1761509300:39
+(анонимная) @ property-filters.js?v=9017:305
+Promise.then
+window.applyFilters @ property-filters.js?v=9017:299
+window.handleRoomFilterChange @ property-filters.js?v=9017:150
+onchange @ properties:2718
+properties-list-updater.js?v=1761509300:48 🔄 Applying LIST view after AJAX update
+properties:10954 ✅ Switched to list view
+properties-list-updater.js?v=1761509300:56 ✅ List updated with 20 properties
+properties-list-updater.js?v=1761509300:270 📄 updatePagination called: {has_next: true, has_prev: false, page: 1, per_page: 20, total: 45, …}
+properties-list-updater.js?v=1761509300:276 ✅ Updated results-count to 45
+properties-list-updater.js?v=1761509300:288 ⚠️ Pagination container not found
+window.updatePagination @ properties-list-updater.js?v=1761509300:288
+(анонимная) @ property-filters.js?v=9017:310
+Promise.then
+window.applyFilters @ property-filters.js?v=9017:299
+window.handleRoomFilterChange @ property-filters.js?v=9017:150
+onchange @ properties:2718
+infinite-scroll.js?v=1761507444:212 🔄 Resetting infinite scroll: {newPage: 1, hasMore: true}
+infinite-scroll.js?v=1761507444:233 🗑️ Old observer disconnected
+infinite-scroll.js?v=1761507444:240 🗑️ Old sentinel removed
+infinite-scroll.js?v=1761507444:56 ✅ Sentinel created
+infinite-scroll.js?v=1761507444:78 ✅ Observer attached
+infinite-scroll.js?v=1761507444:249 ✅ Infinite scroll reset complete - ready to load from page 2
+property-filters.js?v=9017:316 ♾️ Infinite scroll reset after filtering to page 1
+property-filters.js?v=9017:325 🔄 Applying LIST view after AJAX filter
+properties:10954 ✅ Switched to list view
+property-filters.js?v=9017:349 ✅ Filtered 20 properties, total: 45
+property-filters.js?v=9017:682 ✅ Displayed 1 active filters
+super_search.js:447 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+property-filters.js?v=9017:379 💰 Price filter applied:  to 44
+property-filters.js?v=9017:155 🚀 applyFilters() CALLED - AJAX MODE
+property-filters.js?v=9017:178 📦 Rooms collected from checkboxes: ['3']
+property-filters.js?v=9017:289 📡 AJAX Fetching: /api/properties/list?rooms=3&price_max=44&page=1&v=1761577282427
+performance-lite.js:35 Memory usage: {used: '47 MB', total: '114 MB', limit: '4096 MB'}
+property-filters.js?v=9017:300 ✅ API Response: {filters: {…}, pagination: {…}, properties: Array(17), sort: 'price-asc', success: true}
+properties-list-updater.js?v=1761509300:6 🔄 updatePropertiesList called with 17 properties
+properties-list-updater.js?v=1761509300:39 ⚠️ window.initializeImageCarousels not found
+window.updatePropertiesList @ properties-list-updater.js?v=1761509300:39
+(анонимная) @ property-filters.js?v=9017:305
+Promise.then
+window.applyFilters @ property-filters.js?v=9017:299
+window.applyPriceFilter @ property-filters.js?v=9017:401
+onclick @ properties:2746
+properties-list-updater.js?v=1761509300:48 🔄 Applying LIST view after AJAX update
+properties:10954 ✅ Switched to list view
+properties-list-updater.js?v=1761509300:56 ✅ List updated with 17 properties
+properties-list-updater.js?v=1761509300:270 📄 updatePagination called: {has_next: false, has_prev: false, page: 1, per_page: 20, total: 17, …}
+properties-list-updater.js?v=1761509300:276 ✅ Updated results-count to 17
+properties-list-updater.js?v=1761509300:288 ⚠️ Pagination container not found
+window.updatePagination @ properties-list-updater.js?v=1761509300:288
+(анонимная) @ property-filters.js?v=9017:310
+Promise.then
+window.applyFilters @ property-filters.js?v=9017:299
+window.applyPriceFilter @ property-filters.js?v=9017:401
+onclick @ properties:2746
+infinite-scroll.js?v=1761507444:212 🔄 Resetting infinite scroll: {newPage: 1, hasMore: false}
+infinite-scroll.js?v=1761507444:233 🗑️ Old observer disconnected
+infinite-scroll.js?v=1761507444:240 🗑️ Old sentinel removed
+infinite-scroll.js?v=1761507444:56 ✅ Sentinel created
+infinite-scroll.js?v=1761507444:78 ✅ Observer attached
+infinite-scroll.js?v=1761507444:249 ✅ Infinite scroll reset complete - ready to load from page 2
+property-filters.js?v=9017:316 ♾️ Infinite scroll reset after filtering to page 1
+property-filters.js?v=9017:325 🔄 Applying LIST view after AJAX filter
+properties:10954 ✅ Switched to list view
+property-filters.js?v=9017:349 ✅ Filtered 17 properties, total: 17
+property-filters.js?v=9017:682 ✅ Displayed 2 active filters
+performance-lite.js:35 Memory usage: {used: '31 MB', total: '100 MB', limit: '4096 MB'}
+performance-lite.js:35 Memory usage: {used: '33 MB', total: '100 MB', limit: '4096 MB'}

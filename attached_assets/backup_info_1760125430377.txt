@@ -1,0 +1,13 @@
+      table_name       | count 
+-----------------------+-------
+ properties            |     0
+ residential_complexes |    19
+ applications          |     4
+ it_companies          |  9085
+ districts             |    53
+ streets               |  1648
+ users                 |    18
+ favorites             |     0
+ blog_posts            |    14
+(9 rows)
+

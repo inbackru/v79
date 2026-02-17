@@ -1,0 +1,320 @@
+
+      /////////////////////
+   ///////////////////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////        Curious and driven?
+  ///////////////@@@@@@@///////        Work with us!
+  ///////////////@@@@@@@///////
+  ///////////////@@@@@@@///////        https://join.replit.com/hack.with.us
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@#//////////////
+   ///////////////////////////
+      /////////////////////
+      _app-25b3b267c9954083.js:13:5277
+[LaunchDarkly] LaunchDarkly client initialized _app-25b3b267c9954083.js:13:5277
+«https://js.stripe.com/v3/controller-with-preconnect-e69592bba60955b937cda4ffc13a98a6.html#__shared_params__[version]=acacia&__shared_params__[light_experiment_assignments]=%7B%22token%22%3A%2286cb1f5e-2dee-455e-bb36-7a592474bf2e%22%2C%22assignments%22%3A%7B%7D%7D&apiKey=pk_live_515YpNsJAmnYVOvfnsBqRdATWS6SzbNAslOz1z2tujdKuvRMDAwWMeFXp6dJL1YKRrQjB0WAp0UDGwlFYL7hxw7Fc00QkfxBFsL&apiVersion=2025-01-27.acacia&stripeJsId=86cb1f5e-2dee-455e-bb36-7a592474bf2e&stripeObjId=sobj-d2c98a90-4577-4eb4-ba31-8009c8a281d4&firstStripeInstanceCreatedLatency=7&controllerCount=1&isCheckout=false&stripeJsLoadTime=1761495453632&manualBrowserDeprecationRollout=false&mids[guid]=NA&mids[muid]=1dd869b1-e05b-4ea5-9753-35007b4a6a3ecf589e&mids[sid]=33024861-be1e-4f2f-aee8-d6f17f5a8ea7294a20&referrer=https%3A%2F%2Freplit.com%2F~&controllerId=__privateStripeController8671» был предоставлен разделённый доступ к кукам или хранилищу, так как он был загружен в стороннем контексте и динамический доступ к состоянию включён. controller-with-preconnect-770b83debe78677c2db14644e82b506a.js:1:162055
+«https://m.stripe.network/inner.html#url=https%3A%2F%2Freplit.com%2Frepls&title=Apps%20-%20Replit&referrer=https%3A%2F%2Freplit.com%2Fstripe-checkout-success%3FsessionId%3Dcs_live_a1W2t35ZHVd5wRfwyIgfHoi998Y8d40onDUd1pjoclNNrgGsIhmqkwEoQk%26planPeriod%3Dmonthly&muid=1dd869b1-e05b-4ea5-9753-35007b4a6a3ecf589e&sid=33024861-be1e-4f2f-aee8-d6f17f5a8ea7294a20&version=6&preview=false&__shared_params__[version]=acacia» был предоставлен разделённый доступ к кукам или хранилищу, так как он был загружен в стороннем контексте и динамический доступ к состоянию включён. out-4.5.45.js:1:39660
+Предупреждения о куках 2
+[Coframe] Mutation callback infinite loop protection triggered, disconnecting mutation observer 
+Object { 0: MutationRecord, 1: MutationRecord }
+_app-25b3b267c9954083.js:13:5277
+[Coframe] Failed to wait for treatmentApplied callback command 
+Object {  }
+_app-25b3b267c9954083.js:13:5277
+Предупреждения Content-Security-Policy 4
+Предупреждения Content-Security-Policy 4
+Игнорируем неподдерживаемые entryTypes: longtask. 2 recaptcha__ru.js:285:491
+«https://www.google.com/recaptcha/enterprise/anchor?ar=2&k=6LdqhwwoAAAAAFPdw8jCuvY3PaHQItGj3RzOS4fW&co=aHR0cHM6Ly9yZXBsaXQuY29tOjQ0Mw..&hl=ru&v=-PgDGgfmUF0ySmnjMTJjzqak&size=invisible&anchor-ms=20000&execute-ms=15000&cb=8n3fkdmqy3f6» был предоставлен разделённый доступ к кукам или хранилищу, так как он был загружен в стороннем контексте и динамический доступ к состоянию включён. recaptcha__ru.js:329:371
+«https://www.google.com/recaptcha/enterprise/anchor?ar=2&k=6LdqhwwoAAAAAFPdw8jCuvY3PaHQItGj3RzOS4fW&co=aHR0cHM6Ly9yZXBsaXQuY29tOjQ0Mw..&hl=ru&v=-PgDGgfmUF0ySmnjMTJjzqak&size=invisible&anchor-ms=20000&execute-ms=15000&cb=p6u4f63kx6ez» был предоставлен разделённый доступ к кукам или хранилищу, так как он был загружен в стороннем контексте и динамический доступ к состоянию включён. recaptcha__ru.js:329:371
+stallwart: failed ping 1 stallwart.build.js:1:886
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «accelerometer». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «ambient-light-sensor». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «autoplay». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «battery». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «encrypted-media». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «execution-while-not-rendered». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «execution-while-out-of-viewport». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «gyroscope». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «layout-animations». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «legacy-image-formats». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «magnetometer». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «midi». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «navigation-override». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «oversized-images». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «payment». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «picture-in-picture». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «publickey-credentials». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «sync-xhr». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «unoptimized-images». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «unsized-media». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «usb». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «xr-spatial-tracking». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «clipboard-read». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «clipboard-write». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «accelerometer». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «ambient-light-sensor». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «autoplay». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «battery». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «encrypted-media». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «execution-while-not-rendered». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «execution-while-out-of-viewport». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «gyroscope». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «layout-animations». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «legacy-image-formats». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «magnetometer». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «midi». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «navigation-override». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «oversized-images». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «payment». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «picture-in-picture». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «publickey-credentials». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «sync-xhr». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «unoptimized-images». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «unsized-media». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «usb». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «xr-spatial-tracking». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «clipboard-read». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «clipboard-write». workspace_iframe.html
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «accelerometer». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «ambient-light-sensor». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «autoplay». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «battery». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «encrypted-media». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «execution-while-not-rendered». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «execution-while-out-of-viewport». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «gyroscope». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «layout-animations». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «legacy-image-formats». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «magnetometer». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «midi». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «navigation-override». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «oversized-images». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «payment». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «picture-in-picture». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «publickey-credentials». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «sync-xhr». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «unoptimized-images». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «unsized-media». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «usb». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «xr-spatial-tracking». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «clipboard-read». workspace_iframe.html:151:20
+Корпоративная политика: Пропускаем неподдерживаемое имя функции «clipboard-write». workspace_iframe.html:151:20
+Сценарий из «https://715ef7d4-2fd8-4e45-88fa-32607f5867cd-00-2jb3qzw08xxg6.picard.replit.dev/__replco/static/devtools/injected.js» был загружен, хотя его MIME-тип («text/plain») не является допустимым для JavaScript. residential-complexes
+✅ Manager flag set in HEAD - manager_authenticated: false injected.js:27:27
+cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation injected.js:27:27
+(Yandex Maps JS API): Invalid API key injected.js:27:27
+🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой injected.js:27:27
+🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения injected.js:27:27
+🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО injected.js:27:27
+Header: openApplicationModal function defined injected.js:27:27
+ЖК данные инициализированы (безопасно) injected.js:27:27
+Manager authenticated for complex recommendations: false injected.js:27:27
+«https://715ef7d4-2fd8-4e45-88fa-32607f5867cd-00-2jb3qzw08xxg6.picard.replit.dev/residential-complexes» был предоставлен разделённый доступ к кукам или хранилищу, так как он был загружен в стороннем контексте и динамический доступ к состоянию включён. residential-complexes:1882:9
+DOM Helper initialized - safe DOM operations available injected.js:27:27
+Phone formatting setup for: phone 2 injected.js:27:27
+InBack form validation initialized injected.js:27:27
+Performance optimizations initialized injected.js:27:27
+CSS optimization: Found 5 stylesheets injected.js:27:27
+Turbo loader initialized injected.js:27:27
+Cache optimizer initialized injected.js:27:27
+Image compressor initialized - WebP support: true injected.js:27:27
+🔧 Инициализируем кнопки сравнения... injected.js:27:27
+🔍 Manager status check (FIXED): 
+Object { manager_authenticated: false, result: false }
+injected.js:27:27
+📦 Загружено из localStorage - квартиры: 0 ЖК: 0 injected.js:27:27
+📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false injected.js:27:27
+⏳ Ожидаем загрузку данных из базы данных... injected.js:27:27
+🔍 Загружаем сравнение из PostgreSQL... injected.js:27:27
+📡 Endpoint: /api/user/comparison/load isManager: false injected.js:27:27
+✅ Счетчики обновлены из PostgreSQL менеджера: 0 injected.js:27:27
+🔧 Residential Complexes: Проверяем инициализацию... injected.js:27:27
+✅ SimpleComparisonManager найден для ЖК! injected.js:27:27
+🚀 Performance Optimizer v2.0 - Starting... injected.js:27:27
+🖼️ Lazy loading initialized for 0 images injected.js:27:27
+✅ Performance Optimizer initialized injected.js:27:27
+🚀 SuperSearch v2.0 - Initializing... injected.js:27:27
+Found 0 search inputs injected.js:27:27
+Initializing smart search... injected.js:27:27
+🔥 loadFavoritesFromAPI called for user injected.js:27:27
+🔍 DEBUG: window.manager_authenticated = false injected.js:27:27
+🔍 DEBUG: window.isManager = false injected.js:27:27
+🔍 DEBUG: this.isManager() = false injected.js:27:27
+🔍 DEBUG: Using endpoint: /api/favorites/list injected.js:27:27
+🔧 FavoritesManager initialized from favorites.js injected.js:27:27
+Form validation initialized injected.js:27:27
+InstallTrigger устарел и будет удалён в будущем. tag.js:12:165
+Кука «metrika_enabled» была отклонена из-за некорректного домена. 2 residential-complexes
+Предупреждения о куках 6
+🔄 updateFavoritesUI: Found 11 property hearts, favorites: 
+Array []
+injected.js:27:27
+  Heart 1: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 2: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 3: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 4: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 5: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 6: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 7: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 8: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 9: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 10: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 11: ID=undefined, isFavorited=false injected.js:27:27
+🔄 updateComplexFavoritesUI: Found 11 complex hearts, favorites: 
+Array []
+injected.js:27:27
+  Heart 30: 🤍 not favorited injected.js:27:27
+  Heart 23: 🤍 not favorited injected.js:27:27
+  Heart 24: 🤍 not favorited injected.js:27:27
+  Heart 28: 🤍 not favorited injected.js:27:27
+  Heart 26: 🤍 not favorited injected.js:27:27
+  Heart 21: 🤍 not favorited injected.js:27:27
+  Heart 25: 🤍 not favorited injected.js:27:27
+  Heart 29: 🤍 not favorited injected.js:27:27
+  Heart 31: 🤍 not favorited injected.js:27:27
+  Heart 27: 🤍 not favorited injected.js:27:27
+  Heart 22: 🤍 not favorited injected.js:27:27
+«https://715ef7d4-2fd8-4e45-88fa-32607f5867cd-00-2jb3qzw08xxg6.picard.replit.dev/__replco/workspace_iframe.html?initialPath=%2Fresidential-complexes&id=%3Arbv%3A» был предоставлен разделённый доступ к кукам или хранилищу, так как он был загружен в стороннем контексте и динамический доступ к состоянию включён.
+Cache SW failed: DOMException: The operation is insecure. injected.js:27:27
+📊 Page Load Time: 2280ms injected.js:27:27
+📊 Performance metrics: 
+Object { type: "page_load", duration: 2280, url: "/residential-complexes" }
+injected.js:27:27
+Предупреждения о куках 2
+Scroll force restored injected.js:27:27
+⚠️ API /api/favorites/list returned 401. User likely not authenticated. injected.js:27:27
+🔄 updateFavoritesUI: Found 11 property hearts, favorites: 
+Array []
+injected.js:27:27
+  Heart 1: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 2: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 3: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 4: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 5: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 6: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 7: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 8: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 9: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 10: ID=undefined, isFavorited=false injected.js:27:27
+  Heart 11: ID=undefined, isFavorited=false injected.js:27:27
+🔄 updateComplexFavoritesUI: Found 11 complex hearts, favorites: 
+Array []
+injected.js:27:27
+  Heart 30: 🤍 not favorited injected.js:27:27
+  Heart 23: 🤍 not favorited injected.js:27:27
+  Heart 24: 🤍 not favorited injected.js:27:27
+  Heart 28: 🤍 not favorited injected.js:27:27
+  Heart 26: 🤍 not favorited injected.js:27:27
+  Heart 21: 🤍 not favorited injected.js:27:27
+  Heart 25: 🤍 not favorited injected.js:27:27
+  Heart 29: 🤍 not favorited injected.js:27:27
+  Heart 31: 🤍 not favorited injected.js:27:27
+  Heart 27: 🤍 not favorited injected.js:27:27
+  Heart 22: 🤍 not favorited injected.js:27:27
+📦 API Response: 
+Object { complexes: [], complexes_count: 0, properties: [], properties_count: 0, success: true }
+injected.js:27:27
+✅ Загружено из API - квартиры: 0 ЖК: 0 injected.js:27:27
+📋 Property IDs: 
+Array []
+injected.js:27:27
+📋 Complex IDs: 
+Array []
+injected.js:27:27
+✅ localStorage и API данные синхронизированы injected.js:27:27
+🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 ) injected.js:27:27
+🔄 Обновляем UI кнопок сравнения... injected.js:27:27
+📋 Comparison IDs: 
+Array []
+injected.js:27:27
+📋 Complex IDs: 
+Array []
+injected.js:27:27
+🔍 Found 0 property comparison buttons on page injected.js:27:27
+🔍 Found 11 complex comparison buttons on page injected.js:27:27
+  Complex button 1: ID=30, inComparison=false injected.js:27:27
+  Complex button 2: ID=23, inComparison=false injected.js:27:27
+  Complex button 3: ID=24, inComparison=false injected.js:27:27
+  Complex button 4: ID=28, inComparison=false injected.js:27:27
+  Complex button 5: ID=26, inComparison=false injected.js:27:27
+  Complex button 6: ID=21, inComparison=false injected.js:27:27
+  Complex button 7: ID=25, inComparison=false injected.js:27:27
+  Complex button 8: ID=29, inComparison=false injected.js:27:27
+  Complex button 9: ID=31, inComparison=false injected.js:27:27
+  Complex button 10: ID=27, inComparison=false injected.js:27:27
+  Complex button 11: ID=22, inComparison=false injected.js:27:27
+✅ UI кнопок обновлено: 0 квартир + 0 ЖК injected.js:27:27
+✅ Данные из БД загружены, инициализируем кнопки... injected.js:27:27
+🏠 Инициализируем 11 кнопок сравнения квартир injected.js:27:27
+🏢 Инициализируем 11 кнопок сравнения ЖК injected.js:27:27
+✅ Кнопка ЖК 1 готова: 30 injected.js:27:27
+✅ Кнопка ЖК 2 готова: 23 injected.js:27:27
+✅ Кнопка ЖК 3 готова: 24 injected.js:27:27
+✅ Кнопка ЖК 4 готова: 28 injected.js:27:27
+✅ Кнопка ЖК 5 готова: 26 injected.js:27:27
+✅ Кнопка ЖК 6 готова: 21 injected.js:27:27
+✅ Кнопка ЖК 7 готова: 25 injected.js:27:27
+✅ Кнопка ЖК 8 готова: 29 injected.js:27:27
+✅ Кнопка ЖК 9 готова: 31 injected.js:27:27
+✅ Кнопка ЖК 10 готова: 27 injected.js:27:27
+✅ Кнопка ЖК 11 готова: 22 injected.js:27:27
+🔄 Обновляем UI кнопок сравнения... injected.js:27:27
+📋 Comparison IDs: 
+Array []
+injected.js:27:27
+📋 Complex IDs: 
+Array []
+injected.js:27:27
+🔍 Found 0 property comparison buttons on page injected.js:27:27
+🔍 Found 11 complex comparison buttons on page injected.js:27:27
+  Complex button 1: ID=30, inComparison=false injected.js:27:27
+  Complex button 2: ID=23, inComparison=false injected.js:27:27
+  Complex button 3: ID=24, inComparison=false injected.js:27:27
+  Complex button 4: ID=28, inComparison=false injected.js:27:27
+  Complex button 5: ID=26, inComparison=false injected.js:27:27
+  Complex button 6: ID=21, inComparison=false injected.js:27:27
+  Complex button 7: ID=25, inComparison=false injected.js:27:27
+  Complex button 8: ID=29, inComparison=false injected.js:27:27
+  Complex button 9: ID=31, inComparison=false injected.js:27:27
+  Complex button 10: ID=27, inComparison=false injected.js:27:27
+  Complex button 11: ID=22, inComparison=false injected.js:27:27
+✅ UI кнопок обновлено: 0 квартир + 0 ЖК injected.js:27:27
+✅ Система сравнения полностью готова к работе injected.js:27:27
+🔄 Принудительное обновление UI кнопок ЖК... injected.js:27:27
+🔄 Обновляем UI кнопок сравнения... injected.js:27:27
+📋 Comparison IDs: 
+Array []
+injected.js:27:27
+📋 Complex IDs: 
+Array []
+injected.js:27:27
+🔍 Found 0 property comparison buttons on page injected.js:27:27
+🔍 Found 11 complex comparison buttons on page injected.js:27:27
+  Complex button 1: ID=30, inComparison=false injected.js:27:27
+  Complex button 2: ID=23, inComparison=false injected.js:27:27
+  Complex button 3: ID=24, inComparison=false injected.js:27:27
+  Complex button 4: ID=28, inComparison=false injected.js:27:27
+  Complex button 5: ID=26, inComparison=false injected.js:27:27
+  Complex button 6: ID=21, inComparison=false injected.js:27:27
+  Complex button 7: ID=25, inComparison=false injected.js:27:27
+  Complex button 8: ID=29, inComparison=false injected.js:27:27
+  Complex button 9: ID=31, inComparison=false injected.js:27:27
+  Complex button 10: ID=27, inComparison=false injected.js:27:27
+  Complex button 11: ID=22, inComparison=false injected.js:27:27
+✅ UI кнопок обновлено: 0 квартир + 0 ЖК injected.js:27:27
+✅ Yandex mini map initialized for residential complexes injected.js:27:27
+✅ Loaded 11 complex coordinates injected.js:27:27
+✅ Added 11 complexes to Yandex mini map injected.js:27:27
+🎯 Auto-centered map: [43.4629, 39.4606] - [43.7978, 39.9122] injected.js:27:27
+📦 Preloaded: /static/css/styles.css injected.js:27:27
+📦 Preloaded: /static/js/super_search.js injected.js:27:27
+📦 Preloaded: /static/js/main.js injected.js:27:27
+Preloaded 5 popular queries injected.js:27:27
+✅ SuperSearch initialized successfully injected.js:27:27
+Ошибка карты кода: Error: request failed with status 404
+Stack in the worker:networkRequest@resource://devtools/client/shared/source-map-loader/utils/network-request.js:43:9
+
+URL ресурса: https://cdn.replit.com/_next/static/css/bed4389e4cc7c318.css
+URL карты кода: bed4389e4cc7c318.css.map

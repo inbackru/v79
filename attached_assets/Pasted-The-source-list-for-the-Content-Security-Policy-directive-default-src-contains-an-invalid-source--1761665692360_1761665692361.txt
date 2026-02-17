@@ -1,0 +1,971 @@
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+v53:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+v53:1 The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+v53:1 The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+ 
+      /////////////////////
+   ///////////////////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////        Curious and driven?
+  ///////////////@@@@@@@///////        Work with us!
+  ///////////////@@@@@@@///////
+  ///////////////@@@@@@@///////        https://join.replit.com/hack.with.us
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@#//////////////
+   ///////////////////////////
+      /////////////////////
+      
+ [LaunchDarkly] LaunchDarkly client initialized
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+ Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'battery'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'layout-animations'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'navigation-override'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'oversized-images'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'publickey-credentials'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'speaker-selection'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'unoptimized-images'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'unsized-media'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'pointer-lock'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-61ae8ab1b09a7983.js:1
+js.stripe.com/acacia/stripe.js:1  Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR
+ loadStripe.setLoadParameters was called but an existing Stripe.js script already exists in the document; existing script parameters will be used
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+googleads.g.doubleclick.net/pagead/viewthroughconversion/11411994397/?random=1761573764050&cv=11&fst=1761573764050&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0v9171242957za200zd9171242957xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480709~115938466~115938468~116217636~116217638&u_w=2560&u_h=1440&url=https%3A%2F%2Freplit.com%2F%40duyyxnd%2Fv53&ref=https%3A%2F%2Freplit.com%2F%40duyyxnd%2Fv53&frm=0&tiba=v53%20-%20Replit&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1060335285.1758215801&data=event%3Dgtag.config&rfmt=3&fmt=4:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1202436878&gjid=2097574589&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2062469248:1  Failed to load resource: net::ERR_CONNECTION_RESET
+v53:1 Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=2009594280&gjid=775108473&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1420611762:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=508280473&gjid=1378736258&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1385692044:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=443433208&gjid=300370206&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=144371531:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1212510474&gjid=1665753339&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2003822096:1  Failed to load resource: net::ERR_CONNECTION_RESET
+/graphql:1  Failed to load resource: net::ERR_CONNECTION_CLOSED
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1918988090&gjid=76376151&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1991472605:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=548831436&gjid=1188275581&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=931192473:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1689993845&gjid=913981469&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1175714271:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=57066847&gjid=921681963&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=545339601:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=241662152&gjid=1773085139&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=335874550:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=326213638&gjid=867622457&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=393463233:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=863844607&gjid=1689352280&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1035343204:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=137942223&gjid=427210952&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1103745637:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1114093721&gjid=1953946084&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=41394937:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=337286651&gjid=1246620999&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1030975106:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1785644599&gjid=23819055&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1590060875:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1648328061&gjid=1691945267&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1080398044:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ [Coframe] Mutation callback infinite loop protection triggered, disconnecting mutation observer Object
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1380411116&gjid=876194240&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1343362210:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=543858389&gjid=544622847&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=621972080:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1207116338&gjid=83506304&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1880626353:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=508058918&gjid=1757810321&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=634632760:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=385072393&gjid=241993055&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=706943504:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=888815154&gjid=814786999&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=142647592:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/logout' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=130832533&gjid=1669299185&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1556731609:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=904766068&gjid=380502389&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=809279960:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1950482043&gjid=474045217&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=919297793:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1271256235&gjid=891323020&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1417954270:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1890791669&gjid=1070876067&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1071273478:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=169420467&gjid=1019311425&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=7680845:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1916781911&gjid=751921306&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1792738239:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1228210035&gjid=806494501&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=220890449:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ [Coframe] Failed to wait for treatmentApplied callback command Object
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=858418903&gjid=1753820187&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2140270726:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/logout' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1808214574&gjid=227923823&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=423869675:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=905710413&gjid=1018207227&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=72302853:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=148159640&gjid=507589946&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1737070823:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=587208766&gjid=1087767677&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1239181682:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/profile' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/logout' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=40815618&gjid=605491171&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1811704437:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/dashboard' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=386447948&gjid=1735546535&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2069301724:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=163848920&gjid=358401172&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=504807907:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/logout' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=443202500&gjid=978678936&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1926193960:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1589255629&gjid=363427374&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=793928312:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1794664343&gjid=1066622006&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1984449297:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=509568957&gjid=241474982&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1629360313:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1972198757&gjid=1665803259&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1748501934:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1968506908&gjid=437390627&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=602432459:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=561310730&gjid=1755696667&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=821278671:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1656820767&gjid=1021035051&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1569570888:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1035219118&gjid=773623937&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=766941684:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1441711842&gjid=1871984180&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=101032888:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1201140904&gjid=1693185079&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=546610732:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ Invalid href 'https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/login%3Fnext=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/logout' passed to next/router in page: '/replEnvironmentDesktop'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1958718772&gjid=1675146869&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2064975304:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=478515372&gjid=302066993&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1934819475:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=846516739&gjid=613643545&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=772668513:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1226033918&gjid=189939019&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=18416784:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1976509365&gjid=338284026&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1189667984:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1922741326&gjid=1324978557&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1075214750:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1381566007&gjid=756397447&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=901600166:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=812565264&gjid=1609790822&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=771766092:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1569909099&gjid=1995129233&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=734472061:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=57939391&gjid=228484623&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1427566529:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1674157971&gjid=1524992109&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=389676193:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=451273105&gjid=123109224&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=617858783:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=233282136&gjid=132584050&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1283050780:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ WebSocket connection to 'wss://eval.kirk.platform.replit.com/wsv2/v2.public.Q2dZSXR2UDl4d1lTQmdqVmovN0hCaUlFYTJseWF6QUFPcTRCQ2lReVkySm1NV1kzTmkweFltUXhMVFF6WlRJdFlURTNOQzA0T0RkbE1qbGlNemszWXpVU0EyNXBlQm9XY21Wd2JHbDBMWEpsY0d3dFptbHNaWE10YTJseWF5SURkalV6S2dka2RYbDVlRzVrUWs0S0YzSmxjR3hwZEMxeVpYQnNMV0pzYjJOcmN5MXJhWEpyRWhWeVpYQnNhWFF0Y21Wd2JDMXRaWFJoTFd0cGNtc2FISEpsY0d4cGRDMXRZWEpuWVhKcGJtVXRZbXh2WTJ0ekxXdHBjbXRLQndqNHY3SVhFQUZRQUhnQVVpVUlBUkNBZ0lDQUlCa0FBQUFBQUFBUVFDRUFBQUFBQUFBUVFDaUFnSUNBeUFFd0FqZ0FZQUJxRGdqNHY3SVhFZ2RrZFhsNWVHNWtnZ0VDS2dDYUFRb0tDREF1TUM0eU1ERTFvQUVCg65cXnJCXPMD3ywrgpMWbtBeT-kL80yz9mf_gyZv8eeskI1FllUve6xlbV2tHpWG8n42TAibUzhBKsoNFNZ5CA.Q2dad2NtOWtPak1pQ25KbGNHeHBkQzVqYjIwPQ' failed: 
+connect @ 729-4172662eb3021676.js:1
+/data/repls/2cbf1f76-1bd1-43e2-a174-887e29b397c5/get_connection_metadata:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+ WebSocket connection to 'wss://replit.com/graphql_subscriptions' failed: 
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:18
+securetoken.googleapis.com/v1/token?key=AIzaSyARAzVTWc_KOBojIholLo2wzwNOQ6VKcB8:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+api.sorryapp.com/v1/pages/27c7b5fc:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+api.sorryapp.com/v1/pages/27c7b5fc:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+api.sorryapp.com/v1/pages/27c7b5fc:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+events.launchdarkly.com/events/diagnostic/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+o1151714.ingest.sentry.io/api/6318792/envelope/?sentry_key=8aa91189a4274b5a8c9b7b01d46ea360&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.112.0:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+o1151714.ingest.sentry.io/api/6318792/envelope/?sentry_key=8aa91189a4274b5a8c9b7b01d46ea360&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.112.0:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+events.launchdarkly.com/events/diagnostic/62b35a865152ab14c5942820:1  Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=446824350&gjid=822203915&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=39079122:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/g/collect?v=2&tid=G-MPJY3F1YEL&cid=11222849.1758215801&gtm=45je5am0h1v9135634466za200&aip=1&dma=0&gcd=13l3l3l3l2l1&npa=0&frm=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104573694~104684208~104684211~104948813~115480709~115616985~115938466~115938468~116210082~116210084~116217636~116217638:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1311791675&gjid=685000133&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=269421150:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=978335589&gjid=469788480&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1858447877:1  Failed to load resource: net::ERR_CONNECTION_RESET
+t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev&size=32:1  Failed to load resource: the server responded with a status of 404 ()
+t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/&size=32:1  Failed to load resource: the server responded with a status of 404 ()
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1276340747&gjid=219932820&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=373054317:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=922050397&gjid=1124498314&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1606365563:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1743308017&gjid=1255009412&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=847508704:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=725337807&gjid=445101068&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=113274002:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1183488372&gjid=660155837&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=706406812:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=766387809&gjid=806916571&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1515129938:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=516986578&gjid=232966935&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1844538217:1  Failed to load resource: net::ERR_CONNECTION_RESET
+t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/&size=32:1  Failed to load resource: the server responded with a status of 404 ()
+t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev&size=32:1  Failed to load resource: the server responded with a status of 404 ()
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1676986063&gjid=674781700&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=598003411:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=489190851&gjid=905995060&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=884747634:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1695232470&gjid=1900404058&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=393398015:1  Failed to load resource: net::ERR_CONNECTION_RESET
+t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/&size=32:1  Failed to load resource: the server responded with a status of 404 ()
+t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev&size=32:1  Failed to load resource: the server responded with a status of 404 ()
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1879645480&gjid=354442381&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=839196431:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1338870171&gjid=986436520&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=21395063:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=275879124&gjid=599348967&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=696814287:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=2029808738&gjid=1658466327&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=561340655:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=163933006&gjid=813529965&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=758871981:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1927447297&gjid=1768571328&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=68715167:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1049179742&gjid=1536678063&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=519184758:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+ingest.app.coframe.com/ingest/v2/batched_events/68c9ad4d4cddb58cf3a1f93d/:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=145729457&gjid=191076606&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=124173611:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1171035978&gjid=529947957&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=470729126:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=803126620&gjid=1446272054&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=671577300:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1041865979&gjid=1328599019&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1898755850:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1387628341&gjid=916115721&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=898479622:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1909407434&gjid=1044313111&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=730342270:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=519412616&gjid=1066942674&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1506119812:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=309251073&gjid=45280640&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=460928544:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1420171519&gjid=752174648&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=84902719:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1408803722&gjid=2087549882&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=187913236:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1572492413&gjid=2062622121&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=608129686:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1753062841&gjid=1515488655&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=384554121:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1679955821&gjid=1310672144&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1245336164:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1736358426&gjid=1339634979&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=475674062:1  Failed to load resource: net::ERR_CONNECTION_RESET
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'ambient-light-sensor'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'battery'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'execution-while-not-rendered'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'execution-while-out-of-viewport'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'layout-animations'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'legacy-image-formats'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'navigation-override'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'oversized-images'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'publickey-credentials'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'speaker-selection'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'unoptimized-images'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Unrecognized feature: 'unsized-media'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Allow attribute will take precedence over 'allowfullscreen'.
+workspace_iframe.html?initialPath=%2F&id=%3Ar2il%3A:32 Allow attribute will take precedence over 'allowpaymentrequest'.
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ injected.js:27
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ injected.js:27
+ Header: openApplicationModal function defined
+ Hero search fully disabled - SuperSearch handles everything
+ Hero search handlers removed - SuperSearch manages everything
+ DOM Helper initialized - safe DOM operations available
+ 🔍 index-search.js loading...
+ Fixing find button...
+ Found buttons: 0
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ ✅ Hero search handlers initialized
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Hero search initialized
+ 🔥 loadFavoritesFromAPI called for user
+ 🔍 DEBUG: window.manager_authenticated = false
+ 🔍 DEBUG: window.isManager = false
+ 🔍 DEBUG: this.isManager() = false
+ 🔍 DEBUG: Using endpoint: /api/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ Form validation initialized
+ Cache SW failed: [object DOMException]
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-2.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-1.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-4.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-3.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Error loading featured properties: TypeError: Cannot set properties of null (setting 'innerHTML')
+(анонимная) @ injected.js:27
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-2.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 🔥 Favorites API response: [object Object]
+ 🔥 Loaded favorites from API: 386,595,437,364,363,365
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-1.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-4.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-3.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-5.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 🔥 Complex favorites API response: [object Object]
+ 🔥 Loaded complex favorites from API: 23,30
+ 🔄 updateFavoritesUI: Found 0 property hearts, favorites: 386,595,437,364,363,365
+ 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: 23,30
+ 🔥 UI update called after API load
+ 🔄 updateFavoritesUI: Found 0 property hearts, favorites: 386,595,437,364,363,365
+ 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: 23,30
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-5.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Real favorites count from API - Total: 8 (Properties: 6, Complexes: 2)
+ 📦 Preloaded: /static/css/styles.css
+ 📦 Preloaded: /static/js/super_search.js
+ 📦 Preloaded: /static/js/main.js
+ Preloaded 5 popular queries
+ ✅ SuperSearch initialized successfully
+ Memory usage: [object Object]
+ Memory usage: [object Object]
+ 📊 Performance metrics: [object Object]
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ injected.js:27
+ (Yandex Maps JS API): Invalid API key
+(анонимная) @ injected.js:27
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ Header: openApplicationModal function defined
+via.placeholder.com/400x300/0088CC/FFFFFF?text=%D0%96%D0%9A+%22%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%9F%D0%B0%D1%80%D0%BA%22:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+ 🔥🔥🔥 RESIDENTIAL_COMPLEXES.HTML VERSION: v1761503218 - LOADED! 🔥🔥🔥
+ ✅ Загружено ЖК с сервера: 12
+ 📊 Первый ЖК: [object Object]
+ Manager authenticated for complex recommendations: false
+ DOM Helper initialized - safe DOM operations available
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+ Performance optimizations initialized
+ CSS optimization: Found 5 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): [object Object]
+ 📦 Загружено из localStorage - квартиры: 4 ЖК: 4
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+ ⏳ Ожидаем загрузку данных из базы данных...
+ 🔍 Загружаем сравнение из PostgreSQL...
+ 📡 Endpoint: /api/user/comparison/load isManager: false
+ 🚨 DOMContentLoaded: About to call initAllSliders() in 100ms
+ ✅ Счетчики обновлены из PostgreSQL менеджера: 8
+ 🔧 Residential Complexes: Проверяем инициализацию...
+ ✅ SimpleComparisonManager найден для ЖК!
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 0 search inputs
+ Initializing smart search...
+ 🔥 loadFavoritesFromAPI called for user
+ 🔍 DEBUG: window.manager_authenticated = false
+ 🔍 DEBUG: window.isManager = false
+ 🔍 DEBUG: this.isManager() = false
+ 🔍 DEBUG: Using endpoint: /api/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ Form validation initialized
+ ⏰ setTimeout fired! Calling initAllSliders() now...
+ 🚀 initAllSliders() called
+ 🔍 Found 12 slider elements with class .complex-slider
+   Slider 1: complexId="30", already initialized: false
+ 🎬 Initializing slider for complex 30
+ 📸 Found 21 slides for complex 30
+   Slider 2: complexId="23", already initialized: false
+ 🎬 Initializing slider for complex 23
+ 📸 Found 11 slides for complex 23
+   Slider 3: complexId="24", already initialized: false
+ 🎬 Initializing slider for complex 24
+ 📸 Found 2 slides for complex 24
+   Slider 4: complexId="28", already initialized: false
+ 🎬 Initializing slider for complex 28
+ 📸 Found 26 slides for complex 28
+   Slider 5: complexId="26", already initialized: false
+ 🎬 Initializing slider for complex 26
+ 📸 Found 10 slides for complex 26
+   Slider 6: complexId="21", already initialized: false
+ 🎬 Initializing slider for complex 21
+ 📸 Found 3 slides for complex 21
+   Slider 7: complexId="25", already initialized: false
+ 🎬 Initializing slider for complex 25
+ 📸 Found 7 slides for complex 25
+   Slider 8: complexId="29", already initialized: false
+ 🎬 Initializing slider for complex 29
+ 📸 Found 17 slides for complex 29
+   Slider 9: complexId="31", already initialized: false
+ 🎬 Initializing slider for complex 31
+ 📸 Found 13 slides for complex 31
+   Slider 10: complexId="27", already initialized: false
+ 🎬 Initializing slider for complex 27
+ 📸 Found 37 slides for complex 27
+   Slider 11: complexId="32", already initialized: false
+ 🎬 Initializing slider for complex 32
+ 📸 Found 1 slides for complex 32
+   Slider 12: complexId="22", already initialized: false
+ 🎬 Initializing slider for complex 22
+ 📸 Found 14 slides for complex 22
+ ✅ initAllSliders() completed. Total sliders object: [object Object]
+ 🔄 updateFavoritesUI: Found 12 property hearts, favorites: 386,595,437,364,363,365,711
+   Heart 1: ID=undefined, isFavorited=false
+   Heart 2: ID=undefined, isFavorited=false
+   Heart 3: ID=undefined, isFavorited=false
+   Heart 4: ID=undefined, isFavorited=false
+   Heart 5: ID=undefined, isFavorited=false
+   Heart 6: ID=undefined, isFavorited=false
+   Heart 7: ID=undefined, isFavorited=false
+   Heart 8: ID=undefined, isFavorited=false
+   Heart 9: ID=undefined, isFavorited=false
+   Heart 10: ID=undefined, isFavorited=false
+   Heart 11: ID=undefined, isFavorited=false
+   Heart 12: ID=undefined, isFavorited=false
+ 🔄 updateComplexFavoritesUI: Found 12 complex hearts, favorites: 24,23,30
+   Heart 30: ❤️ FAVORITED
+   Heart 23: ❤️ FAVORITED
+   Heart 24: ❤️ FAVORITED
+   Heart 28: 🤍 not favorited
+   Heart 26: 🤍 not favorited
+   Heart 21: 🤍 not favorited
+   Heart 25: 🤍 not favorited
+   Heart 29: 🤍 not favorited
+   Heart 31: 🤍 not favorited
+   Heart 27: 🤍 not favorited
+   Heart 32: 🤍 not favorited
+   Heart 22: 🤍 not favorited
+ Cache SW failed: [object DOMException]
+imgdmclkru.klassified.ru/vitrina/ac/7b/ac7b380a2a9de212d1df71ae7b33c0a101bafbbd.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/ac/ed/aced2bb984d129af4b4d4e1b683f4ef34e5dab90.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/1e/91/1e91f33c7cdfcdd54d27dce2e5712b6b4d3a34d9.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/91/74/91748bf7c16903d695cedf24413c4984c4219269.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/10/e4/10e4aa07ab954d4af789d3eb34d835f2a4889ccb.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/8b/66/8b6622bb373305655b6776ef5f2c8875f197c6f3.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/74/7f/747fbf859705f7c439a58a08bb7d412f8424a1e3.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/61/16/6116e5d671836d28e53f6fc1bbd521c93cce9790.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+ 🔥 Favorites API response: [object Object]
+ 🔥 Loaded favorites from API: 386,595,437,364,363,365
+ 📦 API Response: [object Object]
+ ✅ Загружено из API - квартиры: 4 ЖК: 4
+ 📋 Property IDs: 437,364,386,711
+ 📋 Complex IDs: 23,28,30,24
+ ✅ localStorage и API данные синхронизированы
+ 🔢 Счетчик обновлен: 8 (квартиры: 4 ЖК: 4 )
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: 364,386,437,711
+ 📋 Complex IDs: 23,24,28,30
+ 🔍 Found 0 property comparison buttons on page
+ 🔍 Found 12 complex comparison buttons on page
+   Complex button 1: ID=30, inComparison=true
+   Complex button 2: ID=23, inComparison=true
+   Complex button 3: ID=24, inComparison=true
+   Complex button 4: ID=28, inComparison=true
+   Complex button 5: ID=26, inComparison=false
+   Complex button 6: ID=21, inComparison=false
+   Complex button 7: ID=25, inComparison=false
+   Complex button 8: ID=29, inComparison=false
+   Complex button 9: ID=31, inComparison=false
+   Complex button 10: ID=27, inComparison=false
+   Complex button 11: ID=32, inComparison=false
+   Complex button 12: ID=22, inComparison=false
+ ✅ UI кнопок обновлено: 4 квартир + 4 ЖК
+ ✅ Данные из БД загружены, инициализируем кнопки...
+imgdmclkru.klassified.ru/vitrina/95/40/9540a9483b0d2c05e960b5bfb2327d406015176d.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+ 🏠 Инициализируем 12 кнопок сравнения квартир
+ 🏢 Инициализируем 12 кнопок сравнения ЖК
+ ✅ Кнопка ЖК 1 готова: 30
+ ✅ Кнопка ЖК 2 готова: 23
+ ✅ Кнопка ЖК 3 готова: 24
+ ✅ Кнопка ЖК 4 готова: 28
+ ✅ Кнопка ЖК 5 готова: 26
+ ✅ Кнопка ЖК 6 готова: 21
+ ✅ Кнопка ЖК 7 готова: 25
+ ✅ Кнопка ЖК 8 готова: 29
+ ✅ Кнопка ЖК 9 готова: 31
+ ✅ Кнопка ЖК 10 готова: 27
+ ✅ Кнопка ЖК 11 готова: 32
+ ✅ Кнопка ЖК 12 готова: 22
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: 364,386,437,711
+ 📋 Complex IDs: 23,24,28,30
+ 🔍 Found 0 property comparison buttons on page
+ 🔍 Found 12 complex comparison buttons on page
+   Complex button 1: ID=30, inComparison=true
+   Complex button 2: ID=23, inComparison=true
+   Complex button 3: ID=24, inComparison=true
+   Complex button 4: ID=28, inComparison=true
+   Complex button 5: ID=26, inComparison=false
+   Complex button 6: ID=21, inComparison=false
+   Complex button 7: ID=25, inComparison=false
+   Complex button 8: ID=29, inComparison=false
+   Complex button 9: ID=31, inComparison=false
+   Complex button 10: ID=27, inComparison=false
+   Complex button 11: ID=32, inComparison=false
+   Complex button 12: ID=22, inComparison=false
+ ✅ UI кнопок обновлено: 4 квартир + 4 ЖК
+ ✅ Система сравнения полностью готова к работе
+imgdmclkru.klassified.ru/vitrina/af/32/af328b2865be9b2598c58a24fb7277ae9df76f7d.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/49/3b/493b351d0b692938b5e062d42b1bb090f3196ad3.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/90/27/90270c211992ee55b7c79cd80d43b48c12c97151.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/44/57/445732f302e3be5624803859e24c820ca6b490e1.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/0a/c4/0ac4a217a110f6fb8b06a6ed9ac10e55080ced6d.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/b5/0b/b50b64c06d9f17ea59633e6cd4e686962ccdee1a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/e7/af/e7afeb73f9b1dd3e8c5589c12f5674e5e66f0f3b.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+ Real favorites count from API - Total: 8 (Properties: 6, Complexes: 2)
+imgdmclkru.klassified.ru/vitrina/5d/e7/5de78600d9fb5a4003ba6ac4834054dacb78d8f3.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/1e/5f/1e5f9b7f10ade2452d1015b4a7d6f2eb93b9ef56.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+ 🔄 Принудительное обновление UI кнопок ЖК...
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: 364,386,437,711
+ 📋 Complex IDs: 23,24,28,30
+ 🔍 Found 0 property comparison buttons on page
+ 🔍 Found 12 complex comparison buttons on page
+   Complex button 1: ID=30, inComparison=true
+   Complex button 2: ID=23, inComparison=true
+   Complex button 3: ID=24, inComparison=true
+   Complex button 4: ID=28, inComparison=true
+   Complex button 5: ID=26, inComparison=false
+   Complex button 6: ID=21, inComparison=false
+   Complex button 7: ID=25, inComparison=false
+   Complex button 8: ID=29, inComparison=false
+   Complex button 9: ID=31, inComparison=false
+   Complex button 10: ID=27, inComparison=false
+   Complex button 11: ID=32, inComparison=false
+   Complex button 12: ID=22, inComparison=false
+ ✅ UI кнопок обновлено: 4 квартир + 4 ЖК
+ ✅ Yandex mini map initialized for residential complexes
+imgdmclkru.klassified.ru/vitrina/09/c6/09c61110b9fcb571ad377056f6377dca8578e57b.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/9a/8f/9a8f7cac0a2005376b98c39278003e6f7be91815.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/9a/13/9a132083427c2e81e4f935857bf1aebdd838ad5d.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/02/d5/02d5e5691a4dfe76d3e7830b31539056ae4abd8d.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/b9/e9/b9e91bde022ee899c75a6073a3d52d3500574773.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/97/3a/973a4625f82e83ff031c527b616bf4298d67d76a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/70/69/706947cdb7f050a3046fac56760a8072c04c0b8a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/be/ca/beca5c34c0d5234ebcbae43ace3ea4b4586c6e5f.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/ZHK/7a/05/7a05ad1308d0f1048730810d09a6d1845555695b.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/da/7c/da7c4a00887780970f31ede62ecc6624900078fa.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/d6/50/d6501a8291ff83dcc077d73a600a029b91a93f4c.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/67/9a/679a38c402f558818da93d2a1dc9c62863e0e4b5.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/20/18/2018e36d81b55afe91758c5524207919ef72e23a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/e8/5f/e85feb09814e2a6d426e656abd38dc4a67de09a2.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/d0/9f/d09f99a15c2461381e56c977e0255261169bfdde.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/56/38/5638b785e7591704a031914c85353e6dcf4ac500.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/ad/20/ad20574fbf43ca865a1e2ed9fe77445e6e5a3ca7.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+ 🔥 Complex favorites API response: [object Object]
+ 🔥 Loaded complex favorites from API: 23,30
+ 🔄 updateFavoritesUI: Found 12 property hearts, favorites: 386,595,437,364,363,365
+   Heart 1: ID=undefined, isFavorited=false
+   Heart 2: ID=undefined, isFavorited=false
+   Heart 3: ID=undefined, isFavorited=false
+   Heart 4: ID=undefined, isFavorited=false
+   Heart 5: ID=undefined, isFavorited=false
+   Heart 6: ID=undefined, isFavorited=false
+   Heart 7: ID=undefined, isFavorited=false
+   Heart 8: ID=undefined, isFavorited=false
+   Heart 9: ID=undefined, isFavorited=false
+   Heart 10: ID=undefined, isFavorited=false
+   Heart 11: ID=undefined, isFavorited=false
+   Heart 12: ID=undefined, isFavorited=false
+ 🔄 updateComplexFavoritesUI: Found 12 complex hearts, favorites: 23,30
+   Heart 30: ❤️ FAVORITED
+   Heart 23: ❤️ FAVORITED
+   Heart 24: 🤍 not favorited
+   Heart 28: 🤍 not favorited
+   Heart 26: 🤍 not favorited
+   Heart 21: 🤍 not favorited
+   Heart 25: 🤍 not favorited
+   Heart 29: 🤍 not favorited
+   Heart 31: 🤍 not favorited
+   Heart 27: 🤍 not favorited
+   Heart 32: 🤍 not favorited
+   Heart 22: 🤍 not favorited
+ 🔥 UI update called after API load
+ 🔄 updateFavoritesUI: Found 12 property hearts, favorites: 386,595,437,364,363,365
+   Heart 1: ID=undefined, isFavorited=false
+   Heart 2: ID=undefined, isFavorited=false
+   Heart 3: ID=undefined, isFavorited=false
+   Heart 4: ID=undefined, isFavorited=false
+   Heart 5: ID=undefined, isFavorited=false
+   Heart 6: ID=undefined, isFavorited=false
+   Heart 7: ID=undefined, isFavorited=false
+   Heart 8: ID=undefined, isFavorited=false
+   Heart 9: ID=undefined, isFavorited=false
+   Heart 10: ID=undefined, isFavorited=false
+   Heart 11: ID=undefined, isFavorited=false
+   Heart 12: ID=undefined, isFavorited=false
+ 🔄 updateComplexFavoritesUI: Found 12 complex hearts, favorites: 23,30
+   Heart 30: ❤️ FAVORITED
+   Heart 23: ❤️ FAVORITED
+   Heart 24: 🤍 not favorited
+   Heart 28: 🤍 not favorited
+   Heart 26: 🤍 not favorited
+   Heart 21: 🤍 not favorited
+   Heart 25: 🤍 not favorited
+   Heart 29: 🤍 not favorited
+   Heart 31: 🤍 not favorited
+   Heart 27: 🤍 not favorited
+   Heart 32: 🤍 not favorited
+   Heart 22: 🤍 not favorited
+imgdmclkru.klassified.ru/vitrina/97/46/9746999b61a294a9db285fad2b09f32d2307cb72.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/28/6c/286cbe3b684343d5ad79a5c790c0cc33dd2de6fd.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/ea/a6/eaa6b9971e73677eabf596e5603f1ec2c48e0924.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/96/f5/96f56a2effbd34e35dac558efe78d47d45566c3f.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/46/48/4648f228b54579ee27b01c33af423c6319965c1d.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+ ✅ Loaded 12 complex coordinates
+ ✅ Added 12 complexes to Yandex mini map
+ 🎯 Auto-centered map: [43.4629, 38.9753] - [45.0355, 39.9122]
+imgdmclkru.klassified.ru/vitrina/ab/66/ab666577a68a91d5a5b47605ce62e5287fc19dad.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/d4/d0/d4d06f3831290175bb845ed3492e23af6eb54b8a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/ab/c9/abc9847dd36c236f0ff5ef0be70428c636422dc1.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+via.placeholder.com/400x300/0088CC/FFFFFF?text=%D0%96%D0%9A+%22%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%9F%D0%B0%D1%80%D0%BA%22:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+imgdmclkru.klassified.ru/vitrina/8c/61/8c6189ecc83956c98988d6e13025cb1cf6a0e890.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/27/db/27db806a5b58e5ba89771c1fe7b3f58bf5a7b6e0.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/68/f5/68f522983ce69c36d004c26140cdf6146436b59a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/6b/4c/6b4ca1ff6cf2f9494ad661782843e93ef835a9b7.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/15/f3/15f3306c3ceffb8734160c854f8ddf69d7db53de.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/a8/a5/a8a5af9ffdc1cbb969e93fca259dc91ad4c39a1e.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/c3/e0/c3e0cb46f2c0cfff1365f951a45b27df81abbd04.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+injected.js:27 Real favorites count from API - Total: 8 (Properties: 6, Complexes: 2)
+imgdmclkru.klassified.ru/vitrina/47/30/4730b1cb7ebe5218755632a6c6fbd35791d4ec2a.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/3c/8a/3c8ab484e5ca1416e81334d8e130ea81e77d502f.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/29/7c/297c17a642cd1e8a4826073c5809e9f5dae9eabb.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/3e/98/3e985f969dc9c799566e92cdbd4a621271089feb.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/23/0d/230d6ecde4654afa59c62d3b7aec0675f171da88.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/58/07/5807c17f86ed4d8b4c9d986d8605444fe4c44d9e.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/54/1d/541d59a9388da4cbc8750a94ead7ba424a3edbf6.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+imgdmclkru.klassified.ru/vitrina/5c/42/5c4241ff307593635ba50fbfcec9fa252aa4edf1.webp:1  Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+injected.js:27 Preloaded 5 popular queries
+injected.js:27 ✅ SuperSearch initialized successfully
+injected.js:27 📦 Preloaded: /static/css/styles.css
+injected.js:27 📦 Preloaded: /static/js/super_search.js
+injected.js:27 📦 Preloaded: /static/js/main.js
+injected.js:27 📊 Performance metrics: [object Object]
+injected.js:27 ✅ Manager flag set in HEAD - manager_authenticated: false
+injected.js:27 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ injected.js:27
+injected.js:27 Header: openApplicationModal function defined
+injected.js:27 🎥 DEBUG complex.videos: [
+    {
+        "type": "rutube",
+        "url": "https://rutube.ru/video/b0c7b6ed775bad93eecff7f22bc8fe8b/",
+        "title": "Обзор жилого комплекса",
+        "description": "Планировки, благоустройство, инфраструктура"
+    }
+]
+injected.js:27 🎥 DEBUG video_data: Array(1)
+injected.js:27 🎥 DEBUG uploaded_video: null
+injected.js:27 🎥 DEBUG первое видео: Object
+injected.js:27 🎥 DEBUG video.type: rutube
+injected.js:27 🎥 DEBUG video.url: https://rutube.ru/video/b0c7b6ed775bad93eecff7f22bc8fe8b/
+index.7fad31764ab13e34b313.js:1 Version: 2.83.0-embed
+index.7fad31764ab13e34b313.js:1 [mobx] uncaught error in 'Reaction[Reaction]' TypeError: Cannot read properties of undefined (reading 'advert_rule_id')
+    at index.7fad31764ab13e34b313.js:1:1362312
+    at Ge (index.7fad31764ab13e34b313.js:1:171995)
+    at Reaction (index.7fad31764ab13e34b313.js:1:171499)
+    at g (index.7fad31764ab13e34b313.js:1:187086)
+    at e.onInvalidate_ (index.7fad31764ab13e34b313.js:1:186874)
+    at t.runReaction_ (index.7fad31764ab13e34b313.js:1:183100)
+    at Lt (index.7fad31764ab13e34b313.js:1:185332)
+    at It (index.7fad31764ab13e34b313.js:1:185060)
+    at index.7fad31764ab13e34b313.js:1:188282
+    at uu (index.7fad31764ab13e34b313.js:1:324634)
+t.reportExceptionInDerivation_ @ index.7fad31764ab13e34b313.js:1
+index.7fad31764ab13e34b313.js:1 [mobx] uncaught error in 'Reaction[Reaction]' TypeError: Cannot read properties of undefined (reading 'toString')
+    at Jw.getVideoId (index.7fad31764ab13e34b313.js:1:1200484)
+    at Jw.getLoggerParams (index.7fad31764ab13e34b313.js:1:1201993)
+    at index.7fad31764ab13e34b313.js:1:1193256
+    at Ge (index.7fad31764ab13e34b313.js:1:171995)
+    at Reaction (index.7fad31764ab13e34b313.js:1:171499)
+    at g (index.7fad31764ab13e34b313.js:1:187086)
+    at e.onInvalidate_ (index.7fad31764ab13e34b313.js:1:186874)
+    at t.runReaction_ (index.7fad31764ab13e34b313.js:1:183100)
+    at Lt (index.7fad31764ab13e34b313.js:1:185332)
+    at It (index.7fad31764ab13e34b313.js:1:185060)
+t.reportExceptionInDerivation_ @ index.7fad31764ab13e34b313.js:1
+index.7fad31764ab13e34b313.js:1 TypeError: Cannot read properties of undefined (reading 'appearance_id')
+    at get isExperimentEnabled (index.7fad31764ab13e34b313.js:1:1058141)
+    at ot (index.7fad31764ab13e34b313.js:1:179116)
+    at t.computeValue_ (index.7fad31764ab13e34b313.js:1:176386)
+    at t.trackAndCompute (index.7fad31764ab13e34b313.js:1:176231)
+    at t.get (index.7fad31764ab13e34b313.js:1:175470)
+    at rt (index.7fad31764ab13e34b313.js:1:178655)
+    at t.runReaction_ (index.7fad31764ab13e34b313.js:1:183058)
+    at Lt (index.7fad31764ab13e34b313.js:1:185332)
+    at It (index.7fad31764ab13e34b313.js:1:185060)
+    at index.7fad31764ab13e34b313.js:1:188282
+co @ index.7fad31764ab13e34b313.js:1
+index.7fad31764ab13e34b313.js:1 Uncaught TypeError: Cannot read properties of undefined (reading 'appearance_id')
+injected.js:27 (Yandex Maps JS API): Invalid API key
+(анонимная) @ injected.js:27
+tms.dmp.wi-fi.ru/?dmpkit_cid=81460eb5-647b-4d9b-a3e3-7863f294c3da&dmpkit_evid=fafb6b76-fede-405c-b6ee-e5fb99e1d004&gi_id=uPazdRE939Pg.AikABlGZXm1fDw&ru=https%3A%2F%2Fpx.adhigh.net%2Fp%2Fcm%2Fqvntstr%3Fu%3D[UID]:1  Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID
+injected.js:27 ✅ Complex detail page - manager_authenticated: false
+injected.js:27 DOM Helper initialized - safe DOM operations available
+injected.js:27 Phone formatting setup for: phone
+injected.js:27 Phone formatting setup for: phone
+injected.js:27 InBack form validation initialized
+injected.js:27 Performance optimizations initialized
+injected.js:27 CSS optimization: Found 4 stylesheets
+injected.js:27 Turbo loader initialized
+injected.js:27 Cache optimizer initialized
+injected.js:27 Image compressor initialized - WebP support: true
+injected.js:27 🚀 Performance Optimizer v2.0 - Starting...
+injected.js:27 🖼️ Lazy loading initialized for 0 images
+injected.js:27 ✅ Performance Optimizer initialized
+injected.js:27 🚀 SuperSearch v2.0 - Initializing...
+injected.js:27 Found 0 search inputs
+injected.js:27 Initializing smart search...
+injected.js:27 🔥 loadFavoritesFromAPI called for user
+injected.js:27 🔍 DEBUG: window.manager_authenticated = false
+injected.js:27 🔍 DEBUG: window.isManager = false
+injected.js:27 🔍 DEBUG: this.isManager() = false
+injected.js:27 🔍 DEBUG: Using endpoint: /api/favorites/list
+injected.js:27 🔧 FavoritesManager initialized from favorites.js
+injected.js:27 Form validation initialized
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/img/renovation-finished.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/img/renovation-rough.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+injected.js:27 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/') with script ('https://2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/img/renovation-finished.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/img/renovation-rough.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+injected.js:27 🔥 Favorites API response: Object
+injected.js:27 🔥 Loaded favorites from API: Array(6)
+injected.js:27 🔥 Complex favorites API response: Object
+injected.js:27 🔥 Loaded complex favorites from API: Array(2)
+injected.js:27 🔄 updateFavoritesUI: Found 0 property hearts, favorites: Array(6)
+injected.js:27 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(2)
+injected.js:27 🔥 UI update called after API load
+injected.js:27 🔄 updateFavoritesUI: Found 0 property hearts, favorites: Array(6)
+injected.js:27 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(2)
+injected.js:27 Real favorites count from API - Total: 8 (Properties: 6, Complexes: 2)
+injected.js:27 Preloaded 5 popular queries
+injected.js:27 ✅ SuperSearch initialized successfully
+injected.js:27 📦 Preloaded: /static/css/styles.css
+injected.js:27 📦 Preloaded: /static/js/super_search.js
+injected.js:27 📦 Preloaded: /static/js/main.js
+b0c7b6ed775bad93eecff7f22bc8fe8b:1 The resource https://yastatic.net/partner-code-bundles/1302521/vas-bundles/bundles-es2017/loader.bundle.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+injected.js:27 Memory usage: Object
+injected.js:27 Memory usage: {used: '107 MB', total: '168 MB', limit: '4096 MB'}
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1939512230&gjid=1959020168&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=446440021:1  Failed to load resource: net::ERR_CONNECTION_RESET
+injected.js:27 ⚠️ High memory usage: 107MB
+(анонимная) @ injected.js:27
+collectMetrics @ performance_optimizer.js:258
+(анонимная) @ performance_optimizer.js:232
+b0c7b6ed775bad93eecff7f22bc8fe8b:1 The resource https://yastatic.net/partner-code-bundles/1302521/vas-bundles/bundles-es2017/loader.bundle.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.

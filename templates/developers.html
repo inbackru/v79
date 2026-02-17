@@ -1,0 +1,321 @@
+{% extends "base.html" %}
+
+{% block title %}Застройщики - Кэшбек за новостройки | InBack{% endblock %}
+{% block description %}Официальные застройщики InBack в {{ current_city.name_prepositional if current_city else 'Краснодаре' }}. Получите кэшбек до 5% при покупке квартиры в новостройках от проверенных компаний. Бесплатная юридическая проверка сделки.{% endblock %}
+{% block keywords %}застройщики {{ current_city.name if current_city else 'Краснодар' }}, новостройки, кэшбек застройщики, жилые комплексы {{ current_city.name if current_city else 'Краснодар' }}, ипотека новостройки{% endblock %}
+
+{% block head %}
+<!-- Robots meta -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ url_for('developers', _external=True) }}">
+<meta property="og:title" content="Застройщики - Кэшбек за новостройки | InBack">
+<meta property="og:description" content="Официальные застройщики-партнеры InBack в {{ current_city.name_prepositional if current_city else 'Краснодаре' }}. Получите кэшбек до 5% при покупке квартиры в новостройках от проверенных компаний.">
+<meta property="og:image" content="{{ url_for('static', filename='images/developers-og.jpg', _external=True) }}">
+<meta property="og:site_name" content="InBack">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ url_for('developers', _external=True) }}">
+<meta name="twitter:title" content="Застройщики - Кэшбек за новостройки | InBack">
+<meta name="twitter:description" content="Проверенные застройщики с кэшбеком до 5%. Бесплатная юридическая проверка сделки.">
+<meta name="twitter:image" content="{{ url_for('static', filename='images/developers-og.jpg', _external=True) }}">
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ url_for('developers', _external=True) }}" />
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Inback",
+      "image": "https://inback.ru/logo.jpg",
+      "description": "Официальный сервис возврата кэшбека при покупке недвижимости в {{ current_city.name_prepositional if current_city else 'Краснодаре' }}{% if current_city and current_city.region %}, {{ current_city.region.name }}{% else %} и Краснодарском крае{% endif %}",
+      "priceRange": "$",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "{{ current_city.name if current_city else 'Краснодар' }}{% if current_city and current_city.region %}, {{ current_city.region.name }}{% else %} и Краснодарский край{% endif %}"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Красная, 32",
+        "addressLocality": "{{ current_city.name if current_city else 'Краснодар' }}",
+        "addressRegion": "{{ current_city.region.name if current_city and current_city.region else 'Краснодарский край' }}" 
+      },
+      "telephone": "+78001231212",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    }
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ton: {
+                            blue: '#0088cc',
+                            dark: '#222426',
+                            light: '#f5f5f5',
+                            accent: '#00a3e0',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Manrope', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="container mx-auto px-4 py-3 text-sm">
+<nav aria-label="Breadcrumb" class="flex">
+<ol class="inline-flex items-center space-x-1 md:space-x-3">
+<li class="inline-flex items-center">
+<a class="text-[#0088CC] hover:underline inline-flex items-center" href="{{ url_for('index') }}">
+<svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        Главная
+                    </a>
+</li>
+<li aria-current="page">
+<div class="flex items-center">
+<svg class="w-6 h-6 text-gray-400" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" fill-rule="evenodd"></path></svg>
+<span class="text-gray-500 ml-1 md:ml-2">Застройщики</span>
+</div>
+</li>
+</ol>
+</nav>
+</div>
+{% endblock %}
+
+{% block content %}
+<section class="hero-gradient py-16 md:py-24">
+<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto text-center">
+<h1 class="text-4xl md:text-5xl font-bold mb-6">Застройщики</h1>
+<p class="text-xl text-gray-600 mb-8">Мы работаем только с проверенными застройщиками {{ current_city.name_genitive if current_city else "Краснодара" }}. Получите кэшбек до 5% при покупке квартиры в их новостройках</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="px-6 py-3 bg-ton-blue text-white rounded-md hover:bg-opacity-90 transition-all font-medium" href="#developers">Смотреть застройщиков</a>
+<a class="px-6 py-3 bg-white text-ton-blue border border-ton-blue rounded-md hover:bg-ton-blue hover:bg-opacity-10 transition-all font-medium" href="#calculator">Рассчитать кэшбек</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="text-4xl font-bold text-ton-blue mb-2">{{ total_developers }}+</div>
+<div class="text-gray-600">Застройщиков</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-bold text-ton-blue mb-2">{{ total_complexes }}+</div>
+<div class="text-gray-600">Жилых комплексов</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-bold text-ton-blue mb-2">{{ satisfied_clients }}+</div>
+<div class="text-gray-600">Довольных клиентов</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-bold text-ton-blue mb-2">500 000 ₽</div>
+<div class="text-gray-600">Максимальный кэшбек</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Developers Grid -->
+<section id="developers" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+    <span class="text-sm font-medium uppercase">Застройщики</span>
+</div>
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Список застройщиков</h2>
+<p class="text-lg text-gray-600">Застройщики, работающие {{ current_city.name_prepositional_with_v if current_city else "в Краснодаре" }}</p>
+</div>
+
+<div class="developers-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+{% for developer in developers %}
+<!-- Developer Card -->
+<a href="/developer/{{ developer.slug }}" class="block">
+<div class="developer-card bg-white rounded-lg shadow-md hover:shadow-lg border border-gray-200 transition-all duration-200 group cursor-pointer p-5">
+<div class="flex items-center mb-4">
+<div class="relative w-14 h-14 bg-gradient-to-br from-[#0088CC] to-[#006699] rounded-lg flex items-center justify-center mr-4 flex-shrink-0 overflow-hidden">
+{% if developer.logo_url %}
+<img src="{{ developer.logo_url }}" alt="{{ developer.name }}" class="w-full h-full object-contain p-1 bg-white" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<span class="text-white font-bold text-xs hidden items-center justify-center w-full h-full bg-gradient-to-br from-[#0088CC] to-[#006699]">
+{{ developer.name[:3] if developer.name|length > 10 else developer.name[:2] }}
+</span>
+{% else %}
+<span class="text-white font-bold text-xs">
+{{ developer.name[:3] if developer.name|length > 10 else developer.name[:2] }}
+</span>
+{% endif %}
+</div>
+<div>
+<h3 class="text-xl font-bold">{{ developer.name }}</h3>
+<p class="text-gray-600 text-sm">Застройщик</p>
+</div>
+</div>
+<div class="flex-1">
+<div class="flex items-center text-sm text-gray-600 mb-2">
+<i class="fas fa-building mr-2 text-ton-blue"></i>
+<span>{{ developer.complexes_count }} {% if developer.complexes_count == 1 %}жилой комплекс{% elif developer.complexes_count in [2,3,4] %}жилых комплекса{% else %}жилых комплексов{% endif %}</span>
+</div>
+<div class="flex items-center text-sm text-gray-600 mb-2">
+<i class="fas fa-home mr-2 text-ton-blue"></i>
+<span>{{ developer.properties_count }} {% if developer.properties_count == 1 %}квартира{% elif developer.properties_count in [2,3,4] %}квартиры{% else %}квартир{% endif %}</span>
+</div>
+{% if developer.stats and developer.stats.min_price and developer.stats.min_price > 0 %}
+<div class="flex items-center text-sm text-gray-600 mb-2">
+<i class="fas fa-ruble-sign mr-2 text-ton-blue"></i>
+<span>От {{ (developer.stats.min_price / 1000000)|round(1) }} млн ₽</span>
+</div>
+{% endif %}
+</div>
+<!-- Button removed - whole card is clickable now -->
+</div>
+</a>
+{% endfor %}
+
+
+<!-- Load More Button (если понадобится в будущем) -->
+{% if false %}
+<div class="text-center mt-12">
+<button class="px-8 py-3 bg-white text-ton-blue border border-ton-blue rounded-lg hover:bg-ton-blue hover:text-white transition-colors">
+Показать всех застройщиков
+</button>
+</div>
+{% endif %}
+</div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
+<div class="container mx-auto px-4">
+<div class="max-w-6xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
+<div class="grid md:grid-cols-2 gap-8 items-center">
+<!-- Left Content -->
+<div class="p-8 md:p-12">
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+Есть вопросы о кэшбеке от застройщиков?
+</h2>
+<p class="text-lg text-gray-600 mb-8">
+Наши эксперты помогут вам разобраться во всех нюансах получения кэшбека при покупке новостройки
+</p>
+<button onclick="openApplicationModal()" class="inline-flex items-center px-8 py-4 bg-[#0088CC] hover:bg-[#006699] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg mb-6">
+<i class="fas fa-calculator mr-3"></i>
+Рассчитать кэшбек
+</button>
+<div class="space-y-3 text-gray-700">
+<div class="flex items-center">
+<i class="fas fa-phone text-[#0088CC] mr-3"></i>
+<span class="text-sm">Позвоните по телефону:</span>
+<a href="tel:88622666216" class="ml-2 text-ton-blue hover:text-ton-blue-dark font-medium">8 (862) 266-62-16</a>
+</div>
+<div class="flex items-center flex-wrap gap-4">
+<i class="fas fa-comment-dots text-[#0088CC] mr-3"></i>
+<a href="https://t.me/inback_support" target="_blank" class="flex items-center text-sm text-gray-600 hover:text-ton-blue transition-colors">
+<i class="fab fa-telegram text-lg mr-1"></i>
+Telegram
+</a>
+<a href="https://wa.me/78622666216" target="_blank" class="flex items-center text-sm text-gray-600 hover:text-ton-blue transition-colors">
+<i class="fab fa-whatsapp text-lg mr-1"></i>
+WhatsApp
+</a>
+<button onclick="openApplicationModal()" class="flex items-center text-sm text-gray-600 hover:text-ton-blue transition-colors">
+<i class="fas fa-envelope text-lg mr-1"></i>
+Написать нам
+</button>
+</div>
+</div>
+</div>
+
+<!-- Right Image - Browser Window -->
+<div class="relative p-8 md:p-12">
+<div class="relative bg-gradient-to-br from-[#0088CC] to-blue-600 rounded-2xl shadow-2xl overflow-hidden">
+<!-- Browser Header -->
+<div class="bg-[#0088CC] px-4 py-3 flex items-center">
+<div class="flex gap-2">
+<div class="w-3 h-3 rounded-full bg-white opacity-80"></div>
+<div class="w-3 h-3 rounded-full bg-white opacity-80"></div>
+<div class="w-3 h-3 rounded-full bg-white opacity-80"></div>
+</div>
+</div>
+<!-- WhatsApp Chat Image -->
+<div class="relative">
+<img src="{{ url_for('static', filename='images/whatsapp-chat.jpg') }}" 
+     alt="Консультация по кэшбеку в WhatsApp" 
+     class="w-full h-80 object-cover object-center">
+<!-- Chat Indicator -->
+<div class="absolute top-4 right-4 bg-white rounded-2xl px-6 py-3 shadow-xl transform rotate-2">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+<div class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+<div class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<style>
+/* Простое и четкое выравнивание карточек */
+.developers-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+    gap: 1.5rem !important;
+    grid-auto-rows: 1fr !important;
+}
+
+@media (min-width: 1024px) {
+    .developers-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 641px) {
+    .developers-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .developers-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.developer-card {
+    height: 100% !important;
+    min-height: 200px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+</style>
+
+{% endblock %}

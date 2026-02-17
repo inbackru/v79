@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+
+{% block title %}Правовая информация | inback{% endblock %}
+
+{% block content %}
+<main class="min-h-screen bg-gray-50">
+    <div class="gradient-bg py-16">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold text-white text-center mb-4">Правовая информация</h1>
+            <p class="text-white/80 text-center text-lg max-w-2xl mx-auto">
+                Здесь вы найдете все документы, регулирующие использование сервиса inback
+            </p>
+        </div>
+    </div>
+    
+    <div class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Основные документы</h2>
+            <div class="grid md:grid-cols-2 gap-6 mb-12">
+                <a href="{{ url_for('privacy_policy') }}" class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6 border border-gray-100 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-[#0088CC]/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-[#0088CC]/20 transition-colors">
+                            <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#0088CC] transition-colors">Политика конфиденциальности</h3>
+                            <p class="text-gray-600 text-sm">Как мы собираем, используем и защищаем ваши персональные данные</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="{{ url_for('user_agreement') }}" class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6 border border-gray-100 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-[#0088CC]/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-[#0088CC]/20 transition-colors">
+                            <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#0088CC] transition-colors">Пользовательское соглашение</h3>
+                            <p class="text-gray-600 text-sm">Правила использования сайта и сервисов inback</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="{{ url_for('cookie_policy') }}" class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6 border border-gray-100 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-[#0088CC]/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-[#0088CC]/20 transition-colors">
+                            <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#0088CC] transition-colors">Политика файлов Cookie</h3>
+                            <p class="text-gray-600 text-sm">Какие cookie-файлы мы используем и зачем</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="{{ url_for('cashback_terms') }}" class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6 border border-gray-100 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-[#0088CC]/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-[#0088CC]/20 transition-colors">
+                            <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#0088CC] transition-colors">Условия кэшбека</h3>
+                            <p class="text-gray-600 text-sm">Правила получения и выплаты кэшбека при покупке недвижимости</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Согласия на обработку персональных данных</h2>
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden mb-12">
+                <div class="divide-y divide-gray-100">
+                    <a href="{{ url_for('consent_registration') }}" class="flex items-center justify-between p-5 hover:bg-gray-50 transition-colors group">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 bg-[#0088CC]/10 rounded-lg flex items-center justify-center text-[#0088CC] font-bold">1</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-[#0088CC] transition-colors">Согласие на обработку ПД для регистрации на сайте</h3>
+                                <p class="text-sm text-gray-500">Доступ в личный кабинет и идентификация пользователя</p>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-[#0088CC] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="{{ url_for('consent_cashback') }}" class="flex items-center justify-between p-5 hover:bg-gray-50 transition-colors group">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 bg-[#0088CC]/10 rounded-lg flex items-center justify-center text-[#0088CC] font-bold">2</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-[#0088CC] transition-colors">Согласие на обработку ПД для получения кэшбека</h3>
+                                <p class="text-sm text-gray-500">Оформление и выплата кэшбека при покупке недвижимости</p>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-[#0088CC] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="{{ url_for('consent_marketing') }}" class="flex items-center justify-between p-5 hover:bg-gray-50 transition-colors group">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 bg-[#0088CC]/10 rounded-lg flex items-center justify-center text-[#0088CC] font-bold">3</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-[#0088CC] transition-colors">Согласие на обработку ПД для рекламных рассылок</h3>
+                                <p class="text-sm text-gray-500">Получение информации о новых объектах и акциях</p>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-[#0088CC] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="{{ url_for('consent_callback') }}" class="flex items-center justify-between p-5 hover:bg-gray-50 transition-colors group">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 bg-[#0088CC]/10 rounded-lg flex items-center justify-center text-[#0088CC] font-bold">4</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-[#0088CC] transition-colors">Согласие на обработку ПД для обратного звонка</h3>
+                                <p class="text-sm text-gray-500">Консультации и записи на просмотр объектов</p>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-[#0088CC] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="{{ url_for('consent_cookies') }}" class="flex items-center justify-between p-5 hover:bg-gray-50 transition-colors group">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 bg-[#0088CC]/10 rounded-lg flex items-center justify-center text-[#0088CC] font-bold">5</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-[#0088CC] transition-colors">Согласие на использование cookies</h3>
+                                <p class="text-sm text-gray-500">Аналитика, персонализация и улучшение сайта</p>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-[#0088CC] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">Об операторе персональных данных</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p><strong>Наименование:</strong> Сервис inback</p>
+                    <p><strong>Адрес:</strong> 350000, Краснодарский край, г. Краснодар, ул. Красная, д. 176</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@inback.ru" class="text-[#0088CC] hover:underline">info@inback.ru</a></p>
+                    <p><strong>Телефон:</strong> <a href="tel:+78612034050" class="text-[#0088CC] hover:underline">+7 (861) 203-40-50</a></p>
+                </div>
+            </div>
+            
+            <div class="mt-8 text-center text-gray-500 text-sm">
+                <p>По всем вопросам, связанным с правовой информацией, обращайтесь по адресу: <a href="mailto:legal@inback.ru" class="text-[#0088CC] hover:underline">legal@inback.ru</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<style>
+    .gradient-bg {
+        background: linear-gradient(135deg, #0088cc 0%, #32a4fb 100%);
+    }
+</style>
+{% endblock %}

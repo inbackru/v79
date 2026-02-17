@@ -1,0 +1,663 @@
+{% extends 'base.html' %}
+
+{% block title %}Мой кошелек — InBack{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 py-16">
+        <!-- Hero Section -->
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Начните зарабатывать кэшбек
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                До <span class="text-[#0088CC] font-bold">500 000 ₽</span> при покупке новой квартиры в <strong class="text-[#0088CC]">{{ current_city.name if current_city else 'Краснодаре' }}</strong>
+            </p>
+        </div>
+
+        {% if current_user.is_authenticated %}
+            <!-- Authenticated User View - Balance Block -->
+            <div class="bg-white rounded-2xl border border-gray-200 shadow-sm mb-12">
+                <div class="p-8 flex items-center justify-between gap-8">
+                    <div class="flex-1">
+                        <div class="text-gray-600 font-medium mb-2">Ваш баланс</div>
+                        <div class="text-5xl font-bold text-[#0088CC] mb-2">
+                            {{ "{:,.0f}".format(current_user.balance|float if current_user.balance is not none else 0) }} ₽
+                        </div>
+                        <p class="text-sm text-gray-500">Заработано за всё время: {{ "{:,.0f}".format(current_user.total_earned|float if current_user.total_earned is not none else 0) }} ₽</p>
+                    </div>
+                    <a href="{{ url_for('dashboard') }}#balance" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold transition-all whitespace-nowrap text-lg">Вывести средства</a>
+                </div>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <!-- Total Earned Card -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
+                    <div class="text-gray-600 font-medium mb-2">Всего заработано</div>
+                    <div class="text-4xl font-bold text-[#0088CC] mb-2">
+                        {{ "{:,.0f}".format(current_user.total_earned|float if current_user.total_earned is not none else 0) }} ₽
+                    </div>
+                    <p class="text-sm text-gray-500">За все время</p>
+                </div>
+
+                <!-- Properties Purchased Card -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
+                    <div class="text-gray-600 font-medium mb-2">Квартир куплено</div>
+                    <div class="text-4xl font-bold text-[#0088CC] mb-2">
+                        {{ user_property_count|default(0) }}
+                    </div>
+                    <p class="text-sm text-gray-500">С кэшбеком InBack</p>
+                </div>
+
+                <!-- Referral Card -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
+                    <div class="text-gray-600 font-medium mb-2">Друзей приглашено</div>
+                    <div class="text-4xl font-bold text-[#0088CC] mb-2">0</div>
+                    <p class="text-sm text-gray-500">Получайте бонусы за рефералов</p>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="grid md:grid-cols-2 gap-4 mb-12">
+                <a href="{{ url_for('dashboard') }}#balance" class="bg-[#0088CC] hover:bg-[#0077BB] text-white rounded-xl p-4 font-semibold transition-all text-center">
+                    Управление средствами
+                </a>
+                <a href="/{{ current_city.slug or 'krasnodar' }}/properties" class="bg-white border-2 border-[#0088CC] text-[#0088CC] hover:bg-blue-50 rounded-xl p-4 font-semibold transition-all text-center">
+                    Выбрать квартиру с кэшбеком
+                </a>
+            </div>
+        {% else %}
+            <!-- Guest User View - Demo Balance Block -->
+            <div class="bg-white rounded-2xl border border-gray-200 shadow-sm mb-12">
+                <div class="p-8 flex items-center justify-between gap-8">
+                    <div class="flex-1">
+                        <div class="text-gray-600 font-medium mb-2">Пример кэшбека</div>
+                        <div class="text-5xl font-bold text-[#0088CC] mb-2">
+                            10 000 ₽
+                        </div>
+                        <p class="text-sm text-gray-500">Минимальный кэшбек при покупке за 200 000 ₽</p>
+                    </div>
+                    <button onclick="document.getElementById('walletRegModal').style.display='flex'; document.getElementById('walletRegModal').classList.remove('hidden')" class="bg-[#0088CC] hover:bg-[#0077BB] text-white px-8 py-4 rounded-xl font-semibold transition-all whitespace-nowrap text-lg cursor-pointer">Вывести</button>
+                </div>
+            </div>
+
+            <!-- Guest User View -->
+            <div class="mb-12">
+                <!-- How it works section -->
+                <div class="grid md:grid-cols-2 gap-8 mb-16 items-start">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6">
+                            Как это работает?
+                        </h2>
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-[#0088CC] text-white font-bold text-lg">1</div>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-900 mb-1">Зарегистрируйтесь</h3>
+                                    <p class="text-gray-600">Быстрая регистрация через номер телефона</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-[#0088CC] text-white font-bold text-lg">2</div>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-900 mb-1">Выберите недвижимость</h3>
+                                    <p class="text-gray-600">Найдите идеальную квартиру в нашем каталоге</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-[#0088CC] text-white font-bold text-lg">3</div>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-900 mb-1">Получайте кэшбек</h3>
+                                    <p class="text-gray-600">Вывод до 500 000 ₽ на ваш счет</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid (2x2) -->
+                    <div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-white rounded-xl p-6 border border-gray-200 text-center hover:shadow-md transition-shadow">
+                                <div class="text-4xl font-bold text-[#0088CC] mb-2">500k</div>
+                                <p class="text-sm text-gray-600 font-medium">Максимум кэшбека</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-6 border border-gray-200 text-center hover:shadow-md transition-shadow">
+                                <div class="text-4xl font-bold text-[#0088CC] mb-2">100%</div>
+                                <p class="text-sm text-gray-600 font-medium">Безопасность</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-6 border border-gray-200 text-center hover:shadow-md transition-shadow">
+                                <div class="text-4xl font-bold text-[#0088CC] mb-2">24/7</div>
+                                <p class="text-sm text-gray-600 font-medium">Поддержка</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-6 border border-gray-200 text-center hover:shadow-md transition-shadow">
+                                <div class="text-4xl font-bold text-[#0088CC] mb-2">0%</div>
+                                <p class="text-sm text-gray-600 font-medium">Комиссия</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-700 text-center font-medium mt-6">
+                            <strong>5000+</strong> клиентов уже получили свой кэшбек
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="bg-gradient-to-r from-[#0088CC] to-[#006699] rounded-2xl p-12 text-center text-white shadow-lg">
+                    <h2 class="text-3xl font-bold mb-4">
+                        Начните зарабатывать прямо сейчас!
+                    </h2>
+                    <p class="text-lg opacity-90 mb-8 max-w-2xl mx-auto">
+                        Присоединяйтесь к тысячам клиентов, которые получают кэшбек при покупке недвижимости
+                    </p>
+                    <a href="{{ url_for('login') }}" class="inline-block bg-white text-[#0088CC] px-8 py-3 rounded-lg font-bold hover:shadow-lg transition-all text-lg hover:bg-gray-50">
+                        Зарегистрироваться
+                    </a>
+                </div>
+            </div>
+        {% endif %}
+
+        <!-- Benefits Section -->
+        <div class="mb-12 mt-16 pt-12 border-t border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+                Почему выбирают InBack
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Надежность</h3>
+                    <p class="text-sm text-gray-600">Проверенный сервис, работающий с лучшими застройщиками</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Быстро</h3>
+                    <p class="text-sm text-gray-600">Регистрация за 2 минуты, кэшбек начисляется моментально</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-[#0088CC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Выгодно</h3>
+                    <p class="text-sm text-gray-600">Кэшбек до 500 000 ₽ — это реальная экономия</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+                Часто задаваемые вопросы
+            </h2>
+            <div class="space-y-4 max-w-3xl mx-auto">
+                <details class="bg-white rounded-lg border border-gray-200 p-6 cursor-pointer hover:shadow-sm transition-shadow">
+                    <summary class="font-semibold text-gray-900 flex items-center justify-between">
+                        Как быстро я получу кэшбек?
+                        <svg class="w-5 h-5 text-gray-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </summary>
+                    <p class="text-gray-600 mt-4">Кэшбек начисляется после подписания акта приема-передачи квартиры. Обычно это происходит в течение 2-3 рабочих дней после регистрации в Росреестре.</p>
+                </details>
+
+                <details class="bg-white rounded-lg border border-gray-200 p-6 cursor-pointer hover:shadow-sm transition-shadow">
+                    <summary class="font-semibold text-gray-900 flex items-center justify-between">
+                        Какой максимальный кэшбек?
+                        <svg class="w-5 h-5 text-gray-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </summary>
+                    <p class="text-gray-600 mt-4">Максимальный размер кэшбека зависит от стоимости недвижимости и варьируется до 500 000 ₽. Конкретная сумма рассчитывается для каждого объекта индивидуально.</p>
+                </details>
+
+                <details class="bg-white rounded-lg border border-gray-200 p-6 cursor-pointer hover:shadow-sm transition-shadow">
+                    <summary class="font-semibold text-gray-900 flex items-center justify-between">
+                        Есть ли комиссия при выводе денег?
+                        <svg class="w-5 h-5 text-gray-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </summary>
+                    <p class="text-gray-600 mt-4">Нет, все переводы полностью бесплатные. Вы получаете 100% от начисленного кэшбека прямо на ваш счет.</p>
+                </details>
+
+                <details class="bg-white rounded-lg border border-gray-200 p-6 cursor-pointer hover:shadow-sm transition-shadow">
+                    <summary class="font-semibold text-gray-900 flex items-center justify-between">
+                        Как связаться со службой поддержки?
+                        <svg class="w-5 h-5 text-gray-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </summary>
+                    <p class="text-gray-600 mt-4">Вы можете связаться с нами через Telegram бота <strong>@inback_bot</strong>, по телефону или через форму обратной связи на сайте. Поддержка работает 24/7.</p>
+                </details>
+            </div>
+        </div>
+
+        <!-- Footer CTA -->
+        {% if not current_user.is_authenticated %}
+        <div class="text-center py-12 border-t border-gray-200 mt-12">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                Готовы начать зарабатывать?
+            </h3>
+            <p class="text-gray-600 mb-8">
+                Просмотрите каталог доступных объектов и узнайте, сколько вы сможете получить
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="{{ url_for('login') }}" class="inline-block bg-[#0088CC] hover:bg-[#0077BB] text-white px-8 py-3 rounded-lg font-semibold transition-all">
+                    Зарегистрироваться
+                </a>
+                <a href="/{{ current_city.slug or 'krasnodar' }}/properties" class="inline-block bg-white border-2 border-[#0088CC] text-[#0088CC] hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-all">
+                    Перейти в каталог
+                </a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+    details[open] summary svg {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease;
+    }
+    details summary svg {
+        transition: transform 0.3s ease;
+    }
+</style>
+
+<script>
+// Simple direct handler for Вывести button
+window.handleVyvestClick = function() {
+    console.log('handleVyvestClick called');
+    
+    // Hide quiz modal completely
+    const quiz = document.getElementById('quiz-modal-container');
+    const callback = document.getElementById('callback-modal-container');
+    const cookieNotice = document.getElementById('cookieNotice');
+    
+    if (quiz) {
+        quiz.className = 'hidden';
+        quiz.style.cssText = 'display: none !important;';
+    }
+    if (callback) {
+        callback.className = 'hidden';
+        callback.style.cssText = 'display: none !important;';
+    }
+    if (cookieNotice) {
+        cookieNotice.style.display = 'none';
+    }
+    
+    // Show application modal
+    const appModal = document.getElementById('applicationModal');
+    if (appModal) {
+        appModal.className = '';
+        appModal.classList.remove('hidden');
+        appModal.style.cssText = 'display: flex !important; visibility: visible !important; z-index: 9999 !important;';
+        
+        // Show the right view for guests
+        const guestReg = document.getElementById('guestRegistrationView');
+        const appForm = document.getElementById('applicationFormView');
+        
+        if (guestReg) {
+            guestReg.style.display = 'block';
+            guestReg.classList.remove('hidden');
+        }
+        if (appForm) {
+            appForm.style.display = 'none';
+            appForm.classList.add('hidden');
+        }
+        
+        // Lock scroll
+        if (window.lockBodyScroll) {
+            window.lockBodyScroll();
+        }
+    }
+};
+
+// Disable quiz on wallet page - run immediately and periodically
+(function() {
+    function disableQuiz() {
+        const quiz = document.getElementById('quiz-modal-container');
+        if (quiz) {
+            quiz.className = 'hidden';
+            quiz.style.cssText = 'display: none !important; visibility: hidden !important;';
+        }
+    }
+    
+    // Run now
+    disableQuiz();
+    
+    // Run on DOMContentLoaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', disableQuiz);
+    }
+    
+    // Run periodically to ensure it stays hidden
+    setInterval(disableQuiz, 100);
+    
+    // Override quiz open functions
+    window.openQuizModal = function() { disableQuiz(); return false; };
+    window.openCallbackModal = function() { disableQuiz(); return false; };
+})();
+</script>
+
+<!-- WALLET REGISTRATION MODAL -->
+<div id="walletRegModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" style="display: none;">
+    <div class="bg-white rounded-2xl p-8 max-w-md w-full mx-4">
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Регистрация</h2>
+        <p class="text-gray-600 mb-6 text-sm">Введите номер телефона для получения кода</p>
+        
+        <!-- STEP 1: Phone & Name -->
+        <div id="walletStep1" class="space-y-4">
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2">Имя</label>
+                <input type="text" id="walletRegName" placeholder="Ваше имя" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0088CC]">
+                <p class="text-red-500 text-xs mt-1 hidden" id="nameError"></p>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2">Телефон</label>
+                <input type="tel" id="walletRegPhone" placeholder="+7 (999) 123-45-67" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0088CC]" maxlength="18">
+                <p class="text-red-500 text-xs mt-1 hidden" id="phoneError"></p>
+                <p class="text-gray-500 text-xs mt-1">Формат: +7 или 8 начало</p>
+            </div>
+            
+            <button onclick="walletSendSMS()" class="w-full bg-[#0088CC] hover:bg-[#0077BB] text-white py-3 rounded-lg font-semibold transition-all" id="sendSmsBtn">
+                Отправить код
+            </button>
+        </div>
+        
+        <!-- STEP 2: SMS Code -->
+        <div id="walletStep2" class="space-y-4 hidden">
+            <p class="text-gray-600 text-sm">Код отправлен на номер <span id="phoneDisplay" class="font-semibold text-[#0088CC]"></span></p>
+            
+            <!-- Timer display -->
+            <div class="bg-blue-50 p-3 rounded-lg text-center">
+                <p class="text-gray-700 text-sm">Время ввода кода: <span id="codeTimer" class="font-bold text-[#0088CC]">10:00</span></p>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2">Код из SMS</label>
+                <input type="text" id="walletSmsCode" placeholder="000000" maxlength="6" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0088CC] text-center text-2xl tracking-widest font-mono">
+                <p class="text-red-500 text-xs mt-1 hidden" id="codeError"></p>
+            </div>
+            
+            <!-- Verify button (shown while time is left) -->
+            <button onclick="walletVerifyCode()" class="w-full bg-[#0088CC] hover:bg-[#0077BB] text-white py-3 rounded-lg font-semibold transition-all" id="verifyCodeBtn">
+                Подтвердить
+            </button>
+            
+            <!-- Resend button (shown after timeout) -->
+            <button onclick="walletResendCode()" class="w-full bg-amber-500 hover:bg-amber-600 text-white py-3 rounded-lg font-semibold transition-all hidden" id="resendCodeBtn">
+                Отправить код повторно
+            </button>
+            
+            <button onclick="walletBackToPhone()" class="w-full text-gray-600 font-semibold hover:bg-gray-100 py-3 rounded-lg transition-all">
+                Изменить номер
+            </button>
+        </div>
+        
+        <!-- Close button -->
+        <button onclick="walletCloseModal()" class="w-full mt-3 px-4 py-3 text-gray-700 font-semibold hover:bg-gray-100 rounded-lg transition-all">
+            Отмена
+        </button>
+    </div>
+</div>
+
+<script>
+// Phone number formatting
+document.addEventListener('DOMContentLoaded', function() {
+    const phoneInput = document.getElementById('walletRegPhone');
+    if (phoneInput) {
+        phoneInput.addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            
+            // Handle 8 -> 7 conversion
+            if (value.startsWith('8')) {
+                value = '7' + value.slice(1);
+            }
+            
+            // Ensure starts with 7
+            if (value.length > 0 && !value.startsWith('7')) {
+                value = '7' + value;
+            }
+            
+            // Limit to 11 digits (7 + 10)
+            value = value.slice(0, 11);
+            
+            // Format
+            let formatted = '';
+            if (value.length > 0) {
+                formatted = '+' + value.slice(0, 1);
+                if (value.length > 1) formatted += ' (' + value.slice(1, 4);
+                if (value.length > 4) formatted += ') ' + value.slice(4, 7);
+                if (value.length > 7) formatted += '-' + value.slice(7, 9);
+                if (value.length > 9) formatted += '-' + value.slice(9, 11);
+            }
+            
+            e.target.value = formatted;
+        });
+    }
+});
+
+function walletValidatePhone(phone) {
+    const clean = phone.replace(/\D/g, '');
+    if (clean.length !== 11 || !clean.startsWith('7')) {
+        return false;
+    }
+    return true;
+}
+
+function walletValidateName(name) {
+    return name.trim().length >= 2;
+}
+
+async function walletSendSMS() {
+    const name = document.getElementById('walletRegName').value;
+    const phone = document.getElementById('walletRegPhone').value;
+    
+    // Clear errors
+    document.getElementById('nameError').classList.add('hidden');
+    document.getElementById('phoneError').classList.add('hidden');
+    
+    // Validate
+    if (!walletValidateName(name)) {
+        document.getElementById('nameError').textContent = 'Введите имя (минимум 2 символа)';
+        document.getElementById('nameError').classList.remove('hidden');
+        return;
+    }
+    
+    if (!walletValidatePhone(phone)) {
+        document.getElementById('phoneError').textContent = 'Неверный номер телефона. Используйте формат +7 (999) 123-45-67';
+        document.getElementById('phoneError').classList.remove('hidden');
+        return;
+    }
+    
+    const btn = document.getElementById('sendSmsBtn');
+    btn.disabled = true;
+    btn.textContent = 'Отправляю...';
+    
+    try {
+        const phoneClean = phone.replace(/\D/g, '');
+        const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+        
+        const response = await fetch('/register/send-code', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrfToken
+            },
+            body: JSON.stringify({
+                phone: phoneClean,
+                purpose: 'withdrawal'
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            // Store phone - use clean format WITHOUT plus (79524908269)
+            window.walletRegPhone = phoneClean;  // +79524908269 format
+            window.walletRegName = name;
+            
+            // Switch to step 2
+            document.getElementById('walletStep1').classList.add('hidden');
+            document.getElementById('walletStep2').classList.remove('hidden');
+            document.getElementById('phoneDisplay').textContent = phone;
+            document.getElementById('walletSmsCode').focus();
+            
+            // Start countdown timer (10 minutes = 600 seconds)
+            walletStartCodeTimer(120);
+        } else {
+            document.getElementById('phoneError').textContent = data.message || 'Ошибка отправки SMS';
+            document.getElementById('phoneError').classList.remove('hidden');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('phoneError').textContent = 'Ошибка соединения. Попробуйте снова.';
+        document.getElementById('phoneError').classList.remove('hidden');
+    } finally {
+        btn.disabled = false;
+        btn.textContent = 'Отправить код';
+    }
+}
+
+async function walletVerifyCode() {
+    const code = document.getElementById('walletSmsCode').value;
+    
+    if (code.length !== 6 || !/^\d+$/.test(code)) {
+        document.getElementById('codeError').textContent = 'Введите 6-значный код';
+        document.getElementById('codeError').classList.remove('hidden');
+        return;
+    }
+    
+    const btn = document.getElementById('verifyCodeBtn');
+    btn.disabled = true;
+    btn.textContent = 'Проверяю...';
+    
+    try {
+        const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+        
+        const response = await fetch('/register/verify-code', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrfToken
+            },
+            body: JSON.stringify({
+                phone: window.walletRegPhone,
+                code: code,
+                purpose: 'withdrawal'
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            // Success! Show message and close
+            alert('✅ Регистрация успешна! Код подтвержден. Вы можете теперь выводить кэшбек.');
+            walletCloseModal();
+            setTimeout(() => location.reload(), 500); // Refresh to show authenticated state
+        } else {
+            console.log('Verification response:', data);
+            document.getElementById('codeError').textContent = data.message || 'Неверный код. Попробуйте снова.';
+            document.getElementById('codeError').classList.remove('hidden');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('codeError').textContent = 'Ошибка проверки кода';
+        document.getElementById('codeError').classList.remove('hidden');
+    } finally {
+        btn.disabled = false;
+        btn.textContent = 'Подтвердить';
+    }
+}
+
+function walletBackToPhone() {
+    if (window.walletCodeTimerInterval) {
+        clearInterval(window.walletCodeTimerInterval);
+        window.walletCodeTimerInterval = null;
+    }
+    document.getElementById('walletStep2').classList.add('hidden');
+    document.getElementById('walletStep1').classList.remove('hidden');
+    document.getElementById('walletSmsCode').value = '';
+    document.getElementById('codeError').classList.add('hidden');
+}
+
+function walletCloseModal() {
+    const modal = document.getElementById('walletRegModal');
+    modal.style.display = 'none';
+    modal.classList.add('hidden');
+    
+    // Reset form
+    document.getElementById('walletRegName').value = '';
+    document.getElementById('walletRegPhone').value = '';
+    document.getElementById('walletSmsCode').value = '';
+    document.getElementById('walletStep1').classList.remove('hidden');
+    document.getElementById('walletStep2').classList.add('hidden');
+}
+
+function walletStartCodeTimer(seconds) {
+    if (window.walletCodeTimerInterval) {
+        clearInterval(window.walletCodeTimerInterval);
+    }
+    
+    let remainingSeconds = seconds;
+    const timerDisplay = document.getElementById('codeTimer');
+    const verifyBtn = document.getElementById('verifyCodeBtn');
+    const resendBtn = document.getElementById('resendCodeBtn');
+    
+    const updateDisplay = () => {
+        const mins = Math.floor(remainingSeconds / 60);
+        const secs = remainingSeconds % 60;
+        timerDisplay.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+        
+        if (remainingSeconds <= 0) {
+            clearInterval(window.walletCodeTimerInterval);
+            verifyBtn.classList.add('hidden');
+            resendBtn.classList.remove('hidden');
+            document.getElementById('walletSmsCode').disabled = true;
+            timerDisplay.textContent = 'Время истекло';
+            timerDisplay.parentElement.classList.remove('bg-blue-50');
+            timerDisplay.parentElement.classList.add('bg-red-50');
+        }
+    };
+    
+    updateDisplay();
+    window.walletCodeTimerInterval = setInterval(() => {
+        remainingSeconds--;
+        updateDisplay();
+    }, 1000);
+}
+
+function walletResendCode() {
+    document.getElementById('codeError').classList.add('hidden');
+    document.getElementById('walletSmsCode').value = '';
+    document.getElementById('walletSmsCode').disabled = false;
+    document.getElementById('verifyCodeBtn').classList.remove('hidden');
+    document.getElementById('resendCodeBtn').classList.add('hidden');
+    walletBackToPhone();
+}
+
+</script>
+
+{% endblock %}

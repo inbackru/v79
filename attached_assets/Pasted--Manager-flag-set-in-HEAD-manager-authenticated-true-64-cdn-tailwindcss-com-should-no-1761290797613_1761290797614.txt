@@ -1,0 +1,151 @@
+ ✅ Manager flag set in HEAD - manager_authenticated: true
+(индекс):64 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+2.1/?apikey=&lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+properties:1583 Header: openApplicationModal function defined
+properties:6884 Uncaught SyntaxError: Unexpected token ';'
+presentation.js?v=5261:6 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+presentation.js?v=5261:362 ✅ Presentation functions loaded: Object
+dom-helper.js:57 DOM Helper initialized - safe DOM operations available
+properties-comparison-fix.js:2 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+properties-comparison-fix.js:752 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+properties-comparison-fix.js:985 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:25 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+performance-lite.js:54 Performance optimizations initialized
+turbo-loader.js:32 CSS optimization: Found 4 stylesheets
+turbo-loader.js:46 Turbo loader initialized
+cache-optimizer.js:42 Cache optimizer initialized
+image-compressor.js:65 Image compressor initialized - WebP support: true
+favorites.js:18 Manager detected: Skipping localStorage, will load from API
+favorites.js:423 🔥 loadFavoritesFromAPI called for manager
+favorites.js:424 🔍 DEBUG: window.manager_authenticated = true
+favorites.js:425 🔍 DEBUG: window.isManager = true
+favorites.js:426 🔍 DEBUG: this.isManager() = true
+favorites.js:433 🔍 DEBUG: Using endpoint: /api/manager/favorites/list
+favorites.js:737 🔧 FavoritesManager initialized from favorites.js
+properties-comparison-fix.js:766 🔧 Инициализируем кнопки сравнения...
+properties-comparison-fix.js:26 🔍 Manager status check (FIXED): Object
+properties-comparison-fix.js:13 Manager detected: Skipping localStorage, will load from API
+properties-comparison-fix.js:18 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: true
+properties-comparison-fix.js:772 ⏳ Ожидаем загрузку данных из базы данных...
+properties-comparison-fix.js:71 🔍 Загружаем сравнение из PostgreSQL...
+properties-comparison-fix.js:74 📡 Endpoint: /api/manager/comparison/load isManager: true
+saved_searches.js:715 ✅ SavedSearchesManager initialized
+properties:14539 ✅ SavedSearchesManager initialized
+performance_optimizer.js:30 🚀 Performance Optimizer v2.0 - Starting...
+performance_optimizer.js:110 🖼️ Lazy loading initialized for 0 images
+performance_optimizer.js:54 ✅ Performance Optimizer initialized
+super_search.js:48 🚀 SuperSearch v2.0 - Initializing...
+super_search.js:84 Found 1 search inputs
+header_search.js:453 Initializing smart search...
+form-validation-lite.js:49 Form validation initialized
+cache-optimizer.js:14 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://83385323-81fc-463b-94c9-9a0bbb11141c-00-1ie3yi6z0t99z.riker.replit.dev/') with script ('https://83385323-81fc-463b-94c9-9a0bbb11141c-00-1ie3yi6z0t99z.riker.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+performance_optimizer.js:64 📊 Page Load Time: 3501ms
+performance_optimizer.js:285 📊 Performance metrics: Object
+properties:1821 Scroll force restored
+favorites.js:439 🔥 Favorites API response: Object
+favorites.js:444 🔥 Loaded favorites from API: Array(5)
+properties-comparison-fix.js:78 📦 API Response: Object
+properties-comparison-fix.js:85 ✅ Загружено из API - квартиры: 4 ЖК: 0
+properties-comparison-fix.js:86 📋 Property IDs: Array(4)
+properties-comparison-fix.js:87 📋 Complex IDs: Array(0)
+properties-comparison-fix.js:136 ✅ localStorage и API данные синхронизированы
+properties-comparison-fix.js:730 🔢 Счетчик обновлен: 4 (квартиры: 4 ЖК: 0 )
+properties-comparison-fix.js:952 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:953 📋 Comparison IDs: Array(4)
+properties-comparison-fix.js:954 📋 Complex IDs: Array(0)
+properties-comparison-fix.js:958 🔍 Found 20 property comparison buttons on page
+properties-comparison-fix.js:964   Button 1: ID=1999611557, inComparison=true
+properties-comparison-fix.js:964   Button 2: ID=1999611558, inComparison=true
+properties-comparison-fix.js:964   Button 3: ID=1999611566, inComparison=true
+properties-comparison-fix.js:964   Button 4: ID=2060712788, inComparison=true
+properties-comparison-fix.js:964   Button 5: ID=2058093385, inComparison=false
+properties-comparison-fix.js:964   Button 6: ID=2060496484, inComparison=false
+properties-comparison-fix.js:964   Button 7: ID=2055669531, inComparison=false
+properties-comparison-fix.js:964   Button 8: ID=2055669541, inComparison=false
+properties-comparison-fix.js:964   Button 9: ID=2055669895, inComparison=false
+properties-comparison-fix.js:964   Button 10: ID=1892750314, inComparison=false
+properties-comparison-fix.js:964   Button 11: ID=1892750295, inComparison=false
+properties-comparison-fix.js:964   Button 12: ID=2055669647, inComparison=false
+properties-comparison-fix.js:964   Button 13: ID=2055669665, inComparison=false
+properties-comparison-fix.js:964   Button 14: ID=2055669746, inComparison=false
+properties-comparison-fix.js:964   Button 15: ID=1892750327, inComparison=false
+properties-comparison-fix.js:964   Button 16: ID=2055669147, inComparison=false
+properties-comparison-fix.js:964   Button 17: ID=2055669160, inComparison=false
+properties-comparison-fix.js:964   Button 18: ID=2055669344, inComparison=false
+properties-comparison-fix.js:964   Button 19: ID=1892750313, inComparison=false
+properties-comparison-fix.js:964   Button 20: ID=1892750549, inComparison=false
+properties-comparison-fix.js:971 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:982 ✅ UI кнопок обновлено: 4 квартир + 0 ЖК
+properties-comparison-fix.js:774 ✅ Данные из БД загружены, инициализируем кнопки...
+properties-comparison-fix.js:805 🏠 Инициализируем 20 кнопок сравнения квартир
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 1 готова: 1999611557
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 2 готова: 1999611558
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 3 готова: 1999611566
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 4 готова: 2060712788
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 5 готова: 2058093385
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 6 готова: 2060496484
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 7 готова: 2055669531
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 8 готова: 2055669541
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 9 готова: 2055669895
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 10 готова: 1892750314
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 11 готова: 1892750295
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 12 готова: 2055669647
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 13 готова: 2055669665
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 14 готова: 2055669746
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 15 готова: 1892750327
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 16 готова: 2055669147
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 17 готова: 2055669160
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 18 готова: 2055669344
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 19 готова: 1892750313
+properties-comparison-fix.js:829 ✅ Кнопка квартиры 20 готова: 1892750549
+properties-comparison-fix.js:835 🏢 Инициализируем 0 кнопок сравнения ЖК
+properties-comparison-fix.js:952 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:953 📋 Comparison IDs: Array(4)
+properties-comparison-fix.js:954 📋 Complex IDs: Array(0)
+properties-comparison-fix.js:958 🔍 Found 20 property comparison buttons on page
+properties-comparison-fix.js:964   Button 1: ID=1999611557, inComparison=true
+properties-comparison-fix.js:964   Button 2: ID=1999611558, inComparison=true
+properties-comparison-fix.js:964   Button 3: ID=1999611566, inComparison=true
+properties-comparison-fix.js:964   Button 4: ID=2060712788, inComparison=true
+properties-comparison-fix.js:964   Button 5: ID=2058093385, inComparison=false
+properties-comparison-fix.js:964   Button 6: ID=2060496484, inComparison=false
+properties-comparison-fix.js:964   Button 7: ID=2055669531, inComparison=false
+properties-comparison-fix.js:964   Button 8: ID=2055669541, inComparison=false
+properties-comparison-fix.js:964   Button 9: ID=2055669895, inComparison=false
+properties-comparison-fix.js:964   Button 10: ID=1892750314, inComparison=false
+properties-comparison-fix.js:964   Button 11: ID=1892750295, inComparison=false
+properties-comparison-fix.js:964   Button 12: ID=2055669647, inComparison=false
+properties-comparison-fix.js:964   Button 13: ID=2055669665, inComparison=false
+properties-comparison-fix.js:964   Button 14: ID=2055669746, inComparison=false
+properties-comparison-fix.js:964   Button 15: ID=1892750327, inComparison=false
+properties-comparison-fix.js:964   Button 16: ID=2055669147, inComparison=false
+properties-comparison-fix.js:964   Button 17: ID=2055669160, inComparison=false
+properties-comparison-fix.js:964   Button 18: ID=2055669344, inComparison=false
+properties-comparison-fix.js:964   Button 19: ID=1892750313, inComparison=false
+properties-comparison-fix.js:964   Button 20: ID=1892750549, inComparison=false
+properties-comparison-fix.js:971 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:982 ✅ UI кнопок обновлено: 4 квартир + 0 ЖК
+properties-comparison-fix.js:784 ✅ Система сравнения полностью готова к работе
+favorites.js:453 🔥 Complex favorites API response: Object
+favorites.js:458 🔥 Loaded complex favorites from API: Array(0)
+favorites.js:659 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(0)
+favorites.js:464 🔥 UI update called after API load
+favorites.js:659 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(0)
+favorites.js:334 Real favorites count from API - Total: 5 (Properties: 5, Complexes: 0)
+super_search.js:410 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+presentation.js?v=5261:10 🎯 openPresentationModal called with property ID: 1999611557
+api/manager/presentation/2/add-property:1  Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+presentation.js?v=5261:164 Error adding property to presentation: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+(анонимная) @ presentation.js?v=5261:164
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: {used: '22 MB', total: '27 MB', limit: '4096 MB'}
+ Memory usage: {used: '22 MB', total: '27 MB', limit: '4096 MB'}

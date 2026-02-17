@@ -1,0 +1,363 @@
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+v53:1 The source list for the Content Security Policy directive 'default-src' contains an invalid source: ''unsafe-dynamic''. It will be ignored.
+v53:1 The Content-Security-Policy directive 'default-src' contains 'report-uri' as a source expression. Did you want to add it as a directive and forget a semicolon?
+v53:1 The source list for Content Security Policy directive 'default-src' contains a source with an invalid path: '/api/4509669501698048/security/?sentry_key=7eb3d90eb4660416caf507087367e67e'. The query component, including the '?', will be ignored.
+ 
+      /////////////////////
+   ///////////////////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////        Curious and driven?
+  ///////////////@@@@@@@///////        Work with us!
+  ///////////////@@@@@@@///////
+  ///////////////@@@@@@@///////        https://join.replit.com/hack.with.us
+  ////////@@@@@@@//////////////
+  ////////@@@@@@@//////////////
+  ////////@@@@@@#//////////////
+   ///////////////////////////
+      /////////////////////
+      
+ [LaunchDarkly] LaunchDarkly client initialized
+ Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'battery'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'layout-animations'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'navigation-override'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'oversized-images'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'publickey-credentials'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'speaker-selection'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'unoptimized-images'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'unsized-media'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Unrecognized feature: 'pointer-lock'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-61ae8ab1b09a7983.js:1
+ Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-61ae8ab1b09a7983.js:1
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'ambient-light-sensor'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'battery'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'execution-while-not-rendered'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'execution-while-out-of-viewport'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'layout-animations'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'legacy-image-formats'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'navigation-override'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'oversized-images'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'publickey-credentials'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'speaker-selection'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'unoptimized-images'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Unrecognized feature: 'unsized-media'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Allow attribute will take precedence over 'allowfullscreen'.
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Ar1u%3A:32 Allow attribute will take precedence over 'allowpaymentrequest'.
+js.stripe.com/acacia/stripe.js:1  Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR
+ loadStripe.setLoadParameters was called but an existing Stripe.js script already exists in the document; existing script parameters will be used
+(анонимная) @ _app-2c8e5ad97dbb8e1b.js:13
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-1.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-4.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-5.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-2.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-3.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-4.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-1.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-5.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-2.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/success/success-3.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/elena_smirnova.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/aleksandr_petrov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/images/dmitriy_ivanov.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+googleads.g.doubleclick.net/pagead/viewthroughconversion/11411994397/?random=1761573764050&cv=11&fst=1761573764050&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0v9171242957za200zd9171242957xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480709~115938466~115938468~116217636~116217638&u_w=2560&u_h=1440&url=https%3A%2F%2Freplit.com%2F%40duyyxnd%2Fv53&ref=https%3A%2F%2Freplit.com%2F%40duyyxnd%2Fv53&frm=0&tiba=v53%20-%20Replit&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1060335285.1758215801&data=event%3Dgtag.config&rfmt=3&fmt=4:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1202436878&gjid=2097574589&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2062469248:1  Failed to load resource: net::ERR_CONNECTION_RESET
+images.unsplash.com/photo-1502005229762-cf1b2da2db52?w=300&h=192&fit=crop&auto=format&q=80:1  Failed to load resource: net::ERR_CONNECTION_RESET
+v53:1 Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.
+via.placeholder.com/400x300:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+via.placeholder.com/400x300:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+via.placeholder.com/400x300:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+via.placeholder.com/400x300:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=2009594280&gjid=775108473&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1420611762:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=508280473&gjid=1378736258&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=1385692044:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=443433208&gjid=300370206&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=144371531:1  Failed to load resource: net::ERR_CONNECTION_RESET
+stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-25629695-1&cid=11222849.1758215801&jid=1212510474&gjid=1665753339&_gid=1273472841.1761573764&_u=aCDAgEAjQAAAAGgCIAD~&z=2003822096:1  Failed to load resource: net::ERR_CONNECTION_RESET
+/graphql:1  Failed to load resource: net::ERR_CONNECTION_CLOSED
+workspace_iframe.html?initialPath=%2Fproperties%3Frooms%3D2%26price_max%3D20%26developers%3D44%26pa…:32 Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ injected.js:27
+ 🔍 Проверка версии: текущая=1761504849, URL=null
+ 🔄 ПРИНУДИТЕЛЬНАЯ ПЕРЕЗАГРУЗКА с версией 1761504849
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ injected.js:27
+ 🔍 Проверка версии: текущая=1761504849, URL=1761504849
+ ✅ Версия совпадает, продолжаем загрузку
+ (Yandex Maps JS API): Invalid API key
+(анонимная) @ injected.js:27
+ Header: openApplicationModal function defined
+properties?rooms=2&p…1&v=1761504849:4976 Uncaught 
+ 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+ ✅ Presentation functions loaded: Object
+ DOM Helper initialized - safe DOM operations available
+ ✅ Filter variables initialized (before property-filters.js): Object
+ ✅ View switching functions loaded
+ 🔥🔥🔥 PROPERTIES-SORTING.JS LOADED - AJAX VERSION 🔥🔥🔥
+ ✅ properties-sorting.js AJAX initialization complete
+ 📋 PROPERTIES-LIST-UPDATER.JS LOADED
+ ✅ properties-list-updater.js loaded
+ ♾️ INFINITE-SCROLL.JS LOADED
+ ✅ infinite-scroll.js initialization complete
+ 🔥 property-filters.js загружается - AJAX MODE...
+ ✅ property-filters.js loaded successfully
+ ✅ Functions registered: Object
+ ✅ Active filters display functions loaded
+ 🚀🚀🚀 PROPERTY-FILTERS.JS - AJAX MODE ACTIVATED 🚀🚀🚀
+ ✅ Functions registered: Object
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ 🗺️ properties_mini_map.js загружен
+ 🔧 Property card click handler loading...
+ ✅ Property card click handler installed
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+favorites.js:1 Uncaught 
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔧 Initializing properties page view...
+ 📋 Current view mode: list
+ ✅ Switched to list view
+ 📌 DOMContentLoaded - attaching AJAX sort listener
+ ✅ AJAX sortProperties event listener attached to #sort-select
+ 🚀 Initializing Infinite Scroll...
+ 📄 Initial state: Object
+ ✅ Sentinel created
+ ✅ Observer attached
+ ✅ Infinite Scroll initialized
+ 🔧 Initializing advanced filters button...
+ ✅ "Еще" button handler registered successfully
+ 🏷️ Initializing active filters display...
+ 🔥 loadFavoritesFromAPI called for user
+ 🔍 DEBUG: window.manager_authenticated = false
+ 🔍 DEBUG: window.isManager = false
+ 🔍 DEBUG: this.isManager() = false
+ 🔍 DEBUG: Using endpoint: /api/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): Object
+ 📦 Загружено из localStorage - квартиры: 3 ЖК: 4
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+ ⏳ Ожидаем загрузку данных из базы данных...
+ 🔍 Загружаем сравнение из PostgreSQL...
+ 📡 Endpoint: /api/user/comparison/load isManager: false
+ 🗺️ Properties mini map - DOMContentLoaded
+ ✅ SavedSearchesManager initialized
+properties?rooms=2&p…&v=1761504849:11795 Uncaught 
+ ✅ SavedSearchesManager initialized
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Form validation initialized
+ 🏗️ Developer IDs from URL: 44
+ 🗺️ Available developersMap: Object
+ 🔍 Developer ID=44 → Name="ГК Неометрия"
+ ✅ Displayed 3 active filters
+ ✅ Active filters displayed on page load
+ Cache SW failed: 
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ 📊 Page Load Time: 4334ms
+ 📊 Performance metrics: Object
+ Scroll force restored
+ 📦 API Response: Object
+ ✅ Загружено из API - квартиры: 3 ЖК: 4
+ 📋 Property IDs: Array(3)
+ 📋 Complex IDs: Array(4)
+ ✅ localStorage и API данные синхронизированы
+ 🔢 Счетчик обновлен: 7 (квартиры: 3 ЖК: 4 )
+injected.js:27 🔄 Обновляем UI кнопок сравнения...
+injected.js:27 📋 Comparison IDs: Array(3)
+injected.js:27 📋 Complex IDs: Array(4)
+injected.js:27 🔍 Found 9 property comparison buttons on page
+injected.js:27   Button 1: ID=386, inComparison=false
+injected.js:27   Button 2: ID=397, inComparison=false
+injected.js:27   Button 3: ID=679, inComparison=false
+injected.js:27   Button 4: ID=398, inComparison=false
+injected.js:27   Button 5: ID=396, inComparison=false
+injected.js:27   Button 6: ID=399, inComparison=false
+injected.js:27   Button 7: ID=689, inComparison=false
+injected.js:27   Button 8: ID=690, inComparison=false
+injected.js:27   Button 9: ID=685, inComparison=false
+injected.js:27 🔍 Found 0 complex comparison buttons on page
+injected.js:27 ✅ UI кнопок обновлено: 3 квартир + 4 ЖК
+injected.js:27 ✅ Данные из БД загружены, инициализируем кнопки...
+injected.js:27 🔥 Favorites API response: Object
+injected.js:27 🔥 Loaded favorites from API: Array(5)
+injected.js:27 🏠 Инициализируем 9 кнопок сравнения квартир
+injected.js:27 ✅ Кнопка квартиры 1 готова: 386
+injected.js:27 ✅ Кнопка квартиры 2 готова: 397
+injected.js:27 ✅ Кнопка квартиры 3 готова: 679
+injected.js:27 ✅ Кнопка квартиры 4 готова: 398
+injected.js:27 ✅ Кнопка квартиры 5 готова: 396
+injected.js:27 ✅ Кнопка квартиры 6 готова: 399
+injected.js:27 ✅ Кнопка квартиры 7 готова: 689
+injected.js:27 ✅ Кнопка квартиры 8 готова: 690
+injected.js:27 ✅ Кнопка квартиры 9 готова: 685
+injected.js:27 🏢 Инициализируем 0 кнопок сравнения ЖК
+injected.js:27 🔄 Обновляем UI кнопок сравнения...
+injected.js:27 📋 Comparison IDs: Array(3)
+injected.js:27 📋 Complex IDs: Array(4)
+injected.js:27 🔍 Found 9 property comparison buttons on page
+injected.js:27   Button 1: ID=386, inComparison=false
+injected.js:27   Button 2: ID=397, inComparison=false
+injected.js:27   Button 3: ID=679, inComparison=false
+injected.js:27   Button 4: ID=398, inComparison=false
+injected.js:27   Button 5: ID=396, inComparison=false
+injected.js:27   Button 6: ID=399, inComparison=false
+injected.js:27   Button 7: ID=689, inComparison=false
+injected.js:27   Button 8: ID=690, inComparison=false
+injected.js:27   Button 9: ID=685, inComparison=false
+injected.js:27 🔍 Found 0 complex comparison buttons on page
+injected.js:27 ✅ UI кнопок обновлено: 3 квартир + 4 ЖК
+injected.js:27 ✅ Система сравнения полностью готова к работе
+injected.js:27 ✅ Yandex mini map initialized for properties
+2cbf1f76-1bd1-43e2-a174-887e29b397c5-00-36f0b9le2cvob.kirk.replit.dev/static/uploads/avatars/manager_1_32307983.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+injected.js:27 🔥 Complex favorites API response: Object
+injected.js:27 🔥 Loaded complex favorites from API: Array(3)
+injected.js:27 🔄 updateFavoritesUI: Found 9 property hearts, favorites: Array(5)
+injected.js:27   Heart 1: ID=386, isFavorited=false
+injected.js:27   Heart 2: ID=397, isFavorited=false
+injected.js:27   Heart 3: ID=679, isFavorited=false
+injected.js:27   Heart 4: ID=398, isFavorited=false
+injected.js:27   Heart 5: ID=396, isFavorited=false
+injected.js:27   Heart 6: ID=399, isFavorited=false
+injected.js:27   Heart 7: ID=689, isFavorited=false
+injected.js:27   Heart 8: ID=690, isFavorited=false
+injected.js:27   Heart 9: ID=685, isFavorited=false
+injected.js:27 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(3)
+injected.js:27 🔥 UI update called after API load
+injected.js:27 🔄 updateFavoritesUI: Found 9 property hearts, favorites: Array(5)
+injected.js:27   Heart 1: ID=386, isFavorited=false
+injected.js:27   Heart 2: ID=397, isFavorited=false
+injected.js:27   Heart 3: ID=679, isFavorited=false
+injected.js:27   Heart 4: ID=398, isFavorited=false
+injected.js:27   Heart 5: ID=396, isFavorited=false
+injected.js:27   Heart 6: ID=399, isFavorited=false
+injected.js:27   Heart 7: ID=689, isFavorited=false
+injected.js:27   Heart 8: ID=690, isFavorited=false
+injected.js:27   Heart 9: ID=685, isFavorited=false
+injected.js:27 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(3)
+injected.js:27 Real favorites count from API - Total: 8 (Properties: 5, Complexes: 3)
+injected.js:27 ✅ Loaded 357 property coordinates
+injected.js:27 ✅ Created 11 clusters on Yandex mini map
+injected.js:27 🎯 Auto-centered map: [43.4629, 38.9753] - [45.0355, 39.9122]
+injected.js:27 Preloaded 5 popular queries
+injected.js:27 ✅ SuperSearch initialized successfully
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+injected.js:27 📦 Preloaded: /static/js/super_search.js
+injected.js:27 📦 Preloaded: /static/js/main.js
+injected.js:27 📦 Preloaded: /static/css/styles.css
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+injected.js:27 Memory usage: Object
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824 Uncaught ReferenceError: toggleSaveSearchDropdown is not defined
+    at HTMLButtonElement.onclick (properties?rooms=2&price_max=20&developers=44&page=1&v=1761504849:2824:286)
+injected.js:27 Memory usage: {used: '25 MB', total: '86 MB', limit: '4096 MB'}

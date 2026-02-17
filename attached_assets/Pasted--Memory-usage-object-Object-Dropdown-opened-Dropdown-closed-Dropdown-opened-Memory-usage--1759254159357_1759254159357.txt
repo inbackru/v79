@@ -1,0 +1,246 @@
+ Memory usage: [object Object]
+ Dropdown opened
+ Dropdown closed
+ Dropdown opened
+ Memory usage: [object Object]
+ Price filter:  to 20
+ Filtering with: [object Object]
+ Sample property for debugging: [object Object]
+ 🎯 FILTERING RESULT: 20 properties from 20 total
+ 🔄 Calling updateResultsCount with: 20
+ 🌐 Using server-side count: 181
+ ✅ Обновлен H3 с "Найдено": 181 объект
+ 📄 Пагинация: страница 1/1, показываем 20 объектов (1-20 из 20)
+ 📊 Рендерим 20 объектов для страницы 1
+ 🔄 Рендеринг: режим список, страница 1, объектов: 20
+ 🔍 Активный фильтр ЖК не найден [object Object]
+ 🔍 Активный фильтр ЖК не найден [object Object]
+ All buttons initialized: favorites, comparison, PDF
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔍 Checking manager status: false
+ 🔍 Property cards found: 20
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ Property list updated, buttons initialized
+ All buttons initialized: favorites, comparison, PDF
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ 🔥 Button HTML: <i class="fas fa-balance-scale"></i>
+ Buttons reinitialized after filtering
+ 🔄 Переинициализация после пагинации
+ 🏠 Инициализируем 20 кнопок сравнения квартир
+ ✅ Кнопка квартиры 1 готова: 1999611557
+ ✅ Кнопка квартиры 2 готова: 1999611558
+ ✅ Кнопка квартиры 3 готова: 1999611566
+ ✅ Кнопка квартиры 4 готова: 2060712788
+ ✅ Кнопка квартиры 5 готова: 2058093385
+ ✅ Кнопка квартиры 6 готова: 2060496484
+ ✅ Кнопка квартиры 7 готова: 2055669531
+ ✅ Кнопка квартиры 8 готова: 2055669541
+ ✅ Кнопка квартиры 9 готова: 2055669895
+ ✅ Кнопка квартиры 10 готова: 1892750314
+ ✅ Кнопка квартиры 11 готова: 1892750295
+ ✅ Кнопка квартиры 12 готова: 2055669647
+ ✅ Кнопка квартиры 13 готова: 2055669665
+ ✅ Кнопка квартиры 14 готова: 2055669746
+ ✅ Кнопка квартиры 15 готова: 1892750327
+ ✅ Кнопка квартиры 16 готова: 2055669147
+ ✅ Кнопка квартиры 17 готова: 2055669160
+ ✅ Кнопка квартиры 18 готова: 2055669344
+ ✅ Кнопка квартиры 19 готова: 1892750313
+ ✅ Кнопка квартиры 20 готова: 1892750549
+ 🏢 Инициализируем 0 кнопок сравнения ЖК
+ 🔥 applyFilters() CALLED!
+ 🌐 Using server-side filtering - building URL parameters
+ 📤 Sending filters to server: price_max=20
+ 📊 Performance metrics: [object Object]
+ Memory usage: [object Object]
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/$%7Bimage%7D:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 Header: openApplicationModal function defined
+Console.js:61 🚨 ЭКСТРЕННЫЙ SCRIPT ЗАПУЩЕН!
+Console.js:61 ✅ Функция TOTAL_RESET готова для использования
+Console.js:61 Authentication status: Object
+Console.js:61 Properties page script loaded with smart search integration
+Console.js:61 ✅ Диагностический код отключен для предотвращения циклов
+Console.js:61 ✅ Manager Favorites Manager initialized
+Console.js:61 DOM Helper initialized - safe DOM operations available
+Console.js:61 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+Console.js:61 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+Console.js:61 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 Phone formatting setup for: phone
+Console.js:61 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+Console.js:61 Performance optimizations initialized
+Console.js:61 CSS optimization: Found 4 stylesheets
+Console.js:61 Turbo loader initialized
+Console.js:61 Cache optimizer initialized
+Console.js:61 Image compressor initialized - WebP support: true
+Console.js:61 🚫 Cashback popup: Пользователь уже закрывал в этой сессии
+Console.js:61 🔧 Инициализация кнопки "Очистить все"...
+Console.js:61 ✅ Кнопка clearAllFilters найдена, добавляем обработчик
+Console.js:61 ✅ Обработчик кнопки clearAllFilters установлен
+Console.js:61 Found filter dropdowns: 0 NodeList(0)
+Console.js:61 Dropdown filters initialized, including 0 new filter dropdowns
+Console.js:61 Applying filters from URL: price_max=20
+Console.js:61 Applied URL filters: Object
+Console.js:61 Filtering with: Object
+Console.js:61 Sample property for debugging: Object
+Console.js:61 🎯 FILTERING RESULT: 0 properties from 20 total
+Console.js:61 🔄 Calling updateResultsCount with: 0
+Console.js:61 🌐 Using server-side count: 181
+Console.js:61 ✅ Обновлен H3 с "Найдено": 181 объект
+Console.js:61 📄 Пагинация: страница 1/0, показываем 0 объектов (1-0 из 0)
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+Console.js:61 Updating active filters display: Object
+Console.js:61 Updated filters with URL params: Object
+Console.js:61 🔧 Properties page loaded - FavoritesManager handles initialization automatically
+Console.js:61 Initializing dropdown filters...
+Console.js:61 🔄 DOM готов - повторная попытка инициализации...
+Console.js:61 🔥 loadFavoritesFromAPI called for user
+Console.js:61 🔧 FavoritesManager initialized from favorites.js
+Console.js:61 🔧 Инициализируем кнопки сравнения...
+Console.js:61 🔍 Manager status check (FIXED): Object
+Console.js:61 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+Console.js:61 🔍 Загружаем сравнение из PostgreSQL...
+Console.js:61 Saved Searches Manager initialized safely
+Console.js:61 ✅ SavedSearchesManager initialized
+Console.js:61 🚀 Performance Optimizer v2.0 - Starting...
+Console.js:61 🖼️ Lazy loading initialized for 0 images
+Console.js:61 ✅ Performance Optimizer initialized
+Console.js:61 🚀 SuperSearch v2.0 - Initializing...
+Console.js:61 Found 1 search inputs
+Console.js:61 Initializing smart search...
+Console.js:61 Form validation initialized
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/images/agent-photo.webp:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Console.js:61 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/') with script ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Buttons reinitialized after filtering
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Initial page setup complete with favorites and comparison
+Console.js:61 🏠 Инициализируем 0 кнопок сравнения квартир
+Console.js:61 🏢 Инициализируем 0 кнопок сравнения ЖК
+Console.js:61 ✅ Система сравнения полностью готова к работе
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/comparison/load:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:388:23)
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 🔥 Favorites API response: Object
+Console.js:61 ℹ️ БД недоступна, используем localStorage fallback
+Console.js:61 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+Console.js:61 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+Console.js:61 🔄 Обновляем UI кнопок сравнения...
+Console.js:61 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+Console.js:61 📊 Page Load Time: 4673ms
+Console.js:61 📊 Performance metrics: Object
+workspace_iframe.html:1 Unrecognized feature: 'ambient-light-sensor'.
+workspace_iframe.html:1 Unrecognized feature: 'battery'.
+workspace_iframe.html:1 Unrecognized feature: 'execution-while-not-rendered'.
+workspace_iframe.html:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+workspace_iframe.html:1 Unrecognized feature: 'layout-animations'.
+workspace_iframe.html:1 Unrecognized feature: 'legacy-image-formats'.
+workspace_iframe.html:1 Unrecognized feature: 'navigation-override'.
+workspace_iframe.html:1 Unrecognized feature: 'oversized-images'.
+workspace_iframe.html:1 Unrecognized feature: 'publickey-credentials'.
+workspace_iframe.html:1 Unrecognized feature: 'speaker-selection'.
+workspace_iframe.html:1 Unrecognized feature: 'unoptimized-images'.
+workspace_iframe.html:1 Unrecognized feature: 'unsized-media'.
+workspace_iframe.html:1 Allow attribute will take precedence over 'allowfullscreen'.
+workspace_iframe.html:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+Console.js:61 Скрываем неподдерживаемые фильтры...
+Console.js:61 ✅ Кнопка переинициализирована через DOM
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:388:23)
+Mt.forEach.n.<computed> @ Console.js:61
+Console.js:61 🔥 Complex favorites API response: Object
+Console.js:61 🔥 UI update called after API load
+Console.js:61 ✅ Modern Advanced Filters initialized
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+Console.js:61 Filtering with: Object
+Console.js:61 Sample property for debugging: Object
+Console.js:61 🎯 FILTERING RESULT: 0 properties from 20 total
+Console.js:61 🔄 Calling updateResultsCount with: 0
+Console.js:61 🌐 Using server-side count: 181
+Console.js:61 ✅ Обновлен H3 с "Найдено": 181 объект
+Console.js:61 📄 Пагинация: страница 1/0, показываем 0 объектов (1-0 из 0)
+Console.js:61 🔍 Активный фильтр ЖК не найден Object
+Console.js:61 All buttons initialized: favorites, comparison, PDF
+Console.js:61 Buttons reinitialized after filtering
+Console.js:61 📦 Preloaded: /static/css/styles.css
+Console.js:61 📦 Preloaded: /static/js/super_search.js
+Console.js:61 📦 Preloaded: /static/js/main.js
+Console.js:61 Preloaded 5 popular queries
+Console.js:61 ✅ SuperSearch initialized successfully
+Console.js:61 === FAVORITES DEBUG START ===
+Console.js:61 favoritesManager instance: object
+Console.js:61 Heart elements: 0
+Console.js:61 Is manager: true
+Console.js:61 Favorites array: Array(0)
+Console.js:61 Favorites length: 0
+Console.js:61 === FAVORITES DEBUG END ===
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: Object
+Console.js:61 Memory usage: {used: '20 MB', total: '22 MB', limit: '3586 MB'}

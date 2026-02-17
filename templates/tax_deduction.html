@@ -1,0 +1,808 @@
+{% extends "base.html" %}
+
+{% block title %}Налоговый вычет при покупке квартиры 2025 - верните до 650,000₽ | InBack{% endblock %}
+{% block description %}Налоговый вычет при покупке квартиры: возврат до 260,000₽ за жилье + 390,000₽ за проценты. Помощь в оформлении документов и подаче декларации.{% endblock %}
+{% block keywords %}налоговый вычет, возврат НДФЛ, вычет при покупке квартиры, налоговый вычет 2025, имущественный вычет, вычет проценты ипотека{% endblock %}
+
+{% block head %}
+<!-- Robots meta -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ url_for('tax_deduction', _external=True) }}">
+<meta property="og:title" content="Налоговый вычет при покупке квартиры 2025 - верните до 650,000₽ | InBack">
+<meta property="og:description" content="Налоговый вычет при покупке квартиры: возврат до 260,000₽ за жилье + 390,000₽ за проценты. Помощь в оформлении документов.">
+<meta property="og:image" content="{{ url_for('static', filename='images/tax-deduction-og.jpg', _external=True) }}">
+<meta property="og:site_name" content="InBack">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ url_for('tax_deduction', _external=True) }}">
+<meta name="twitter:title" content="Налоговый вычет при покупке квартиры 2025 - верните до 650,000₽ | InBack">
+<meta name="twitter:description" content="Налоговый вычет при покупке квартиры: возврат до 260,000₽ за жилье + 390,000₽ за проценты по ипотеке.">
+<meta name="twitter:image" content="{{ url_for('static', filename='images/tax-deduction-og.jpg', _external=True) }}">
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ url_for('tax_deduction', _external=True) }}" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Inback",
+      "image": "https://inback.ru/logo.jpg",
+      "description": "Официальный сервис возврата кэшбека при покупке недвижимости в Краснодаре и других городах России",
+      "priceRange": "$",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Краснодар и Краснодарский край"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Красная, 32",
+        "addressLocality": "Краснодар",
+        "addressRegion": "Краснодарский край" 
+      },
+      "telephone": "+78001231212",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    }
+    </script>
+{% endblock %}
+
+{% block content %}
+<section class="bg-gradient-to-b from-white to-gray-50 pt-20 pb-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Content -->
+                <div>
+                    <div class="inline-flex items-center px-4 py-2 bg-gray-100 rounded-full text-gray-700 text-sm font-medium mb-6">
+                        <i class="fas fa-receipt mr-2 text-[#0088CC]"></i>
+                        Налоговый вычет
+                    </div>
+                    <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                        Налоговый вычет при покупке квартиры - <span class="text-[#0088CC]">верните до 650 000 ₽</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        Получите налоговый вычет при покупке квартиры. Возврат НДФЛ до 260,000₽ за квартиру + 390,000₽ за проценты по ипотеке. Помощь в оформлении документов.
+                    </p>
+                    
+                    <!-- Key Benefits -->
+                    <div class="grid sm:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-home text-[#0088CC] text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">До 260,000₽ за квартиру</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-percent text-[#0088CC] text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">До 390,000₽ за проценты</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-file-invoice text-[#0088CC] text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">Простое оформление</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-calendar-check text-[#0088CC] text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">Возврат за 3 месяца</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="openQuizModal()" class="bg-gradient-to-r from-[#0088CC] to-[#006699] hover:shadow-lg text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-[1.02]">
+                            Подобрать квартиру
+                        </button>
+                        <button onclick="openCalculatorModal()" class="border-2 border-[#0088CC] text-[#0088CC] hover:bg-[#0088CC] hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-[1.02]">
+                            Рассчитать вычет
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Content - Info Card -->
+                <div class="relative">
+                    <div class="bg-white rounded-2xl shadow-xl p-8 relative z-10">
+                        <div class="text-center mb-6">
+                            <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-coins text-[#0088CC] text-3xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Максимальный вычет</h3>
+                            <p class="text-3xl font-bold text-[#0088CC] mt-2">650 000 ₽</p>
+                            <p class="text-gray-600">возврат НДФЛ в 2025 году</p>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                                <span class="text-gray-600">За покупку жилья:</span>
+                                <span class="font-semibold">до 260,000₽</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                                <span class="text-gray-600">За проценты по ипотеке:</span>
+                                <span class="font-semibold">до 390,000₽</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                                <span class="text-gray-600">Процент возврата:</span>
+                                <span class="font-semibold">13% НДФЛ</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2">
+                                <span class="text-gray-600">Срок оформления:</span>
+                                <span class="font-semibold">от 3 месяцев</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Decorative elements -->
+                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-gray-200 rounded-full opacity-20"></div>
+                    <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-gray-300 rounded-full opacity-20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How to Use Section -->
+<section class="py-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                    <span class="text-sm font-medium uppercase">Виды вычетов</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Виды налоговых вычетов при покупке жилья
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Что можно вернуть при покупке квартиры
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Property Purchase -->
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-home text-[#0088CC] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">Покупка жилья</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Максимум 260,000₽ (13% от 2 млн ₽)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>За квартиру, дом, комнату</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Один раз в жизни</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mortgage Interest -->
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-percent text-[#0088CC] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">Проценты по ипотеке</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Максимум 390,000₽ (13% от 3 млн ₽)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Только на уплаченные проценты</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>На один объект жилья</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Construction -->
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hammer text-[#0088CC] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">Строительство и ремонт</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Входит в основной вычет</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Материалы и работы</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Только для новостроек без отделки</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Requirements Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                    <span class="text-sm font-medium uppercase">Требования</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Требования и документы
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Что нужно для получения налогового вычета
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Requirements -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-list-check text-[#0088CC] mr-3"></i>
+                        Условия получения
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Российское гражданство</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Официальное трудоустройство (уплата НДФЛ 13%)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Покупка жилой недвижимости в России</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Можно получить только 1 раз за жизнь</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Не более уплаченного НДФЛ за год</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Documents -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-file-alt text-[#0088CC] mr-3"></i>
+                        Необходимые документы
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Паспорт</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Справка 2-НДФЛ</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Договор купли-продажи</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Выписка из ЕГРН</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-[#0088CC] mt-1 mr-3"></i>
+                            <span>Платежные документы (чеки, квитанции)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section class="py-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                    <span class="text-sm font-medium uppercase">Калькулятор</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Калькулятор налогового вычета
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Рассчитайте сумму возврата при покупке квартиры
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Calculator Controls -->
+                    <div class="space-y-6">
+                        <!-- Property Price -->
+                        <div>
+                            <div class="flex justify-between items-center mb-3">
+                                <label class="text-gray-700 font-medium">Стоимость недвижимости</label>
+                                <div class="text-xl font-bold text-[#0088CC]" id="taxPropertyPrice">5 000 000 ₽</div>
+                            </div>
+                            <input type="range" 
+                                   min="1000000" 
+                                   max="15000000" 
+                                   step="100000" 
+                                   value="5000000" 
+                                   class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+                                   id="taxPropertyPriceRange">
+                            <div class="flex justify-between text-sm text-gray-500 mt-1">
+                                <span>1 млн ₽</span>
+                                <span>15 млн ₽</span>
+                            </div>
+                        </div>
+
+                        <!-- Mortgage Interest -->
+                        <div>
+                            <div class="flex justify-between items-center mb-3">
+                                <label class="text-gray-700 font-medium">Уплаченные проценты по ипотеке</label>
+                                <div class="text-xl font-bold text-[#0088CC]" id="taxMortgageInterest">500 000 ₽</div>
+                            </div>
+                            <input type="range" 
+                                   min="0" 
+                                   max="5000000" 
+                                   step="50000" 
+                                   value="500000" 
+                                   class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+                                   id="taxMortgageInterestRange">
+                            <div class="flex justify-between text-sm text-gray-500 mt-1">
+                                <span>0 ₽</span>
+                                <span>5 млн ₽</span>
+                            </div>
+                        </div>
+
+                        <!-- Annual Income -->
+                        <div>
+                            <div class="flex justify-between items-center mb-3">
+                                <label class="text-gray-700 font-medium">Годовой доход (НДФЛ)</label>
+                                <div class="text-xl font-bold text-[#0088CC]" id="taxAnnualIncome">1 000 000 ₽</div>
+                            </div>
+                            <input type="range" 
+                                   min="100000" 
+                                   max="5000000" 
+                                   step="50000" 
+                                   value="1000000" 
+                                   class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+                                   id="taxAnnualIncomeRange">
+                            <div class="flex justify-between text-sm text-gray-500 mt-1">
+                                <span>100 тыс ₽</span>
+                                <span>5 млн ₽</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="bg-gradient-to-r from-[#0088CC] to-[#006699] rounded-xl p-6 text-white">
+                        <div class="text-center mb-6">
+                            <h3 class="text-2xl font-bold mb-2">Расчет вычета</h3>
+                            <div class="text-4xl font-bold" id="taxTotalReturn">325 000 ₽</div>
+                            <p class="text-white/80">можете вернуть</p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center py-2 border-b border-white/20">
+                                <span class="text-white/80">За покупку:</span>
+                                <span class="font-semibold" id="taxPropertyReturn">260 000 ₽</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-white/20">
+                                <span class="text-white/80">За проценты:</span>
+                                <span class="font-semibold" id="taxInterestReturn">65 000 ₽</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-white/20">
+                                <span class="text-white/80">НДФЛ за год:</span>
+                                <span class="font-semibold" id="taxYearlyNDFL">130 000 ₽</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2">
+                                <span class="text-white/80">Срок возврата:</span>
+                                <span class="font-semibold" id="taxReturnYears">3 года</span>
+                            </div>
+                        </div>
+
+                        <button onclick="openApplicationModal()" class="w-full bg-white text-[#0088CC] py-3 rounded-lg font-semibold mt-6 hover:bg-gray-50 transition-colors">
+                            Подобрать квартиру
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Deduction Types Table Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                    <span class="text-sm font-medium uppercase">Виды вычетов</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Таблица налоговых вычетов 2025
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Максимальные суммы возврата по различным видам расходов
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">Вид расхода</th>
+                            <th class="px-6 py-4 text-right text-sm font-semibold text-gray-900">Максимальная сумма вычета</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 text-gray-700">Покупка жилья</td>
+                            <td class="px-6 py-4 text-right font-semibold text-[#0088CC]">до 260,000₽</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 text-gray-700">Проценты по ипотеке</td>
+                            <td class="px-6 py-4 text-right font-semibold text-[#0088CC]">до 390,000₽</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 text-gray-700">Обучение (свое)</td>
+                            <td class="px-6 py-4 text-right font-semibold text-gray-600">до 15,600₽ в год</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 text-gray-700">Обучение детей</td>
+                            <td class="px-6 py-4 text-right font-semibold text-gray-600">до 6,500₽ в год</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 text-gray-700">Лечение</td>
+                            <td class="px-6 py-4 text-right font-semibold text-gray-600">до 15,600₽ в год</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 bg-blue-50">
+                            <td class="px-6 py-4 text-gray-900 font-bold">ИТОГО максимум (жилье + проценты)</td>
+                            <td class="px-6 py-4 text-right font-bold text-[#0088CC] text-xl">650,000₽</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                <span class="text-sm font-medium uppercase">Преимущества</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Преимущества налогового вычета
+            </h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fas fa-ruble-sign text-[#0088CC] text-xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">650 000 ₽</h3>
+                <p class="text-gray-600">Максимальная сумма возврата в 2025 году</p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fas fa-calendar text-[#0088CC] text-xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">3 месяца</h3>
+                <p class="text-gray-600">Средний срок получения вычета</p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fas fa-file-invoice text-[#0088CC] text-xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Простое оформление</h3>
+                <p class="text-gray-600">Через Госуслуги или налоговую</p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fas fa-shield-alt text-[#0088CC] text-xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Законный возврат</h3>
+                <p class="text-gray-600">Гарантированный государством</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6">
+                    <span class="text-sm font-medium uppercase">Инструкция</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Как получить налоговый вычет</h2>
+                <p class="text-lg mb-6">Получить налоговый вычет можно двумя способами: через работодателя или через налоговую инспекцию.</p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-[#0088CC] mt-1 mr-3"></i>
+                        <span>Подайте декларацию 3-НДФЛ в налоговую</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-[#0088CC] mt-1 mr-3"></i>
+                        <span>Приложите подтверждающие документы</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-[#0088CC] mt-1 mr-3"></i>
+                        <span>Дождитесь камеральной проверки (до 3 месяцев)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-[#0088CC] mt-1 mr-3"></i>
+                        <span>Получите деньги на банковский счет</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-[#0088CC] mt-1 mr-3"></i>
+                        <span>Или получайте ежемесячно через работодателя</span>
+                    </li>
+                </ul>
+                <button onclick="openApplicationModal()" class="bg-gradient-to-r from-[#0088CC] to-[#006699] hover:shadow-lg text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-[1.02]">Получить консультацию</button>
+            </div>
+            <div class="lg:w-1/2">
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <h3 class="text-2xl font-bold mb-6">Два способа получения</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between py-3 border-b border-gray-200">
+                            <span class="text-gray-600">Через налоговую:</span>
+                            <span class="font-semibold text-[#0088CC]">раз в год</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-200">
+                            <span class="text-gray-600">Через работодателя:</span>
+                            <span class="font-semibold">ежемесячно</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-200">
+                            <span class="text-gray-600">Срок проверки:</span>
+                            <span class="font-semibold">до 3 месяцев</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-200">
+                            <span class="text-gray-600">Перенос остатка:</span>
+                            <span class="font-semibold">на следующие годы</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-200">
+                            <span class="text-gray-600">Срок давности:</span>
+                            <span class="font-semibold">за 3 предыдущих года</span>
+                        </div>
+                        <div class="flex justify-between py-3">
+                            <span class="text-gray-600">Онлайн подача:</span>
+                            <span class="font-semibold">через Госуслуги</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="w-fit px-4 py-1 bg-black bg-opacity-5 rounded-full mb-6 mx-auto">
+                    <span class="text-sm font-medium uppercase">Ответы на вопросы</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Часто задаваемые вопросы
+                </h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="bg-gray-50 rounded-lg">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center" onclick="toggleFaq(1)">
+                        <span class="font-semibold text-gray-900">Сколько раз можно получить налоговый вычет?</span>
+                        <i class="fas fa-chevron-down text-[#0088CC] transition-transform" id="faq-icon-1"></i>
+                    </button>
+                    <div class="mt-3 text-gray-600 hidden px-6 pb-4" id="faq-content-1">
+                        <p>Налоговый вычет на покупку жилья можно получить только один раз в жизни. Однако если вы не использовали всю сумму вычета (260,000₽), остаток можно перенести на покупку другой недвижимости. Вычет по процентам по ипотеке (до 390,000₽) предоставляется только на один объект.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="bg-gray-50 rounded-lg">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center" onclick="toggleFaq(2)">
+                        <span class="font-semibold text-gray-900">Можно ли получить вычет за несколько лет сразу?</span>
+                        <i class="fas fa-chevron-down text-[#0088CC] transition-transform" id="faq-icon-2"></i>
+                    </button>
+                    <div class="mt-3 text-gray-600 hidden px-6 pb-4" id="faq-content-2">
+                        <p>Да, вы можете подать декларацию за последние 3 года. Например, если вы купили квартиру в 2022 году, в 2025 году можете подать декларации за 2022, 2023 и 2024 годы одновременно и получить все вычеты сразу.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="bg-gray-50 rounded-lg">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center" onclick="toggleFaq(3)">
+                        <span class="font-semibold text-gray-900">Когда можно подавать на вычет после покупки квартиры?</span>
+                        <i class="fas fa-chevron-down text-[#0088CC] transition-transform" id="faq-icon-3"></i>
+                    </button>
+                    <div class="mt-3 text-gray-600 hidden px-6 pb-4" id="faq-content-3">
+                        <p>Подать документы на вычет можно только после окончания года, в котором была куплена квартира. Например, если вы купили квартиру в 2024 году, подать на вычет можно с 1 января 2025 года.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="bg-gray-50 rounded-lg">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center" onclick="toggleFaq(4)">
+                        <span class="font-semibold text-gray-900">Можно ли получить вычет на вторичное жилье?</span>
+                        <i class="fas fa-chevron-down text-[#0088CC] transition-transform" id="faq-icon-4"></i>
+                    </button>
+                    <div class="mt-3 text-gray-600 hidden px-6 pb-4" id="faq-content-4">
+                        <p>Да, налоговый вычет предоставляется как на новостройки, так и на вторичное жилье. Главное условие - недвижимость должна находиться в России, и вы должны быть резидентом РФ и платить НДФЛ по ставке 13%.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="bg-gray-50 rounded-lg">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center" onclick="toggleFaq(5)">
+                        <span class="font-semibold text-gray-900">Что если мой доход меньше суммы вычета?</span>
+                        <i class="fas fa-chevron-down text-[#0088CC] transition-transform" id="faq-icon-5"></i>
+                    </button>
+                    <div class="mt-3 text-gray-600 hidden px-6 pb-4" id="faq-content-5">
+                        <p>Если ваш годовой НДФЛ меньше суммы вычета, остаток переносится на следующие годы. Вычет будет предоставляться до тех пор, пока вся сумма не будет возвращена. Срок давности не ограничен.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="bg-gray-50 rounded-lg">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center" onclick="toggleFaq(6)">
+                        <span class="font-semibold text-gray-900">Можно ли получить вычет, если квартира оформлена на супруга?</span>
+                        <i class="fas fa-chevron-down text-[#0088CC] transition-transform" id="faq-icon-6"></i>
+                    </button>
+                    <div class="mt-3 text-gray-600 hidden px-6 pb-4" id="faq-content-6">
+                        <p>Да, если квартира куплена в браке, каждый из супругов имеет право на вычет, даже если квартира оформлена только на одного из них. Каждый супруг может получить до 260,000₽ за покупку и до 390,000₽ за проценты.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 bg-gradient-to-r from-[#0088CC] to-[#006699] text-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Купите квартиру и верните до 650 000 ₽</h2>
+            <p class="text-xl mb-8 text-white/90">
+                Поможем подобрать квартиру с учетом налогового вычета и оформить все документы для возврата НДФЛ
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="openApplicationModal()" class="bg-white text-[#0088CC] px-8 py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-[1.02] hover:shadow-xl">
+                    Подобрать квартиру
+                </button>
+                <a href="{{ url_for('properties') }}" class="border-2 border-white text-white hover:bg-white hover:text-[#0088CC] px-8 py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-[1.02]">
+                    Каталог новостроек
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+function formatPrice(num) {
+    return new Intl.NumberFormat('ru-RU').format(num) + ' ₽';
+}
+
+function calculateTaxDeduction() {
+    const propertyPrice = parseInt(document.getElementById('taxPropertyPriceRange').value);
+    const mortgageInterest = parseInt(document.getElementById('taxMortgageInterestRange').value);
+    const annualIncome = parseInt(document.getElementById('taxAnnualIncomeRange').value);
+    
+    document.getElementById('taxPropertyPrice').textContent = formatPrice(propertyPrice);
+    document.getElementById('taxMortgageInterest').textContent = formatPrice(mortgageInterest);
+    document.getElementById('taxAnnualIncome').textContent = formatPrice(annualIncome);
+    
+    const maxPropertyDeduction = 2000000;
+    const maxInterestDeduction = 3000000;
+    
+    const propertyReturn = Math.min(propertyPrice, maxPropertyDeduction) * 0.13;
+    const interestReturn = Math.min(mortgageInterest, maxInterestDeduction) * 0.13;
+    
+    const totalReturn = propertyReturn + interestReturn;
+    const yearlyNDFL = annualIncome * 0.13;
+    
+    const returnYears = yearlyNDFL > 0 ? Math.ceil(totalReturn / yearlyNDFL) : 0;
+    
+    document.getElementById('taxPropertyReturn').textContent = formatPrice(Math.round(propertyReturn));
+    document.getElementById('taxInterestReturn').textContent = formatPrice(Math.round(interestReturn));
+    document.getElementById('taxTotalReturn').textContent = formatPrice(Math.round(totalReturn));
+    document.getElementById('taxYearlyNDFL').textContent = formatPrice(Math.round(yearlyNDFL));
+    document.getElementById('taxReturnYears').textContent = returnYears + ' ' + (returnYears === 1 ? 'год' : returnYears < 5 ? 'года' : 'лет');
+}
+
+document.getElementById('taxPropertyPriceRange').addEventListener('input', calculateTaxDeduction);
+document.getElementById('taxMortgageInterestRange').addEventListener('input', calculateTaxDeduction);
+document.getElementById('taxAnnualIncomeRange').addEventListener('input', calculateTaxDeduction);
+
+function toggleFaq(num) {
+    const content = document.getElementById(`faq-content-${num}`);
+    const icon = document.getElementById(`faq-icon-${num}`);
+    
+    content.classList.toggle('hidden');
+    icon.classList.toggle('rotate-180');
+}
+
+function openCalculatorModal() {
+    const calculatorSection = document.querySelector('#taxPropertyPriceRange').closest('section');
+    calculatorSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+calculateTaxDeduction();
+</script>
+
+<style>
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #0088CC;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #0088CC;
+    cursor: pointer;
+    border: none;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+</style>
+
+{% endblock %}

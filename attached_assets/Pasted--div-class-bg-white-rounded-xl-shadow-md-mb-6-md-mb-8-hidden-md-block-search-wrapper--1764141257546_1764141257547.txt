@@ -1,0 +1,168 @@
+<div class="bg-white rounded-xl shadow-md mb-6 md:mb-8 hidden md:block search-wrapper">
+            <div class="flex items-center gap-2 px-4 py-4">
+                <!-- Property Type Filter (Квартиры/Дома/Таунхаусы) -->
+                <div class="dropdown relative search-filter-btn" data-filter="property_type">
+                    <button class="dropdown-btn px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center gap-2 border-r border-gray-200" onclick="toggleDropdown(event, this.parentElement.querySelector('.dropdown-menu'))">
+                        <span id="property-type-label">Все типы</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <label class="dropdown-item">
+                            <input type="radio" name="property_type" value="all" data-filter-type="property_type" class="mr-2" onchange="handlePropertyTypeChange()" checked=""> Все типы
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="radio" name="property_type" value="apartments" data-filter-type="property_type" class="mr-2" onchange="handlePropertyTypeChange()"> Квартиры
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="radio" name="property_type" value="houses" data-filter-type="property_type" class="mr-2" onchange="handlePropertyTypeChange()"> Дома
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="radio" name="property_type" value="townhouses" data-filter-type="property_type" class="mr-2" onchange="handlePropertyTypeChange()"> Таунхаусы
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="radio" name="property_type" value="penthouses" data-filter-type="property_type" class="mr-2" onchange="handlePropertyTypeChange()"> Пентхаусы
+                        </label>
+                        <label class="dropdown-item">
+                            <input type="radio" name="property_type" value="apartments_commercial" data-filter-type="property_type" class="mr-2" onchange="handlePropertyTypeChange()"> Апартаменты
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Room Type Filter -->
+                <div class="dropdown relative search-filter-btn" data-filter="rooms">
+                    <button class="dropdown-btn px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center gap-2 border-r border-gray-200" onclick="toggleRoomsPanel(event); toggleDropdown(event, this.parentElement.querySelector('.dropdown-menu'))">
+                        <span id="roomsFilterText">Комнат</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                        <div class="dropdown-menu">
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="0" data-filter-type="rooms" class="mr-2" onchange="handleRoomFilterChange()"> Студия
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="1" data-filter-type="rooms" class="mr-2" onchange="handleRoomFilterChange()" checked=""> 1-комнатная
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="2" data-filter-type="rooms" class="mr-2" onchange="handleRoomFilterChange()"> 2-комнатная
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="3" data-filter-type="rooms" class="mr-2" onchange="handleRoomFilterChange()"> 3-комнатная
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="4" data-filter-type="rooms" class="mr-2" onchange="handleRoomFilterChange()"> 4-комнатная
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- District Filter -->
+                    <div class="dropdown relative search-filter-btn" data-filter="districts">
+                        <button class="dropdown-btn px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center gap-2 border-r border-gray-200" onclick="toggleDropdown(event, this.parentElement.querySelector('.dropdown-menu'))">
+                            <span id="districtFilterText">Район</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="dropdown-menu" style="max-height: 300px; overflow-y: auto;"><label class="dropdown-item"><input type="checkbox" value="Западный округ" data-filter-type="district" class="mr-2"> Западный округ</label><label class="dropdown-item"><input type="checkbox" value="Карасунский округ" data-filter-type="district" class="mr-2"> Карасунский округ</label><label class="dropdown-item"><input type="checkbox" value="Прикубанский округ" data-filter-type="district" class="mr-2"> Прикубанский округ</label><label class="dropdown-item"><input type="checkbox" value="Центральный округ" data-filter-type="district" class="mr-2"> Центральный округ</label></div>
+                    </div>
+                    
+                    <!-- Price Filter -->
+                    <div class="dropdown relative search-filter-btn" data-filter="price">
+                        <button class="dropdown-btn px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center gap-2 border-r border-gray-200" onclick="togglePricePanel(event); toggleDropdown(event, this.parentElement.querySelector('.dropdown-menu'))">
+                            <span id="priceFilterText">Цена</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="dropdown-menu" style="min-width: 280px;">
+                            <div class="p-3">
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div>
+                                        <label class="text-xs text-gray-600 mb-1 block">От, млн ₽</label>
+                                        <input type="number" id="priceFrom" placeholder="1" min="0" step="0.1" class="w-full px-2 py-1 border border-gray-300 rounded text-sm">
+                                    </div>
+                                    <div>
+                                        <label class="text-xs text-gray-600 mb-1 block">До, млн ₽</label>
+                                        <input type="number" id="priceTo" placeholder="20" min="0" step="0.1" class="w-full px-2 py-1 border border-gray-300 rounded text-sm">
+                                    </div>
+                                </div>
+                                <button onclick="applyPriceFilter()" class="w-full bg-[#0088CC] text-white py-2 rounded mt-3 text-sm hover:opacity-90">Применить</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Search Input (with SuperSearch suggestions) -->
+                    <div id="search-input-container" class="relative flex-grow">
+                        <input id="property-search-desktop" class="w-full pl-4 pr-10 py-3 border-0 focus:ring-0 outline-none text-sm text-gray-700 bg-transparent" placeholder="Город, адрес, метро, район, ж/д, шоссе или ЖК" type="text">
+                        <!-- Close button (hidden by default) -->
+                        <button id="search-close-btn" class="hidden absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors" onclick="closeExpandedSearch()" title="Закрыть">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                        <!-- Search Suggestions (SuperSearch) -->
+                        <div id="property-searchSuggestions" class="hidden absolute top-full left-0 right-0 bg-white border border-gray-300 rounded-lg mt-1 shadow-lg z-50 max-h-64 overflow-y-auto">
+                            <!-- Suggestions will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Найти Button -->
+                    <button id="search-btn-desktop" class="search-filter-btn bg-gradient-to-r from-[#006699] to-[#0088CC] text-white px-6 py-3 rounded-xl font-medium hover:opacity-90 transition flex-shrink-0" onclick="applyFilters()">
+                        <span id="search-btn-text-desktop">Найти 35 квартир</span>
+                    </button>
+                    
+                    <!-- Фильтры Button with Badge -->
+                    <button class="search-filter-btn flex items-center text-gray-600 hover:text-[#0088CC] px-3 py-1 rounded-lg text-sm relative" onclick="openFiltersModal()">
+                        <div id="advancedFiltersCounter" class="hidden absolute -top-1 -right-1 bg-gradient-to-r from-[#0088CC] to-[#006699] text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center shadow-lg">0</div>
+                        <svg class="h-5 w-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path>
+                        </svg>
+                        Фильтры
+                    </button>
+                    
+                    <!-- Save Search Button (DESKTOP ONLY) -->
+                    <button onclick="openSaveSearchModal();" class="search-filter-btn flex items-center text-gray-600 hover:text-red-500 px-3 py-1 rounded-lg text-sm transition-all" title="Сохранить поиск">
+                        <i class="fas fa-heart mr-1 text-lg"></i>
+                        Сохранить
+                    </button>
+                    
+                    <!-- Developer Filter (MOVED TO ADVANCED FILTERS - hidden on main panel) -->
+                    <div class="dropdown hidden" data-filter="developers">
+                        <button class="dropdown-btn border border-gray-300 px-3 py-1.5 rounded text-sm hover:bg-gray-50 flex items-center gap-1" onclick="toggleDropdown(event, this.parentElement.querySelector('.dropdown-menu'))">
+                            <span id="developerFilterText">Застройщик</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="dropdown-menu" id="developers-dropdown-menu"><label class="dropdown-item"><input type="checkbox" value="58" data-filter-type="developer" data-developer-name="БОЛЬШОЙ ЗАСТРОЙЩИК" class="mr-2"><span class="">БОЛЬШОЙ ЗАСТРОЙЩИК</span></label><label class="dropdown-item"><input type="checkbox" value="54" data-filter-type="developer" data-developer-name="Тест Девелопмент" class="mr-2"><span class="">Тест Девелопмент</span></label><label class="dropdown-item"><input type="checkbox" value="57" data-filter-type="developer" data-developer-name="НОВЫЙ ЗАСТРОЙЩИК 2025" class="mr-2"><span class="">НОВЫЙ ЗАСТРОЙЩИК 2025</span></label></div>
+                    </div>
+                    
+                    <!-- Completion Date Filter (MOVED TO ADVANCED FILTERS - hidden on main panel) -->
+                    <div class="dropdown hidden" data-filter="completion">
+                        <button class="dropdown-btn border border-gray-300 px-3 py-1.5 rounded text-sm hover:bg-gray-50 flex items-center gap-1" onclick="toggleDropdown(event, this.parentElement.querySelector('.dropdown-menu'))">
+                            <span id="completionFilterText">Сдача</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="dropdown-menu">
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="2024" data-filter-type="completion" class="mr-2" onchange="updateAdvancedFiltersCounter();"> 2024
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="2025" data-filter-type="completion" class="mr-2" onchange="updateAdvancedFiltersCounter();"> 2025
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="2026" data-filter-type="completion" class="mr-2" onchange="updateAdvancedFiltersCounter();"> 2026
+                            </label>
+                            <label class="dropdown-item">
+                                <input type="checkbox" value="2028" data-filter-type="completion" class="mr-2" onchange="updateAdvancedFiltersCounter();"> 2028
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>

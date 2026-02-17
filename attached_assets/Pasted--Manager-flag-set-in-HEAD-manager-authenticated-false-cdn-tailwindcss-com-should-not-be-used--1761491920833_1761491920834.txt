@@ -1,0 +1,194 @@
+ ✅ Manager flag set in HEAD - manager_authenticated: false
+ cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+ (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+ Header: openApplicationModal function defined
+properties:6838 Uncaught 
+ 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+ ✅ Presentation functions loaded: Object
+ DOM Helper initialized - safe DOM operations available
+ ✅ Filter variables initialized (before property-filters.js): Object
+ ✅ View switching functions loaded
+ 🔥 property-filters.js загружается...
+ ✅ Server-side pagination mode enabled in property-filters.js
+ ✅ property-filters.js loaded successfully
+ ✅ Functions registered: Object
+ ✅ Active filters display functions loaded
+ 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+ 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+ 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+ 🗺️ properties_mini_map.js загружен
+ Phone formatting setup for: phone
+ Phone formatting setup for: phone
+ InBack form validation initialized
+favorites.js:1 Uncaught 
+ Performance optimizations initialized
+ CSS optimization: Found 4 stylesheets
+ Turbo loader initialized
+ Cache optimizer initialized
+ Image compressor initialized - WebP support: true
+ 🔧 Initializing advanced filters button...
+ ✅ "Еще" button handler registered successfully
+ 🏷️ Initializing active filters display...
+ 🔥 loadFavoritesFromAPI called for user
+ 🔍 DEBUG: window.manager_authenticated = false
+ 🔍 DEBUG: window.isManager = false
+ 🔍 DEBUG: this.isManager() = false
+ 🔍 DEBUG: Using endpoint: /api/favorites/list
+ 🔧 FavoritesManager initialized from favorites.js
+ 🔧 Инициализируем кнопки сравнения...
+ 🔍 Manager status check (FIXED): Object
+ 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+ 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+ ⏳ Ожидаем загрузку данных из базы данных...
+ 🔍 Загружаем сравнение из PostgreSQL...
+ 📡 Endpoint: /api/user/comparison/load isManager: false
+ 🗺️ Properties mini map - DOMContentLoaded
+ ✅ SavedSearchesManager initialized
+properties:13611 Uncaught 
+ ✅ SavedSearchesManager initialized
+ 🚀 Performance Optimizer v2.0 - Starting...
+ 🖼️ Lazy loading initialized for 0 images
+ ✅ Performance Optimizer initialized
+ 🚀 SuperSearch v2.0 - Initializing...
+ Found 1 search inputs
+ Initializing smart search...
+ Form validation initialized
+ 📊 Page Load Time: 3269ms
+ 📊 Performance metrics: Object
+ Scroll force restored
+ ℹ️ No active filters to display
+ ✅ Active filters displayed on page load
+ Cache SW failed: 
+ 📦 API Response: Object
+ ✅ Загружено из API - квартиры: 0 ЖК: 0
+ 📋 Property IDs: Array(0)
+ 📋 Complex IDs: Array(0)
+ ✅ localStorage и API данные синхронизированы
+ 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+ 🔄 Обновляем UI кнопок сравнения...
+ 📋 Comparison IDs: Array(0)
+ 📋 Complex IDs: Array(0)
+ 🔍 Found 20 property comparison buttons on page
+   Button 1: ID=365, inComparison=false
+   Button 2: ID=363, inComparison=false
+   Button 3: ID=364, inComparison=false
+   Button 4: ID=437, inComparison=false
+   Button 5: ID=595, inComparison=false
+   Button 6: ID=608, inComparison=false
+   Button 7: ID=458, inComparison=false
+   Button 8: ID=442, inComparison=false
+   Button 9: ID=432, inComparison=false
+   Button 10: ID=452, inComparison=false
+   Button 11: ID=472, inComparison=false
+   Button 12: ID=439, inComparison=false
+   Button 13: ID=453, inComparison=false
+   Button 14: ID=462, inComparison=false
+   Button 15: ID=470, inComparison=false
+   Button 16: ID=449, inComparison=false
+   Button 17: ID=464, inComparison=false
+   Button 18: ID=438, inComparison=false
+   Button 19: ID=471, inComparison=false
+   Button 20: ID=457, inComparison=false
+ 🔍 Found 0 complex comparison buttons on page
+ ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+ ✅ Данные из БД загружены, инициализируем кнопки...
+api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ Error loading saved searches: 
+loadSavedSearches @ saved_searches.js:445
+api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ ⚠️ API /api/favorites/list returned 401. User likely not authenticated.
+loadFavoritesFromAPI @ favorites.js:445
+favorites.js:307 🔄 updateFavoritesUI: Found 20 property hearts, favorites: Array(0)
+favorites.js:312   Heart 1: ID=365, isFavorited=false
+favorites.js:312   Heart 2: ID=363, isFavorited=false
+favorites.js:312   Heart 3: ID=364, isFavorited=false
+favorites.js:312   Heart 4: ID=437, isFavorited=false
+favorites.js:312   Heart 5: ID=595, isFavorited=false
+favorites.js:312   Heart 6: ID=608, isFavorited=false
+favorites.js:312   Heart 7: ID=458, isFavorited=false
+favorites.js:312   Heart 8: ID=442, isFavorited=false
+favorites.js:312   Heart 9: ID=432, isFavorited=false
+favorites.js:312   Heart 10: ID=452, isFavorited=false
+favorites.js:312   Heart 11: ID=472, isFavorited=false
+favorites.js:312   Heart 12: ID=439, isFavorited=false
+favorites.js:312   Heart 13: ID=453, isFavorited=false
+favorites.js:312   Heart 14: ID=462, isFavorited=false
+favorites.js:312   Heart 15: ID=470, isFavorited=false
+favorites.js:312   Heart 16: ID=449, isFavorited=false
+favorites.js:312   Heart 17: ID=464, isFavorited=false
+favorites.js:312   Heart 18: ID=438, isFavorited=false
+favorites.js:312   Heart 19: ID=471, isFavorited=false
+favorites.js:312   Heart 20: ID=457, isFavorited=false
+favorites.js:682 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: Array(0)
+properties-comparison-fix.js:805 🏠 Инициализируем 20 кнопок сравнения квартир
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 1 готова: 365
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 2 готова: 363
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 3 готова: 364
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 4 готова: 437
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 5 готова: 595
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 6 готова: 608
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 7 готова: 458
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 8 готова: 442
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 9 готова: 432
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 10 готова: 452
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 11 готова: 472
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 12 готова: 439
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 13 готова: 453
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 14 готова: 462
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 15 готова: 470
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 16 готова: 449
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 17 готова: 464
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 18 готова: 438
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 19 готова: 471
+properties-comparison-fix.js:827 ✅ Кнопка квартиры 20 готова: 457
+properties-comparison-fix.js:833 🏢 Инициализируем 0 кнопок сравнения ЖК
+properties-comparison-fix.js:948 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:949 📋 Comparison IDs: Array(0)
+properties-comparison-fix.js:950 📋 Complex IDs: Array(0)
+properties-comparison-fix.js:954 🔍 Found 20 property comparison buttons on page
+properties-comparison-fix.js:960   Button 1: ID=365, inComparison=false
+properties-comparison-fix.js:960   Button 2: ID=363, inComparison=false
+properties-comparison-fix.js:960   Button 3: ID=364, inComparison=false
+properties-comparison-fix.js:960   Button 4: ID=437, inComparison=false
+properties-comparison-fix.js:960   Button 5: ID=595, inComparison=false
+properties-comparison-fix.js:960   Button 6: ID=608, inComparison=false
+properties-comparison-fix.js:960   Button 7: ID=458, inComparison=false
+properties-comparison-fix.js:960   Button 8: ID=442, inComparison=false
+properties-comparison-fix.js:960   Button 9: ID=432, inComparison=false
+properties-comparison-fix.js:960   Button 10: ID=452, inComparison=false
+properties-comparison-fix.js:960   Button 11: ID=472, inComparison=false
+properties-comparison-fix.js:960   Button 12: ID=439, inComparison=false
+properties-comparison-fix.js:960   Button 13: ID=453, inComparison=false
+properties-comparison-fix.js:960   Button 14: ID=462, inComparison=false
+properties-comparison-fix.js:960   Button 15: ID=470, inComparison=false
+properties-comparison-fix.js:960   Button 16: ID=449, inComparison=false
+properties-comparison-fix.js:960   Button 17: ID=464, inComparison=false
+properties-comparison-fix.js:960   Button 18: ID=438, inComparison=false
+properties-comparison-fix.js:960   Button 19: ID=471, inComparison=false
+properties-comparison-fix.js:960   Button 20: ID=457, inComparison=false
+properties-comparison-fix.js:967 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:978 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+properties-comparison-fix.js:784 ✅ Система сравнения полностью готова к работе
+properties:13588 🔲 Switching to grid view
+api/searches:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+saved_searches.js:445 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js:434:23)
+loadSavedSearches @ saved_searches.js:445
+api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+properties_mini_map.js:92 ✅ Yandex mini map initialized for properties
+properties_mini_map.js:66 ✅ Loaded 354 property coordinates
+properties_mini_map.js:85 ✅ Created 10 clusters on Yandex mini map
+properties:13588 🔲 Switching to grid view
+properties:13588 🔲 Switching to grid view
+properties:13588 🔲 Switching to grid view
+properties:13588 🔲 Switching to grid view
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+super_search.js:447 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+properties:13588 🔲 Switching to grid view
+properties:13588 🔲 Switching to grid view
+performance-lite.js:35 Memory usage: {used: '51 MB', total: '101 MB', limit: '4096 MB'}

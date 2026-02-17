@@ -1,0 +1,405 @@
+properties?city_id=2&page=1&rooms=3:15 ✅ Manager flag set in HEAD - manager_authenticated: false
+properties?city_id=2&page=1&rooms=3:16 ✅ Admin flag set in HEAD - admin_authenticated: false
+(индекс):64 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(анонимная) @ (индекс):64
+(анонимная) @ (индекс):64
+properties?city_id=2&page=1&rooms=3:165 ✅ GLOBAL CITY SET: name=Сочи, center=[43.5855, 39.7231]
+2.1/?apikey=&lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?apikey=&lang=ru_RU:1
+(анонимная) @ 2.1/?apikey=&lang=ru_RU:1
+properties?city_id=2&page=1&rooms=3:1245 ⚡ Early filter functions initializing...
+properties?city_id=2&page=1&rooms=3:1929 ✅ Early filter functions defined and ready
+properties?city_id=2&page=1&rooms=3:2731 Header: openApplicationModal function defined
+properties?city_id=2&page=1&rooms=3:5893 Uncaught SyntaxError: Unexpected token ';' (at properties?city_id=2&page=1&rooms=3:5893:19)
+presentation.js?v=4477:6 🚀 PRESENTATION.JS LOADED - VERSION 21:00
+presentation.js?v=4477:362 ✅ Presentation functions loaded: {openPresentationModal: 'function', closePresentationModal: 'function', addPropertyToPresentation: 'function'}
+dom-helper.js:57 DOM Helper initialized - safe DOM operations available
+properties?city_id=2&page=1&rooms=3:10638 🏙️ Current city ID: 2
+properties?city_id=2&page=1&rooms=3:10673 ✅ Filter variables initialized (before property-filters.js): {serverSidePagination: true, totalProperties: 44, totalPages: 3, page: 1, currentCityId: 2, …}
+properties?city_id=2&page=1&rooms=3:10778 ✅ View switching functions loaded
+properties?city_id=2&page=1&rooms=3:10809 🔥 НОВАЯ ВЕРСИЯ HTML ЗАГРУЖЕНА - v1761859100
+mobile-search-redirect.js?v=1761859100:2 📱 Mobile Search Redirect loaded
+mobile-search-redirect.js?v=1761859100:79 ✅ performSearchFromModal() function registered globally
+properties-sorting.js?v=1761507235:2 🔥🔥🔥 PROPERTIES-SORTING.JS LOADED - AJAX VERSION 🔥🔥🔥
+properties-sorting.js?v=1761507235:157 ✅ properties-sorting.js AJAX initialization complete
+properties-list-updater.js?v=1761509300:2 📋 PROPERTIES-LIST-UPDATER.JS LOADED
+properties-list-updater.js?v=1761509300:478 ✅ properties-list-updater.js loaded
+infinite-scroll.js?v=1761507444:2 ♾️ INFINITE-SCROLL.JS LOADED
+infinite-scroll.js?v=1761507444:265 ✅ infinite-scroll.js initialization complete
+property-filters.js?v=8496:2 🔥 property-filters.js загружается - AJAX MODE...
+property-filters.js?v=8496:887 🎯 IMMEDIATE: Calling updateFilteredCount() NOW!
+property-filters.js?v=8496:690 ⏳ Search button set to "Загрузка..." immediately
+property-filters.js?v=8496:890 ✅ IMMEDIATE: updateFilteredCount() CALLED!
+property-filters.js?v=8496:1002 📊 CHECKING DOCUMENT STATE: loading
+property-filters.js?v=8496:1016 ⏳ DOM not ready yet, waiting for DOMContentLoaded...
+property-filters.js?v=8496:1392 ✅ property-filters.js loaded successfully
+property-filters.js?v=8496:1393 ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function'}
+property-filters.js?v=8496:1706 ✅ Active filters display functions loaded
+property-filters.js?v=8496:2041 ✅ Filters modal functions loaded
+property-filters.js?v=8496:2042 🚀🚀🚀 PROPERTY-FILTERS.JS - AJAX MODE ACTIVATED 🚀🚀🚀
+property-filters.js?v=8496:2043 ✅ Functions registered: {applyFilters: 'function', applyPriceFilter: 'function', handleRoomFilterChange: 'function', updateAdvancedFiltersCounter: 'function', removeFilter: 'function', …}
+properties-comparison-fix.js:2 🚀 ЗАГРУЖАЕТСЯ PostgreSQL РЕШЕНИЕ - ВЕРСИЯ с ЖК поддержкой
+properties-comparison-fix.js:796 🔧 НЕМЕДЛЕННАЯ инициализация кнопок сравнения
+properties-comparison-fix.js:1027 🎉 ПРОСТОЕ РЕШЕНИЕ + ГЛОБАЛЬНАЯ addToComparison ЗАГРУЖЕНО УСПЕШНО
+properties_mini_map.js:2 🗺️ properties_mini_map.js загружен
+properties_mini_map.js:8 ✅ LOADED: city-lat=43.5855, city-lon=39.7231
+properties_mini_map.js:2740 ✅ Map filters module loaded
+property-card-click.js:4 🔧 Property card click handler loading...
+property-card-click.js:35 ✅ Property card click handler installed
+properties?city_id=2&page=1&rooms=3:11094 ✅ Mobile bottom sheet handlers initialized
+properties?city_id=2&page=1&rooms=3:11657 Uncaught SyntaxError: Unexpected token '}' (at properties?city_id=2&page=1&rooms=3:11657:1)
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:25 InBack form validation initialized
+favorites.js:1 Uncaught SyntaxError: Identifier 'FavoritesManager' has already been declared (at favorites.js:1:1)
+performance-lite.js:54 Performance optimizations initialized
+turbo-loader.js:32 CSS optimization: Found 4 stylesheets
+turbo-loader.js:46 Turbo loader initialized
+cache-optimizer.js:42 Cache optimizer initialized
+image-compressor.js:65 Image compressor initialized - WebP support: true
+properties?city_id=2&page=1&rooms=3:2657 Loading cities dropdown...
+properties?city_id=2&page=1&rooms=3:4275 🎯 Header heart update (GUEST): total favorites = 0
+properties?city_id=2&page=1&rooms=3:10782 🔧 Initializing properties page view...
+properties?city_id=2&page=1&rooms=3:10783 📋 Current view mode: list
+properties?city_id=2&page=1&rooms=3:10727 ✅ Switched to list view
+properties-sorting.js?v=1761507235:143 📌 DOMContentLoaded - attaching AJAX sort listener
+properties-sorting.js?v=1761507235:151 ✅ AJAX sortProperties event listener attached to #sort-select
+infinite-scroll.js?v=1761507444:16 🚀 Initializing Infinite Scroll...
+infinite-scroll.js?v=1761507444:27 📄 Initial state: {currentPage: 1, totalPages: 3, hasMorePages: true}
+infinite-scroll.js?v=1761507444:56 ✅ Sentinel created
+infinite-scroll.js?v=1761507444:78 ✅ Observer attached
+infinite-scroll.js?v=1761507444:39 ✅ Infinite Scroll initialized
+property-filters.js?v=8496:264 🏙️ Loading districts for city: 2
+property-filters.js?v=8496:403 🔍 loadDevelopers called with city_id: 2
+property-filters.js?v=8496:566 ✅ Districts and Developers initialization complete for city: 2
+property-filters.js?v=8496:897 🔧 DOM is ready! Initializing advanced filters button...
+property-filters.js?v=8496:977 ❌ Advanced filter elements not found: {advancedButton: null, advancedPanel: div#advancedFiltersPanel.hidden.mt-6.bg-white.rounded-xl.shadow-lg.border.border-gray-100.overflow-…, advancedArrow: null}
+(анонимная) @ property-filters.js?v=8496:977
+property-filters.js?v=8496:981 🏷️ Initializing active filters display...
+property-filters.js?v=8496:992 🔢 Initializing search button text...
+expandable-search.js:101 ✅ Expandable search initialized
+VM13596 favorites.js:467 🔥 loadFavoritesFromAPI called for user
+VM13596 favorites.js:468 🔍 DEBUG: window.manager_authenticated = false
+VM13596 favorites.js:469 🔍 DEBUG: window.isManager = false
+VM13596 favorites.js:470 🔍 DEBUG: this.isManager() = false
+VM13596 favorites.js:477 🔍 DEBUG: Using endpoint: /api/favorites/list
+VM13596 favorites.js:809 🔧 FavoritesManager initialized from favorites.js
+properties-comparison-fix.js:810 🔧 Инициализируем кнопки сравнения...
+properties-comparison-fix.js:30 🔍 Manager status check (FIXED): {manager_authenticated: false, result: false}
+properties-comparison-fix.js:157 📦 Загружено из localStorage - квартиры: 0 ЖК: 0
+properties-comparison-fix.js:22 📦 PostgreSQL Comparison Manager инициализирован. Менеджер: false
+properties-comparison-fix.js:816 ⏳ Ожидаем загрузку данных из базы данных...
+properties-comparison-fix.js:75 🔍 Загружаем сравнение из PostgreSQL...
+properties-comparison-fix.js:78 📡 Endpoint: /api/user/comparison/load isManager: false
+properties_mini_map.js:1414 🗺️ Properties mini map - DOMContentLoaded
+saved_searches.js?v=1761577011:862 ✅ SavedSearchesManager initialized
+properties?city_id=2&page=1&rooms=3:10831 Uncaught ReferenceError: initializePropertiesSmartSearch is not defined
+    at HTMLDocument.<anonymous> (properties?city_id=2&page=1&rooms=3:10831:9)
+(анонимная) @ properties?city_id=2&page=1&rooms=3:10831
+properties?city_id=2&page=1&rooms=3:10840 ✅ SavedSearchesManager initialized
+properties?city_id=2&page=1&rooms=3:10849 🔧 Initializing live filter count update handlers...
+properties?city_id=2&page=1&rooms=3:10880 ✅ Added listeners to 43 filter checkboxes
+properties?city_id=2&page=1&rooms=3:10903 ✅ Added listeners to 10 filter inputs
+properties?city_id=2&page=1&rooms=3:10928 ✅ Apply advanced filters button handler registered
+properties?city_id=2&page=1&rooms=3:10931 ✅ Live filter count update initialized
+properties?city_id=2&page=1&rooms=3:11090 ✅ Mobile (property-search) and desktop (property-search-desktop) search synchronized
+performance_optimizer.js:30 🚀 Performance Optimizer v2.0 - Starting...
+performance_optimizer.js:110 🖼️ Lazy loading initialized for 0 images
+performance_optimizer.js:54 ✅ Performance Optimizer initialized
+super_search.js:48 🚀 SuperSearch v2.0 - Initializing...
+super_search.js:69 🔍 findSearchElements: Searching for inputs...
+super_search.js:75 🔍 Elements found: {hero: false, property: true, modal: true, custom: false}
+super_search.js:88 ✅ Initialized search input: property-search
+super_search.js:88 ✅ Initialized search input: modal-search-input
+super_search.js:91 Found 2 search inputs
+header_search.js:453 Initializing smart search...
+header_search.js:43 Property search initialized with smart search
+header_search.js:64 Initializing search input: property-search
+header_search.js:64 Initializing search input: property-search
+header_search.js:60 Old property search disabled, smart search enabled
+form-validation-lite.js:49 Form validation initialized
+performance_optimizer.js:64 📊 Page Load Time: 4138ms
+performance_optimizer.js:285 📊 Performance metrics: {type: 'page_load', duration: 4137.800000011921, url: '/sochi/properties'}
+properties?city_id=2&page=1&rooms=3:2979 Scroll force restored
+property-filters.js?v=8496:700 🚀 Debounce timeout complete, fetching count...
+property-filters.js?v=8496:829 🔢 Fetching count: /api/properties/count?rooms=3&city_id=2
+property-filters.js?v=8496:1648 ✅ Displayed 1 active filters
+property-filters.js?v=8496:985 ✅ Active filters displayed on page load
+infinite-scroll.js?v=1761507444:70 👁️ Sentinel visible - loading next page
+infinite-scroll.js?v=1761507444:88 📥 Loading page 2
+infinite-scroll.js?v=1761507444:100 📡 Fetching: /api/properties/list?city_id=2&page=2&rooms=3
+property-filters.js?v=8496:690 ⏳ Search button set to "Загрузка..." immediately
+property-filters.js?v=8496:996 ✅ Search button text initialized
+properties?city_id=2&page=1&rooms=3:10787 📦 Loading initial properties on page load...
+properties?city_id=2&page=1&rooms=3:10796 ⚠️ allProperties not available yet
+(анонимная) @ properties?city_id=2&page=1&rooms=3:10796
+setTimeout
+(анонимная) @ properties?city_id=2&page=1&rooms=3:10786
+property-filters.js?v=8496:690 ⏳ Search button set to "Загрузка..." immediately
+property-filters.js?v=8496:1021 🔄 FALLBACK: Initializing count after 1 second...
+property-filters.js?v=8496:1023 🔢 Calling updateFilteredCount() - FALLBACK
+property-filters.js?v=8496:690 ⏳ Search button set to "Загрузка..." immediately
+properties?city_id=2&page=1&rooms=3:2661 Cities API response status: 200
+properties_mini_map.js:152 🔥🔥🔥 FULLSCREEN MAP OPENING - START
+properties_mini_map.js:157 🗺️ Opening fullscreen map modal (desktop)
+properties_mini_map.js:158 📊 ymaps exists: true
+properties_mini_map.js:159 📊 fullscreenMapInstance: undefined
+properties_mini_map.js:160 📊 mapAllProperties: NOT FOUND;
+properties_mini_map.js:143 ✅ Yandex mini map initialized for properties
+properties_mini_map.js:168 📋 Loading desktop filters...
+properties?city_id=2&page=1&rooms=3:2668 Cities data received: {cities: Array(8)}
+properties?city_id=2&page=1&rooms=3:2676 Populating dropdowns with 8 cities
+properties?city_id=2&page=1&rooms=3:2697 Desktop dropdown populated successfully
+properties?city_id=2&page=1&rooms=3:2703 Mobile city list element not found!
+(анонимная) @ properties?city_id=2&page=1&rooms=3:2703
+Promise.then
+loadCitiesDropdown @ properties?city_id=2&page=1&rooms=3:2667
+property-filters.js?v=8496:700 🚀 Debounce timeout complete, fetching count...
+property-filters.js?v=8496:829 🔢 Fetching count: /api/properties/count?rooms=3&city_id=2
+properties_mini_map.js:516 🗺️ Initializing fullscreen Yandex Map for city 2 (desktop)
+properties_mini_map.js:522 ✅ Using GLOBAL city coordinates: [43.5855, 39.7231], zoom: 12, city: Сочи
+properties_mini_map.js:531 📋 Meta tags: [43.5855, 39.7231] (fallback)
+properties_mini_map.js:880 ✅ Fullscreen Yandex Map initialized
+property-filters.js?v=8496:413 ✅ API returned developers: (9) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+property-filters.js?v=8496:422 ✅ Updated window.developersMap with fresh data: {43: 'ООО СЗ "СТРОЙИНЖИНИРИНГ"', 44: 'ГК Неометрия', 45: 'ЦЕНТРАЛЬНАЯ ИНВЕСТИЦИОННАЯ КОМПАНИЯ', 46: 'СЗ КАСКАД', 47: 'ТОЧНО', 49: 'AVA', 51: 'ГрадРиэлт', 53: 'СПЕЦИАЛИЗИРОВАННЫЙ ЗАСТРОЙЩИК КОРОНА', 60: 'TEST ЗАСТРОЙЩИК'}
+property-filters.js?v=8496:427 Current selected developers: []
+property-filters.js?v=8496:500 ✅ Populated #developers-dropdown-menu with 9 developers (XSS-safe)
+property-filters.js?v=8496:500 ✅ Populated #developers-advanced-filters with 9 developers (XSS-safe)
+property-filters.js?v=8496:500 ✅ Populated #developers-modal-panel with 9 developers (XSS-safe)
+property-filters.js?v=8496:500 ✅ Populated #mapDevelopersList with 9 developers (XSS-safe)
+property-filters.js?v=8496:500 ✅ Populated #developers-mobile-modal with 9 developers (XSS-safe)
+saved_searches.js?v=1761577011:403  GET https://cd19a896-dc6f-4e30-81a1-004843002bfd-00-1pj2tj95pdjsp.picard.replit.dev/api/searches 401 (Unauthorized)
+loadSavedSearches @ saved_searches.js?v=1761577011:403
+init @ saved_searches.js?v=1761577011:14
+SavedSearchesManager @ saved_searches.js?v=1761577011:8
+initSavedSearches @ saved_searches.js?v=1761577011:861
+saved_searches.js?v=1761577011:424 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js?v=1761577011:413:23)
+loadSavedSearches @ saved_searches.js?v=1761577011:424
+await in loadSavedSearches
+init @ saved_searches.js?v=1761577011:14
+SavedSearchesManager @ saved_searches.js?v=1761577011:8
+initSavedSearches @ saved_searches.js?v=1761577011:861
+VM13596 favorites.js:480  GET https://cd19a896-dc6f-4e30-81a1-004843002bfd-00-1pj2tj95pdjsp.picard.replit.dev/api/favorites/list 401 (Unauthorized)
+loadFavoritesFromAPI @ VM13596 favorites.js:480
+init @ VM13596 favorites.js:55
+FavoritesManager @ VM13596 favorites.js:24
+(анонимная) @ VM13596 favorites.js:808
+VM13596 favorites.js:484 ⚠️ API /api/favorites/list returned 401. User likely not authenticated.
+loadFavoritesFromAPI @ VM13596 favorites.js:484
+await in loadFavoritesFromAPI
+init @ VM13596 favorites.js:55
+FavoritesManager @ VM13596 favorites.js:24
+(анонимная) @ VM13596 favorites.js:808
+VM13596 favorites.js:313 🔄 updateFavoritesUI: Found 0 property hearts, favorites: []
+VM13596 favorites.js:729 🔄 updateComplexFavoritesUI: Found 0 complex hearts, favorites: []
+saved_searches.js?v=1761577011:403  GET https://cd19a896-dc6f-4e30-81a1-004843002bfd-00-1pj2tj95pdjsp.picard.replit.dev/api/searches 401 (Unauthorized)
+loadSavedSearches @ saved_searches.js?v=1761577011:403
+init @ saved_searches.js?v=1761577011:14
+SavedSearchesManager @ saved_searches.js?v=1761577011:8
+(анонимная) @ properties?city_id=2&page=1&rooms=3:10839
+saved_searches.js?v=1761577011:424 Error loading saved searches: Error: HTTP error! status: 401
+    at SavedSearchesManager.loadSavedSearches (saved_searches.js?v=1761577011:413:23)
+loadSavedSearches @ saved_searches.js?v=1761577011:424
+await in loadSavedSearches
+init @ saved_searches.js?v=1761577011:14
+SavedSearchesManager @ saved_searches.js?v=1761577011:8
+(анонимная) @ properties?city_id=2&page=1&rooms=3:10839
+property-filters.js?v=8496:274 ✅ Districts loaded: {count: 4, districts: Array(4), success: true}
+property-filters.js?v=8496:278 Current selected districts: []
+property-filters.js?v=8496:311 ✅ Populated properties.html district dropdown (XSS-safe)
+properties-comparison-fix.js:82 📦 API Response: {complexes: Array(0), complexes_count: 0, properties: Array(0), properties_count: 0, success: true}
+properties-comparison-fix.js:89 ✅ Загружено из API - квартиры: 0 ЖК: 0
+properties-comparison-fix.js:90 📋 Property IDs: []
+properties-comparison-fix.js:91 📋 Complex IDs: []
+properties-comparison-fix.js:142 ✅ localStorage и API данные синхронизированы
+properties-comparison-fix.js:774 🔢 Счетчик обновлен: 0 (квартиры: 0 ЖК: 0 )
+properties-comparison-fix.js:994 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:995 📋 Comparison IDs: []
+properties-comparison-fix.js:996 📋 Complex IDs: []
+properties-comparison-fix.js:1000 🔍 Found 0 property comparison buttons on page
+properties-comparison-fix.js:1013 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:1024 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+properties-comparison-fix.js:818 ✅ Данные из БД загружены, инициализируем кнопки...
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+properties-comparison-fix.js:849 🏠 Инициализируем 0 кнопок сравнения квартир
+properties-comparison-fix.js:878 🏢 Инициализируем 0 кнопок сравнения ЖК
+properties-comparison-fix.js:994 🔄 Обновляем UI кнопок сравнения...
+properties-comparison-fix.js:995 📋 Comparison IDs: []
+properties-comparison-fix.js:996 📋 Complex IDs: []
+properties-comparison-fix.js:1000 🔍 Found 0 property comparison buttons on page
+properties-comparison-fix.js:1013 🔍 Found 0 complex comparison buttons on page
+properties-comparison-fix.js:1024 ✅ UI кнопок обновлено: 0 квартир + 0 ЖК
+properties-comparison-fix.js:828 ✅ Система сравнения полностью готова к работе
+infinite-scroll.js?v=1761507444:108 ✅ Loaded page data: {filters: {…}, pagination: {…}, properties: Array(20), sort: 'price-asc', success: true}
+infinite-scroll.js?v=1761507444:144 🔄 Appending 20 properties
+properties?city_id=2&page=1&rooms=3:10727 ✅ Switched to list view
+infinite-scroll.js?v=1761507444:175 ✅ Properties appended
+infinite-scroll.js?v=1761507444:119 ✅ Appended 20 properties. Page 2
+properties_mini_map.js:2467 🎨 Drawing mode enabled
+property-filters.js?v=8496:836 ✅ Count received: 44
+property-filters.js?v=8496:216 ✅ Search button text updated: "Найти 44 квартиры"
+properties_mini_map.js:94 ✅ Loaded 307 property coordinates
+properties_mini_map.js:115 ✅ Created 9 clusters on Yandex mini map
+properties_mini_map.js:136 🎯 Auto-centered map: [43.4629, 39.4604] - [43.7983, 39.9122]
+performance-lite.js:35 Memory usage: {used: '54 MB', total: '120 MB', limit: '4096 MB'}
+VM13596 favorites.js:334  GET https://cd19a896-dc6f-4e30-81a1-004843002bfd-00-1pj2tj95pdjsp.picard.replit.dev/api/favorites/count 401 (Unauthorized)
+updateFavoritesCounter @ VM13596 favorites.js:334
+init @ VM13596 favorites.js:59
+await in init
+FavoritesManager @ VM13596 favorites.js:24
+(анонимная) @ VM13596 favorites.js:808
+VM13596 favorites.js:336 ⚠️ Failed to fetch favorites count from API
+updateFavoritesCounter @ VM13596 favorites.js:336
+await in updateFavoritesCounter
+init @ VM13596 favorites.js:59
+await in init
+FavoritesManager @ VM13596 favorites.js:24
+(анонимная) @ VM13596 favorites.js:808
+properties_mini_map.js:655 ✅ Loaded 307 coordinates for city 2
+The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+cache-optimizer.js:14 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://cd19a896-dc6f-4e30-81a1-004843002bfd-00-1pj2tj95pdjsp.picard.replit.dev/') with script ('https://cd19a896-dc6f-4e30-81a1-004843002bfd-00-1pj2tj95pdjsp.picard.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+property-filters.js?v=8496:836 ✅ Count received: 44
+property-filters.js?v=8496:216 ✅ Search button text updated: "Найти 44 квартиры"
+properties_mini_map.js:675 📥 Fetched page 1/1, total so far: 311
+properties_mini_map.js:689 ✅ Loaded 311 full properties
+properties_mini_map.js:728 ✅ Loaded 20 property cards to desktop panel (2-column grid)
+properties_mini_map.js:744 📊 Grouped 311 properties into 27 location groups
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 439, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 6 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 676, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 63 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 441, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 7 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 626, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 15 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 440, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 11 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 366, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 9 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 562, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 107 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 443, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 1 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 448, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 5 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 446, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 5 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 703, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 9 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 360, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 2 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 358, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 1 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 695, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 9 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 433, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 4 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 599, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 7 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 435, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 1 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 584, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 4 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 586, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 11 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 459, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 2 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 585, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 10 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 376, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 4 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 357, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 1 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 445, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 1 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 371, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 8 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 380, completion_date: null, completion_year: null, deal_type: 'sale', complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 4 properties
+properties_mini_map.js:224 🟡 STATUS DEBUG: {id: 840, completion_date: null, completion_year: null, deal_type: null, complex_building_status: null, …}
+properties_mini_map.js:368 ✅ Registered marker for 4 properties
+properties_mini_map.js:763 ✅ Rendered 27 markers on fullscreen map (311 properties)
+properties_mini_map.js:774 🗺️ Map stays on city: center=43.5855,39.7231, zoom=12
+properties_mini_map.js:2426 ✅ Infinite scroll initialized
+properties_mini_map.js:2432 ⚠️ Viewport listener DISABLED - filtered results stay visible until user changes filter
+properties_mini_map.js:575 ⚠️ Method 2 failed: fullscreenMapInstance.converter.containerToGeo is not a function
+properties_mini_map.js:592 ⚠️ Could not extract coordinates from event. Event object: {hasGet: true, pagePixelPosition: undefined, containerPixelPosition: undefined, coordPosition: undefined, originalEvent: true}
+(анонимная) @ properties_mini_map.js:592
+_callListeners @ full.js:149
+fire @ full.js:149
+fire @ full.js:150
+fire @ full.js:151
+fire @ full.js:150
+fire @ full.js:150
+_onDomEvent @ full.js:853
+_callListeners @ full.js:149
+fire @ full.js:149
+(анонимная) @ full.js:145
+_processClickEvent @ full.js:145
+_onMouseEvent @ full.js:145
+properties_mini_map.js:575 ⚠️ Method 2 failed: fullscreenMapInstance.converter.containerToGeo is not a function
+properties_mini_map.js:592 ⚠️ Could not extract coordinates from event. Event object: {hasGet: true, pagePixelPosition: undefined, containerPixelPosition: undefined, coordPosition: undefined, originalEvent: true}
+(анонимная) @ properties_mini_map.js:592
+_callListeners @ full.js:149
+fire @ full.js:149
+fire @ full.js:150
+fire @ full.js:151
+fire @ full.js:150
+fire @ full.js:150
+_onDomEvent @ full.js:853
+_callListeners @ full.js:149
+fire @ full.js:149
+(анонимная) @ full.js:145
+_processClickEvent @ full.js:145
+_onMouseEvent @ full.js:145
+properties_mini_map.js:575 ⚠️ Method 2 failed: fullscreenMapInstance.converter.containerToGeo is not a function
+properties_mini_map.js:592 ⚠️ Could not extract coordinates from event. Event object: {hasGet: true, pagePixelPosition: undefined, containerPixelPosition: undefined, coordPosition: undefined, originalEvent: true}
+(анонимная) @ properties_mini_map.js:592
+_callListeners @ full.js:149
+fire @ full.js:149
+fire @ full.js:150
+fire @ full.js:151
+fire @ full.js:150
+fire @ full.js:150
+_onDomEvent @ full.js:853
+_callListeners @ full.js:149
+fire @ full.js:149
+(анонимная) @ full.js:145
+_processClickEvent @ full.js:145
+_onMouseEvent @ full.js:145
+super_search.js:452 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+properties_mini_map.js:575 ⚠️ Method 2 failed: fullscreenMapInstance.converter.containerToGeo is not a function
+properties_mini_map.js:592 ⚠️ Could not extract coordinates from event. Event object: {hasGet: true, pagePixelPosition: undefined, containerPixelPosition: undefined, coordPosition: undefined, originalEvent: true}
+(анонимная) @ properties_mini_map.js:592
+_callListeners @ full.js:149
+fire @ full.js:149
+fire @ full.js:150
+fire @ full.js:151
+fire @ full.js:150
+fire @ full.js:150
+_onDomEvent @ full.js:853
+_callListeners @ full.js:149
+fire @ full.js:149
+_onMouseEvent @ full.js:145
+performance-lite.js:35 Memory usage: {used: '44 MB', total: '118 MB', limit: '4096 MB'}
+properties_mini_map.js:575 ⚠️ Method 2 failed: fullscreenMapInstance.converter.containerToGeo is not a function
+properties_mini_map.js:592 ⚠️ Could not extract coordinates from event. Event object: {hasGet: true, pagePixelPosition: undefined, containerPixelPosition: undefined, coordPosition: undefined, originalEvent: true}
+(анонимная) @ properties_mini_map.js:592
+_callListeners @ full.js:149
+fire @ full.js:149
+fire @ full.js:150
+fire @ full.js:151
+fire @ full.js:150
+fire @ full.js:150
+_onDomEvent @ full.js:853
+_callListeners @ full.js:149
+fire @ full.js:149
+(анонимная) @ full.js:145
+_processClickEvent @ full.js:145
+_onMouseEvent @ full.js:145
+performance-lite.js:35 Memory usage: {used: '66 MB', total: '118 MB', limit: '4096 MB'}
+performance-lite.js:35 Memory usage: {used: '37 MB', total: '118 MB', limit: '4096 MB'}

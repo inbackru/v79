@@ -1,0 +1,154 @@
+(index):64 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(anonymous) @ (index):64
+dashboard:772 Header: openApplicationModal function defined
+dashboard:2524 🚀 Defining critical functions FIRST...
+dashboard:2631 ✅ loadClients function defined at top: function
+dashboard:2702 ✅ loadRecommendations function defined at top: function
+dashboard:2823 ✅ loadManagerSavedSearches function defined at top: function
+dashboard:3002 ✅ Saved searches functions defined
+dashboard:7838 🔑 Manager session flag set: true
+dashboard:7840 ✅ Manager Favorites functionality initialized
+dashboard:8177 ✅ Deals modal functions defined
+dom-helper.js:57 DOM Helper initialized - safe DOM operations available
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:56 Phone formatting setup for: phone
+form-validation.js:25 InBack form validation initialized
+performance-lite.js:54 Performance optimizations initialized
+turbo-loader.js:46 Turbo loader initialized
+cache-optimizer.js:42 Cache optimizer initialized
+image-compressor.js:65 Image compressor initialized - WebP support: true
+cashback-popup.js:53 🎮 Cashback Popup System инициализирован
+dashboard:3949 🔄 Loading clients...
+dashboard:5623 Manager dashboard DOMContentLoaded - initializing...
+dashboard:3006 🎯 showSection called with: dashboard
+dashboard:3021 🔍 Available sections: Array(12)
+dashboard:3023 🔍 Target section found: <div class=​"content-section" id=​"dashboard">​…​</div>​ for ID: dashboard
+dashboard:3027 ✅ Section activated: dashboard
+dashboard:3094 🎯 Dashboard overview selected - loading recent recommendations
+dashboard:5076 🔄 Loading manager activity feed...
+dashboard:5015 🌟 Loading adaptive welcome message...
+dashboard:7157 🔢 updateFavoritesCounts called
+dashboard:7162 🔍 Count elements check: Object
+dashboard:7171 📊 Local counts - properties: 0 complexes: 0
+dashboard:7175 ✅ Updated properties nav count to: 0
+dashboard:7179 ✅ Updated complexes nav count to: 0
+dashboard:7183 🌐 Making API call to /api/manager/favorites/count for sync
+dashboard:7212 🌐 Making API call to /api/manager/comparison/count for comparison sync
+dashboard:7768 ✅ NEW favorites functions registered
+dashboard:7785 🔢 Loading dashboard card counts...
+performance_optimizer.js:30 🚀 Performance Optimizer v2.0 - Starting...
+performance_optimizer.js:110 🖼️ Lazy loading initialized for 0 images
+performance_optimizer.js:54 ✅ Performance Optimizer initialized
+super_search.js:48 🚀 SuperSearch v2.0 - Initializing...
+super_search.js:84 Found 0 search inputs
+header_search.js:453 Initializing smart search...
+favorites.js:403 🔥 loadFavoritesFromAPI called for user
+favorites.js:665 🔧 FavoritesManager initialized from favorites.js
+form-validation-lite.js:49 Form validation initialized
+performance_optimizer.js:64 📊 Page Load Time: 3698ms
+performance_optimizer.js:285 📊 Performance metrics: Object
+cache-optimizer.js:14 Cache SW failed: SecurityError: Failed to register a ServiceWorker for scope ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/') with script ('https://83f57477-1e7a-434e-8aa3-ec266124447a-00-5jac4zhpnnfq.janeway.replit.dev/static/js/sw-cache.js'): The path of the provided scope ('/') is not under the max scope allowed ('/static/js/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope.
+dashboard:5632 Starting data load...
+dashboard:3949 🔄 Loading clients...
+dashboard:4032 Loading recommendations...
+dashboard:5076 🔄 Loading manager activity feed...
+dashboard:5015 🌟 Loading adaptive welcome message...
+dashboard:3961 📡 Response status: 200
+dashboard:3965 📊 Clients data received: Object
+dashboard:3967 ✅ Success! Displaying 7 clients
+dashboard:3990 📝 Displaying clients: Array(7)
+dashboard:5018 📡 Welcome message response status: 200
+dashboard:5022 📊 Welcome message data received: Object
+dashboard:5065 ✅ Welcome message loaded successfully
+dashboard:5079 📡 Activity feed response status: 200
+dashboard:5083 📊 Activity feed data received: Object
+dashboard:5125 ✅ Manager activity feed loaded successfully
+dashboard:7187 📦 Count API response: Object
+dashboard:7192 🔄 Synced properties count to: 3
+dashboard:7196 🔄 Synced complexes count to: 0
+dashboard:7203 🔄 Synced total favorites count to: 3
+dashboard:7216 📊 Comparison API response: Object
+dashboard:7221 🔄 Synced comparison count to: 3
+/api/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+favorites.js:414 🔥 Favorites API response: Object
+dashboard:4036 Recommendations data received: Object
+dashboard:3961 📡 Response status: 200
+dashboard:3965 📊 Clients data received: Object
+dashboard:3967 ✅ Success! Displaying 7 clients
+dashboard:3990 📝 Displaying clients: Array(7)
+dashboard:5018 📡 Welcome message response status: 200
+dashboard:5022 📊 Welcome message data received: Object
+dashboard:5065 ✅ Welcome message loaded successfully
+dashboard:5079 📡 Activity feed response status: 200
+dashboard:5083 📊 Activity feed data received: Object
+dashboard:5125 ✅ Manager activity feed loaded successfully
+performance_optimizer.js:165 📦 Preloaded: /static/css/styles.css
+performance_optimizer.js:165 📦 Preloaded: /static/js/super_search.js
+dashboard:7796 📋 Updated properties card: 3
+dashboard:7800 📋 Updated complexes card: 0
+dashboard:7809 🔗 Updated horizontal properties tab: 3
+dashboard:7813 🔗 Updated horizontal complexes tab: 0
+dashboard:7816 ✅ Dashboard cards updated successfully!
+/api/complexes/favorites/list:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+performance_optimizer.js:165 📦 Preloaded: /static/js/main.js
+favorites.js:428 🔥 Complex favorites API response: Object
+favorites.js:439 🔥 UI update called after API load
+dashboard:7732 🎯 NEW showSection called with: deals
+dashboard:7758 🤝 Deals section selected - loading real data
+dashboard:3006 🎯 showSection called with: deals
+dashboard:3021 🔍 Available sections: Array(12)
+dashboard:3023 🔍 Target section found: <div class=​"content-section active" id=​"deals">​…​</div>​ for ID: deals
+dashboard:3027 ✅ Section activated: deals
+dashboard:3056 🤝 Deals section - using static HTML
+dashboard:8181 📊 Loading deals for static section...
+/api/favorites/count:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+performance-lite.js:35 Memory usage: Object
+dashboard:8191 📊 Static deals data received: Object
+dashboard:8228 ✅ Loaded 2 deals into static section
+dashboard:8403 🔍 Search input initialized
+dashboard:8431 🔍 Looking for deals-count element: <span class=​"ml-2 bg-gradient-to-r from-red-500 to-red-600 text-white text-xs px-2 py-1 rounded-full font-medium" id=​"deals-count">​3​</span>​
+dashboard:8434 🏷️ Updated deals tab counter: 2
+dashboard:8439 📊 Updated deals stats: active=2, completed=0, inProgress=0, total=2
+dashboard:8200 🏷️ DIRECT: Updated deals tab counter: 2
+super_search.js:410 Preloaded 5 popular queries
+super_search.js:64 ✅ SuperSearch initialized successfully
+performance-lite.js:35 Memory usage: Object
+performance_optimizer.js:258 ⚠️ High memory usage: 69MB
+collectMetrics @ performance_optimizer.js:258
+performance-lite.js:35 Memory usage: Object
+cashback-popup.js:144 💰 Показываем Cashback Popup
+cashback-popup.js:275 📊 Cashback Popup Event: popup_shown
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: Object
+cashback-popup.js:167 🫥 Скрываем Cashback Popup (автоматически)
+cashback-popup.js:275 📊 Cashback Popup Event: popup_auto_hidden
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: Object
+cashback-popup.js:144 💰 Показываем Cashback Popup
+cashback-popup.js:275 📊 Cashback Popup Event: popup_shown
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: Object
+dashboard:8445 📝 Submitting new deal...
+dashboard:8462 📝 Deal data: Object
+main.js?v=202508061:355 Form submitted: <form id=​"createDealForm" class=​"p-6 space-y-6" onsubmit=​"submitCreateDeal(event)​">​…​</form>​
+main.js?v=202508061:358 Form submitted successfully
+main.js:355 Form submitted: <form id=​"createDealForm" class=​"p-6 space-y-6" onsubmit=​"submitCreateDeal(event)​">​…​</form>​
+main.js:358 Form submitted successfully
+dashboard:8475 📝 Create deal response: Object
+dashboard:8181 📊 Loading deals for static section...
+dashboard:8483 ✅ Deal created successfully!
+dashboard:8191 📊 Static deals data received: Object
+dashboard:8228 ✅ Loaded 3 deals into static section
+dashboard:8403 🔍 Search input initialized
+dashboard:8431 🔍 Looking for deals-count element: <span class=​"ml-2 bg-gradient-to-r from-red-500 to-red-600 text-white text-xs px-2 py-1 rounded-full font-medium" id=​"deals-count">​3​</span>​
+dashboard:8434 🏷️ Updated deals tab counter: 3
+dashboard:8439 📊 Updated deals stats: active=3, completed=0, inProgress=0, total=3
+dashboard:8200 🏷️ DIRECT: Updated deals tab counter: 3
+cashback-popup.js:167 🫥 Скрываем Cashback Popup (автоматически)
+cashback-popup.js:275 📊 Cashback Popup Event: popup_auto_hidden
+performance-lite.js:35 Memory usage: Object
+performance-lite.js:35 Memory usage: Object
+ Memory usage: {used: '15 MB', total: '18 MB', limit: '4096 MB'}
+ Memory usage: {used: '16 MB', total: '18 MB', limit: '4096 MB'}

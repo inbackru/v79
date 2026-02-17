@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - InBack</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .brand-gradient {
+            background: linear-gradient(135deg, #0088CC 0%, #006699 100%);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8">
+        <!-- Logo -->
+        <div class="text-center mb-8">
+            <a href="{{ url_for('index') }}" class="inline-flex items-center justify-center">
+                <div class="w-12 h-12 bg-gradient-to-r from-[#0088CC] to-[#006699] rounded-xl flex items-center justify-center text-white font-bold text-lg mr-3">In</div>
+                <span class="text-2xl font-bold bg-gradient-to-r from-[#0088CC] to-[#006699] bg-clip-text text-transparent">InBack</span>
+            </a>
+        </div>
+
+        <!-- Title -->
+        <h1 class="text-3xl font-bold text-gray-800 text-center mb-2">Регистрация</h1>
+        <p class="text-gray-500 text-center mb-8">Начните получать кэшбек до 500 000 ₽</p>
+
+        <!-- Flash messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="mb-4 p-4 rounded-lg {% if category == 'error' %}bg-red-100 text-red-700{% else %}bg-green-100 text-green-700{% endif %}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <!-- Step indicator -->
+        <div class="flex items-center justify-center mb-8">
+            <div class="flex items-center">
+                <div class="w-8 h-8 rounded-full brand-gradient text-white flex items-center justify-center font-bold">1</div>
+                <div class="text-xs font-medium text-[#0088CC] ml-2">Телефон</div>
+            </div>
+            <div class="w-12 h-0.5 bg-gray-300 mx-3"></div>
+            <div class="flex items-center">
+                <div class="w-8 h-8 rounded-full bg-gray-300 text-white flex items-center justify-center font-bold">2</div>
+                <div class="text-xs font-medium text-gray-400 ml-2">Профиль</div>
+            </div>
+        </div>
+
+        <!-- Phone input form -->
+        <form action="{{ url_for('register_send_code') }}" method="POST" id="phoneForm">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700 mb-2">Номер телефона</label>
+                <input 
+                    type="tel" 
+                    name="phone" 
+                    id="phoneInput" 
+                    placeholder="+7 (___) ___-__-__"
+                    required 
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent outline-none transition-all text-lg"
+                >
+                <p class="text-xs text-gray-500 mt-2">Мы отправим вам SMS с кодом подтверждения</p>
+            </div>
+
+            <button 
+                type="submit" 
+                id="sendCodeBtn"
+                class="w-full brand-gradient text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all"
+            >
+                Получить код
+            </button>
+        </form>
+
+        <!-- Code verification form (hidden by default) -->
+        <form action="{{ url_for('register_verify_code') }}" method="POST" id="codeForm" class="{% if not session.get('registration_phone') %}hidden{% endif %} mt-6">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700 mb-2">Код из SMS</label>
+                <input 
+                    type="text" 
+                    name="code" 
+                    id="codeInput" 
+                    placeholder="000000"
+                    maxlength="6"
+                    pattern="[0-9]{6}"
+                    required 
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0088CC] focus:border-transparent outline-none transition-all text-center text-2xl tracking-widest font-mono"
+                >
+            </div>
+
+            <button 
+                type="submit" 
+                class="w-full brand-gradient text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all mb-3"
+            >
+                Подтвердить код
+            </button>
+
+            <!-- Resend timer -->
+            <div class="text-center">
+                <button 
+                    type="button" 
+                    id="resendBtn" 
+                    onclick="resendCode()" 
+                    disabled
+                    class="text-sm text-gray-400 hover:text-[#0088CC] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                    <span id="timerText">Отправить код повторно через <span id="timer">60</span>с</span>
+                    <span id="resendText" class="hidden">Отправить код повторно</span>
+                </button>
+            </div>
+                <a href="{{ url_for('register_reset') }}" class="text-sm text-[#0088CC] hover:underline block mt-2">Изменить номер телефона</a>
+        </form>
+
+        <!-- Login link -->
+        <p class="text-center text-sm text-gray-600 mt-6">
+            Уже есть аккаунт? <a href="{{ url_for('login') }}" class="text-[#0088CC] hover:text-[#006699] font-medium">Войти</a>
+        </p>
+
+        <!-- Security note -->
+        <div class="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-100">
+            <div class="flex items-start">
+                <svg class="w-5 h-5 text-[#0088CC] mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                </svg>
+                <div>
+                    <div class="text-sm font-medium text-gray-800">Безопасность данных</div>
+                    <div class="text-xs text-gray-600 mt-1">Мы защищаем ваши персональные данные и никогда не передаем их третьим лицам</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Phone mask
+        const phoneInput = document.getElementById('phoneInput');
+        phoneInput.addEventListener('input', function(e) {
+            let x = e.target.value.replace(/\D/g, '').match(/(\d{0,1})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+            if (!x[1]) {
+                e.target.value = '';
+            } else {
+                e.target.value = '+7 ' + (x[2] ? '(' + x[2] : '') + (x[3] ? ') ' + x[3] : '') + (x[4] ? '-' + x[4] : '') + (x[5] ? '-' + x[5] : '');
+            }
+        });
+
+        // Auto-focus on code input digits
+        const codeInput = document.getElementById('codeInput');
+        codeInput.addEventListener('input', function(e) {
+            // Only allow digits
+            e.target.value = e.target.value.replace(/\D/g, '');
+        });
+
+        // Timer for resend code (declare before use)
+        let timerSeconds = 60;
+        let timerInterval = null;
+
+        // Show code form if phone is in session
+        {% if session.get('registration_phone') %}
+        document.getElementById('codeForm').classList.remove('hidden');
+        document.getElementById('phoneForm').style.opacity = '0.5';
+        document.getElementById('phoneForm').style.pointerEvents = 'none';
+        codeInput.focus();
+        startTimer();
+        {% endif %}
+
+        function startTimer() {
+            const timerEl = document.getElementById('timer');
+            const timerText = document.getElementById('timerText');
+            const resendText = document.getElementById('resendText');
+            const resendBtn = document.getElementById('resendBtn');
+            
+            timerSeconds = 60;
+            resendBtn.disabled = true;
+            timerText.classList.remove('hidden');
+            resendText.classList.add('hidden');
+            
+            timerInterval = setInterval(function() {
+                timerSeconds--;
+                timerEl.textContent = timerSeconds;
+                
+                if (timerSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    resendBtn.disabled = false;
+                    timerText.classList.add('hidden');
+                    resendText.classList.remove('hidden');
+                }
+            }, 1000);
+        }
+
+        function resendCode() {
+            // Submit the phone form again to resend code
+            document.getElementById('phoneForm').submit();
+        }
+
+        // Form submissions
+        document.getElementById('phoneForm').addEventListener('submit', async function(e) {
+            e.preventDefault(); // Always prevent default form submission
+            
+            const phone = phoneInput.value;
+            if (!phone || phone.length < 10) {
+                alert('Введите корректный номер телефона');
+                return;
+            }
+            
+            // Show loading state
+            const sendBtn = document.getElementById('sendCodeBtn');
+            const originalText = sendBtn.textContent;
+            sendBtn.disabled = true;
+            sendBtn.textContent = 'Отправка...';
+            
+            try {
+                // Send AJAX request
+                const formData = new FormData(this);
+                const response = await fetch('{{ url_for("register_send_code") }}', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'X-CSRFToken': formData.get('csrf_token')
+                    },
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Show success message
+                    showMessage(data.message, 'success');
+                    
+                    // Show code form
+                    document.getElementById('codeForm').classList.remove('hidden');
+                    document.getElementById('phoneForm').style.opacity = '0.5';
+                    document.getElementById('phoneForm').style.pointerEvents = 'none';
+                    document.getElementById('codeInput').focus();
+                    startTimer();
+                } else {
+                    // Show error message
+                    showMessage(data.message, 'error');
+                    sendBtn.disabled = false;
+                    sendBtn.textContent = originalText;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showMessage('Произошла ошибка. Попробуйте снова.', 'error');
+                sendBtn.disabled = false;
+                sendBtn.textContent = originalText;
+            }
+        });
+        
+        // Code verification form submission (AJAX)
+        document.getElementById('codeForm').addEventListener('submit', async function(e) {
+            e.preventDefault(); // Prevent default form submission
+            
+            const code = document.getElementById('codeInput').value;
+            if (!code || code.length !== 6) {
+                showMessage('Введите 6-значный код из SMS', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Проверка...';
+            
+            try {
+                // Send AJAX request with JSON body
+                // Phone is retrieved from session on backend
+                // Get CSRF token from THIS form (codeForm)
+                const csrfToken = this.querySelector('input[name="csrf_token"]').value;
+                
+                const response = await fetch('{{ url_for("register_verify_code") }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'X-CSRFToken': csrfToken
+                    },
+                    body: JSON.stringify({
+                        code: code
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Show success message
+                    showMessage('✅ Регистрация успешна! Перенаправление...', 'success');
+                    
+                    // Redirect to dashboard
+                    setTimeout(() => {
+                        window.location.href = data.redirect || '{{ url_for("dashboard") }}';
+                    }, 1000);
+                } else {
+                    // Show error message
+                    showMessage(data.message, 'error');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalText;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showMessage('Произошла ошибка при проверке кода. Попробуйте снова.', 'error');
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
+        });
+        
+        // Helper function to show messages
+        function showMessage(message, type) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `mb-4 p-4 rounded-lg ${type === 'error' ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`;
+            messageDiv.textContent = message;
+            
+            // Insert before phone form
+            const phoneForm = document.getElementById('phoneForm');
+            phoneForm.parentNode.insertBefore(messageDiv, phoneForm);
+            
+            // Auto-remove after 5 seconds
+            setTimeout(() => messageDiv.remove(), 5000);
+        }
+    </script>
+</body>
+</html>
